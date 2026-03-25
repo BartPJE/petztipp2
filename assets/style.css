@@ -129,6 +129,7 @@ small,
   gap: 10px;
   flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .nav a,
@@ -140,6 +141,52 @@ small,
   border-radius: 999px;
   border: 1px solid rgba(255,255,255,0.10);
   background: rgba(255,255,255,0.03);
+}
+
+.nav-group {
+  position: relative;
+  display: inline-flex;
+}
+
+.nav-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 200px;
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 12px;
+  background: rgba(7,10,13,0.98);
+  box-shadow: 0 14px 32px rgba(0,0,0,0.45);
+  z-index: 60;
+}
+
+.nav-dropdown a {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  font-size: 13px;
+}
+
+.nav-dropdown a.active,
+.nav-dropdown a:hover {
+  border-color: rgba(255,59,59,0.55);
+  background: rgba(255,59,59,0.10);
+}
+
+.nav-group:hover .nav-dropdown,
+.nav-group:focus-within .nav-dropdown {
+  display: flex;
+}
+
+.nav-group.active > .nav-link {
+  border-color: rgba(255,59,59,0.55);
+  background: rgba(255,59,59,0.10);
+  box-shadow: 0 0 18px rgba(255,59,59,0.18);
 }
 
 .nav a.active,
@@ -274,6 +321,23 @@ small,
 .pill.DFB     { border-color: rgba(81,14,145,0.55); background: rgba(133,0,151,0.10); }
 .pill.WM      { border-color: rgba(177,11,11,0.55); background: rgba(185,9,9,0.10); }
 .pill.EM      { border-color: rgba(16,14,145,0.55); background: rgba(10,0,151,0.10); }
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.featureCard {
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.featureCard .person {
+  margin-bottom: 8px;
+}
 .pill.warn    { border-color: rgba(255,176,59,0.45); background: rgba(255,176,59,0.08); }
 .pill.neutral { border-color: rgba(255,255,255,0.12); background: rgba(255,255,255,0.04); }
 .pill.positive{ border-color: rgba(255,255,255,0.12); background: rgba(255,255,255,0.04); color: #ffffff; }

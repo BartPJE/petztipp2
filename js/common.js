@@ -185,7 +185,42 @@ function applyImageFallbacks(root = document) {
   });
 }
 
+function buildTopNavigation() {
+  const nav = document.querySelector(".nav");
+  if (!nav) return;
+
+  const current = (location.pathname.split("/").pop() || "index.html").toLowerCase();
+  const isStatsSection = ["stats.html", "worldranking.html", "duels.html", "season-review.html", "awards.html"].includes(current);
+  const isGamesSection = ["games.html", "game.html", "live-race.html"].includes(current);
+
+  nav.innerHTML = `
+    <a href="index.html" class="${current === "index.html" ? "active" : "nav-link"}">Home</a>
+
+    <div class="nav-group ${isGamesSection ? "active" : ""}">
+      <a href="games.html" class="nav-link">Tippspiele</a>
+      <div class="nav-dropdown">
+        <a href="games.html" class="${current === "games.html" || current === "game.html" ? "active" : ""}">Übersicht</a>
+        <a href="live-race.html" class="${current === "live-race.html" ? "active" : ""}">Live-Race</a>
+      </div>
+    </div>
+
+    <a href="players.html" class="${current === "players.html" || current === "player.html" ? "active" : "nav-link"}">Teilnehmer</a>
+
+    <div class="nav-group ${isStatsSection ? "active" : ""}">
+      <a href="stats.html" class="nav-link">Statistik</a>
+      <div class="nav-dropdown">
+        <a href="stats.html" class="${current === "stats.html" ? "active" : ""}">Allgemein</a>
+        <a href="worldranking.html" class="${current === "worldranking.html" ? "active" : ""}">Weltrangliste</a>
+        <a href="duels.html" class="${current === "duels.html" ? "active" : ""}">Head-To-Head</a>
+        <a href="season-review.html" class="${current === "season-review.html" ? "active" : ""}">Saisonrückblick</a>
+        <a href="awards.html" class="${current === "awards.html" ? "active" : ""}">Awards</a>
+      </div>
+    </div>
+  `;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  buildTopNavigation();
   applyImageFallbacks();
 });
 
