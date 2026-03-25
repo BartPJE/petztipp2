@@ -7,6 +7,14 @@ function tipDayPoints(tip){
   return n(tip?.points) + n(tip?.bonus);
 }
 
+function hasRealTips(tip) {
+  const hasPicks = Object.values(tip?.picks || {}).some(v =>
+    v !== null && v !== undefined && String(v).trim() !== ""
+  );
+  const hasBonus = Number(tip?.bonus || 0) > 0;
+  return !!(hasPicks || hasBonus);
+}
+
 function computeAll(players, games) {
   const acc = {};
   for (const p of players) {
@@ -35,7 +43,10 @@ function computeAll(players, games) {
     // Teilnahme (wer irgendwo in einem Spieltag getippt hat)
     const set = new Set();
     for (const md of (g.matchdays || [])) {
-      for (const t of (md.tips || [])) set.add(t.player);
+      for (const t of (md.tips || [])) {
+        if (!hasRealTips(t)) continue;
+        set.add(t.player);
+      }
     }
     for (const slug of set) {
       if (acc[slug]) acc[slug].participations++;
@@ -44,6 +55,7 @@ function computeAll(players, games) {
     // Punkte + Spieltage
     for (const md of (g.matchdays || [])) {
       for (const tip of (md.tips || [])) {
+        if (!hasRealTips(tip)) continue;
         const a = acc[tip.player];
         if (!a) continue;
         a.totalPoints += tipDayPoints(tip);   // <-- Bonus wird hier sauber mitgerechnet
@@ -111,11 +123,8 @@ function renderKpis(players, gamesIndex) {
 
 function renderLeaderboard(allStats, maxRows = 10) {
   const top = allStats.slice(0, maxRows);
-  const maxTotal = Math.max(1, ...top.map(x => x.totalPoints || 0)); // Skala für Form-Bar
 
   const rows = top.map((s, idx) => {
-    const formPct = Math.round(Math.min(1, (s.totalPoints || 0) / maxTotal) * 100);
-
     return `
       <tr class="row">
         <td>${idx + 1}</td>

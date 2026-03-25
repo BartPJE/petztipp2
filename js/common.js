@@ -122,38 +122,6 @@ function getFlag(home) {
   return map[home] || "🏳️";
 }
 
-function getOverallFromGame(game) {
-  // 1) wenn overall vorhanden ist: verwenden
-  if (Array.isArray(game.overall) && game.overall.length) return game.overall;
-
-  // 2) sonst: Endstand aus letztem Spieltag (total) berechnen
-  const last = (game.matchdays || []).slice(-1)[0];
-  if (!last) return [];
-
-  // total je Spieler nehmen (fallback: Punkte+Bonus aufsummieren)
-  const rows = (last.tips || []).map(t => {
-    const total = (t.total ?? null);
-    const points = Number(t.points || 0);
-    const bonus = Number(t.bonus || 0);
-    return {
-      player: t.player,
-      points: total !== null ? Number(total) : points + bonus,
-    };
-  });
-
-  rows.sort((a, b) => b.points - a.points);
-
-  // Ranking mit Gleichständen
-  let rank = 0, lastPts = null;
-  rows.forEach((r, i) => {
-    if (lastPts === null || r.points !== lastPts) rank = i + 1;
-    r.rank = rank;
-    lastPts = r.points;
-  });
-
-  return rows;
-}
-
 function parseISODate(d) {
   if (!d || typeof d !== "string") return null;
   const x = new Date(`${d}T00:00:00`);
@@ -217,7 +185,42 @@ function applyImageFallbacks(root = document) {
   });
 }
 
+function buildTopNavigation() {
+  const nav = document.querySelector(".nav");
+  if (!nav) return;
+
+  const current = (location.pathname.split("/").pop() || "index.html").toLowerCase();
+  const isStatsSection = ["stats.html", "worldranking.html", "duels.html", "season-review.html", "awards.html"].includes(current);
+  const isGamesSection = ["games.html", "game.html", "live-race.html"].includes(current);
+
+  nav.innerHTML = `
+    <a href="index.html" class="${current === "index.html" ? "active" : "nav-link"}">Home</a>
+
+    <div class="nav-group ${isGamesSection ? "active" : ""}">
+      <a href="games.html" class="nav-link">Tippspiele</a>
+      <div class="nav-dropdown">
+        <a href="games.html" class="${current === "games.html" || current === "game.html" ? "active" : ""}">Übersicht</a>
+        <a href="live-race.html" class="${current === "live-race.html" ? "active" : ""}">Live-Race</a>
+      </div>
+    </div>
+
+    <a href="players.html" class="${current === "players.html" || current === "player.html" ? "active" : "nav-link"}">Teilnehmer</a>
+
+    <div class="nav-group ${isStatsSection ? "active" : ""}">
+      <a href="stats.html" class="nav-link">Statistik</a>
+      <div class="nav-dropdown">
+        <a href="stats.html" class="${current === "stats.html" ? "active" : ""}">Allgemein</a>
+        <a href="worldranking.html" class="${current === "worldranking.html" ? "active" : ""}">Weltrangliste</a>
+        <a href="duels.html" class="${current === "duels.html" ? "active" : ""}">Head-To-Head</a>
+        <a href="season-review.html" class="${current === "season-review.html" ? "active" : ""}">Saisonrückblick</a>
+        <a href="awards.html" class="${current === "awards.html" ? "active" : ""}">Awards</a>
+      </div>
+    </div>
+  `;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  buildTopNavigation();
   applyImageFallbacks();
 });
 

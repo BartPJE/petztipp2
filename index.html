@@ -70,7 +70,7 @@
       </div>
     </section>
 
-    <div class="grid" style="margin-top:14px">
+    <div class="grid mt-14">
       <section class="card" id="stats">
         <div class="hd">
           <h2>Statistik</h2>
@@ -86,6 +86,7 @@
         </div>
         <div class="bd">
           <div class="search">
+            <label class="sr-only" for="gameFilter">Tippspiele filtern</label>
             <input id="gameFilter" class="input" placeholder="Jahr / Wettbewerb / Notiz suchen..." />
           </div>
           <div class="hr"></div>
@@ -94,17 +95,31 @@
       </section>
     </div>
 
-    <section class="card" id="teilnehmer" style="margin-top:14px">
+    <section class="card mt-14" id="teilnehmer">
       <div class="hd">
         <h2>Teilnehmer</h2>
           <p>Spielerprofile</p>
       </div>
       <div class="bd">
         <div class="search">
+          <label class="sr-only" for="playerFilter">Teilnehmer filtern</label>
           <input id="playerFilter" class="input" placeholder="Name / Nickname suchen..." />
         </div>
         <div class="hr"></div>
         <div id="playersList"></div>
+      </div>
+    </section>
+
+    <section class="card mt-14" id="morePages">
+      <div class="hd">
+        <h2>Mehr entdecken</h2>
+        <p>Neue Unterseiten für Vergleiche, Rückblicke und Awards.</p>
+      </div>
+      <div class="bd" style="display:flex; gap:10px; flex-wrap:wrap">
+        <a class="pill" href="duels.html">⚔️ Head-to-Head</a>
+        <a class="pill" href="season-review.html">📘 Saisonrückblick</a>
+        <a class="pill" href="awards.html">🏆 Awards</a>
+        <a class="pill" href="live-race.html">📡 Live Race</a>
       </div>
     </section>
 
