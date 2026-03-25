@@ -1,0 +1,3620 @@
+{
+  "id": "tip-champions-league-12-13",
+  "title": "Champions League 2012/2013",
+  "competition": "Champions League",
+  "season": "2012/2013",
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "18.09.2012",
+      "no": 1,
+      "matches": [
+        {
+          "id": "md01-01",
+          "home": "Paris Saint-Germain",
+          "away": "Dynamo Kiew",
+          "homeCode": "PSG",
+          "awayCode": "DYN",
+          "result": "4:1",
+          "date": "18.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-02",
+          "home": "Dinamo Zagreb",
+          "away": "FC Porto",
+          "homeCode": "ZAG",
+          "awayCode": "POR",
+          "result": "0:2",
+          "date": "18.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-03",
+          "home": "Montpellier HSC",
+          "away": "FC Arsenal",
+          "homeCode": "MSC",
+          "awayCode": "ARS",
+          "result": "1:2",
+          "date": "03.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-04",
+          "home": "Olympiakos Piräus",
+          "away": "FC Schalke 04",
+          "homeCode": "OLY",
+          "awayCode": "S04",
+          "result": "1:2",
+          "date": "03.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-05",
+          "home": "AC Mailand",
+          "away": "RSC Anderlecht",
+          "homeCode": "ACM",
+          "awayCode": "AND",
+          "result": "0:0",
+          "date": "24.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-06",
+          "home": "FC Málaga",
+          "away": "Zenit St. Petersburg",
+          "homeCode": "MAL",
+          "awayCode": "ZEN",
+          "result": "3:0",
+          "date": "24.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-07",
+          "home": "Borussia Dortmund",
+          "away": "Ajax Amsterdam",
+          "homeCode": "BVB",
+          "awayCode": "AJA",
+          "result": "1:0",
+          "date": "06.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-08",
+          "home": "Real Madrid",
+          "away": "Manchester City",
+          "homeCode": "RMA",
+          "awayCode": "MCI",
+          "result": "3:2",
+          "date": "06.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-09",
+          "home": "FC Chelsea",
+          "away": "Juventus Turin",
+          "homeCode": "CHE",
+          "awayCode": "JUV",
+          "result": "2:2",
+          "date": "21.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-10",
+          "home": "Schachtar Donezk",
+          "away": "FC Nordsjælland",
+          "homeCode": "SHA",
+          "awayCode": "NOR",
+          "result": "2:0",
+          "date": "21.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-11",
+          "home": "Lille OSC",
+          "away": "BATE Borisov",
+          "homeCode": "LOS",
+          "awayCode": "BAT",
+          "result": "1:3",
+          "date": "04.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-12",
+          "home": "FC Bayern München",
+          "away": "FC Valencia",
+          "homeCode": "FCB",
+          "awayCode": "VCF",
+          "result": "2:1",
+          "date": "04.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-13",
+          "home": "FC Barcelona",
+          "away": "Spartak Moskau",
+          "homeCode": "BAR",
+          "awayCode": "SMO",
+          "result": "3:2",
+          "date": "18.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-14",
+          "home": "Celtic Glasgow",
+          "away": "Benfica Lissabon",
+          "homeCode": "CEL",
+          "awayCode": "BEN",
+          "result": "0:0",
+          "date": "18.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-15",
+          "home": "Manchester United",
+          "away": "Galatasaray",
+          "homeCode": "MUN",
+          "awayCode": "GAL",
+          "result": "1:0",
+          "date": "03.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md01-16",
+          "home": "Sporting Braga",
+          "away": "CFR Cluj",
+          "homeCode": "BRA",
+          "awayCode": "CLU",
+          "result": "0:2",
+          "date": "03.10.2012",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 1,
+          "player": "thomas",
+          "picks": {
+            "md01-01": "1:0",
+            "md01-02": "0:1",
+            "md01-03": "1:2",
+            "md01-04": "1:2",
+            "md01-05": "1:0",
+            "md01-06": "2:0",
+            "md01-07": "2:1",
+            "md01-08": "3:2",
+            "md01-09": "2:1",
+            "md01-10": "1:0",
+            "md01-11": "3:1",
+            "md01-12": "3:1",
+            "md01-13": "3:0",
+            "md01-14": "1:1",
+            "md01-15": "2:0",
+            "md01-16": "1:0"
+          },
+          "pickPoints": {
+            "md01-01": 2.0,
+            "md01-02": 2.0,
+            "md01-03": 4.0,
+            "md01-04": 4.0,
+            "md01-05": 0.0,
+            "md01-06": 2.0,
+            "md01-07": 3.0,
+            "md01-08": 4.0,
+            "md01-09": 0.0,
+            "md01-10": 2.0,
+            "md01-11": 0.0,
+            "md01-12": 2.0,
+            "md01-13": 2.0,
+            "md01-14": 3.0,
+            "md01-15": 2.0,
+            "md01-16": 0.0
+          },
+          "points": 32.0,
+          "bonus": 0.0,
+          "total": 32.0,
+          "dayWin": true,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 2,
+          "player": "alois",
+          "picks": {
+            "md01-01": "1:0",
+            "md01-02": "0:1",
+            "md01-03": "0:1",
+            "md01-04": "0:1",
+            "md01-05": "1:0",
+            "md01-06": "0:1",
+            "md01-07": "1:0",
+            "md01-08": "1:0",
+            "md01-09": "1:0",
+            "md01-10": "1:0",
+            "md01-11": "1:0",
+            "md01-12": "1:0",
+            "md01-13": "1:0",
+            "md01-14": "0:1",
+            "md01-15": "1:0",
+            "md01-16": "1:0"
+          },
+          "pickPoints": {
+            "md01-01": 2.0,
+            "md01-02": 2.0,
+            "md01-03": 3.0,
+            "md01-04": 3.0,
+            "md01-05": 0.0,
+            "md01-06": 0.0,
+            "md01-07": 4.0,
+            "md01-08": 3.0,
+            "md01-09": 0.0,
+            "md01-10": 2.0,
+            "md01-11": 0.0,
+            "md01-12": 3.0,
+            "md01-13": 3.0,
+            "md01-14": 0.0,
+            "md01-15": 4.0,
+            "md01-16": 0.0
+          },
+          "points": 29.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        },
+        {
+          "rank": 3,
+          "player": "peter",
+          "picks": {
+            "md01-01": "2:1",
+            "md01-02": "1:1",
+            "md01-03": "1:2",
+            "md01-04": "1:1",
+            "md01-05": "3:1",
+            "md01-06": "2:1",
+            "md01-07": "2:0",
+            "md01-08": "2:1",
+            "md01-09": "1:0",
+            "md01-10": "3:1",
+            "md01-11": "2:1",
+            "md01-12": "3:1",
+            "md01-13": "4:1",
+            "md01-14": "1:2",
+            "md01-15": "2:1",
+            "md01-16": "2:0"
+          },
+          "pickPoints": {
+            "md01-01": 2.0,
+            "md01-02": 0.0,
+            "md01-03": 4.0,
+            "md01-04": 0.0,
+            "md01-05": 0.0,
+            "md01-06": 2.0,
+            "md01-07": 2.0,
+            "md01-08": 3.0,
+            "md01-09": 0.0,
+            "md01-10": 3.0,
+            "md01-11": 0.0,
+            "md01-12": 2.0,
+            "md01-13": 2.0,
+            "md01-14": 0.0,
+            "md01-15": 3.0,
+            "md01-16": 0.0
+          },
+          "points": 23.0,
+          "bonus": 0.0,
+          "total": 23.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        },
+        {
+          "rank": 4,
+          "player": "johannes",
+          "picks": {
+            "md01-01": "2:1",
+            "md01-02": "1:2",
+            "md01-03": "0:2",
+            "md01-04": "0:1",
+            "md01-05": "2:0",
+            "md01-06": "0:0",
+            "md01-07": "2:1",
+            "md01-08": "2:1",
+            "md01-09": "2:1",
+            "md01-10": "1:1",
+            "md01-11": "2:0",
+            "md01-12": "2:0",
+            "md01-13": "2:0",
+            "md01-14": "1:2",
+            "md01-15": "2:0",
+            "md01-16": "1:1"
+          },
+          "pickPoints": {
+            "md01-01": 2.0,
+            "md01-02": 2.0,
+            "md01-03": 2.0,
+            "md01-04": 3.0,
+            "md01-05": 0.0,
+            "md01-06": 0.0,
+            "md01-07": 3.0,
+            "md01-08": 3.0,
+            "md01-09": 0.0,
+            "md01-10": 0.0,
+            "md01-11": 0.0,
+            "md01-12": 2.0,
+            "md01-13": 2.0,
+            "md01-14": 0.0,
+            "md01-15": 2.0,
+            "md01-16": 0.0
+          },
+          "points": 21.0,
+          "bonus": 0.0,
+          "total": 21.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "thomas",
+          "points": 32.0,
+          "bonus": 0.0,
+          "total": 32.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 2,
+          "player": "alois",
+          "points": 29.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        },
+        {
+          "rank": 3,
+          "player": "peter",
+          "points": 23.0,
+          "bonus": 0.0,
+          "total": 23.0,
+          "dayWinsTotal": 0.0
+        },
+        {
+          "rank": 4,
+          "player": "johannes",
+          "points": 21.0,
+          "bonus": 0.0,
+          "total": 21.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "24.10.2012",
+      "no": 2,
+      "matches": [
+        {
+          "id": "md02-01",
+          "home": "Spartak Moskau",
+          "away": "Celtic Glasgow",
+          "homeCode": "SMO",
+          "awayCode": "CEL",
+          "result": "2:3",
+          "date": "24.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-02",
+          "home": "Juventus Turin",
+          "away": "Schachtar Donezk",
+          "homeCode": "JUV",
+          "awayCode": "SHA",
+          "result": "1:1",
+          "date": "24.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-03",
+          "home": "FC Nordsjælland",
+          "away": "FC Chelsea",
+          "homeCode": "NOR",
+          "awayCode": "CHE",
+          "result": "0:4",
+          "date": "06.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-04",
+          "home": "BATE Borisov",
+          "away": "FC Bayern München",
+          "homeCode": "BAT",
+          "awayCode": "FCB",
+          "result": "3:1",
+          "date": "06.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-05",
+          "home": "FC Valencia",
+          "away": "Lille OSC",
+          "homeCode": "VCF",
+          "awayCode": "LOS",
+          "result": "2:0",
+          "date": "21.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-06",
+          "home": "Benfica Lissabon",
+          "away": "FC Barcelona",
+          "homeCode": "BEN",
+          "awayCode": "BAR",
+          "result": "0:2",
+          "date": "21.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-07",
+          "home": "Galatasaray",
+          "away": "Sporting Braga",
+          "homeCode": "GALA",
+          "awayCode": "BRA",
+          "result": "0:2",
+          "date": "04.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-08",
+          "home": "CFR Cluj",
+          "away": "Manchester United",
+          "homeCode": "CFR",
+          "awayCode": "MUN",
+          "result": "1:2",
+          "date": "04.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-09",
+          "home": "Zenit St. Petersburg",
+          "away": "AC Mailand",
+          "homeCode": "ZEN",
+          "awayCode": "ACM",
+          "result": "2:3",
+          "date": "18.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-10",
+          "home": "Dynamo Kiew",
+          "away": "Dinamo Zagreb",
+          "homeCode": "DYN",
+          "awayCode": "DIN",
+          "result": "2:0",
+          "date": "18.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-11",
+          "home": "FC Porto",
+          "away": "Paris Saint-Germain",
+          "homeCode": "FCP",
+          "awayCode": "PSG",
+          "result": "1:0",
+          "date": "03.10.2012",
+          "time": "18:00"
+        },
+        {
+          "id": "md02-12",
+          "home": "FC Arsenal",
+          "away": "Olympiakos Piräus",
+          "homeCode": "ARS",
+          "awayCode": "OLY",
+          "result": "3:1",
+          "date": "03.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-13",
+          "home": "FC Schalke 04",
+          "away": "Montpellier HSC",
+          "homeCode": "S04",
+          "awayCode": "MHS",
+          "result": "2:2",
+          "date": "24.10.2012",
+          "time": "18:00"
+        },
+        {
+          "id": "md02-14",
+          "home": "RSC Anderlecht",
+          "away": "FC Málaga",
+          "homeCode": "AND",
+          "awayCode": "MAL",
+          "result": "0:3",
+          "date": "24.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-15",
+          "home": "Ajax Amsterdam",
+          "away": "Real Madrid",
+          "homeCode": "AJA",
+          "awayCode": "RMA",
+          "result": "1:4",
+          "date": "06.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md02-16",
+          "home": "Manchester City",
+          "away": "Borussia Dortmund",
+          "homeCode": "MCI",
+          "awayCode": "BVB",
+          "result": "1:1",
+          "date": "06.11.2012",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "picks": {
+            "md02-01": null,
+            "md02-02": "2:0",
+            "md02-03": "0:3",
+            "md02-04": "0:2",
+            "md02-05": "2:1",
+            "md02-06": "1:3",
+            "md02-07": "1:1",
+            "md02-08": "0:2",
+            "md02-09": "0:2",
+            "md02-10": "2:0",
+            "md02-11": "2:1",
+            "md02-12": "2:1",
+            "md02-13": "2:0",
+            "md02-14": "1:1",
+            "md02-15": "0:1",
+            "md02-16": "1:1"
+          },
+          "pickPoints": {
+            "md02-01": 0.0,
+            "md02-02": 0.0,
+            "md02-03": 2.0,
+            "md02-04": 0.0,
+            "md02-05": 2.0,
+            "md02-06": 3.0,
+            "md02-07": 0.0,
+            "md02-08": 2.0,
+            "md02-09": 2.0,
+            "md02-10": 4.0,
+            "md02-11": 3.0,
+            "md02-12": 2.0,
+            "md02-13": 0.0,
+            "md02-14": 0.0,
+            "md02-15": 2.0,
+            "md02-16": 4.0
+          },
+          "points": 26.0,
+          "bonus": 0.0,
+          "total": 47.0,
+          "dayWin": true,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "picks": {
+            "md02-01": "2:1",
+            "md02-02": "2:0",
+            "md02-03": "0:2",
+            "md02-04": "1:3",
+            "md02-05": "1:0",
+            "md02-06": "1:3",
+            "md02-07": "2:1",
+            "md02-08": "0:1",
+            "md02-09": null,
+            "md02-10": null,
+            "md02-11": null,
+            "md02-12": null,
+            "md02-13": null,
+            "md02-14": null,
+            "md02-15": null,
+            "md02-16": null
+          },
+          "pickPoints": {
+            "md02-01": 0.0,
+            "md02-02": 0.0,
+            "md02-03": 2.0,
+            "md02-04": 0.0,
+            "md02-05": 2.0,
+            "md02-06": 3.0,
+            "md02-07": 0.0,
+            "md02-08": 3.0,
+            "md02-09": 0.0,
+            "md02-10": 0.0,
+            "md02-11": 0.0,
+            "md02-12": 0.0,
+            "md02-13": 0.0,
+            "md02-14": 0.0,
+            "md02-15": 0.0,
+            "md02-16": 0.0
+          },
+          "points": 10.0,
+          "bonus": 0.0,
+          "total": 42.0,
+          "dayWin": false,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "picks": {
+            "md02-01": "2:1",
+            "md02-02": "2:0",
+            "md02-03": "0:3",
+            "md02-04": "0:3",
+            "md02-05": "2:1",
+            "md02-06": "1:3",
+            "md02-07": "2:1",
+            "md02-08": "0:2",
+            "md02-09": "2:1",
+            "md02-10": "2:1",
+            "md02-11": "0:2",
+            "md02-12": "2:1",
+            "md02-13": "3:2",
+            "md02-14": "1:2",
+            "md02-15": "0:3",
+            "md02-16": "2:1"
+          },
+          "pickPoints": {
+            "md02-01": 0.0,
+            "md02-02": 0.0,
+            "md02-03": 2.0,
+            "md02-04": 0.0,
+            "md02-05": 2.0,
+            "md02-06": 3.0,
+            "md02-07": 0.0,
+            "md02-08": 2.0,
+            "md02-09": 0.0,
+            "md02-10": 2.0,
+            "md02-11": 0.0,
+            "md02-12": 2.0,
+            "md02-13": 0.0,
+            "md02-14": 2.0,
+            "md02-15": 3.0,
+            "md02-16": 0.0
+          },
+          "points": 18.0,
+          "bonus": 0.0,
+          "total": 41.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md02-01": null,
+            "md02-02": null,
+            "md02-03": null,
+            "md02-04": null,
+            "md02-05": null,
+            "md02-06": null,
+            "md02-07": null,
+            "md02-08": null,
+            "md02-09": null,
+            "md02-10": null,
+            "md02-11": null,
+            "md02-12": null,
+            "md02-13": null,
+            "md02-14": null,
+            "md02-15": null,
+            "md02-16": null
+          },
+          "pickPoints": {
+            "md02-01": 0.0,
+            "md02-02": 0.0,
+            "md02-03": 0.0,
+            "md02-04": 0.0,
+            "md02-05": 0.0,
+            "md02-06": 0.0,
+            "md02-07": 0.0,
+            "md02-08": 0.0,
+            "md02-09": 0.0,
+            "md02-10": 0.0,
+            "md02-11": 0.0,
+            "md02-12": 0.0,
+            "md02-13": 0.0,
+            "md02-14": 0.0,
+            "md02-15": 0.0,
+            "md02-16": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 26.0,
+          "bonus": 0.0,
+          "total": 47.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 2,
+          "player": "thomas",
+          "points": 10.0,
+          "bonus": 0.0,
+          "total": 42.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 3,
+          "player": "peter",
+          "points": 18.0,
+          "bonus": 0.0,
+          "total": 41.0,
+          "dayWinsTotal": 0.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "21.11.2012",
+      "no": 3,
+      "matches": [
+        {
+          "id": "md03-01",
+          "home": "Spartak Moskau",
+          "away": "Benfica Lissabon",
+          "homeCode": "SMO",
+          "awayCode": "BEN",
+          "result": "2:1",
+          "date": "21.11.2012",
+          "time": "18:00"
+        },
+        {
+          "id": "md03-02",
+          "home": "FC Nordsjælland",
+          "away": "Juventus Turin",
+          "homeCode": "NOR",
+          "awayCode": "JUV",
+          "result": "1:1",
+          "date": "21.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-03",
+          "home": "Schachtar Donezk",
+          "away": "FC Chelsea",
+          "homeCode": "SHA",
+          "awayCode": "CHE",
+          "result": "2:1",
+          "date": "04.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-04",
+          "home": "Lille OSC",
+          "away": "FC Bayern München",
+          "homeCode": "LOS",
+          "awayCode": "FCB",
+          "result": "0:1",
+          "date": "04.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-05",
+          "home": "BATE Borisov",
+          "away": "FC Valencia",
+          "homeCode": "BAT",
+          "awayCode": "VALE",
+          "result": "0:3",
+          "date": "18.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-06",
+          "home": "FC Barcelona",
+          "away": "Celtic Glasgow",
+          "homeCode": "BAR",
+          "awayCode": "CEL",
+          "result": "2:1",
+          "date": "18.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-07",
+          "home": "Galatasaray",
+          "away": "CFR Cluj",
+          "homeCode": "GALA",
+          "awayCode": "CFR",
+          "result": "1:1",
+          "date": "03.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-08",
+          "home": "Manchester United",
+          "away": "Sporting Braga",
+          "homeCode": "MUN",
+          "awayCode": "BRA",
+          "result": "3:2",
+          "date": "03.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-09",
+          "home": "Zenit St. Petersburg",
+          "away": "RSC Anderlecht",
+          "homeCode": "ZEN",
+          "awayCode": "AND",
+          "result": "1:0",
+          "date": "24.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-10",
+          "home": "Dinamo Zagreb",
+          "away": "Paris Saint-Germain",
+          "homeCode": "ZAG",
+          "awayCode": "PSG",
+          "result": "0:2",
+          "date": "24.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-11",
+          "home": "FC Porto",
+          "away": "Dynamo Kiew",
+          "homeCode": "FCP",
+          "awayCode": "DYN",
+          "result": "3:2",
+          "date": "06.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-12",
+          "home": "FC Arsenal",
+          "away": "FC Schalke 04",
+          "homeCode": "ARS",
+          "awayCode": "S04",
+          "result": "0:2",
+          "date": "06.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-13",
+          "home": "Montpellier HSC",
+          "away": "Olympiakos Piräus",
+          "homeCode": "MSC",
+          "awayCode": "OLY",
+          "result": "1:2",
+          "date": "21.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-14",
+          "home": "FC Málaga",
+          "away": "AC Mailand",
+          "homeCode": "MAL",
+          "awayCode": "ACM",
+          "result": "1:0",
+          "date": "21.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-15",
+          "home": "Borussia Dortmund",
+          "away": "Real Madrid",
+          "homeCode": "BVB",
+          "awayCode": "RMA",
+          "result": "2:1",
+          "date": "04.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md03-16",
+          "home": "Ajax Amsterdam",
+          "away": "Manchester City",
+          "homeCode": "AJA",
+          "awayCode": "MCI",
+          "result": "3:1",
+          "date": "04.12.2012",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 2,
+          "player": "johannes",
+          "picks": {
+            "md03-01": "1:1",
+            "md03-02": "0:3",
+            "md03-03": "0:2",
+            "md03-04": "0:2",
+            "md03-05": "0:3",
+            "md03-06": "2:0",
+            "md03-07": "2:0",
+            "md03-08": "3:0",
+            "md03-09": "1:1",
+            "md03-10": "0:2",
+            "md03-11": "1:0",
+            "md03-12": "2:1",
+            "md03-13": "1:1",
+            "md03-14": "0:1",
+            "md03-15": "0:2",
+            "md03-16": "1:1"
+          },
+          "pickPoints": {
+            "md03-01": 0.0,
+            "md03-02": 0.0,
+            "md03-03": 0.0,
+            "md03-04": 2.0,
+            "md03-05": 4.0,
+            "md03-06": 2.0,
+            "md03-07": 0.0,
+            "md03-08": 2.0,
+            "md03-09": 0.0,
+            "md03-10": 4.0,
+            "md03-11": 3.0,
+            "md03-12": 0.0,
+            "md03-13": 0.0,
+            "md03-14": 0.0,
+            "md03-15": 0.0,
+            "md03-16": 0.0
+          },
+          "points": 17.0,
+          "bonus": 0.0,
+          "total": 64.0,
+          "dayWin": false,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 1,
+          "player": "peter",
+          "picks": {
+            "md03-01": "2:1",
+            "md03-02": "0:3",
+            "md03-03": "1:3",
+            "md03-04": "0:3",
+            "md03-05": "1:2",
+            "md03-06": "2:1",
+            "md03-07": "2:1",
+            "md03-08": "2:0",
+            "md03-09": "2:1",
+            "md03-10": "1:3",
+            "md03-11": "2:1",
+            "md03-12": "1:1",
+            "md03-13": "1:1",
+            "md03-14": "1:2",
+            "md03-15": "1:2",
+            "md03-16": "1:2"
+          },
+          "pickPoints": {
+            "md03-01": 4.0,
+            "md03-02": 0.0,
+            "md03-03": 0.0,
+            "md03-04": 2.0,
+            "md03-05": 2.0,
+            "md03-06": 4.0,
+            "md03-07": 0.0,
+            "md03-08": 2.0,
+            "md03-09": 3.0,
+            "md03-10": 3.0,
+            "md03-11": 3.0,
+            "md03-12": 0.0,
+            "md03-13": 0.0,
+            "md03-14": 0.0,
+            "md03-15": 0.0,
+            "md03-16": 0.0
+          },
+          "points": 23.0,
+          "bonus": 0.0,
+          "total": 64.0,
+          "dayWin": true,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 2,
+          "player": "thomas",
+          "picks": {
+            "md03-01": "1:0",
+            "md03-02": "1:2",
+            "md03-03": "1:2",
+            "md03-04": "0:2",
+            "md03-05": "2:1",
+            "md03-06": "4:1",
+            "md03-07": "1:0",
+            "md03-08": "2:0",
+            "md03-09": "2:1",
+            "md03-10": "0:1",
+            "md03-11": "1:0",
+            "md03-12": "2:1",
+            "md03-13": "2:1",
+            "md03-14": "1:2",
+            "md03-15": "2:3",
+            "md03-16": "1:2"
+          },
+          "pickPoints": {
+            "md03-01": 3.0,
+            "md03-02": 0.0,
+            "md03-03": 0.0,
+            "md03-04": 2.0,
+            "md03-05": 0.0,
+            "md03-06": 2.0,
+            "md03-07": 0.0,
+            "md03-08": 2.0,
+            "md03-09": 3.0,
+            "md03-10": 2.0,
+            "md03-11": 3.0,
+            "md03-12": 0.0,
+            "md03-13": 0.0,
+            "md03-14": 0.0,
+            "md03-15": 0.0,
+            "md03-16": 0.0
+          },
+          "points": 17.0,
+          "bonus": 0.0,
+          "total": 59.0,
+          "dayWin": false,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md03-01": null,
+            "md03-02": null,
+            "md03-03": null,
+            "md03-04": null,
+            "md03-05": null,
+            "md03-06": null,
+            "md03-07": null,
+            "md03-08": null,
+            "md03-09": null,
+            "md03-10": null,
+            "md03-11": null,
+            "md03-12": null,
+            "md03-13": null,
+            "md03-14": null,
+            "md03-15": null,
+            "md03-16": null
+          },
+          "pickPoints": {
+            "md03-01": 0.0,
+            "md03-02": 0.0,
+            "md03-03": 0.0,
+            "md03-04": 0.0,
+            "md03-05": 0.0,
+            "md03-06": 0.0,
+            "md03-07": 0.0,
+            "md03-08": 0.0,
+            "md03-09": 0.0,
+            "md03-10": 0.0,
+            "md03-11": 0.0,
+            "md03-12": 0.0,
+            "md03-13": 0.0,
+            "md03-14": 0.0,
+            "md03-15": 0.0,
+            "md03-16": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 17.0,
+          "bonus": 0.0,
+          "total": 64.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 1,
+          "player": "peter",
+          "points": 23.0,
+          "bonus": 0.0,
+          "total": 64.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "points": 17.0,
+          "bonus": 0.0,
+          "total": 59.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "19.09.2012",
+      "no": 4,
+      "matches": [
+        {
+          "id": "md04-01",
+          "home": "Paris Saint-Germain",
+          "away": "Dinamo Zagreb",
+          "homeCode": "PSG",
+          "awayCode": "DIN",
+          "result": "4:0",
+          "date": "19.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-02",
+          "home": "Dynamo Kiew",
+          "away": "FC Porto",
+          "homeCode": "DYN",
+          "awayCode": "FCP",
+          "result": "0:0",
+          "date": "19.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-03",
+          "home": "Pri",
+          "away": "Montpellier HSC",
+          "homeCode": "PRI",
+          "awayCode": "MHS",
+          "result": "3:1",
+          "date": "02.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-04",
+          "home": "FC Schalke 04",
+          "away": "FC Arsenal",
+          "homeCode": "S04",
+          "awayCode": "ARS",
+          "result": "2:2",
+          "date": "02.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-05",
+          "home": "AC Mailand",
+          "away": "FC Málaga",
+          "homeCode": "ACM",
+          "awayCode": "MAL",
+          "result": "1:1",
+          "date": "23.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-06",
+          "home": "RSC Anderlecht",
+          "away": "Zenit St. Petersburg",
+          "homeCode": "AND",
+          "awayCode": "ZEN",
+          "result": "1:0",
+          "date": "23.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-07",
+          "home": "Manchester City",
+          "away": "Ajax Amsterdam",
+          "homeCode": "MCI",
+          "awayCode": "AJA",
+          "result": "2:2",
+          "date": "07.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-08",
+          "home": "Real Madrid",
+          "away": "Borussia Dortmund",
+          "homeCode": "RMA",
+          "awayCode": "BVB",
+          "result": "2:2",
+          "date": "07.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-09",
+          "home": "Juventus Turin",
+          "away": "FC Nordsjælland",
+          "homeCode": "JUV",
+          "awayCode": "NOR",
+          "result": "4:0",
+          "date": "20.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-10",
+          "home": "FC Chelsea",
+          "away": "Schachtar Donezk",
+          "homeCode": "CHE",
+          "awayCode": "SHA",
+          "result": "3:2",
+          "date": "20.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-11",
+          "home": "FC Valencia",
+          "away": "BATE Borisov",
+          "homeCode": "VALE",
+          "awayCode": "BAT",
+          "result": "4:2",
+          "date": "05.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-12",
+          "home": "FC Bayern München",
+          "away": "Lille OSC",
+          "homeCode": "FCB",
+          "awayCode": "LOS",
+          "result": "6:1",
+          "date": "05.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-13",
+          "home": "Celtic Glasgow",
+          "away": "FC Barcelona",
+          "homeCode": "CEL",
+          "awayCode": "BAR",
+          "result": "2:1",
+          "date": "19.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-14",
+          "home": "Benfica Lissabon",
+          "away": "Spartak Moskau",
+          "homeCode": "BEN",
+          "awayCode": "SMO",
+          "result": "2:0",
+          "date": "19.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-15",
+          "home": "Sporting Braga",
+          "away": "Manchester United",
+          "homeCode": "BRA",
+          "awayCode": "MUN",
+          "result": "1:3",
+          "date": "02.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md04-16",
+          "home": "CFR Cluj",
+          "away": "Galatasaray",
+          "homeCode": "CFR",
+          "awayCode": "GALA",
+          "result": "1:3",
+          "date": "02.10.2012",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "picks": {
+            "md04-01": "2:1",
+            "md04-02": "1:2",
+            "md04-03": "0:0",
+            "md04-04": "1:2",
+            "md04-05": "2:0",
+            "md04-06": "1:0",
+            "md04-07": "2:1",
+            "md04-08": "2:1",
+            "md04-09": "2:0",
+            "md04-10": "1:0",
+            "md04-11": "3:0",
+            "md04-12": "2:0",
+            "md04-13": "0:2",
+            "md04-14": "1:0",
+            "md04-15": "0:2",
+            "md04-16": "1:1"
+          },
+          "pickPoints": {
+            "md04-01": 2.0,
+            "md04-02": 0.0,
+            "md04-03": 0.0,
+            "md04-04": 0.0,
+            "md04-05": 0.0,
+            "md04-06": 4.0,
+            "md04-07": 0.0,
+            "md04-08": 0.0,
+            "md04-09": 2.0,
+            "md04-10": 3.0,
+            "md04-11": 2.0,
+            "md04-12": 2.0,
+            "md04-13": 0.0,
+            "md04-14": 2.0,
+            "md04-15": 3.0,
+            "md04-16": 0.0
+          },
+          "points": 20.0,
+          "bonus": 0.0,
+          "total": 84.0,
+          "dayWin": true,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "picks": {
+            "md04-01": "3:0",
+            "md04-02": "2:1",
+            "md04-03": "1:1",
+            "md04-04": "2:1",
+            "md04-05": "2:0",
+            "md04-06": "1:2",
+            "md04-07": "2:1",
+            "md04-08": "2:1",
+            "md04-09": "3:0",
+            "md04-10": "2:0",
+            "md04-11": "2:1",
+            "md04-12": "3:0",
+            "md04-13": "0:2",
+            "md04-14": "2:1",
+            "md04-15": "1:3",
+            "md04-16": "1:1"
+          },
+          "pickPoints": {
+            "md04-01": 2.0,
+            "md04-02": 0.0,
+            "md04-03": 0.0,
+            "md04-04": 0.0,
+            "md04-05": 0.0,
+            "md04-06": 0.0,
+            "md04-07": 0.0,
+            "md04-08": 0.0,
+            "md04-09": 2.0,
+            "md04-10": 2.0,
+            "md04-11": 2.0,
+            "md04-12": 2.0,
+            "md04-13": 0.0,
+            "md04-14": 2.0,
+            "md04-15": 4.0,
+            "md04-16": 0.0
+          },
+          "points": 16.0,
+          "bonus": 0.0,
+          "total": 80.0,
+          "dayWin": false,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "picks": {
+            "md04-01": null,
+            "md04-02": null,
+            "md04-03": null,
+            "md04-04": null,
+            "md04-05": null,
+            "md04-06": null,
+            "md04-07": null,
+            "md04-08": null,
+            "md04-09": "2:1",
+            "md04-10": "2:0",
+            "md04-11": "1:0",
+            "md04-12": "3:0",
+            "md04-13": "1:3",
+            "md04-14": "2:1",
+            "md04-15": "0:1",
+            "md04-16": "1:1"
+          },
+          "pickPoints": {
+            "md04-01": 0.0,
+            "md04-02": 0.0,
+            "md04-03": 0.0,
+            "md04-04": 0.0,
+            "md04-05": 0.0,
+            "md04-06": 0.0,
+            "md04-07": 0.0,
+            "md04-08": 0.0,
+            "md04-09": 2.0,
+            "md04-10": 2.0,
+            "md04-11": 2.0,
+            "md04-12": 2.0,
+            "md04-13": 0.0,
+            "md04-14": 2.0,
+            "md04-15": 2.0,
+            "md04-16": 0.0
+          },
+          "points": 12.0,
+          "bonus": 0.0,
+          "total": 71.0,
+          "dayWin": false,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md04-01": null,
+            "md04-02": null,
+            "md04-03": null,
+            "md04-04": null,
+            "md04-05": null,
+            "md04-06": null,
+            "md04-07": null,
+            "md04-08": null,
+            "md04-09": null,
+            "md04-10": null,
+            "md04-11": null,
+            "md04-12": null,
+            "md04-13": null,
+            "md04-14": null,
+            "md04-15": null,
+            "md04-16": null
+          },
+          "pickPoints": {
+            "md04-01": 0.0,
+            "md04-02": 0.0,
+            "md04-03": 0.0,
+            "md04-04": 0.0,
+            "md04-05": 0.0,
+            "md04-06": 0.0,
+            "md04-07": 0.0,
+            "md04-08": 0.0,
+            "md04-09": 0.0,
+            "md04-10": 0.0,
+            "md04-11": 0.0,
+            "md04-12": 0.0,
+            "md04-13": 0.0,
+            "md04-14": 0.0,
+            "md04-15": 0.0,
+            "md04-16": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 20.0,
+          "bonus": 0.0,
+          "total": 84.0,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "points": 16.0,
+          "bonus": 0.0,
+          "total": 80.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "points": 12.0,
+          "bonus": 0.0,
+          "total": 71.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "23.10.2012",
+      "no": 5,
+      "matches": [
+        {
+          "id": "md05-01",
+          "home": "BATE Borisov",
+          "away": "Lille OSC",
+          "homeCode": "BAT",
+          "awayCode": "LOS",
+          "result": "0:2",
+          "date": "23.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-02",
+          "home": "Spartak Moskau",
+          "away": "FC Barcelona",
+          "homeCode": "SMO",
+          "awayCode": "BAR",
+          "result": "0:3",
+          "date": "23.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-03",
+          "home": "Juventus Turin",
+          "away": "FC Chelsea",
+          "homeCode": "JUV",
+          "awayCode": "CHE",
+          "result": "3:0",
+          "date": "07.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-04",
+          "home": "FC Nordsjælland",
+          "away": "Schachtar Donezk",
+          "homeCode": "NOR",
+          "awayCode": "SHA",
+          "result": "2:5",
+          "date": "07.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-05",
+          "home": "FC Valencia",
+          "away": "FC Bayern München",
+          "homeCode": "VALE",
+          "awayCode": "FCB",
+          "result": "1:1",
+          "date": "20.11.2012",
+          "time": "18:00"
+        },
+        {
+          "id": "md05-06",
+          "home": "Benfica Lissabon",
+          "away": "Celtic Glasgow",
+          "homeCode": "BEN",
+          "awayCode": "CEL",
+          "result": "2:1",
+          "date": "20.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-07",
+          "home": "Galatasaray",
+          "away": "Manchester United",
+          "homeCode": "GALA",
+          "awayCode": "MUN",
+          "result": "1:0",
+          "date": "05.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-08",
+          "home": "CFR Cluj",
+          "away": "Sporting Braga",
+          "homeCode": "CFR",
+          "awayCode": "BRA",
+          "result": "3:1",
+          "date": "05.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-09",
+          "home": "Zenit St. Petersburg",
+          "away": "FC Málaga",
+          "homeCode": "ZEN",
+          "awayCode": "MAL",
+          "result": "2:2",
+          "date": "19.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-10",
+          "home": "FC Porto",
+          "away": "Dinamo Zagreb",
+          "homeCode": "FCP",
+          "awayCode": "DIN",
+          "result": "3:0",
+          "date": "19.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-11",
+          "home": "Dynamo Kiew",
+          "away": "Paris Saint-Germain",
+          "homeCode": "DYN",
+          "awayCode": "PSG",
+          "result": "0:2",
+          "date": "02.10.2012",
+          "time": "18:00"
+        },
+        {
+          "id": "md05-12",
+          "home": "FC Schalke 04",
+          "away": "Olympiakos Piräus",
+          "homeCode": "S04",
+          "awayCode": "OLY",
+          "result": "1:0",
+          "date": "02.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-13",
+          "home": "FC Arsenal",
+          "away": "Montpellier HSC",
+          "homeCode": "ARS",
+          "awayCode": "MHS",
+          "result": "2:0",
+          "date": "23.10.2012",
+          "time": "18:00"
+        },
+        {
+          "id": "md05-14",
+          "home": "RSC Anderlecht",
+          "away": "AC Mailand",
+          "homeCode": "AND",
+          "awayCode": "ACM",
+          "result": "1:3",
+          "date": "23.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-15",
+          "home": "Ajax Amsterdam",
+          "away": "Borussia Dortmund",
+          "homeCode": "AJA",
+          "awayCode": "BVB",
+          "result": "1:4",
+          "date": "07.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md05-16",
+          "home": "Manchester City",
+          "away": "Real Madrid",
+          "homeCode": "MCI",
+          "awayCode": "RMA",
+          "result": "1:1",
+          "date": "07.11.2012",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 3,
+          "player": "johannes",
+          "picks": {
+            "md05-01": "2:0",
+            "md05-02": "0:2",
+            "md05-03": "2:1",
+            "md05-04": "0:1",
+            "md05-05": "1:2",
+            "md05-06": "1:1",
+            "md05-07": "0:2",
+            "md05-08": "1:1",
+            "md05-09": "1:0",
+            "md05-10": "3:0",
+            "md05-11": "1:2",
+            "md05-12": "2:0",
+            "md05-13": "2:0",
+            "md05-14": "0:1",
+            "md05-15": "1:2",
+            "md05-16": "0:2"
+          },
+          "pickPoints": {
+            "md05-01": 0.0,
+            "md05-02": 2.0,
+            "md05-03": 2.0,
+            "md05-04": 2.0,
+            "md05-05": 0.0,
+            "md05-06": 0.0,
+            "md05-07": 0.0,
+            "md05-08": 0.0,
+            "md05-09": 0.0,
+            "md05-10": 4.0,
+            "md05-11": 2.0,
+            "md05-12": 2.0,
+            "md05-13": 4.0,
+            "md05-14": 2.0,
+            "md05-15": 2.0,
+            "md05-16": 0.0
+          },
+          "points": 22.0,
+          "bonus": 0.0,
+          "total": 106.0,
+          "dayWin": false,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "picks": {
+            "md05-01": "1:2",
+            "md05-02": "1:2",
+            "md05-03": "1:2",
+            "md05-04": "0:2",
+            "md05-05": "1:2",
+            "md05-06": "2:1",
+            "md05-07": "1:3",
+            "md05-08": "1:2",
+            "md05-09": "1:2",
+            "md05-10": "2:1",
+            "md05-11": "0:3",
+            "md05-12": "2:1",
+            "md05-13": "2:0",
+            "md05-14": "1:2",
+            "md05-15": "1:3",
+            "md05-16": "1:2"
+          },
+          "pickPoints": {
+            "md05-01": 2.0,
+            "md05-02": 2.0,
+            "md05-03": 0.0,
+            "md05-04": 2.0,
+            "md05-05": 0.0,
+            "md05-06": 4.0,
+            "md05-07": 0.0,
+            "md05-08": 0.0,
+            "md05-09": 0.0,
+            "md05-10": 2.0,
+            "md05-11": 2.0,
+            "md05-12": 3.0,
+            "md05-13": 4.0,
+            "md05-14": 2.0,
+            "md05-15": 2.0,
+            "md05-16": 0.0
+          },
+          "points": 25.0,
+          "bonus": 0.0,
+          "total": 105.0,
+          "dayWin": false,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 1,
+          "player": "thomas",
+          "picks": {
+            "md05-01": "2:1",
+            "md05-02": "1:3",
+            "md05-03": "2:1",
+            "md05-04": "1:2",
+            "md05-05": "1:2",
+            "md05-06": "2:1",
+            "md05-07": "1:2",
+            "md05-08": "1:0",
+            "md05-09": "1:0",
+            "md05-10": "2:0",
+            "md05-11": "0:1",
+            "md05-12": "2:0",
+            "md05-13": "2:1",
+            "md05-14": "0:1",
+            "md05-15": "1:2",
+            "md05-16": "1:1"
+          },
+          "pickPoints": {
+            "md05-01": 0.0,
+            "md05-02": 2.0,
+            "md05-03": 2.0,
+            "md05-04": 2.0,
+            "md05-05": 0.0,
+            "md05-06": 4.0,
+            "md05-07": 0.0,
+            "md05-08": 2.0,
+            "md05-09": 0.0,
+            "md05-10": 2.0,
+            "md05-11": 2.0,
+            "md05-12": 2.0,
+            "md05-13": 2.0,
+            "md05-14": 2.0,
+            "md05-15": 2.0,
+            "md05-16": 4.0
+          },
+          "points": 28.0,
+          "bonus": 0.0,
+          "total": 99.0,
+          "dayWin": true,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md05-01": null,
+            "md05-02": null,
+            "md05-03": null,
+            "md05-04": null,
+            "md05-05": null,
+            "md05-06": null,
+            "md05-07": null,
+            "md05-08": null,
+            "md05-09": null,
+            "md05-10": null,
+            "md05-11": null,
+            "md05-12": null,
+            "md05-13": null,
+            "md05-14": null,
+            "md05-15": null,
+            "md05-16": null
+          },
+          "pickPoints": {
+            "md05-01": 0.0,
+            "md05-02": 0.0,
+            "md05-03": 0.0,
+            "md05-04": 0.0,
+            "md05-05": 0.0,
+            "md05-06": 0.0,
+            "md05-07": 0.0,
+            "md05-08": 0.0,
+            "md05-09": 0.0,
+            "md05-10": 0.0,
+            "md05-11": 0.0,
+            "md05-12": 0.0,
+            "md05-13": 0.0,
+            "md05-14": 0.0,
+            "md05-15": 0.0,
+            "md05-16": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 22.0,
+          "bonus": 0.0,
+          "total": 106.0,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "points": 25.0,
+          "bonus": 0.0,
+          "total": 105.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "points": 28.0,
+          "bonus": 0.0,
+          "total": 99.0,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "20.11.2012",
+      "no": 6,
+      "matches": [
+        {
+          "id": "md06-01",
+          "home": "Dinamo Zagreb",
+          "away": "Dynamo Kiew",
+          "homeCode": "ZAG",
+          "awayCode": "DYN",
+          "result": "1:1",
+          "date": "20.11.2012",
+          "time": "18:00"
+        },
+        {
+          "id": "md06-02",
+          "home": "Paris Saint-Germain",
+          "away": "FC Porto",
+          "homeCode": "PSG",
+          "awayCode": "FCP",
+          "result": "2:1",
+          "date": "20.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-03",
+          "home": "Montpellier HSC",
+          "away": "FC Schalke 04",
+          "homeCode": "MSC",
+          "awayCode": "S04",
+          "result": "1:1",
+          "date": "05.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-04",
+          "home": "Olympiakos Piräus",
+          "away": "FC Arsenal",
+          "homeCode": "OLY",
+          "awayCode": "ARS",
+          "result": "2:1",
+          "date": "05.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-05",
+          "home": "AC Mailand",
+          "away": "Zenit St. Petersburg",
+          "homeCode": "ACM",
+          "awayCode": "ZEN",
+          "result": "0:1",
+          "date": "19.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-06",
+          "home": "FC Málaga",
+          "away": "RSC Anderlecht",
+          "homeCode": "MAL",
+          "awayCode": "AND",
+          "result": "2:2",
+          "date": "19.09.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-07",
+          "home": "Borussia Dortmund",
+          "away": "Manchester City",
+          "homeCode": "BVB",
+          "awayCode": "MCI",
+          "result": "1:0",
+          "date": "02.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-08",
+          "home": "Real Madrid",
+          "away": "Ajax Amsterdam",
+          "homeCode": "RMA",
+          "awayCode": "AJA",
+          "result": "4:1",
+          "date": "02.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-09",
+          "home": "FC Chelsea",
+          "away": "FC Nordsjælland",
+          "homeCode": "CHE",
+          "awayCode": "NOR",
+          "result": "6:1",
+          "date": "23.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-10",
+          "home": "Schachtar Donezk",
+          "away": "Juventus Turin",
+          "homeCode": "SHA",
+          "awayCode": "JUV",
+          "result": "0:1",
+          "date": "23.10.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-11",
+          "home": "Lille OSC",
+          "away": "FC Valencia",
+          "homeCode": "LOS",
+          "awayCode": "VALE",
+          "result": "0:1",
+          "date": "07.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-12",
+          "home": "FC Bayern München",
+          "away": "BATE Borisov",
+          "homeCode": "FCB",
+          "awayCode": "BAT",
+          "result": "4:1",
+          "date": "07.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-13",
+          "home": "FC Barcelona",
+          "away": "Benfica Lissabon",
+          "homeCode": "BAR",
+          "awayCode": "BEN",
+          "result": "0:0",
+          "date": "20.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-14",
+          "home": "Celtic Glasgow",
+          "away": "Spartak Moskau",
+          "homeCode": "CEL",
+          "awayCode": "SMO",
+          "result": "2:1",
+          "date": "20.11.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-15",
+          "home": "Manchester United",
+          "away": "CFR Cluj",
+          "homeCode": "MUN",
+          "awayCode": "CFR",
+          "result": "0:1",
+          "date": "05.12.2012",
+          "time": "20:45"
+        },
+        {
+          "id": "md06-16",
+          "home": "Sporting Braga",
+          "away": "Galatasaray",
+          "homeCode": "BRA",
+          "awayCode": "GALA",
+          "result": "1:2",
+          "date": "05.12.2012",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 2,
+          "player": "johannes",
+          "picks": {
+            "md06-01": null,
+            "md06-02": null,
+            "md06-03": null,
+            "md06-04": null,
+            "md06-05": null,
+            "md06-06": null,
+            "md06-07": null,
+            "md06-08": null,
+            "md06-09": "2:0",
+            "md06-10": "0:1",
+            "md06-11": "0:1",
+            "md06-12": "2:0",
+            "md06-13": "2:0",
+            "md06-14": "1:1",
+            "md06-15": "2:0",
+            "md06-16": "0:1"
+          },
+          "pickPoints": {
+            "md06-01": 0.0,
+            "md06-02": 0.0,
+            "md06-03": 0.0,
+            "md06-04": 0.0,
+            "md06-05": 0.0,
+            "md06-06": 0.0,
+            "md06-07": 0.0,
+            "md06-08": 0.0,
+            "md06-09": 2.0,
+            "md06-10": 4.0,
+            "md06-11": 4.0,
+            "md06-12": 2.0,
+            "md06-13": 0.0,
+            "md06-14": 0.0,
+            "md06-15": 0.0,
+            "md06-16": 3.0
+          },
+          "points": 15.0,
+          "bonus": 0.0,
+          "total": 121.0,
+          "dayWin": false,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "picks": {
+            "md06-01": "2:1",
+            "md06-02": "2:0",
+            "md06-03": "1:2",
+            "md06-04": "1:2",
+            "md06-05": "2:1",
+            "md06-06": "3:0",
+            "md06-07": "1:2",
+            "md06-08": "3:1",
+            "md06-09": "3:1",
+            "md06-10": "2:2",
+            "md06-11": "1:2",
+            "md06-12": "3:1",
+            "md06-13": "2:1",
+            "md06-14": "1:2",
+            "md06-15": "2:0",
+            "md06-16": "1:2"
+          },
+          "pickPoints": {
+            "md06-01": 0.0,
+            "md06-02": 2.0,
+            "md06-03": 0.0,
+            "md06-04": 0.0,
+            "md06-05": 0.0,
+            "md06-06": 0.0,
+            "md06-07": 0.0,
+            "md06-08": 2.0,
+            "md06-09": 2.0,
+            "md06-10": 0.0,
+            "md06-11": 3.0,
+            "md06-12": 2.0,
+            "md06-13": 0.0,
+            "md06-14": 0.0,
+            "md06-15": 0.0,
+            "md06-16": 4.0
+          },
+          "points": 15.0,
+          "bonus": 0.0,
+          "total": 120.0,
+          "dayWin": false,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 1,
+          "player": "thomas",
+          "picks": {
+            "md06-01": "1:2",
+            "md06-02": "2:1",
+            "md06-03": "1:2",
+            "md06-04": "0:1",
+            "md06-05": "2:0",
+            "md06-06": "2:1",
+            "md06-07": "1:1",
+            "md06-08": "2:0",
+            "md06-09": "2:1",
+            "md06-10": "1:2",
+            "md06-11": "1:2",
+            "md06-12": "2:0",
+            "md06-13": "3:0",
+            "md06-14": "1:1",
+            "md06-15": "2:0",
+            "md06-16": "1:0"
+          },
+          "pickPoints": {
+            "md06-01": 0.0,
+            "md06-02": 4.0,
+            "md06-03": 0.0,
+            "md06-04": 0.0,
+            "md06-05": 0.0,
+            "md06-06": 0.0,
+            "md06-07": 0.0,
+            "md06-08": 2.0,
+            "md06-09": 2.0,
+            "md06-10": 3.0,
+            "md06-11": 3.0,
+            "md06-12": 2.0,
+            "md06-13": 0.0,
+            "md06-14": 0.0,
+            "md06-15": 0.0,
+            "md06-16": 0.0
+          },
+          "points": 16.0,
+          "bonus": 0.0,
+          "total": 115.0,
+          "dayWin": true,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md06-01": null,
+            "md06-02": null,
+            "md06-03": null,
+            "md06-04": null,
+            "md06-05": null,
+            "md06-06": null,
+            "md06-07": null,
+            "md06-08": null,
+            "md06-09": null,
+            "md06-10": null,
+            "md06-11": null,
+            "md06-12": null,
+            "md06-13": null,
+            "md06-14": null,
+            "md06-15": null,
+            "md06-16": null
+          },
+          "pickPoints": {
+            "md06-01": 0.0,
+            "md06-02": 0.0,
+            "md06-03": 0.0,
+            "md06-04": 0.0,
+            "md06-05": 0.0,
+            "md06-06": 0.0,
+            "md06-07": 0.0,
+            "md06-08": 0.0,
+            "md06-09": 0.0,
+            "md06-10": 0.0,
+            "md06-11": 0.0,
+            "md06-12": 0.0,
+            "md06-13": 0.0,
+            "md06-14": 0.0,
+            "md06-15": 0.0,
+            "md06-16": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 15.0,
+          "bonus": 0.0,
+          "total": 121.0,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "points": 15.0,
+          "bonus": 0.0,
+          "total": 120.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "points": 16.0,
+          "bonus": 0.0,
+          "total": 115.0,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "12.02.2013",
+      "no": 7,
+      "matches": [
+        {
+          "id": "md07-01",
+          "home": "Celtic Glasgow",
+          "away": "Juventus Turin",
+          "homeCode": "CEL",
+          "awayCode": "JUV",
+          "result": "0:3",
+          "date": "12.02.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md07-02",
+          "home": "FC Valencia",
+          "away": "Paris Saint-Germain",
+          "homeCode": "VCF",
+          "awayCode": "PSG",
+          "result": "1:2",
+          "date": "12.02.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md07-03",
+          "home": "Schachtar Donezk",
+          "away": "Borussia Dortmund",
+          "homeCode": "SHA",
+          "awayCode": "BVB",
+          "result": "2:2",
+          "date": "13.02.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md07-04",
+          "home": "Real Madrid",
+          "away": "Manchester United",
+          "homeCode": "RMA",
+          "awayCode": "MUN",
+          "result": "1:1",
+          "date": "13.02.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md07-05",
+          "home": "FC Arsenal",
+          "away": "FC Bayern München",
+          "homeCode": "ARS",
+          "awayCode": "FCB",
+          "result": "1:3",
+          "date": "19.02.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md07-06",
+          "home": "FC Porto",
+          "away": "FC Málaga",
+          "homeCode": "FCP",
+          "awayCode": "MAL",
+          "result": "1:0",
+          "date": "19.02.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md07-07",
+          "home": "Galatasaray",
+          "away": "FC Schalke 04",
+          "homeCode": "GALA",
+          "awayCode": "S04",
+          "result": "1:1",
+          "date": "20.02.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md07-08",
+          "home": "AC Mailand",
+          "away": "FC Barcelona",
+          "homeCode": "ACM",
+          "awayCode": "BAR",
+          "result": "2:0",
+          "date": "20.02.2013",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "picks": {
+            "md07-01": "1:1",
+            "md07-02": "2:1",
+            "md07-03": "0:2",
+            "md07-04": "1:1",
+            "md07-05": "0:1",
+            "md07-06": "1:0",
+            "md07-07": "2:0",
+            "md07-08": "0:2"
+          },
+          "pickPoints": {
+            "md07-01": 0.0,
+            "md07-02": 0.0,
+            "md07-03": 0.0,
+            "md07-04": 4.0,
+            "md07-05": 2.0,
+            "md07-06": 4.0,
+            "md07-07": 0.0,
+            "md07-08": 0.0
+          },
+          "points": 10.0,
+          "bonus": 0.0,
+          "total": 131.0,
+          "dayWin": true,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "picks": {
+            "md07-01": "1:3",
+            "md07-02": "1:2",
+            "md07-03": "1:2",
+            "md07-04": "2:1",
+            "md07-05": "0:2",
+            "md07-06": "1:1",
+            "md07-07": "1:2",
+            "md07-08": "0:2"
+          },
+          "pickPoints": {
+            "md07-01": 2.0,
+            "md07-02": 4.0,
+            "md07-03": 0.0,
+            "md07-04": 0.0,
+            "md07-05": 3.0,
+            "md07-06": 0.0,
+            "md07-07": 0.0,
+            "md07-08": 0.0
+          },
+          "points": 9.0,
+          "bonus": 0.0,
+          "total": 129.0,
+          "dayWin": false,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "picks": {
+            "md07-01": "1:2",
+            "md07-02": "1:1",
+            "md07-03": "1:2",
+            "md07-04": "2:1",
+            "md07-05": "0:2",
+            "md07-06": "2:1",
+            "md07-07": "2:1",
+            "md07-08": "0:1"
+          },
+          "pickPoints": {
+            "md07-01": 2.0,
+            "md07-02": 0.0,
+            "md07-03": 0.0,
+            "md07-04": 0.0,
+            "md07-05": 3.0,
+            "md07-06": 3.0,
+            "md07-07": 0.0,
+            "md07-08": 0.0
+          },
+          "points": 8.0,
+          "bonus": 0.0,
+          "total": 123.0,
+          "dayWin": false,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md07-01": null,
+            "md07-02": null,
+            "md07-03": null,
+            "md07-04": null,
+            "md07-05": null,
+            "md07-06": null,
+            "md07-07": null,
+            "md07-08": null
+          },
+          "pickPoints": {
+            "md07-01": 0.0,
+            "md07-02": 0.0,
+            "md07-03": 0.0,
+            "md07-04": 0.0,
+            "md07-05": 0.0,
+            "md07-06": 0.0,
+            "md07-07": 0.0,
+            "md07-08": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 10.0,
+          "bonus": 0.0,
+          "total": 131.0,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "points": 9.0,
+          "bonus": 0.0,
+          "total": 129.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "points": 8.0,
+          "bonus": 0.0,
+          "total": 123.0,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "05.03.2013",
+      "no": 8,
+      "matches": [
+        {
+          "id": "md08-01",
+          "home": "Borussia Dortmund",
+          "away": "Schachtar Donezk",
+          "homeCode": "BVB",
+          "awayCode": "SHA",
+          "result": "3:0",
+          "date": "05.03.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md08-02",
+          "home": "Manchester United",
+          "away": "Real Madrid",
+          "homeCode": "MUN",
+          "awayCode": "RMA",
+          "result": "1:2",
+          "date": "05.03.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md08-03",
+          "home": "Juventus Turin",
+          "away": "Celtic Glasgow",
+          "homeCode": "JUV",
+          "awayCode": "CEL",
+          "result": "2:0",
+          "date": "06.03.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md08-04",
+          "home": "Paris Saint-Germain",
+          "away": "FC Valencia",
+          "homeCode": "PSG",
+          "awayCode": "VCF",
+          "result": "1:1",
+          "date": "06.03.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md08-05",
+          "home": "FC Schalke 04",
+          "away": "Galatasaray",
+          "homeCode": "S04",
+          "awayCode": "GALA",
+          "result": "2:3",
+          "date": "12.03.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md08-06",
+          "home": "FC Barcelona",
+          "away": "AC Mailand",
+          "homeCode": "BAR",
+          "awayCode": "ACM",
+          "result": "4:0",
+          "date": "12.03.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md08-07",
+          "home": "FC Bayern München",
+          "away": "FC Arsenal",
+          "homeCode": "FCB",
+          "awayCode": "ARS",
+          "result": "0:2",
+          "date": "13.03.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md08-08",
+          "home": "FC Málaga",
+          "away": "FC Porto",
+          "homeCode": "MAL",
+          "awayCode": "FCP",
+          "result": "2:0",
+          "date": "13.03.2013",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 2,
+          "player": "johannes",
+          "picks": {
+            "md08-01": "2:0",
+            "md08-02": "1:2",
+            "md08-03": "1:0",
+            "md08-04": "2:0",
+            "md08-05": "2:1",
+            "md08-06": "2:1",
+            "md08-07": "2:0",
+            "md08-08": "0:1"
+          },
+          "pickPoints": {
+            "md08-01": 2.0,
+            "md08-02": 4.0,
+            "md08-03": 2.0,
+            "md08-04": 0.0,
+            "md08-05": 0.0,
+            "md08-06": 2.0,
+            "md08-07": 0.0,
+            "md08-08": 0.0
+          },
+          "points": 10.0,
+          "bonus": 0.0,
+          "total": 141.0,
+          "dayWin": false,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 1,
+          "player": "thomas",
+          "picks": {
+            "md08-01": "3:1",
+            "md08-02": "1:2",
+            "md08-03": "2:0",
+            "md08-04": "2:1",
+            "md08-05": "2:1",
+            "md08-06": "2:1",
+            "md08-07": "2:0",
+            "md08-08": "2:1"
+          },
+          "pickPoints": {
+            "md08-01": 2.0,
+            "md08-02": 4.0,
+            "md08-03": 4.0,
+            "md08-04": 0.0,
+            "md08-05": 0.0,
+            "md08-06": 2.0,
+            "md08-07": 0.0,
+            "md08-08": 2.0
+          },
+          "points": 14.0,
+          "bonus": 0.0,
+          "total": 137.0,
+          "dayWin": true,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 3,
+          "player": "peter",
+          "picks": {
+            "md08-01": "3:1",
+            "md08-02": "2:1",
+            "md08-03": "3:0",
+            "md08-04": "2:1",
+            "md08-05": "2:1",
+            "md08-06": "3:2",
+            "md08-07": "2:0",
+            "md08-08": "2:1"
+          },
+          "pickPoints": {
+            "md08-01": 2.0,
+            "md08-02": 0.0,
+            "md08-03": 2.0,
+            "md08-04": 0.0,
+            "md08-05": 0.0,
+            "md08-06": 2.0,
+            "md08-07": 0.0,
+            "md08-08": 2.0
+          },
+          "points": 8.0,
+          "bonus": 0.0,
+          "total": 137.0,
+          "dayWin": false,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md08-01": null,
+            "md08-02": null,
+            "md08-03": null,
+            "md08-04": null,
+            "md08-05": null,
+            "md08-06": null,
+            "md08-07": null,
+            "md08-08": null
+          },
+          "pickPoints": {
+            "md08-01": 0.0,
+            "md08-02": 0.0,
+            "md08-03": 0.0,
+            "md08-04": 0.0,
+            "md08-05": 0.0,
+            "md08-06": 0.0,
+            "md08-07": 0.0,
+            "md08-08": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 10.0,
+          "bonus": 0.0,
+          "total": 141.0,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 2,
+          "player": "thomas",
+          "points": 14.0,
+          "bonus": 0.0,
+          "total": 137.0,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "points": 8.0,
+          "bonus": 0.0,
+          "total": 137.0,
+          "dayWinsTotal": 1.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "02.04.2013",
+      "no": 9,
+      "matches": [
+        {
+          "id": "md09-01",
+          "home": "Paris Saint-Germain",
+          "away": "FC Barcelona",
+          "homeCode": "PSG",
+          "awayCode": "BAR",
+          "result": "2:2",
+          "date": "02.04.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md09-02",
+          "home": "FC Bayern München",
+          "away": "Juventus Turin",
+          "homeCode": "FCB",
+          "awayCode": "JUV",
+          "result": "2:0",
+          "date": "02.04.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md09-03",
+          "home": "FC Málaga",
+          "away": "Borussia Dortmund",
+          "homeCode": "MAL",
+          "awayCode": "BVB",
+          "result": "0:0",
+          "date": "03.04.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md09-04",
+          "home": "Real Madrid",
+          "away": "Galatasaray",
+          "homeCode": "RMA",
+          "awayCode": "GALA",
+          "result": "3:0",
+          "date": "03.04.2013",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 3,
+          "player": "johannes",
+          "picks": {
+            "md09-01": "0:2",
+            "md09-02": "2:1",
+            "md09-03": "1:2",
+            "md09-04": "2:0"
+          },
+          "pickPoints": {
+            "md09-01": 0.0,
+            "md09-02": 2.0,
+            "md09-03": 0.0,
+            "md09-04": 2.0
+          },
+          "points": 4.0,
+          "bonus": 0.0,
+          "total": 145.0,
+          "dayWin": false,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 1,
+          "player": "peter",
+          "picks": {
+            "md09-01": "1:2",
+            "md09-02": "2:0",
+            "md09-03": "1:3",
+            "md09-04": "3:0"
+          },
+          "pickPoints": {
+            "md09-01": 0.0,
+            "md09-02": 4.0,
+            "md09-03": 0.0,
+            "md09-04": 4.0
+          },
+          "points": 8.0,
+          "bonus": 0.0,
+          "total": 145.0,
+          "dayWin": true,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 2,
+          "player": "thomas",
+          "picks": {
+            "md09-01": "1:2",
+            "md09-02": "2:0",
+            "md09-03": "1:2",
+            "md09-04": "2:0"
+          },
+          "pickPoints": {
+            "md09-01": 0.0,
+            "md09-02": 4.0,
+            "md09-03": 0.0,
+            "md09-04": 2.0
+          },
+          "points": 6.0,
+          "bonus": 0.0,
+          "total": 143.0,
+          "dayWin": false,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md09-01": null,
+            "md09-02": null,
+            "md09-03": null,
+            "md09-04": null
+          },
+          "pickPoints": {
+            "md09-01": 0.0,
+            "md09-02": 0.0,
+            "md09-03": 0.0,
+            "md09-04": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 4.0,
+          "bonus": 0.0,
+          "total": 145.0,
+          "dayWinsTotal": 3.0
+        },
+        {
+          "rank": 1,
+          "player": "peter",
+          "points": 8.0,
+          "bonus": 0.0,
+          "total": 145.0,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "points": 6.0,
+          "bonus": 0.0,
+          "total": 143.0,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "09.04.2013",
+      "no": 10,
+      "matches": [
+        {
+          "id": "md10-01",
+          "home": "Borussia Dortmund",
+          "away": "FC Málaga",
+          "homeCode": "BVB",
+          "awayCode": "MAL",
+          "result": "3:2",
+          "date": "09.04.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md10-02",
+          "home": "Galatasaray",
+          "away": "Real Madrid",
+          "homeCode": "GALA",
+          "awayCode": "RMA",
+          "result": "3:2",
+          "date": "09.04.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md10-03",
+          "home": "FC Barcelona",
+          "away": "Paris Saint-Germain",
+          "homeCode": "BAR",
+          "awayCode": "PSG",
+          "result": "1:1",
+          "date": "10.04.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md10-04",
+          "home": "Juventus Turin",
+          "away": "FC Bayern München",
+          "homeCode": "JUV",
+          "awayCode": "FCB",
+          "result": "0:2",
+          "date": "10.04.2013",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "picks": {
+            "md10-01": "2:1",
+            "md10-02": "0:2",
+            "md10-03": "2:0",
+            "md10-04": "0:2"
+          },
+          "pickPoints": {
+            "md10-01": 3.0,
+            "md10-02": 0.0,
+            "md10-03": 0.0,
+            "md10-04": 4.0
+          },
+          "points": 7.0,
+          "bonus": 0.0,
+          "total": 152.0,
+          "dayWin": true,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 2,
+          "player": "thomas",
+          "picks": {
+            "md10-01": "2:0",
+            "md10-02": "1:2",
+            "md10-03": "3:1",
+            "md10-04": "0:1"
+          },
+          "pickPoints": {
+            "md10-01": 2.0,
+            "md10-02": 0.0,
+            "md10-03": 0.0,
+            "md10-04": 2.0
+          },
+          "points": 4.0,
+          "bonus": 0.0,
+          "total": 147.0,
+          "dayWin": false,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 3,
+          "player": "peter",
+          "picks": {
+            "md10-01": "2:0",
+            "md10-02": "1:3",
+            "md10-03": "3:2",
+            "md10-04": "1:1"
+          },
+          "pickPoints": {
+            "md10-01": 2.0,
+            "md10-02": 0.0,
+            "md10-03": 0.0,
+            "md10-04": 0.0
+          },
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 147.0,
+          "dayWin": false,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md10-01": null,
+            "md10-02": null,
+            "md10-03": null,
+            "md10-04": null
+          },
+          "pickPoints": {
+            "md10-01": 0.0,
+            "md10-02": 0.0,
+            "md10-03": 0.0,
+            "md10-04": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 7.0,
+          "bonus": 0.0,
+          "total": 152.0,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 2,
+          "player": "thomas",
+          "points": 4.0,
+          "bonus": 0.0,
+          "total": 147.0,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 147.0,
+          "dayWinsTotal": 2.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "23.04.2013",
+      "no": 11,
+      "matches": [
+        {
+          "id": "md11-01",
+          "home": "FC Bayern München",
+          "away": "FC Barcelona",
+          "homeCode": "FCB",
+          "awayCode": "BAR",
+          "result": "4:0",
+          "date": "23.04.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md11-02",
+          "home": "Borussia Dortmund",
+          "away": "Real Madrid",
+          "homeCode": "BVB",
+          "awayCode": "RMA",
+          "result": "4:1",
+          "date": "24.04.2013",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "picks": {
+            "md11-01": "1:0",
+            "md11-02": "1:1"
+          },
+          "pickPoints": {
+            "md11-01": 2.0,
+            "md11-02": 0.0
+          },
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 154.0,
+          "dayWin": true,
+          "dayWinsTotal": 4.5
+        },
+        {
+          "rank": 1,
+          "player": "peter",
+          "picks": {
+            "md11-01": "2:1",
+            "md11-02": "1:1"
+          },
+          "pickPoints": {
+            "md11-01": 2.0,
+            "md11-02": 0.0
+          },
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 149.0,
+          "dayWin": true,
+          "dayWinsTotal": 2.5
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "picks": {
+            "md11-01": null,
+            "md11-02": null
+          },
+          "pickPoints": {
+            "md11-01": 0.0,
+            "md11-02": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 147.0,
+          "dayWin": false,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 3,
+          "player": "alois",
+          "picks": {
+            "md11-01": null,
+            "md11-02": null
+          },
+          "pickPoints": {
+            "md11-01": 0.0,
+            "md11-02": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 154.0,
+          "dayWinsTotal": 4.5
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 149.0,
+          "dayWinsTotal": 2.5
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 147.0,
+          "dayWinsTotal": 4.0
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "30.04.2013",
+      "no": 12,
+      "matches": [
+        {
+          "id": "md12-01",
+          "home": "Real Madrid",
+          "away": "Borussia Dortmund",
+          "homeCode": "RMA",
+          "awayCode": "BVB",
+          "result": "2:0",
+          "date": "30.04.2013",
+          "time": "20:45"
+        },
+        {
+          "id": "md12-02",
+          "home": "FC Barcelona",
+          "away": "FC Bayern München",
+          "homeCode": "BAR",
+          "awayCode": "FCB",
+          "result": "0:3",
+          "date": "01.05.2013",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "picks": {
+            "md12-01": "1:1",
+            "md12-02": "1:2"
+          },
+          "pickPoints": {
+            "md12-01": 0.0,
+            "md12-02": 2.0
+          },
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 156.0,
+          "dayWin": true,
+          "dayWinsTotal": 4.833333333333333
+        },
+        {
+          "rank": 1,
+          "player": "peter",
+          "picks": {
+            "md12-01": "3:2",
+            "md12-02": "1:1"
+          },
+          "pickPoints": {
+            "md12-01": 2.0,
+            "md12-02": 0.0
+          },
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 151.0,
+          "dayWin": true,
+          "dayWinsTotal": 2.8333333333333335
+        },
+        {
+          "rank": 1,
+          "player": "thomas",
+          "picks": {
+            "md12-01": "1:2",
+            "md12-02": "1:2"
+          },
+          "pickPoints": {
+            "md12-01": 0.0,
+            "md12-02": 2.0
+          },
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 149.0,
+          "dayWin": true,
+          "dayWinsTotal": 4.333333333333333
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md12-01": null,
+            "md12-02": null
+          },
+          "pickPoints": {
+            "md12-01": 0.0,
+            "md12-02": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 156.0,
+          "dayWinsTotal": 4.833333333333333
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 151.0,
+          "dayWinsTotal": 2.8333333333333335
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 149.0,
+          "dayWinsTotal": 4.333333333333333
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "25.05.2013",
+      "no": 13,
+      "matches": [
+        {
+          "id": "md13-01",
+          "home": "Borussia Dortmund",
+          "away": "FC Bayern München",
+          "homeCode": "BVB",
+          "awayCode": "FCB",
+          "result": "1:2",
+          "date": "25.05.2013",
+          "time": "20:45"
+        }
+      ],
+      "tips": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "picks": {
+            "md13-01": "0:3"
+          },
+          "pickPoints": {
+            "md13-01": 2.0
+          },
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 158.0,
+          "dayWin": true,
+          "dayWinsTotal": 5.166666666666666
+        },
+        {
+          "rank": 1,
+          "player": "peter",
+          "picks": {
+            "md13-01": "1:3"
+          },
+          "pickPoints": {
+            "md13-01": 2.0
+          },
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 153.0,
+          "dayWin": true,
+          "dayWinsTotal": 3.166666666666667
+        },
+        {
+          "rank": 1,
+          "player": "thomas",
+          "picks": {
+            "md13-01": "1:3"
+          },
+          "pickPoints": {
+            "md13-01": 2.0
+          },
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 151.0,
+          "dayWin": true,
+          "dayWinsTotal": 4.666666666666666
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "picks": {
+            "md13-01": null
+          },
+          "pickPoints": {
+            "md13-01": 0.0
+          },
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWin": false,
+          "dayWinsTotal": 0.0
+        }
+      ],
+      "table": [
+        {
+          "rank": 1,
+          "player": "johannes",
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 158.0,
+          "dayWinsTotal": 5.166666666666666
+        },
+        {
+          "rank": 2,
+          "player": "peter",
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 153.0,
+          "dayWinsTotal": 3.166666666666667
+        },
+        {
+          "rank": 3,
+          "player": "thomas",
+          "points": 2.0,
+          "bonus": 0.0,
+          "total": 151.0,
+          "dayWinsTotal": 4.666666666666666
+        },
+        {
+          "rank": 4,
+          "player": "alois",
+          "points": 0.0,
+          "bonus": 0.0,
+          "total": 29.0,
+          "dayWinsTotal": 0.0
+        }
+      ]
+    }
+  ],
+  "bonusTips": {
+    "questions": [
+      {
+        "label": "Torschütze",
+        "result": "Real Madrid",
+        "points": 3.0
+      },
+      {
+        "label": "Halbfinale",
+        "result": [
+          "FC Bayern München",
+          "Borussia Dortmund",
+          "FC Barcelona",
+          "Real Madrid"
+        ],
+        "points": 0.0
+      },
+      {
+        "label": "Sieger",
+        "result": "FC Bayern München",
+        "points": 0.0
+      },
+      {
+        "label": "Sieger A",
+        "result": "Paris Saint-Germain",
+        "points": 0.0
+      },
+      {
+        "label": "Sieger B",
+        "result": "FC Schalke 04",
+        "points": 0.0
+      },
+      {
+        "label": "Sieger C",
+        "result": "Mala",
+        "points": 0.0
+      },
+      {
+        "label": "Sieger D",
+        "result": "Borussia Dortmund",
+        "points": 0.0
+      },
+      {
+        "label": "Sieger E",
+        "result": "Juventus",
+        "points": 0.0
+      },
+      {
+        "label": "Sieger F",
+        "result": "FC Bayern München",
+        "points": 0.0
+      },
+      {
+        "label": "Sieger G",
+        "result": "FC Barcelona",
+        "points": 0.0
+      },
+      {
+        "label": "Sieger H",
+        "result": "Manchester United",
+        "points": 0.0
+      }
+    ],
+    "picks": [
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschütze": "FC Barcelona",
+          "Halbfinale": [
+            "Real Madrid"
+          ],
+          "Sieger": "FC Bayern München",
+          "Sieger A": "Porto",
+          "Sieger B": "Arsenal",
+          "Sieger C": "AC Milan",
+          "Sieger D": "Real Madrid",
+          "Sieger E": "Chelsea",
+          "Sieger F": "FC Bayern München",
+          "Sieger G": "FC Barcelona",
+          "Sieger H": "Manchester United"
+        }
+      },
+      {
+        "player": "thomas",
+        "name": "Thomas",
+        "predictions": {}
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschütze": "FC Barcelona",
+          "Halbfinale": [
+            "Real Madrid"
+          ],
+          "Sieger": "FC Barcelona",
+          "Sieger A": "Paris Saint-Germain",
+          "Sieger B": "FC Schalke 04",
+          "Sieger C": "AC Milan",
+          "Sieger D": "Real Madrid",
+          "Sieger E": "Juventus",
+          "Sieger F": "FC Bayern München",
+          "Sieger G": "FC Barcelona",
+          "Sieger H": "Manchester United"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {}
+      }
+    ]
+  }
+}

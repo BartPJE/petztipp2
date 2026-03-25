@@ -1,0 +1,389 @@
+[
+  {
+    "id": "tip-bundesliga-03-04",
+    "title": "Bundesliga 2003/2004",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2003/2004",
+    "start": "2003-08-01",
+    "end": "2004-05-22"
+  },
+  {
+    "id": "tip-euro-2004",
+    "title": "Euro 2004 - Portugal",
+    "competition": "Europameisterschaft",
+    "compShort": "EM",
+    "season": "2004",
+    "start": "2004-06-12",
+    "end": "2004-07-04"
+  },
+  {
+    "id": "tip-bundesliga-06-07",
+    "title": "Bundesliga 2006/2007",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2006/2007",
+    "start": "2006-08-11",
+    "end": "2007-05-19"
+  },
+  {
+    "id": "tip-ligapokal-2007",
+    "title": "Ligapokal 2007",
+    "competition": "Ligapokal",
+    "compShort": "LP",
+    "season": "2007",
+    "start": "2007-07-21",
+    "end": "2007-07-28"
+  },
+  {
+    "id": "tip-bundesliga-07-08",
+    "title": "Bundesliga 2007/2008",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2007/2008",
+    "start": "2007-08-10",
+    "end": "2008-05-17"
+  },
+  {
+    "id": "tip-euro-2008",
+    "title": "Euro 2008 - Österreich/Schweiz",
+    "competition": "Europameisterschaft",
+    "compShort": "EM",
+    "season": "2008",
+    "start": "2008-06-07",
+    "end": "2008-06-29"
+  },
+  {
+    "id": "tip-bundesliga-08-09",
+    "title": "Bundesliga 2008/2009",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2008/2009",
+    "start": "2008-08-15",
+    "end": "2009-05-23"
+  },
+  {
+    "id": "tip-bundesliga-09-10",
+    "title": "Bundesliga 2009/2010",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2009/2010",
+    "start": "2009-08-07",
+    "end": "2010-05-08"
+  },
+  {
+    "id": "tip-wm-2010",
+    "title": "World Cup 2010 - South Africa",
+    "competition": "Weltmeisterschaft",
+    "compShort": "WM",
+    "season": "2010",
+    "start": "2010-06-11",
+    "end": "2010-07-11"
+  },
+  {
+    "id": "tip-bundesliga-10-11",
+    "title": "Bundesliga 2010/2011",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2010/2011",
+    "start": "2010-08-20",
+    "end": "2011-05-14"
+  },
+  {
+    "id": "tip-bundesliga-11-12",
+    "title": "Bundesliga 2011/2012",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2011/2012",
+    "start": "2011-08-05",
+    "end": "2012-05-05"
+  },
+  {
+    "id": "tip-euro-2012",
+    "title": "Euro 2012 - Polen/Ukraine",
+    "competition": "Europameisterschaft",
+    "compShort": "EM",
+    "season": "2012",
+    "start": "2012-06-08",
+    "end": "2012-07-01"
+  },
+  {
+    "id": "tip-bundesliga-12-13",
+    "title": "Bundesliga 2012/2013",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2012/2013",
+    "start": "2012-08-24",
+    "end": "2013-05-18"
+  },
+  {
+    "id": "tip-champions-league-12-13",
+    "title": "Champions League 2012/2013",
+    "competition": "Champions League",
+    "compShort": "CL",
+    "season": "2012/2013",
+    "start": "2012-09-18",
+    "end": "2013-05-25"
+  },
+  {
+    "id": "tip-bundesliga-13-14",
+    "title": "Bundesliga 2013/2014",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2013/2014",
+    "start": "2013-08-09",
+    "end": "2014-05-10"
+  },
+  {
+    "id": "tip-dfb-pokal-13-14",
+    "title": "DFB Pokal 2013/2014",
+    "competition": "DFB Pokal",
+    "compShort": "DFB",
+    "season": "2013/2014",
+    "start": "2013-08-02",
+    "end": "2014-05-17"
+  },
+  {
+    "id": "tip-champions-league-13-14",
+    "title": "Champions League 2013/2014",
+    "competition": "Champions League",
+    "compShort": "CL",
+    "season": "2013/2014",
+    "start": "2013-09-17",
+    "end": "2014-05-24"
+  },
+  {
+    "id": "tip-wm-2014",
+    "title": "World Cup 2014 - Brazil",
+    "competition": "Weltmeisterschaft",
+    "compShort": "WM",
+    "season": "2014",
+    "start": "2014-06-12",
+    "end": "2014-07-13"
+  },
+  {
+    "id": "tip-bundesliga-14-15",
+    "title": "Bundesliga 2014/2015",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2014/2015",
+    "start": "2014-08-22",
+    "end": "2015-05-23"
+  },
+  {
+    "id": "tip-dfb-pokal-14-15",
+    "title": "DFB Pokal 2014/2015",
+    "competition": "DFB Pokal",
+    "compShort": "DFB",
+    "season": "2014/2015",
+    "start": "2014-08-15",
+    "end": "2015-05-30"
+  },
+  {
+    "id": "tip-champions-league-14-15",
+    "title": "Champions League 2014/2015",
+    "competition": "Champions League",
+    "compShort": "CL",
+    "season": "2014/2015",
+    "start": "2014-09-16",
+    "end": "2015-06-06"
+  },
+  {
+    "id": "tip-bundesliga-15-16",
+    "title": "Bundesliga 2015/2016",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2015/2016",
+    "start": "2015-08-14",
+    "end": "2016-05-14"
+  },
+  {
+    "id": "tip-dfb-pokal-15-16",
+    "title": "DFB Pokal 2015/2016",
+    "competition": "DFB Pokal",
+    "compShort": "DFB",
+    "season": "2015/2016",
+    "start": "2015-08-07",
+    "end": "2016-05-21"
+  },
+  {
+    "id": "tip-champions-league-15-16",
+    "title": "Champions League 2015/2016",
+    "competition": "Champions League",
+    "compShort": "CL",
+    "season": "2015/2016",
+    "start": "2015-09-15",
+    "end": "2016-05-28"
+  },
+  {
+    "id": "tip-euro-2016",
+    "title": "Euro 2016 - Frankreich",
+    "competition": "Europameisterschaft",
+    "compShort": "EM",
+    "season": "2016",
+    "start": "2016-06-10",
+    "end": "2016-07-10"
+  },
+  {
+    "id": "tip-bundesliga-16-17",
+    "title": "Bundesliga 2016/2017",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2016/2017",
+    "start": "2016-08-26",
+    "end": "2017-05-20"
+  },
+  {
+    "id": "tip-dfb-pokal-16-17",
+    "title": "DFB Pokal 2016/2017",
+    "competition": "DFB Pokal",
+    "compShort": "DFB",
+    "season": "2016/2017",
+    "start": "2016-08-19",
+    "end": "2017-05-27"
+  },
+  {
+    "id": "tip-champions-league-16-17",
+    "title": "Champions League 2016/2017",
+    "competition": "Champions League",
+    "compShort": "CL",
+    "season": "2016/2017",
+    "start": "2016-09-13",
+    "end": "2017-06-03"
+  },
+  {
+    "id": "tip-bundesliga-17-18",
+    "title": "Bundesliga 2017/2018",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2017/2018",
+    "start": "2017-08-18",
+    "end": "2018-05-12"
+  },
+  {
+    "id": "tip-dfb-pokal-17-18",
+    "title": "DFB Pokal 2017/2018",
+    "competition": "DFB Pokal",
+    "compShort": "DFB",
+    "season": "2017/2018",
+    "start": "2017-08-11",
+    "end": "2018-05-19"
+  },
+  {
+    "id": "tip-champions-league-17-18",
+    "title": "Champions League 2017/2018",
+    "competition": "Champions League",
+    "compShort": "CL",
+    "season": "2017/2018",
+    "start": "2017-09-12",
+    "end": "2018-05-26"
+  },
+  {
+    "id": "tip-wm-2018",
+    "title": "World Cup 2018 - Russia",
+    "competition": "Weltmeisterschaft",
+    "compShort": "WM",
+    "season": "2018",
+    "start": "2018-06-14",
+    "end": "2018-07-15"
+  },
+  {
+    "id": "tip-bundesliga-18-19",
+    "title": "Bundesliga 2018/2019",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2018/2019",
+    "start": "2018-08-24",
+    "end": "2019-05-18"
+  },
+  {
+    "id": "tip-bundesliga-19-20",
+    "title": "Bundesliga 2019/2020",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2019/2020",
+    "start": "2019-08-16",
+    "end": "2020-06-27"
+  },
+  {
+    "id": "tip-bundesliga-20-21",
+    "title": "Bundesliga 2020/2021",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2020/2021",
+    "start": "2020-09-18",
+    "end": "2021-05-22"
+  },
+  {
+    "id": "tip-euro-2021",
+    "title": "Euro 2020 - Europa",
+    "competition": "Europameisterschaft",
+    "compShort": "EM",
+    "season": "2021",
+    "start": "2021-06-11",
+    "end": "2021-07-11"
+  },
+  {
+    "id": "tip-bundesliga-21-22",
+    "title": "Bundesliga 2021/2022",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2021/2022",
+    "start": "2021-08-13",
+    "end": "2022-05-14"
+  },
+  {
+    "id": "tip-wm-2022",
+    "title": "World Cup 2022 - Qatar",
+    "competition": "Weltmeisterschaft",
+    "compShort": "WM",
+    "season": "2022",
+    "start": "2022-11-20",
+    "end": "2022-12-18"
+  },
+  {
+    "id": "tip-bundesliga-22-23",
+    "title": "Bundesliga 2022/2023",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2022/2023",
+    "start": "2022-08-05",
+    "end": "2023-05-27"
+  },
+  {
+    "id": "tip-bundesliga-23-24",
+    "title": "Bundesliga 2023/2024",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2023/2024",
+    "start": "2023-08-18",
+    "end": "2024-05-18"
+  },
+  {
+    "id": "tip-euro-2024",
+    "title": "Euro 2024 - Deutschland",
+    "competition": "Europameisterschaft",
+    "compShort": "EM",
+    "season": "2024",
+    "start": "2024-06-14",
+    "end": "2024-07-14"
+  },
+  {
+    "id": "tip-bundesliga-24-25",
+    "title": "Bundesliga 2024/2025",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2024/2025",
+    "start": "2024-08-23",
+    "end": "2025-05-17"
+  },
+  {
+    "id": "tip-bundesliga-25-26",
+    "title": "Bundesliga 2025/2026",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2025/2026",
+    "start": "2025-08-23",
+    "end": "2026-05-17"
+  }
+]

@@ -1,0 +1,492 @@
+{
+  "id": "md10",
+  "label": "Spieltag 10",
+  "date": "04.11.2016 - 06.11.2016",
+  "no": 10,
+  "matches": [
+    {
+      "id": "md10-01",
+      "home": "Hertha BSC",
+      "away": "Borussia Mönchengladbach",
+      "homeTeam": "BSC",
+      "awayTeam": "BMG",
+      "result": "3:0",
+      "date": "04.11.2016",
+      "time": "20:30"
+    },
+    {
+      "id": "md10-02",
+      "home": "FC Ingolstadt 04",
+      "away": "FC Augsburg",
+      "homeTeam": "FCI",
+      "awayTeam": "FCA",
+      "result": "0:2",
+      "date": "05.11.2016",
+      "time": "15:30"
+    },
+    {
+      "id": "md10-03",
+      "home": "SC Freiburg",
+      "away": "VfL Wolfsburg",
+      "homeTeam": "SCF",
+      "awayTeam": "WOB",
+      "result": "0:3",
+      "date": "05.11.2016",
+      "time": "15:30"
+    },
+    {
+      "id": "md10-04",
+      "home": "FC Bayern München",
+      "away": "TSG 1899 Hoffenheim",
+      "homeTeam": "FCB",
+      "awayTeam": "TSG",
+      "result": "1:1",
+      "date": "05.11.2016",
+      "time": "15:30"
+    },
+    {
+      "id": "md10-05",
+      "home": "Bayer 04 Leverkusen",
+      "away": "SV Darmstadt 98",
+      "homeTeam": "B04",
+      "awayTeam": "D98",
+      "result": "3:2",
+      "date": "05.11.2016",
+      "time": "15:30"
+    },
+    {
+      "id": "md10-06",
+      "home": "Hamburger SV",
+      "away": "Borussia Dortmund",
+      "homeTeam": "HSV",
+      "awayTeam": "BVB",
+      "result": "2:5",
+      "date": "05.11.2016",
+      "time": "15:30"
+    },
+    {
+      "id": "md10-07",
+      "home": "Eintracht Frankfurt",
+      "away": "1. FC Köln",
+      "homeTeam": "SGE",
+      "awayTeam": "KOE",
+      "result": "1:0",
+      "date": "05.11.2016",
+      "time": "18:30"
+    },
+    {
+      "id": "md10-08",
+      "home": "RB Leipzig",
+      "away": "FSV Mainz 05",
+      "homeTeam": "RBL",
+      "awayTeam": "M05",
+      "result": "3:1",
+      "date": "06.11.2016",
+      "time": "15:30"
+    },
+    {
+      "id": "md10-09",
+      "home": "FC Schalke 04",
+      "away": "SV Werder Bremen",
+      "homeTeam": "S04",
+      "awayTeam": "SVW",
+      "result": "3:1",
+      "date": "06.11.2016",
+      "time": "17:30"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 7,
+      "player": "kathi",
+      "picks": {
+        "md10-01": "2:1",
+        "md10-02": "1:1",
+        "md10-03": "1:0",
+        "md10-04": "3:1",
+        "md10-05": "2:0",
+        "md10-06": "0:4",
+        "md10-07": "2:2",
+        "md10-08": "2:0",
+        "md10-09": "2:0"
+      },
+      "pickPoints": {
+        "md10-01": 2.0,
+        "md10-02": 0.0,
+        "md10-03": 0.0,
+        "md10-04": 0.0,
+        "md10-05": 2.0,
+        "md10-06": 2.0,
+        "md10-07": 0.0,
+        "md10-08": 3.0,
+        "md10-09": 3.0
+      },
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 127.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 4,
+      "player": "alois",
+      "picks": {
+        "md10-01": "2:1",
+        "md10-02": "2:1",
+        "md10-03": "1:2",
+        "md10-04": "2:0",
+        "md10-05": "2:0",
+        "md10-06": "0:2",
+        "md10-07": "2:1",
+        "md10-08": "2:1",
+        "md10-09": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 2.0,
+        "md10-02": 0.0,
+        "md10-03": 2.0,
+        "md10-04": 0.0,
+        "md10-05": 2.0,
+        "md10-06": 2.0,
+        "md10-07": 3.0,
+        "md10-08": 2.0,
+        "md10-09": 2.0
+      },
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 126.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 4,
+      "player": "peter",
+      "picks": {
+        "md10-01": "1:2",
+        "md10-02": "0:2",
+        "md10-03": "1:2",
+        "md10-04": "3:1",
+        "md10-05": "2:1",
+        "md10-06": "0:2",
+        "md10-07": "1:1",
+        "md10-08": "2:1",
+        "md10-09": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 4.0,
+        "md10-03": 2.0,
+        "md10-04": 0.0,
+        "md10-05": 3.0,
+        "md10-06": 2.0,
+        "md10-07": 0.0,
+        "md10-08": 2.0,
+        "md10-09": 2.0
+      },
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 124.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "huy",
+      "picks": {
+        "md10-01": "2:1",
+        "md10-02": "0:0",
+        "md10-03": "0:1",
+        "md10-04": "2:2",
+        "md10-05": "2:0",
+        "md10-06": "0:4",
+        "md10-07": "2:2",
+        "md10-08": "2:0",
+        "md10-09": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 2.0,
+        "md10-02": 0.0,
+        "md10-03": 2.0,
+        "md10-04": 3.0,
+        "md10-05": 2.0,
+        "md10-06": 2.0,
+        "md10-07": 0.0,
+        "md10-08": 3.0,
+        "md10-09": 2.0
+      },
+      "points": 16.0,
+      "bonus": 0.0,
+      "total": 118.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 2,
+      "player": "daniel",
+      "picks": {
+        "md10-01": "1:2",
+        "md10-02": "1:1",
+        "md10-03": "1:2",
+        "md10-04": "2:0",
+        "md10-05": "2:1",
+        "md10-06": "0:1",
+        "md10-07": "1:0",
+        "md10-08": "1:0",
+        "md10-09": "2:0"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 0.0,
+        "md10-03": 2.0,
+        "md10-04": 0.0,
+        "md10-05": 3.0,
+        "md10-06": 2.0,
+        "md10-07": 4.0,
+        "md10-08": 2.0,
+        "md10-09": 3.0
+      },
+      "points": 16.0,
+      "bonus": 0.0,
+      "total": 113.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 8,
+      "player": "peterm",
+      "picks": {
+        "md10-01": "1:2",
+        "md10-02": "1:1",
+        "md10-03": "1:2",
+        "md10-04": "2:0",
+        "md10-05": "2:1",
+        "md10-06": "0:5",
+        "md10-07": "1:2",
+        "md10-08": "2:1",
+        "md10-09": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 0.0,
+        "md10-03": 2.0,
+        "md10-04": 0.0,
+        "md10-05": 3.0,
+        "md10-06": 2.0,
+        "md10-07": 0.0,
+        "md10-08": 2.0,
+        "md10-09": 2.0
+      },
+      "points": 11.0,
+      "bonus": 0.0,
+      "total": 106.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 1,
+      "player": "roman",
+      "picks": {
+        "md10-01": "2:1",
+        "md10-02": "1:1",
+        "md10-03": "2:1",
+        "md10-04": "2:0",
+        "md10-05": "2:0",
+        "md10-06": "0:3",
+        "md10-07": "1:0",
+        "md10-08": "3:1",
+        "md10-09": "2:0"
+      },
+      "pickPoints": {
+        "md10-01": 2.0,
+        "md10-02": 0.0,
+        "md10-03": 0.0,
+        "md10-04": 0.0,
+        "md10-05": 2.0,
+        "md10-06": 3.0,
+        "md10-07": 4.0,
+        "md10-08": 4.0,
+        "md10-09": 3.0
+      },
+      "points": 18.0,
+      "bonus": 0.0,
+      "total": 104.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 9,
+      "player": "pascal",
+      "picks": {
+        "md10-01": "1:1",
+        "md10-02": "2:1",
+        "md10-03": "1:1",
+        "md10-04": "3:0",
+        "md10-05": "3:0",
+        "md10-06": "0:2",
+        "md10-07": "1:1",
+        "md10-08": "2:0",
+        "md10-09": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 0.0,
+        "md10-03": 0.0,
+        "md10-04": 0.0,
+        "md10-05": 2.0,
+        "md10-06": 2.0,
+        "md10-07": 0.0,
+        "md10-08": 3.0,
+        "md10-09": 2.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 103.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 10,
+      "player": "johannes",
+      "picks": {
+        "md10-01": "1:1",
+        "md10-02": "1:1",
+        "md10-03": "1:1",
+        "md10-04": "2:0",
+        "md10-05": "2:0",
+        "md10-06": "0:1",
+        "md10-07": "1:1",
+        "md10-08": "1:0",
+        "md10-09": "1:0"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 0.0,
+        "md10-03": 0.0,
+        "md10-04": 0.0,
+        "md10-05": 2.0,
+        "md10-06": 2.0,
+        "md10-07": 0.0,
+        "md10-08": 2.0,
+        "md10-09": 2.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 100.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 6,
+      "player": "markus",
+      "picks": {
+        "md10-01": "1:1",
+        "md10-02": "1:2",
+        "md10-03": "1:2",
+        "md10-04": "3:1",
+        "md10-05": "2:0",
+        "md10-06": "1:2",
+        "md10-07": "1:2",
+        "md10-08": "2:0",
+        "md10-09": "2:0"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 2.0,
+        "md10-03": 2.0,
+        "md10-04": 0.0,
+        "md10-05": 2.0,
+        "md10-06": 2.0,
+        "md10-07": 0.0,
+        "md10-08": 3.0,
+        "md10-09": 3.0
+      },
+      "points": 14.0,
+      "bonus": 0.0,
+      "total": 68.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "kathi",
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 127.0,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 2,
+      "player": "alois",
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 126.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 124.0,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 4,
+      "player": "huy",
+      "points": 16.0,
+      "bonus": 0.0,
+      "total": 118.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 5,
+      "player": "daniel",
+      "points": 16.0,
+      "bonus": 0.0,
+      "total": 113.0,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 6,
+      "player": "peterm",
+      "points": 11.0,
+      "bonus": 0.0,
+      "total": 106.0,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 7,
+      "player": "roman",
+      "points": 18.0,
+      "bonus": 0.0,
+      "total": 104.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 8,
+      "player": "pascal",
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 103.0,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 9,
+      "player": "johannes",
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 100.0,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 10,
+      "player": "markus",
+      "points": 14.0,
+      "bonus": 0.0,
+      "total": 68.0,
+      "dayWinsTotal": 1.0
+    }
+  ]
+}

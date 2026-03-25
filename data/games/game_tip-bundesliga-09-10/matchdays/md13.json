@@ -1,0 +1,392 @@
+{
+  "id": "md13",
+  "label": "Spieltag 13",
+  "date": "21.11.2009 - 22.11.2009",
+  "no": 13,
+  "matches": [
+    {
+      "id": "md13-01",
+      "home": "VfL Wolfsburg",
+      "away": "1. FC Nürnberg",
+      "result": "2:3",
+      "date": "21.11.2009",
+      "time": "15:30",
+      "homeTeam": "WOB",
+      "awayTeam": "FCN"
+    },
+    {
+      "id": "md13-02",
+      "home": "VfB Stuttgart",
+      "away": "Hertha BSC",
+      "result": "1:1",
+      "date": "21.11.2009",
+      "time": "15:30",
+      "homeTeam": "VFB",
+      "awayTeam": "BSC"
+    },
+    {
+      "id": "md13-03",
+      "home": "FC Schalke 04",
+      "away": "Hannover 96",
+      "result": "2:0",
+      "date": "21.11.2009",
+      "time": "15:30",
+      "homeTeam": "S04",
+      "awayTeam": "H96"
+    },
+    {
+      "id": "md13-04",
+      "home": "1. FC Köln",
+      "away": "TSG 1899 Hoffenheim",
+      "result": "0:4",
+      "date": "21.11.2009",
+      "time": "15:30",
+      "homeTeam": "KOE",
+      "awayTeam": "TSG"
+    },
+    {
+      "id": "md13-05",
+      "home": "Eintracht Frankfurt",
+      "away": "Borussia Mönchengladbach",
+      "result": "1:2",
+      "date": "21.11.2009",
+      "time": "15:30",
+      "homeTeam": "SGE",
+      "awayTeam": "BMG"
+    },
+    {
+      "id": "md13-06",
+      "home": "SC Freiburg",
+      "away": "SV Werder Bremen",
+      "result": "0:6",
+      "date": "21.11.2009",
+      "time": "15:30",
+      "homeTeam": "SCF",
+      "awayTeam": "SVW"
+    },
+    {
+      "id": "md13-07",
+      "home": "Borussia Dortmund",
+      "away": "FSV Mainz 05",
+      "result": "0:0",
+      "date": "21.11.2009",
+      "time": "18:30",
+      "homeTeam": "BVB",
+      "awayTeam": "M05"
+    },
+    {
+      "id": "md13-08",
+      "home": "FC Bayern München",
+      "away": "Bayer 04 Leverkusen",
+      "result": "1:1",
+      "date": "22.11.2009",
+      "time": "15:30",
+      "homeTeam": "FCB",
+      "awayTeam": "B04"
+    },
+    {
+      "id": "md13-09",
+      "home": "Hamburger SV",
+      "away": "VfL Bochum",
+      "result": "0:1",
+      "date": "22.11.2009",
+      "time": "17:30",
+      "homeTeam": "HSV",
+      "awayTeam": "BOC"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md13-01": "2:0",
+        "md13-02": "3:1",
+        "md13-03": "2:0",
+        "md13-04": "1:2",
+        "md13-05": "1:1",
+        "md13-06": "0:3",
+        "md13-07": "2:1",
+        "md13-08": "3:1",
+        "md13-09": "2:0"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 4.0,
+        "md13-04": 2.0,
+        "md13-05": 0.0,
+        "md13-06": 2.0,
+        "md13-07": 0.0,
+        "md13-08": 0.0,
+        "md13-09": 0.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 143.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.25
+    },
+    {
+      "rank": 2,
+      "player": "markus",
+      "picks": {
+        "md13-01": "2:0",
+        "md13-02": "3:1",
+        "md13-03": "2:1",
+        "md13-04": "1:2",
+        "md13-05": "1:1",
+        "md13-06": "0:3",
+        "md13-07": "2:2",
+        "md13-08": "2:2",
+        "md13-09": "3:1"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 2.0,
+        "md13-04": 2.0,
+        "md13-05": 0.0,
+        "md13-06": 2.0,
+        "md13-07": 3.0,
+        "md13-08": 3.0,
+        "md13-09": 0.0
+      },
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 136.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 3,
+      "player": "huy",
+      "picks": {
+        "md13-01": "2:0",
+        "md13-02": "2:1",
+        "md13-03": "1:2",
+        "md13-04": "0:2",
+        "md13-05": "3:2",
+        "md13-06": "0:1",
+        "md13-07": "2:0",
+        "md13-08": "2:1",
+        "md13-09": "1:0"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 0.0,
+        "md13-04": 2.0,
+        "md13-05": 0.0,
+        "md13-06": 2.0,
+        "md13-07": 0.0,
+        "md13-08": 0.0,
+        "md13-09": 0.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 128.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 4,
+      "player": "daniel",
+      "picks": {
+        "md13-01": "1:0",
+        "md13-02": "2:1",
+        "md13-03": "1:0",
+        "md13-04": "1:3",
+        "md13-05": "2:0",
+        "md13-06": "1:1",
+        "md13-07": "2:1",
+        "md13-08": "2:1",
+        "md13-09": "2:0"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 2.0,
+        "md13-04": 2.0,
+        "md13-05": 0.0,
+        "md13-06": 0.0,
+        "md13-07": 0.0,
+        "md13-08": 0.0,
+        "md13-09": 0.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 126.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.75
+    },
+    {
+      "rank": 5,
+      "player": "alois",
+      "picks": {
+        "md13-01": "2:0",
+        "md13-02": "2:1",
+        "md13-03": "2:1",
+        "md13-04": "1:2",
+        "md13-05": "1:1",
+        "md13-06": "1:3",
+        "md13-07": "2:0",
+        "md13-08": "1:0",
+        "md13-09": "1:0"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 2.0,
+        "md13-04": 2.0,
+        "md13-05": 0.0,
+        "md13-06": 2.0,
+        "md13-07": 0.0,
+        "md13-08": 0.0,
+        "md13-09": 0.0
+      },
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 120.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.75
+    },
+    {
+      "rank": 6,
+      "player": "melli",
+      "picks": {
+        "md13-01": "3:1",
+        "md13-02": "2:1",
+        "md13-03": "1:1",
+        "md13-04": "0:1",
+        "md13-05": "0:2",
+        "md13-06": "0:1",
+        "md13-07": "2:1",
+        "md13-08": "1:0",
+        "md13-09": "2:1"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 0.0,
+        "md13-04": 2.0,
+        "md13-05": 2.0,
+        "md13-06": 2.0,
+        "md13-07": 0.0,
+        "md13-08": 0.0,
+        "md13-09": 0.0
+      },
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 117.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.25
+    },
+    {
+      "rank": 7,
+      "player": "johannes",
+      "picks": {
+        "md13-01": "2:1",
+        "md13-02": "2:1",
+        "md13-03": "3:2",
+        "md13-04": "1:3",
+        "md13-05": "2:4",
+        "md13-06": "2:1",
+        "md13-07": "3:0",
+        "md13-08": "1:0",
+        "md13-09": "1:1"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 2.0,
+        "md13-04": 2.0,
+        "md13-05": 2.0,
+        "md13-06": 0.0,
+        "md13-07": 0.0,
+        "md13-08": 0.0,
+        "md13-09": 0.0
+      },
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 110.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 8,
+      "player": "flo",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 19.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 8.0
+    },
+    {
+      "rank": 2,
+      "player": "markus",
+      "points": 12.0
+    },
+    {
+      "rank": 3,
+      "player": "huy",
+      "points": 4.0
+    },
+    {
+      "rank": 4,
+      "player": "daniel",
+      "points": 4.0
+    },
+    {
+      "rank": 5,
+      "player": "alois",
+      "points": 6.0
+    },
+    {
+      "rank": 6,
+      "player": "melli",
+      "points": 6.0
+    },
+    {
+      "rank": 7,
+      "player": "johannes",
+      "points": 6.0
+    },
+    {
+      "rank": 8,
+      "player": "flo",
+      "points": 0.0
+    }
+  ],
+  "bonusMeta": [
+    {
+      "label": "Peter",
+      "value": 1.0
+    },
+    {
+      "label": "Markus",
+      "value": 1.0
+    },
+    {
+      "label": "Daniel",
+      "value": 0.0
+    },
+    {
+      "label": "Huy",
+      "value": 3.0
+    },
+    {
+      "label": "Alois",
+      "value": 1.0
+    }
+  ]
+}

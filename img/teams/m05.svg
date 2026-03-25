@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="1. FSV Mainz 05">
+    <defs>
+      <path id="arc-m05svg" d="M 30 102 A 70 70 0 0 1 170 102" />
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#000000" flood-opacity="0.22"/>
+      </filter>
+    </defs>
+    <g filter="url(#shadow)">
+      
+        <path d="M100 15
+                 C145 15 182 45 182 82
+                 C182 134 144 175 100 188
+                 C56 175 18 134 18 82
+                 C18 45 55 15 100 15 Z"
+              fill="#C4122E" stroke="#FFFFFF" stroke-width="8"/>
+        <path d="M100 33
+                 C136 33 164 55 164 84
+                 C164 124 133 153 100 165
+                 C67 153 36 124 36 84
+                 C36 55 64 33 100 33 Z"
+              fill="none" stroke="#FFFFFF" stroke-width="4"/>
+        
+      <text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700"
+            letter-spacing="1.2" fill="#FFFFFF">
+        <textPath href="#arc-m05svg" startOffset="50%" text-anchor="middle">MAINZ 05</textPath>
+      </text>
+      <text x="100" y="116" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="54" font-weight="800" letter-spacing="1.5"
+        fill="#FFFFFF">M05</text>
+      <text x="100" y="154" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="14" font-weight="700" letter-spacing="1"
+        fill="#FFFFFF" opacity="0.95">FSV</text>
+    </g>
+</svg>

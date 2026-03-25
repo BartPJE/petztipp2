@@ -1,0 +1,207 @@
+{
+  "id": "md35",
+  "label": "Relegation",
+  "date": "13.05.2010 - 16.05.2010",
+  "no": 35,
+  "matches": [
+    {
+      "id": "md35-01",
+      "home": "1. FC Nürnberg",
+      "away": "FC Augsburg",
+      "result": "1:0",
+      "time": "20:30",
+      "date": "13.05.2010",
+      "homeTeam": "FCN",
+      "awayTeam": "FCA"
+    },
+    {
+      "id": "md35-02",
+      "home": "FC Augsburg",
+      "away": "1. FC Nürnberg",
+      "result": "0:2",
+      "time": "17:30",
+      "date": "16.05.2010",
+      "homeTeam": "FCA",
+      "awayTeam": "FCN"
+    }
+  ],
+  "tips": [
+    {
+      "player": "alois",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "1:1"
+      },
+      "pickPoints": {
+        "md35-01": 3.0,
+        "md35-02": 0.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 370.0,
+      "dayWin": true,
+      "dayWinsTotal": 6.916666666666666,
+      "rank": 1
+    },
+    {
+      "player": "daniel",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "3:0"
+      },
+      "pickPoints": {
+        "md35-01": 3.0,
+        "md35-02": 0.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 366.0,
+      "dayWin": true,
+      "dayWinsTotal": 6.583333333333333,
+      "rank": 1
+    },
+    {
+      "player": "peter",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "2:0"
+      },
+      "pickPoints": {
+        "md35-01": 3.0,
+        "md35-02": 0.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 379.0,
+      "dayWin": true,
+      "dayWinsTotal": 7.916666666666666,
+      "rank": 1
+    },
+    {
+      "player": "basti",
+      "picks": {
+        "md35-01": "1:2",
+        "md35-02": "1:1"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 0.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0,
+      "rank": 4
+    },
+    {
+      "player": "flo",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 30.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0,
+      "rank": 4
+    },
+    {
+      "player": "huy",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 315.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.5,
+      "rank": 4
+    },
+    {
+      "player": "johannes",
+      "picks": {
+        "md35-01": "1:2",
+        "md35-02": "1:1"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 291.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5,
+      "rank": 4
+    },
+    {
+      "player": "markus",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 341.0,
+      "dayWin": false,
+      "dayWinsTotal": 8.5,
+      "rank": 4
+    },
+    {
+      "player": "melli",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 278.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0833333333333335,
+      "rank": 4
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 3.0
+    },
+    {
+      "rank": 1,
+      "player": "daniel",
+      "points": 3.0
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 3.0
+    },
+    {
+      "rank": 4,
+      "player": "basti",
+      "points": 0.0
+    },
+    {
+      "rank": 4,
+      "player": "flo",
+      "points": 0.0
+    },
+    {
+      "rank": 4,
+      "player": "huy",
+      "points": 0.0
+    },
+    {
+      "rank": 4,
+      "player": "johannes",
+      "points": 0.0
+    },
+    {
+      "rank": 4,
+      "player": "markus",
+      "points": 0.0
+    },
+    {
+      "rank": 4,
+      "player": "melli",
+      "points": 0.0
+    }
+  ],
+  "bonusMeta": []
+}

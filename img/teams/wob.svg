@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="VfL Wolfsburg">
+    <defs>
+      <path id="arc-wobsvg" d="M 30 102 A 70 70 0 0 1 170 102" />
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#000000" flood-opacity="0.22"/>
+      </filter>
+    </defs>
+    <g filter="url(#shadow)">
+      
+        <circle cx="100" cy="100" r="88" fill="#65B32E"/>
+        <circle cx="100" cy="100" r="74" fill="none" stroke="#FFFFFF" stroke-width="10"/>
+        <circle cx="100" cy="100" r="61" fill="#65B32E"/>
+        
+      <text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700"
+            letter-spacing="1.2" fill="#1E1E1E">
+        <textPath href="#arc-wobsvg" startOffset="50%" text-anchor="middle">VfL</textPath>
+      </text>
+      <text x="100" y="112" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="54" font-weight="800" letter-spacing="1.5"
+        fill="#1E1E1E">WOB</text>
+      <text x="100" y="154" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="14" font-weight="700" letter-spacing="1"
+        fill="#1E1E1E" opacity="0.95">WOLFSBURG</text>
+    </g>
+</svg>

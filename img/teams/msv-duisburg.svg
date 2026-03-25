@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="arc" d="M 40 100 A 60 60 0 0 1 160 100"></path>
+  </defs>
+
+  <!-- Badge -->
+  <circle cx="100" cy="100" r="90" fill="#00549F"></circle>
+
+  <!-- Zebra Streifen -->
+  <path d="M30 80 Q100 40 170 80" stroke="#ffffff" stroke-width="8" fill="none" opacity="0.9"></path>
+  <path d="M30 110 Q100 70 170 110" stroke="#ffffff" stroke-width="8" fill="none" opacity="0.9"></path>
+
+  <!-- Gebogener Text -->
+  <text font-size="13" fill="#ffffff" font-weight="600">
+    <textPath href="#arc" startOffset="50%" text-anchor="middle">
+      MSV DUISBURG
+    </textPath>
+  </text>
+
+  <!-- Kürzel -->
+  <text x="100" y="120" text-anchor="middle" font-size="42" font-weight="800" fill="#ffffff">
+    MSV
+  </text>
+</svg>

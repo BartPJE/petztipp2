@@ -1,0 +1,138 @@
+{
+  "id": "md19",
+  "no": 19,
+  "label": "Spieltag 19",
+  "date": "07.02.2004 - 08.02.2004",
+  "matches": [
+    {
+      "id": "md19-01",
+      "home": "Bayer 04 Leverkusen",
+      "away": "Eintracht Frankfurt",
+      "result": "1:2",
+      "date": "07.02.2004",
+      "time": "15:30",
+      "homeTeam": "B04",
+      "awayTeam": "SGE"
+    },
+    {
+      "id": "md19-02",
+      "home": "Hansa Rostock",
+      "away": "SC Freiburg",
+      "result": "4:1",
+      "date": "07.02.2004",
+      "time": "15:30",
+      "homeTeam": "ROS",
+      "awayTeam": "SCF"
+    },
+    {
+      "id": "md19-03",
+      "home": "FC Schalke 04",
+      "away": "TSV München 1860",
+      "result": "0:0",
+      "date": "07.02.2004",
+      "time": "15:30",
+      "homeTeam": "S04",
+      "awayTeam": "1860"
+    },
+    {
+      "id": "md19-04",
+      "home": "VfL Wolfsburg",
+      "away": "Borussia Dortmund",
+      "result": "2:4",
+      "date": "07.02.2004",
+      "time": "15:30",
+      "homeTeam": "WOB",
+      "awayTeam": "BVB"
+    },
+    {
+      "id": "md19-05",
+      "home": "Borussia Mönchengladbach",
+      "away": "SV Werder Bremen",
+      "result": "1:2",
+      "date": "07.02.2004",
+      "time": "15:30",
+      "homeTeam": "BMG",
+      "awayTeam": "SVW"
+    },
+    {
+      "id": "md19-06",
+      "home": "Hamburger SV",
+      "away": "VfL Bochum",
+      "result": "1:1",
+      "date": "07.02.2004",
+      "time": "15:30",
+      "homeTeam": "HSV",
+      "awayTeam": "BOC"
+    },
+    {
+      "id": "md19-07",
+      "home": "1. FC Kaiserslautern",
+      "away": "1. FC Köln",
+      "result": "1:0",
+      "date": "07.02.2004",
+      "time": "15:30",
+      "homeTeam": "FCK",
+      "awayTeam": "KOE"
+    },
+    {
+      "id": "md19-08",
+      "home": "Hertha BSC",
+      "away": "VfB Stuttgart",
+      "result": "1:0",
+      "date": "08.02.2004",
+      "time": "17:30",
+      "homeTeam": "BSC",
+      "awayTeam": "VFB"
+    },
+    {
+      "id": "md19-09",
+      "home": "FC Bayern München",
+      "away": "Hannover 96",
+      "result": "3:1",
+      "date": "08.02.2004",
+      "time": "17:30",
+      "homeTeam": "FCB",
+      "awayTeam": "H96"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md19-01": "3:1",
+        "md19-02": "0:2",
+        "md19-03": "1:1",
+        "md19-04": "1:2",
+        "md19-05": "1:4",
+        "md19-06": "2:2",
+        "md19-07": "2:1",
+        "md19-08": "0:3",
+        "md19-09": "1:0"
+      },
+      "pickPoints": {
+        "md19-01": 0.0,
+        "md19-02": 0.0,
+        "md19-03": 2.0,
+        "md19-04": 2.0,
+        "md19-05": 2.0,
+        "md19-06": 2.0,
+        "md19-07": 3.0,
+        "md19-08": 0.0,
+        "md19-09": 2.0
+      },
+      "points": 13.0,
+      "bonus": 0.0,
+      "total": 13.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 13.0
+    }
+  ]
+}

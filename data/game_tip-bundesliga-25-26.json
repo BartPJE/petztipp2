@@ -1,0 +1,401 @@
+{
+  "id": "tip-bundesliga-25-26",
+  "title": "Bundesliga 2025/2026",
+  "competition": "Bundesliga",
+  "season": "2025/2026",
+  "bonusTips": {
+    "questions": [],
+    "picks": [
+      {
+        "player": "huy",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "HDH",
+              "FCU",
+              "HSV"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "BMG"
+        }
+      },
+      {
+        "player": "markus",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "STP",
+              "HDH",
+              "HSV"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "HSV"
+        }
+      },
+      {
+        "player": "flok",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "HDH",
+              "KOE",
+              "STP"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "BVB"
+        }
+      },
+      {
+        "player": "alois",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "STP",
+              "FCU",
+              "HDH"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "TSG"
+        }
+      },
+      {
+        "player": "peter",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "HDH",
+              "HSV",
+              "STP"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "BMG"
+        }
+      },
+      {
+        "player": "roman",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "HDH",
+              "HSV",
+              "SVW"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "SVW"
+        }
+      },
+      {
+        "player": "bene",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "HDH",
+              "HSV",
+              "STP"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "SGE",
+          "Erster Trainerwechsel": "SVW"
+        }
+      },
+      {
+        "player": "johannes",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "STP",
+              "KOE",
+              "FCU"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "RBL"
+        }
+      },
+      {
+        "player": "peterm",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "HDH",
+              "TSG",
+              "STP"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "TSG"
+        }
+      },
+      {
+        "player": "hubi",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "HDH",
+              "KOE",
+              "STP"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "TSG"
+        }
+      },
+      {
+        "player": "michih",
+        "name": "michih",
+        "predictions": {
+          "Plätze 16-18": [
+            [
+              "FCU",
+              "SVW",
+              "STP"
+            ]
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "BVB",
+          "Erster Trainerwechsel": "KOE"
+        }
+      },
+      {
+        "player": "result",
+        "name": "Ergebnis",
+        "predictions": {
+          "Plätze 16-18": [],
+          "Torschütze": "",
+          "Deutscher Meister": "",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "B04"
+        }
+      },
+      {
+        "player": "points",
+        "name": "Punkte",
+        "predictions": {
+          "Plätze 16-18": "3",
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3",
+          "Erster Trainerwechsel": "3"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "22.08.2025 - 24.08.2025",
+      "no": 1,
+      "file": "data/games/game_tip-bundesliga-25-26/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "29.08.2025 - 31.08.2025",
+      "no": 2,
+      "file": "data/games/game_tip-bundesliga-25-26/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "12.09.2025 - 14.09.2025",
+      "no": 3,
+      "file": "data/games/game_tip-bundesliga-25-26/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "19.09.2025 - 21.09.2025",
+      "no": 4,
+      "file": "data/games/game_tip-bundesliga-25-26/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "26.09.2025 - 28.09.2025",
+      "no": 5,
+      "file": "data/games/game_tip-bundesliga-25-26/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "03.10.2025 - 05.10.2025",
+      "no": 6,
+      "file": "data/games/game_tip-bundesliga-25-26/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "17.10.2025 - 19.10.2025",
+      "no": 7,
+      "file": "data/games/game_tip-bundesliga-25-26/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "24.10.2025 - 26.10.2025",
+      "no": 8,
+      "file": "data/games/game_tip-bundesliga-25-26/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "31.10.2025 - 02.11.2025",
+      "no": 9,
+      "file": "data/games/game_tip-bundesliga-25-26/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "07.11.2025 - 09.11.2025",
+      "no": 10,
+      "file": "data/games/game_tip-bundesliga-25-26/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "21.11.2025 - 23.11.2025",
+      "no": 11,
+      "file": "data/games/game_tip-bundesliga-25-26/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "28.11.2025 - 30.11.2025",
+      "no": 12,
+      "file": "data/games/game_tip-bundesliga-25-26/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "05.12.2025 - 07.12.2025",
+      "no": 13,
+      "file": "data/games/game_tip-bundesliga-25-26/md13.json"
+    },
+    {
+      "id": "md14",
+      "label": "Spieltag 14",
+      "date": "12.12.2025 - 14.12.2025",
+      "no": 14,
+      "file": "data/games/game_tip-bundesliga-25-26/md14.json"
+    },
+    {
+      "id": "md15",
+      "label": "Spieltag 15",
+      "date": "19.12.2025 - 21.12.2025",
+      "no": 15,
+      "file": "data/games/game_tip-bundesliga-25-26/md15.json"
+    },
+    {
+      "id": "md16",
+      "label": "Spieltag 16",
+      "date": "09.01.2026 - 27.01.2026",
+      "no": 16,
+      "file": "data/games/game_tip-bundesliga-25-26/md16.json"
+    },
+    {
+      "id": "md17",
+      "label": "Spieltag 17",
+      "date": "13.01.2026 - 04.03.2026",
+      "no": 17,
+      "file": "data/games/game_tip-bundesliga-25-26/md17.json"
+    },
+    {
+      "id": "md18",
+      "label": "Spieltag 18",
+      "date": "16.01.2026 - 18.01.2026",
+      "no": 18,
+      "file": "data/games/game_tip-bundesliga-25-26/md18.json"
+    },
+    {
+      "id": "md19",
+      "label": "Spieltag 19",
+      "date": "23.01.2026 - 25.01.2026",
+      "no": 19,
+      "file": "data/games/game_tip-bundesliga-25-26/md19.json"
+    },
+    {
+      "id": "md20",
+      "label": "Spieltag 20",
+      "date": "30.01.2026 - 01.02.2026",
+      "no": 20,
+      "file": "data/games/game_tip-bundesliga-25-26/md20.json"
+    },
+    {
+      "id": "md21",
+      "label": "Spieltag 21",
+      "date": "06.02.2026 - 08.02.2026",
+      "no": 21,
+      "file": "data/games/game_tip-bundesliga-25-26/md21.json"
+    },
+    {
+      "id": "md22",
+      "label": "Spieltag 22",
+      "date": "13.02.2026 - 15.02.2026",
+      "no": 22,
+      "file": "data/games/game_tip-bundesliga-25-26/md22.json"
+    },
+    {
+      "id": "md23",
+      "label": "Spieltag 23",
+      "date": "20.02.2026 - 22.02.2026",
+      "no": 23,
+      "file": "data/games/game_tip-bundesliga-25-26/md23.json"
+    },
+    {
+      "id": "md24",
+      "label": "Spieltag 24",
+      "date": "27.02.2026 - 01.03.2026",
+      "no": 24,
+      "file": "data/games/game_tip-bundesliga-25-26/md24.json"
+    },
+    {
+      "id": "md25",
+      "label": "Spieltag 25",
+      "date": "06.03.2026 - 08.03.2026",
+      "no": 25,
+      "file": "data/games/game_tip-bundesliga-25-26/md25.json"
+    },
+    {
+      "id": "md26",
+      "label": "Spieltag 26",
+      "date": "13.03.2026 - 15.03.2026",
+      "no": 26,
+      "file": "data/games/game_tip-bundesliga-25-26/md26.json"
+    },
+    {
+      "id": "md27",
+      "label": "Spieltag 27",
+      "date": "20.03.2026 - 22.03.2026",
+      "no": 27,
+      "file": "data/games/game_tip-bundesliga-25-26/md27.json"
+    }
+  ]
+}

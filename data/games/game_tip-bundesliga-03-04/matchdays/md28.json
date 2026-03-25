@@ -1,0 +1,149 @@
+{
+  "no": 28,
+  "label": "Spieltag 28",
+  "date": "10.04.2004 - 11.04.2004",
+  "matches": [
+    {
+      "id": "md28-01",
+      "home": "Bayer 04 Leverkusen",
+      "away": "1. FC Kaiserslautern",
+      "result": "6:0",
+      "date": "10.04.2004",
+      "time": "15:30",
+      "homeTeam": "B04",
+      "awayTeam": "FCK"
+    },
+    {
+      "id": "md28-02",
+      "home": "Hansa Rostock",
+      "away": "Borussia Mönchengladbach",
+      "result": "1:2",
+      "date": "10.04.2004",
+      "time": "15:30",
+      "homeTeam": "ROS",
+      "awayTeam": "BMG"
+    },
+    {
+      "id": "md28-03",
+      "home": "VfL Bochum",
+      "away": "TSV München 1860",
+      "result": "4:0",
+      "date": "10.04.2004",
+      "time": "15:30",
+      "homeTeam": "BOC",
+      "awayTeam": "1860"
+    },
+    {
+      "id": "md28-04",
+      "home": "Hertha BSC",
+      "away": "VfL Wolfsburg",
+      "result": "1:0",
+      "date": "10.04.2004",
+      "time": "15:30",
+      "homeTeam": "BSC",
+      "awayTeam": "WOB"
+    },
+    {
+      "id": "md28-05",
+      "home": "Eintracht Frankfurt",
+      "away": "SV Werder Bremen",
+      "result": "0:1",
+      "date": "10.04.2004",
+      "time": "15:30",
+      "homeTeam": "SGE",
+      "awayTeam": "SVW"
+    },
+    {
+      "id": "md28-06",
+      "home": "FC Bayern München",
+      "away": "FC Schalke 04",
+      "result": "2:1",
+      "date": "10.04.2004",
+      "time": "15:30",
+      "homeTeam": "FCB",
+      "awayTeam": "S04"
+    },
+    {
+      "id": "md28-07",
+      "home": "Hamburger SV",
+      "away": "Borussia Dortmund",
+      "result": "0:2",
+      "date": "10.04.2004",
+      "time": "15:30",
+      "homeTeam": "HSV",
+      "awayTeam": "BVB"
+    },
+    {
+      "id": "md28-08",
+      "home": "SC Freiburg",
+      "away": "VfB Stuttgart",
+      "result": "0:1",
+      "date": "11.04.2004",
+      "time": "17:30",
+      "homeTeam": "SCF",
+      "awayTeam": "VFB"
+    },
+    {
+      "id": "md28-09",
+      "home": "Hannover 96",
+      "away": "1. FC Köln",
+      "result": "1:0",
+      "date": "11.04.2004",
+      "time": "17:30",
+      "homeTeam": "H96",
+      "awayTeam": "KOE"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md28-01": "3:1",
+        "md28-02": "2:2",
+        "md28-03": "1:1",
+        "md28-04": "3:0",
+        "md28-05": "1:3",
+        "md28-06": "2:0",
+        "md28-07": "1:3",
+        "md28-08": "2:4",
+        "md28-09": "2:2"
+      },
+      "pickPoints": {
+        "md28-01": 2.0,
+        "md28-02": 0.0,
+        "md28-03": 0.0,
+        "md28-04": 2.0,
+        "md28-05": 2.0,
+        "md28-06": 2.0,
+        "md28-07": 3.0,
+        "md28-08": 2.0,
+        "md28-09": 0.0
+      },
+      "points": 13.0,
+      "bonus": 0.0,
+      "total": 77.0,
+      "dayWin": true,
+      "dayWinsTotal": 6.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0,
+      "bonus": 0.0,
+      "total": 43.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 13.0
+    }
+  ],
+  "id": "md28"
+}

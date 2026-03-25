@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Tonga">
+  <defs>
+    <path id="topArc" d="M 78 150 A 122 122 0 0 1 322 150" />
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <polygon points="110,48 290,48 360,200 290,352 110,352 40,200" fill="#009739" stroke="#002776" stroke-width="10" />
+<polygon points="130,82 270,82 326,200 270,318 130,318 74,200" fill="none" stroke="#fedd00" stroke-width="6" />
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#fedd00" letter-spacing="1.2">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">TONGA</textPath>
+  </text>
+  <text x="200" y="222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="72" fill="#fedd00">TON</text>
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#fedd00">National Team</text>
+  <rect x="122" y="102" width="156" height="10" rx="5" fill="#002776" opacity="0.85" />
+</svg>

@@ -1,0 +1,737 @@
+{
+  "id": "tip-bundesliga-19-20",
+  "title": "Bundesliga 2019/2020",
+  "competition": "Bundesliga",
+  "season": "2019/2020",
+  "bonusTips": {
+    "questions": [
+      {
+        "label": "Torschütze",
+        "result": "FC Bayern München",
+        "points": 3.0
+      },
+      {
+        "label": "Plätze 16-18",
+        "result": [
+          "SV Werder Bremen",
+          "Fortuna Düsseldorf",
+          "SC Paderborn 07"
+        ],
+        "points": 3.0
+      },
+      {
+        "label": "Deutscher Meister",
+        "result": "FC Bayern München",
+        "points": 3.0
+      },
+      {
+        "label": "Herbstmeister",
+        "result": "RB Leipzig",
+        "points": 3.0
+      },
+      {
+        "label": "Erster Trainerwechsel",
+        "result": "FC Bayern München",
+        "points": 3.0
+      }
+    ],
+    "picks": [
+      {
+        "player": "alex",
+        "name": "Alex",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Union"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Fortuna Düsseldorf"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "peterm",
+        "name": "peterm",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "1. FSV Mainz 05"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "VfL Wolfsburg"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "stefan",
+        "name": "stefan",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "FC Augsburg"
+          ],
+          "Deutscher Meister": "Borussia Dortmund",
+          "Herbstmeister": "Borussia Dortmund",
+          "Erster Trainerwechsel": "Pad"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 3.0
+      },
+      {
+        "player": "bene",
+        "name": "bene",
+        "predictions": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "FC Bayern München"
+          ],
+          "Deutscher Meister": "Borussia Dortmund",
+          "Herbstmeister": "Borussia Dortmund",
+          "Erster Trainerwechsel": "FC Augsburg"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Union"
+          ],
+          "Deutscher Meister": "Borussia Dortmund",
+          "Herbstmeister": "Borussia Dortmund",
+          "Erster Trainerwechsel": "Köln"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 3.0
+      },
+      {
+        "player": "roman",
+        "name": "roman",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Union"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "VfL Wolfsburg"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "flok",
+        "name": "flok",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "FC Augsburg"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "Borussia Dortmund",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 3.0
+        },
+        "bonusTotal": 9.0
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {},
+        "result": {},
+        "points": {},
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "manug",
+        "name": "manug",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "FC Augsburg"
+          ],
+          "Deutscher Meister": "Borussia Dortmund",
+          "Herbstmeister": "Borussia Dortmund",
+          "Erster Trainerwechsel": "FC Schalke 04"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 3.0
+      },
+      {
+        "player": "huy",
+        "name": "huy",
+        "predictions": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "FC Augsburg"
+          ],
+          "Deutscher Meister": "Borussia Dortmund",
+          "Herbstmeister": "Borussia Dortmund",
+          "Erster Trainerwechsel": "FC Augsburg"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "VfL Wolfsburg"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Eintracht Frankfurt"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "kathi",
+        "name": "kathi",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "FC Augsburg"
+          ],
+          "Deutscher Meister": "Borussia Dortmund",
+          "Herbstmeister": "Borussia Dortmund",
+          "Erster Trainerwechsel": "VfL Wolfsburg"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 3.0
+      },
+      {
+        "player": "pascal",
+        "name": "pascal",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Union"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Fortuna Düsseldorf"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Union"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "FC Schalke 04"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 3.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "michi",
+        "name": "Michi",
+        "predictions": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "FC Augsburg"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "Borussia Dortmund",
+          "Erster Trainerwechsel": "FC Schalke 04"
+        },
+        "result": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "SV Werder Bremen",
+            "Fortuna Düsseldorf",
+            "SC Paderborn 07"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "RB Leipzig",
+          "Erster Trainerwechsel": "FC Bayern München"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 3.0
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "16.08.2019 - 18.08.2019",
+      "no": 1,
+      "file": "matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "23.08.2019 - 25.08.2019",
+      "no": 2,
+      "file": "matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "30.08.2019 - 01.09.2019",
+      "no": 3,
+      "file": "matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "13.09.2019 - 15.09.2019",
+      "no": 4,
+      "file": "matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "20.09.2019 - 23.09.2019",
+      "no": 5,
+      "file": "matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "27.09.2019 - 29.09.2019",
+      "no": 6,
+      "file": "matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "04.10.2019 - 06.10.2019",
+      "no": 7,
+      "file": "matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "18.10.2019 - 20.10.2019",
+      "no": 8,
+      "file": "matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "25.10.2019 - 27.10.2019",
+      "no": 9,
+      "file": "matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "01.11.2019 - 03.11.2019",
+      "no": 10,
+      "file": "matchdays/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "08.11.2019 - 10.11.2019",
+      "no": 11,
+      "file": "matchdays/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "22.11.2019 - 24.11.2019",
+      "no": 12,
+      "file": "matchdays/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "29.11.2019 - 02.12.2019",
+      "no": 13,
+      "file": "matchdays/md13.json"
+    },
+    {
+      "id": "md14",
+      "label": "Spieltag 14",
+      "date": "06.12.2019 - 08.12.2019",
+      "no": 14,
+      "file": "matchdays/md14.json"
+    },
+    {
+      "id": "md15",
+      "label": "Spieltag 15",
+      "date": "13.12.2019 - 15.12.2019",
+      "no": 15,
+      "file": "matchdays/md15.json"
+    },
+    {
+      "id": "md16",
+      "label": "Spieltag 16",
+      "date": "17.12.2019 - 18.12.2019",
+      "no": 16,
+      "file": "matchdays/md16.json"
+    },
+    {
+      "id": "md17",
+      "label": "Spieltag 17",
+      "date": "20.12.2019 - 22.12.2019",
+      "no": 17,
+      "file": "matchdays/md17.json"
+    },
+    {
+      "id": "md18",
+      "label": "Spieltag 18",
+      "date": "17.01.2020 - 19.01.2020",
+      "no": 18,
+      "file": "matchdays/md18.json"
+    },
+    {
+      "id": "md19",
+      "label": "Spieltag 19",
+      "date": "24.01.2020 - 26.01.2020",
+      "no": 19,
+      "file": "matchdays/md19.json"
+    },
+    {
+      "id": "md20",
+      "label": "Spieltag 20",
+      "date": "31.01.2020 - 02.02.2020",
+      "no": 20,
+      "file": "matchdays/md20.json"
+    },
+    {
+      "id": "md21",
+      "label": "Spieltag 21",
+      "date": "07.02.2020 - 11.03.2020",
+      "no": 21,
+      "file": "matchdays/md21.json"
+    },
+    {
+      "id": "md22",
+      "label": "Spieltag 22",
+      "date": "14.02.2020 - 16.02.2020",
+      "no": 22,
+      "file": "matchdays/md22.json"
+    },
+    {
+      "id": "md23",
+      "label": "Spieltag 23",
+      "date": "21.02.2020 - 24.02.2020",
+      "no": 23,
+      "file": "matchdays/md23.json"
+    },
+    {
+      "id": "md24",
+      "label": "Spieltag 24",
+      "date": "28.02.2020 - 03.06.2020",
+      "no": 24,
+      "file": "matchdays/md24.json"
+    },
+    {
+      "id": "md25",
+      "label": "Spieltag 25",
+      "date": "06.03.2020 - 08.03.2020",
+      "no": 25,
+      "file": "matchdays/md25.json"
+    },
+    {
+      "id": "md26",
+      "label": "Spieltag 26",
+      "date": "16.05.2020 - 18.05.2020",
+      "no": 26,
+      "file": "matchdays/md26.json"
+    },
+    {
+      "id": "md27",
+      "label": "Spieltag 27",
+      "date": "22.05.2020 - 24.05.2020",
+      "no": 27,
+      "file": "matchdays/md27.json"
+    },
+    {
+      "id": "md28",
+      "label": "Spieltag 28",
+      "date": "26.05.2020 - 27.05.2020",
+      "no": 28,
+      "file": "matchdays/md28.json"
+    },
+    {
+      "id": "md29",
+      "label": "Spieltag 29",
+      "date": "29.05.2020 - 01.06.2020",
+      "no": 29,
+      "file": "matchdays/md29.json"
+    },
+    {
+      "id": "md30",
+      "label": "Spieltag 30",
+      "date": "05.06.2020 - 07.06.2020",
+      "no": 30,
+      "file": "matchdays/md30.json"
+    },
+    {
+      "id": "md31",
+      "label": "Spieltag 31",
+      "date": "12.06.2020 - 14.06.2020",
+      "no": 31,
+      "file": "matchdays/md31.json"
+    },
+    {
+      "id": "md32",
+      "label": "Spieltag 32",
+      "date": "16.06.2020 - 17.06.2020",
+      "no": 32,
+      "file": "matchdays/md32.json"
+    },
+    {
+      "id": "md33",
+      "label": "Spieltag 33",
+      "date": "20.06.2020 - 20.06.2020",
+      "no": 33,
+      "file": "matchdays/md33.json"
+    },
+    {
+      "id": "md34",
+      "label": "Spieltag 34",
+      "date": "27.06.2020 - 27.06.2020",
+      "no": 34,
+      "file": "matchdays/md34.json"
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "id": "tip-bundesliga-22-23",
+  "title": "Bundesliga 2022/2023",
+  "competition": "Bundesliga",
+  "season": "2022/2023",
+  "bonusTips": {
+    "questions": [],
+    "picks": [
+      {
+        "player": "hubi",
+        "name": "Hubi",
+        "predictions": {
+          "Plätze 16-18": [
+            "BOC",
+            "M05",
+            "FCA"
+          ],
+          "Torschütze": "B04",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "S04"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Plätze 16-18": [
+            "S04",
+            "FCA",
+            "BOC"
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "S04"
+        }
+      },
+      {
+        "player": "peterm",
+        "name": "peterm",
+        "predictions": {
+          "Plätze 16-18": [
+            "FCA",
+            "BOC",
+            "BSC"
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "BSC"
+        }
+      },
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Plätze 16-18": [
+            "VFB",
+            "BSC",
+            "SVW"
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "BSC"
+        }
+      },
+      {
+        "player": "bene",
+        "name": "bene",
+        "predictions": {
+          "Plätze 16-18": [
+            "BOC",
+            "BSC",
+            "FCA"
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "RBL",
+          "Erster Trainerwechsel": "BSC"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Plätze 16-18": [
+            "BOC",
+            "BSC",
+            "S04"
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "BMG"
+        }
+      },
+      {
+        "player": "roman",
+        "name": "roman",
+        "predictions": {
+          "Plätze 16-18": [
+            "BOC",
+            "FCA",
+            "S04"
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "FCA"
+        }
+      },
+      {
+        "player": "huy",
+        "name": "huy",
+        "predictions": {
+          "Plätze 16-18": [
+            "BSC",
+            "BOC",
+            "SVW"
+          ],
+          "Torschütze": "BVB",
+          "Deutscher Meister": "BVB",
+          "Herbstmeister": "BVB",
+          "Erster Trainerwechsel": "BSC"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Plätze 16-18": [
+            "FCU",
+            "FCA",
+            "BOC"
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "FCA"
+        }
+      },
+      {
+        "player": "manug",
+        "name": "manug",
+        "predictions": {
+          "Plätze 16-18": [
+            "VFB",
+            "BSC",
+            "BOC"
+          ],
+          "Torschütze": "RBL",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "BMG"
+        }
+      },
+      {
+        "player": "alex",
+        "name": "Alex",
+        "predictions": {
+          "Plätze 16-18": [
+            "FCA",
+            "BOC",
+            "S04"
+          ],
+          "Torschütze": "FCB",
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "BSC"
+        }
+      },
+      {
+        "player": "result",
+        "name": "Ergebnis",
+        "predictions": {
+          "Plätze 16-18": [
+            "BSC",
+            "VFB",
+            "S04"
+          ],
+          "Torschütze": [
+            "FCB",
+            "SVW"
+          ],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "RBL"
+        }
+      },
+      {
+        "player": "points",
+        "name": "Punkte",
+        "predictions": {
+          "Plätze 16-18": "3",
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3",
+          "Erster Trainerwechsel": "3"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "05.08.2022 - 07.08.2022",
+      "no": 1,
+      "file": "data/games/game_tip-bundesliga-22-23/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "12.08.2022 - 14.08.2022",
+      "no": 2,
+      "file": "data/games/game_tip-bundesliga-22-23/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "19.08.2022 - 21.08.2022",
+      "no": 3,
+      "file": "data/games/game_tip-bundesliga-22-23/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "26.08.2022 - 28.08.2022",
+      "no": 4,
+      "file": "data/games/game_tip-bundesliga-22-23/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "02.09.2022 - 04.09.2022",
+      "no": 5,
+      "file": "data/games/game_tip-bundesliga-22-23/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "09.09.2022 - 11.09.2022",
+      "no": 6,
+      "file": "data/games/game_tip-bundesliga-22-23/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "16.09.2022 - 18.09.2022",
+      "no": 7,
+      "file": "data/games/game_tip-bundesliga-22-23/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "30.09.2022 - 02.10.2022",
+      "no": 8,
+      "file": "data/games/game_tip-bundesliga-22-23/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "07.10.2022 - 09.10.2022",
+      "no": 9,
+      "file": "data/games/game_tip-bundesliga-22-23/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "14.10.2022 - 16.10.2022",
+      "no": 10,
+      "file": "data/games/game_tip-bundesliga-22-23/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "21.10.2022 - 23.10.2022",
+      "no": 11,
+      "file": "data/games/game_tip-bundesliga-22-23/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "28.10.2022 - 30.10.2022",
+      "no": 12,
+      "file": "data/games/game_tip-bundesliga-22-23/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "04.11.2022 - 06.11.2022",
+      "no": 13,
+      "file": "data/games/game_tip-bundesliga-22-23/md13.json"
+    },
+    {
+      "id": "md14",
+      "label": "Spieltag 14",
+      "date": "08.11.2022 - 09.11.2022",
+      "no": 14,
+      "file": "data/games/game_tip-bundesliga-22-23/md14.json"
+    },
+    {
+      "id": "md15",
+      "label": "Spieltag 15",
+      "date": "11.11.2022 - 13.11.2022",
+      "no": 15,
+      "file": "data/games/game_tip-bundesliga-22-23/md15.json"
+    },
+    {
+      "id": "md16",
+      "label": "Spieltag 16",
+      "date": "20.01.2023 - 22.01.2023",
+      "no": 16,
+      "file": "data/games/game_tip-bundesliga-22-23/md16.json"
+    },
+    {
+      "id": "md17",
+      "label": "Spieltag 17",
+      "date": "24.01.2023 - 25.01.2023",
+      "no": 17,
+      "file": "data/games/game_tip-bundesliga-22-23/md17.json"
+    },
+    {
+      "id": "md18",
+      "label": "Spieltag 18",
+      "date": "27.01.2023 - 29.01.2023",
+      "no": 18,
+      "file": "data/games/game_tip-bundesliga-22-23/md18.json"
+    },
+    {
+      "id": "md19",
+      "label": "Spieltag 19",
+      "date": "03.02.2023 - 05.02.2023",
+      "no": 19,
+      "file": "data/games/game_tip-bundesliga-22-23/md19.json"
+    },
+    {
+      "id": "md20",
+      "label": "Spieltag 20",
+      "date": "10.02.2023 - 12.02.2023",
+      "no": 20,
+      "file": "data/games/game_tip-bundesliga-22-23/md20.json"
+    },
+    {
+      "id": "md21",
+      "label": "Spieltag 21",
+      "date": "17.02.2023 - 19.02.2023",
+      "no": 21,
+      "file": "data/games/game_tip-bundesliga-22-23/md21.json"
+    },
+    {
+      "id": "md22",
+      "label": "Spieltag 22",
+      "date": "24.02.2023 - 26.02.2023",
+      "no": 22,
+      "file": "data/games/game_tip-bundesliga-22-23/md22.json"
+    },
+    {
+      "id": "md23",
+      "label": "Spieltag 23",
+      "date": "03.03.2023 - 05.03.2023",
+      "no": 23,
+      "file": "data/games/game_tip-bundesliga-22-23/md23.json"
+    },
+    {
+      "id": "md24",
+      "label": "Spieltag 24",
+      "date": "10.03.2023 - 12.03.2023",
+      "no": 24,
+      "file": "data/games/game_tip-bundesliga-22-23/md24.json"
+    },
+    {
+      "id": "md25",
+      "label": "Spieltag 25",
+      "date": "17.03.2023 - 19.03.2023",
+      "no": 25,
+      "file": "data/games/game_tip-bundesliga-22-23/md25.json"
+    },
+    {
+      "id": "md26",
+      "label": "Spieltag 26",
+      "date": "31.03.2023 - 02.04.2023",
+      "no": 26,
+      "file": "data/games/game_tip-bundesliga-22-23/md26.json"
+    },
+    {
+      "id": "md27",
+      "label": "Spieltag 27",
+      "date": "08.04.2023 - 09.04.2023",
+      "no": 27,
+      "file": "data/games/game_tip-bundesliga-22-23/md27.json"
+    },
+    {
+      "id": "md28",
+      "label": "Spieltag 28",
+      "date": "14.04.2023 - 16.04.2023",
+      "no": 28,
+      "file": "data/games/game_tip-bundesliga-22-23/md28.json"
+    },
+    {
+      "id": "md29",
+      "label": "Spieltag 29",
+      "date": "21.04.2023 - 23.04.2023",
+      "no": 29,
+      "file": "data/games/game_tip-bundesliga-22-23/md29.json"
+    },
+    {
+      "id": "md30",
+      "label": "Spieltag 30",
+      "date": "28.04.2023 - 30.04.2023",
+      "no": 30,
+      "file": "data/games/game_tip-bundesliga-22-23/md30.json"
+    },
+    {
+      "id": "md31",
+      "label": "Spieltag 31",
+      "date": "05.05.2023 - 07.05.2023",
+      "no": 31,
+      "file": "data/games/game_tip-bundesliga-22-23/md31.json"
+    },
+    {
+      "id": "md32",
+      "label": "Spieltag 32",
+      "date": "12.05.2023 - 14.05.2023",
+      "no": 32,
+      "file": "data/games/game_tip-bundesliga-22-23/md32.json"
+    },
+    {
+      "id": "md33",
+      "label": "Spieltag 33",
+      "date": "19.05.2023 - 21.05.2023",
+      "no": 33,
+      "file": "data/games/game_tip-bundesliga-22-23/md33.json"
+    },
+    {
+      "id": "md34",
+      "label": "Spieltag 34",
+      "date": "27.05.2023 - 27.05.2023",
+      "no": 34,
+      "file": "data/games/game_tip-bundesliga-22-23/md34.json"
+    }
+  ]
+}

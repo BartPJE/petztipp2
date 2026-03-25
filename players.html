@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>PetzTipp · Teilnehmer</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+  <link rel="icon" type="image/png" href="img/logo/favicon.jpg">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <a href="index.html">
+        <img src="img/logo/tippspiel_logo.png" class="siteLogo" alt="Tippspiel Logo" width="64px">
+        </a>
+        <div><h1>PetzTipp</h1><p class="sub">Tippspiel Hub</p></div>
+      </div>
+      <div class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="games.html" class="nav-link">Tippspiele</a>
+        <a href="players.html" class="nav-link active">Teilnehmer</a>
+        <a href="stats.html" class="nav-link">Statistik</a>
+        <a href="worldranking.html" class="nav-link">Weltrangliste</a>
+      </div>
+
+      <nav class="mobile-bottom-nav">
+        <a href="index.html" aria-label="Home">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="games.html" aria-label="Tippspiele">
+          <i class="fa-solid fa-futbol"></i>
+        </a>
+        <a href="players.html" aria-label="Teilnehmer" class="active">
+          <i class="fa-solid fa-users"></i>
+        </a>
+        <a href="stats.html" aria-label="Statistik">
+          <i class="fa-solid fa-chart-column"></i>
+        </a>
+        <a href="worldranking.html" aria-label="Weltrangliste">
+          <i class="fa-solid fa-trophy"></i>
+        </a>
+      </nav>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <div class="hd">
+        <h2>Teilnehmer</h2>
+        <p>Profile, Medaillen, Platzierungen und Punkteausbeute.</p>
+      </div>
+      <div class="bd">
+        <input id="playerFilter" class="input" placeholder="Suche: Name, Nickname..."/>
+        <div id="playersList" style="margin-top:12px"></div>
+      </div>
+    </div>
+
+    <div class="footer">PetzTipp · © 2026</div>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/players.js"></script>
+</body>
+</html>

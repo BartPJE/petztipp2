@@ -1,0 +1,305 @@
+{
+  "id": "md35",
+  "label": "Relegation",
+  "date": "",
+  "no": 35,
+  "matches": [
+    {
+      "id": "md35-01",
+      "home": "Hamburger SV",
+      "away": "Karlsruher SC",
+      "homeTeam": "HSV",
+      "awayTeam": "KSC",
+      "result": "1:1",
+      "time": ""
+    },
+    {
+      "id": "md35-02",
+      "home": "Karlsruher SC",
+      "away": "Hamburger SV",
+      "homeTeam": "KSC",
+      "awayTeam": "HSV",
+      "result": "1:2",
+      "time": ""
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 4.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 399.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.7
+    },
+    {
+      "rank": 1,
+      "player": "huy",
+      "picks": {
+        "md35-01": "1:1",
+        "md35-02": "3:2"
+      },
+      "pickPoints": {
+        "md35-01": 4.0,
+        "md35-02": 0.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 398.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.866666666666666
+    },
+    {
+      "rank": 6,
+      "player": "johannes",
+      "picks": {
+        "md35-01": "2:0",
+        "md35-02": "1:3"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 2.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 396.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.5
+    },
+    {
+      "rank": 7,
+      "player": "daniel",
+      "picks": {
+        "md35-01": "1:0",
+        "md35-02": "2:1"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 395.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.833333333333334
+    },
+    {
+      "rank": 1,
+      "player": "thomas",
+      "picks": {
+        "md35-01": "1:1",
+        "md35-02": "2:1"
+      },
+      "pickPoints": {
+        "md35-01": 4.0,
+        "md35-02": 0.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 382.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.7
+    },
+    {
+      "rank": 7,
+      "player": "peter",
+      "picks": {
+        "md35-01": "2:0",
+        "md35-02": "2:1"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 380.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.833333333333333
+    },
+    {
+      "rank": 1,
+      "player": "peterm",
+      "picks": {
+        "md35-01": "1:0",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 4.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 379.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.7
+    },
+    {
+      "rank": 1,
+      "player": "kathi",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 4.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 378.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.2
+    },
+    {
+      "rank": 7,
+      "player": "roman",
+      "picks": {
+        "md35-01": "2:0",
+        "md35-02": "1:1"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 345.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.6666666666666665
+    },
+    {
+      "rank": 7,
+      "player": "melli",
+      "picks": {
+        "md35-01": null,
+        "md35-02": null
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 49.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 7,
+      "player": "markus",
+      "picks": {
+        "md35-01": null,
+        "md35-02": null
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 43.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 399.0,
+      "dayWinsTotal": 5.7
+    },
+    {
+      "rank": 2,
+      "player": "huy",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 398.0,
+      "dayWinsTotal": 5.866666666666666
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 396.0,
+      "dayWinsTotal": 3.5
+    },
+    {
+      "rank": 4,
+      "player": "daniel",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 395.0,
+      "dayWinsTotal": 4.833333333333334
+    },
+    {
+      "rank": 5,
+      "player": "thomas",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 382.0,
+      "dayWinsTotal": 3.7
+    },
+    {
+      "rank": 6,
+      "player": "peter",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 380.0,
+      "dayWinsTotal": 4.833333333333333
+    },
+    {
+      "rank": 7,
+      "player": "peterm",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 379.0,
+      "dayWinsTotal": 1.7
+    },
+    {
+      "rank": 8,
+      "player": "kathi",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 378.0,
+      "dayWinsTotal": 2.2
+    },
+    {
+      "rank": 9,
+      "player": "roman",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 345.0,
+      "dayWinsTotal": 1.6666666666666665
+    },
+    {
+      "rank": 10,
+      "player": "melli",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 49.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 11,
+      "player": "markus",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 43.0,
+      "dayWinsTotal": 0.0
+    }
+  ]
+}

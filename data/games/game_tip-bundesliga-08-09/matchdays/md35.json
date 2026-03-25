@@ -1,0 +1,176 @@
+{
+  "id": "md35",
+  "label": "Relegation",
+  "date": "28.05.2009 - 31.05.2009",
+  "no": 35,
+  "matches": [
+    {
+      "id": "md35-01",
+      "home": "Energie Cottbus",
+      "away": "1. FC Nürnberg",
+      "result": "0:3",
+      "time": "20:30",
+      "date": "28.05.2009",
+      "homeTeam": "COT",
+      "awayTeam": "FCN"
+    },
+    {
+      "id": "md35-02",
+      "home": "1. FC Nürnberg",
+      "away": "Energie Cottbus",
+      "result": "2:0",
+      "time": "17:00",
+      "date": "31.05.2009",
+      "homeTeam": "FCN",
+      "awayTeam": "COT"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "daniel",
+      "picks": {
+        "md35-01": "0:8",
+        "md35-02": "12:1"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 2.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 373.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.833333333333333
+    },
+    {
+      "rank": 1,
+      "player": "denis",
+      "picks": {
+        "md35-01": "1:2",
+        "md35-02": "1:0"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 2.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 344.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.333333333333333
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md35-01": "1:2",
+        "md35-02": "3:0"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 2.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 409.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.833333333333333
+    },
+    {
+      "rank": 4,
+      "player": "johannes",
+      "picks": {
+        "md35-01": "2:0",
+        "md35-02": "1:0"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 2.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 399.0,
+      "dayWin": false,
+      "dayWinsTotal": 7.0
+    },
+    {
+      "rank": 5,
+      "player": "dominik",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 101.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 5,
+      "player": "flo",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 178.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 5,
+      "player": "huy",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 389.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 5,
+      "player": "melli",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 334.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "daniel",
+      "points": 4.0
+    },
+    {
+      "rank": 1,
+      "player": "denis",
+      "points": 4.0
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 4.0
+    },
+    {
+      "rank": 4,
+      "player": "johannes",
+      "points": 2.0
+    },
+    {
+      "rank": 5,
+      "player": "dominik",
+      "points": 0.0
+    },
+    {
+      "rank": 5,
+      "player": "flo",
+      "points": 0.0
+    },
+    {
+      "rank": 5,
+      "player": "huy",
+      "points": 0.0
+    },
+    {
+      "rank": 5,
+      "player": "melli",
+      "points": 0.0
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PetzTipp · Home</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" type="image/png" href="img/logo/favicon.jpg">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <a href="index.html">
+          <img src="img/logo/tippspiel_logo.png" class="siteLogo" alt="Tippspiel Logo" width="64px">
+        </a>
+        <div>
+          <div><h1>Tippspiel</h1></div>
+          <div class="small"></div>
+        </div>
+      </div>
+      <div class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="games.html" class="nav-link">Tippspiele</a>
+        <a href="players.html" class="nav-link">Teilnehmer</a>
+        <a href="stats.html" class="nav-link">Statistik</a>
+        <a href="worldranking.html" class="nav-link">Weltrangliste</a>
+      </div>
+
+      <nav class="mobile-bottom-nav">
+        <a href="index.html" aria-label="Home" class="active">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="games.html" aria-label="Tippspiele">
+          <i class="fa-solid fa-futbol"></i>
+        </a>
+        <a href="players.html" aria-label="Teilnehmer">
+          <i class="fa-solid fa-users"></i>
+        </a>
+        <a href="stats.html" aria-label="Statistik">
+          <i class="fa-solid fa-chart-column"></i>
+        </a>
+        <a href="worldranking.html" aria-label="Weltrangliste">
+          <i class="fa-solid fa-trophy"></i>
+        </a>
+      </nav>
+    </div>
+
+    <section class="hero">
+      <div class="hgrid">
+        <div>
+          <h1>PetzTipp<br></h1>
+            <h2>Wette wie ein Fuchs, tippe wie ein Champion</h2>
+          <p class="sub">
+            Übersicht über Tippspiele, Spieltage und Statistiken.<br>
+          </p>
+          <div class="kpis" id="kpis"></div>
+        </div>
+
+        <div class="card">
+          <div class="bd">
+            <h2>Quick Links</h2>
+            <div class="small">Direkt zu den neuesten Tippspielen und Top-Spielern.</div>
+          </div>
+          <div class="quickLinks" id="quicklinks"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid" style="margin-top:14px">
+      <section class="card" id="stats">
+        <div class="hd">
+          <h2>Statistik</h2>
+          <p>Ewige Tabelle</p>
+        </div>
+        <div class="bd" id="leaderboard"></div>
+      </section>
+
+      <section class="card" id="turniere">
+        <div class="hd">
+          <h2>Tippspiele</h2>
+          <p>Die letzten Wettbewerbe</p>
+        </div>
+        <div class="bd">
+          <div class="search">
+            <input id="gameFilter" class="input" placeholder="Jahr / Wettbewerb / Notiz suchen..." />
+          </div>
+          <div class="hr"></div>
+          <div id="gamesList"></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="card" id="teilnehmer" style="margin-top:14px">
+      <div class="hd">
+        <h2>Teilnehmer</h2>
+          <p>Spielerprofile</p>
+      </div>
+      <div class="bd">
+        <div class="search">
+          <input id="playerFilter" class="input" placeholder="Name / Nickname suchen..." />
+        </div>
+        <div class="hr"></div>
+        <div id="playersList"></div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <div class="footer">PetzTipp · © 2026</div>
+
+  <script src="js/common.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

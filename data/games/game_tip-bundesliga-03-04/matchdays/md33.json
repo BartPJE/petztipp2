@@ -1,0 +1,174 @@
+{
+  "no": 33,
+  "label": "Spieltag 33",
+  "date": "15.05.2004",
+  "matches": [
+    {
+      "id": "md33-01",
+      "home": "FC Schalke 04",
+      "away": "1. FC Kaiserslautern",
+      "result": "4:1",
+      "date": "15.05.2004",
+      "time": "15:30",
+      "homeTeam": "S04",
+      "awayTeam": "FCK"
+    },
+    {
+      "id": "md33-02",
+      "home": "Borussia Dortmund",
+      "away": "Borussia Mönchengladbach",
+      "result": "3:1",
+      "date": "15.05.2004",
+      "time": "15:30",
+      "homeTeam": "BVB",
+      "awayTeam": "BMG"
+    },
+    {
+      "id": "md33-03",
+      "home": "TSV München 1860",
+      "away": "Hertha BSC",
+      "result": "1:1",
+      "date": "15.05.2004",
+      "time": "15:30",
+      "homeTeam": "1860",
+      "awayTeam": "BSC"
+    },
+    {
+      "id": "md33-04",
+      "home": "Hannover 96",
+      "away": "VfL Wolfsburg",
+      "result": "0:0",
+      "date": "15.05.2004",
+      "time": "15:30",
+      "homeTeam": "H96",
+      "awayTeam": "WOB"
+    },
+    {
+      "id": "md33-05",
+      "home": "1. FC Köln",
+      "away": "Hansa Rostock",
+      "result": "4:0",
+      "date": "15.05.2004",
+      "time": "15:30",
+      "homeTeam": "KOE",
+      "awayTeam": "ROS"
+    },
+    {
+      "id": "md33-06",
+      "home": "Eintracht Frankfurt",
+      "away": "VfL Bochum",
+      "result": "3:2",
+      "date": "15.05.2004",
+      "time": "15:30",
+      "homeTeam": "SGE",
+      "awayTeam": "BOC"
+    },
+    {
+      "id": "md33-07",
+      "home": "SV Werder Bremen",
+      "away": "Bayer 04 Leverkusen",
+      "result": "2:6",
+      "date": "15.05.2004",
+      "time": "15:30",
+      "homeTeam": "SVW",
+      "awayTeam": "B04"
+    },
+    {
+      "id": "md33-08",
+      "home": "VfB Stuttgart",
+      "away": "FC Bayern München",
+      "result": "3:1",
+      "date": "15.05.2004",
+      "time": "15:30",
+      "homeTeam": "VFB",
+      "awayTeam": "FCB"
+    },
+    {
+      "id": "md33-09",
+      "home": "SC Freiburg",
+      "away": "Hamburger SV",
+      "result": "0:0",
+      "date": "15.05.2004",
+      "time": "15:30",
+      "homeTeam": "SCF",
+      "awayTeam": "HSV"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md33-01": "2:1",
+        "md33-02": "3:1",
+        "md33-03": "0:2",
+        "md33-04": "2:2",
+        "md33-05": "1:2",
+        "md33-06": "0:3",
+        "md33-07": "3:3",
+        "md33-08": "1:2",
+        "md33-09": "2:1"
+      },
+      "pickPoints": {
+        "md33-01": 2.0,
+        "md33-02": 4.0,
+        "md33-03": 0.0,
+        "md33-04": 2.0,
+        "md33-05": 0.0,
+        "md33-06": 0.0,
+        "md33-07": 0.0,
+        "md33-08": 0.0,
+        "md33-09": 0.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 131.0,
+      "dayWin": false,
+      "dayWinsTotal": 9.0
+    },
+    {
+      "rank": 1,
+      "player": "thomas",
+      "picks": {
+        "md33-01": "2:0",
+        "md33-02": "2:0",
+        "md33-03": "1:1",
+        "md33-04": "0:0",
+        "md33-05": "0:1",
+        "md33-06": "1:2",
+        "md33-07": "2:3",
+        "md33-08": "1:1",
+        "md33-09": "1:0"
+      },
+      "pickPoints": {
+        "md33-01": 2.0,
+        "md33-02": 3.0,
+        "md33-03": 4.0,
+        "md33-04": 4.0,
+        "md33-05": 0.0,
+        "md33-06": 0.0,
+        "md33-07": 2.0,
+        "md33-08": 0.0,
+        "md33-09": 0.0
+      },
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 99.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "thomas",
+      "points": 15.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 8.0
+    }
+  ],
+  "id": "md33"
+}

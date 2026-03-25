@@ -1,0 +1,457 @@
+{
+  "id": "tip-bundesliga-06-07",
+  "title": "Bundesliga 2006/2007",
+  "competition": "Bundesliga",
+  "season": "2006/2007",
+  "bonusTips": {
+    "questions": [],
+    "picks": [
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Plätze 16-18": [
+            "AAA",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "SVW",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "melli",
+        "name": "Melli",
+        "predictions": {
+          "Plätze 16-18": [
+            "AAA",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "Unbekannt",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "huy",
+        "name": "Huy",
+        "predictions": {
+          "Plätze 16-18": [
+            "Unbekannt",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "SVW",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Plätze 16-18": [
+            "AAA",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "Unbekannt",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "thomas",
+        "name": "Thomas",
+        "predictions": {
+          "Plätze 16-18": [
+            "AAA",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "SVW",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Plätze 16-18": [
+            "Unbekannt",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "Unbekannt",
+          "Erster Trainerwechsel": "H96"
+        }
+      },
+      {
+        "player": "felix",
+        "name": "Felix",
+        "predictions": {
+          "Plätze 16-18": [
+            "AAA",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "SVW",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "denis",
+        "name": "Denis",
+        "predictions": {
+          "Plätze 16-18": [
+            "Unbekannt",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "SVW",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Plätze 16-18": [
+            "Unbekannt",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "Unbekannt",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "daniel",
+        "name": "Daniel",
+        "predictions": {
+          "Plätze 16-18": [
+            "Unbekannt",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "Unbekannt",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "steffi",
+        "name": "Steffi",
+        "predictions": {
+          "Plätze 16-18": [
+            "Unbekannt",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "Unbekannt",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "dominik",
+        "name": "Dominik",
+        "predictions": {
+          "Plätze 16-18": [
+            "Unbekannt",
+            "Unbekannt",
+            "Unbekannt"
+          ],
+          "Torschütze": "Unbekannt",
+          "Deutscher Meister": "Unbekannt",
+          "Herbstmeister": "Unbekannt",
+          "Erster Trainerwechsel": "Unbekannt"
+        }
+      },
+      {
+        "player": "result",
+        "name": "Ergebnis",
+        "predictions": {
+          "Plätze 16-18": [
+            "BMG",
+            "AAA",
+            "M05"
+          ],
+          "Torschütze": "BOC",
+          "Deutscher Meister": "VFB",
+          "Herbstmeister": "SVW",
+          "Erster Trainerwechsel": "H96"
+        }
+      },
+      {
+        "player": "points",
+        "name": "Punkte",
+        "predictions": {
+          "Plätze 16-18": "3",
+          "Torschütze": "3",
+          "Deutscher Meister": "5",
+          "Herbstmeister": "3",
+          "Erster Trainerwechsel": "2"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "11.08.2006 - 13.08.2006",
+      "no": 1,
+      "file": "matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "18.08.2006 - 20.08.2006",
+      "no": 2,
+      "file": "matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "25.08.2006 - 27.08.2006",
+      "no": 3,
+      "file": "matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "15.09.2006 - 17.09.2006",
+      "no": 4,
+      "file": "matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "22.09.2006 - 24.09.2006",
+      "no": 5,
+      "file": "matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "29.09.2006 - 01.10.2006",
+      "no": 6,
+      "file": "matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "13.10.2006 - 15.10.2006",
+      "no": 7,
+      "file": "matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "20.10.2006 - 22.10.2006",
+      "no": 8,
+      "file": "matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "27.10.2006 - 29.10.2006",
+      "no": 9,
+      "file": "matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "03.11.2006 - 05.11.2006",
+      "no": 10,
+      "file": "matchdays/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "07.11.2006 - 08.11.2006",
+      "no": 11,
+      "file": "matchdays/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "10.11.2006 - 12.11.2006",
+      "no": 12,
+      "file": "matchdays/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "17.11.2006 - 19.11.2006",
+      "no": 13,
+      "file": "matchdays/md13.json"
+    },
+    {
+      "id": "md14",
+      "label": "Spieltag 14",
+      "date": "24.11.2006 - 26.11.2006",
+      "no": 14,
+      "file": "matchdays/md14.json"
+    },
+    {
+      "id": "md15",
+      "label": "Spieltag 15",
+      "date": "01.12.2006 - 03.12.2006",
+      "no": 15,
+      "file": "matchdays/md15.json"
+    },
+    {
+      "id": "md16",
+      "label": "Spieltag 16",
+      "date": "08.12.2006 - 10.12.2006",
+      "no": 16,
+      "file": "matchdays/md16.json"
+    },
+    {
+      "id": "md17",
+      "label": "Spieltag 17",
+      "date": "15.12.2006 - 17.12.2006",
+      "no": 17,
+      "file": "matchdays/md17.json"
+    },
+    {
+      "id": "md18",
+      "label": "Spieltag 18",
+      "date": "26.01.2007 - 28.01.2007",
+      "no": 18,
+      "file": "matchdays/md18.json"
+    },
+    {
+      "id": "md19",
+      "label": "Spieltag 19",
+      "date": "30.01.2007 - 31.01.2007",
+      "no": 19,
+      "file": "matchdays/md19.json"
+    },
+    {
+      "id": "md20",
+      "label": "Spieltag 20",
+      "date": "02.02.2007 - 04.02.2007",
+      "no": 20,
+      "file": "matchdays/md20.json"
+    },
+    {
+      "id": "md21",
+      "label": "Spieltag 21",
+      "date": "09.02.2007 - 11.02.2007",
+      "no": 21,
+      "file": "matchdays/md21.json"
+    },
+    {
+      "id": "md22",
+      "label": "Spieltag 22",
+      "date": "16.02.2007 - 18.02.2007",
+      "no": 22,
+      "file": "matchdays/md22.json"
+    },
+    {
+      "id": "md23",
+      "label": "Spieltag 23",
+      "date": "23.02.2007 - 25.02.2007",
+      "no": 23,
+      "file": "matchdays/md23.json"
+    },
+    {
+      "id": "md24",
+      "label": "Spieltag 24",
+      "date": "02.03.2007 - 04.03.2007",
+      "no": 24,
+      "file": "matchdays/md24.json"
+    },
+    {
+      "id": "md25",
+      "label": "Spieltag 25",
+      "date": "09.03.2007 - 11.03.2007",
+      "no": 25,
+      "file": "matchdays/md25.json"
+    },
+    {
+      "id": "md26",
+      "label": "Spieltag 26",
+      "date": "16.03.2007 - 18.03.2007",
+      "no": 26,
+      "file": "matchdays/md26.json"
+    },
+    {
+      "id": "md27",
+      "label": "Spieltag 27",
+      "date": "30.03.2007 - 01.04.2007",
+      "no": 27,
+      "file": "matchdays/md27.json"
+    },
+    {
+      "id": "md28",
+      "label": "Spieltag 28",
+      "date": "07.04.2007 - 08.04.2007",
+      "no": 28,
+      "file": "matchdays/md28.json"
+    },
+    {
+      "id": "md29",
+      "label": "Spieltag 29",
+      "date": "13.04.2007 - 15.04.2007",
+      "no": 29,
+      "file": "matchdays/md29.json"
+    },
+    {
+      "id": "md30",
+      "label": "Spieltag 30",
+      "date": "20.04.2007 - 22.04.2007",
+      "no": 30,
+      "file": "matchdays/md30.json"
+    },
+    {
+      "id": "md31",
+      "label": "Spieltag 31",
+      "date": "27.04.2007 - 29.04.2007",
+      "no": 31,
+      "file": "matchdays/md31.json"
+    },
+    {
+      "id": "md32",
+      "label": "Spieltag 32",
+      "date": "04.05.2007 - 06.05.2007",
+      "no": 32,
+      "file": "matchdays/md32.json"
+    },
+    {
+      "id": "md33",
+      "label": "Spieltag 33",
+      "date": "05/12/2007",
+      "no": 33,
+      "file": "matchdays/md33.json"
+    },
+    {
+      "id": "md34",
+      "label": "Spieltag 34",
+      "date": "19.05.2007",
+      "no": 34,
+      "file": "matchdays/md34.json"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "no": 20,
+  "label": "Spieltag 20",
+  "date": "14.02.2004 - 15.02.2004",
+  "matches": [
+    {
+      "id": "md20-01",
+      "home": "1. FC Köln",
+      "away": "FC Schalke 04",
+      "result": "0:2",
+      "date": "14.02.2004",
+      "time": "15:30",
+      "homeTeam": "KOE",
+      "awayTeam": "S04"
+    },
+    {
+      "id": "md20-02",
+      "home": "Eintracht Frankfurt",
+      "away": "Hansa Rostock",
+      "result": "1:1",
+      "date": "14.02.2004",
+      "time": "15:30",
+      "homeTeam": "SGE",
+      "awayTeam": "ROS"
+    },
+    {
+      "id": "md20-03",
+      "home": "Hannover 96",
+      "away": "Bayer 04 Leverkusen",
+      "result": "2:2",
+      "date": "14.02.2004",
+      "time": "15:30",
+      "homeTeam": "H96",
+      "awayTeam": "B04"
+    },
+    {
+      "id": "md20-04",
+      "home": "VfL Bochum",
+      "away": "FC Bayern München",
+      "result": "1:0",
+      "date": "14.02.2004",
+      "time": "15:30",
+      "homeTeam": "BOC",
+      "awayTeam": "FCB"
+    },
+    {
+      "id": "md20-05",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Mönchengladbach",
+      "result": "1:1",
+      "date": "14.02.2004",
+      "time": "15:30",
+      "homeTeam": "VFB",
+      "awayTeam": "BMG"
+    },
+    {
+      "id": "md20-06",
+      "home": "Hamburger SV",
+      "away": "VfL Wolfsburg",
+      "result": "2:0",
+      "date": "14.02.2004",
+      "time": "15:30",
+      "homeTeam": "HSV",
+      "awayTeam": "WOB"
+    },
+    {
+      "id": "md20-07",
+      "home": "SC Freiburg",
+      "away": "Hertha BSC",
+      "result": "2:3",
+      "date": "14.02.2004",
+      "time": "15:30",
+      "homeTeam": "SCF",
+      "awayTeam": "BSC"
+    },
+    {
+      "id": "md20-08",
+      "home": "SV Werder Bremen",
+      "away": "1. FC Kaiserslautern",
+      "result": "1:0",
+      "date": "15.02.2004",
+      "time": "17:30",
+      "homeTeam": "SVW",
+      "awayTeam": "FCK"
+    },
+    {
+      "id": "md20-09",
+      "home": "TSV München 1860",
+      "away": "Borussia Dortmund",
+      "result": "0:2",
+      "date": "15.02.2004",
+      "time": "17:30",
+      "homeTeam": "1860",
+      "awayTeam": "BVB"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md20-01": "2:1",
+        "md20-02": "3:1",
+        "md20-03": "0:2",
+        "md20-04": "1:2",
+        "md20-05": "3:1",
+        "md20-06": "1:1",
+        "md20-07": "1:2",
+        "md20-08": "3:1",
+        "md20-09": "0:1"
+      },
+      "pickPoints": {
+        "md20-01": 0.0,
+        "md20-02": 0.0,
+        "md20-03": 0.0,
+        "md20-04": 0.0,
+        "md20-05": 0.0,
+        "md20-06": 0.0,
+        "md20-07": 3.0,
+        "md20-08": 2.0,
+        "md20-09": 2.0
+      },
+      "points": 7.0,
+      "bonus": 0.0,
+      "total": 20.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 7.0
+    }
+  ],
+  "id": "md20"
+}

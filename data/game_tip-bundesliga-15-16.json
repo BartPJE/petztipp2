@@ -1,0 +1,648 @@
+{
+  "id": "tip-bundesliga-15-16",
+  "title": "Bundesliga 2015/2016",
+  "competition": "Bundesliga",
+  "season": "2015/2016",
+  "bonusTips": {
+    "questions": [
+      {
+        "label": "Torschütze",
+        "result": "Borussia Dortmund",
+        "points": 3.0
+      },
+      {
+        "label": "Plätze 16-18",
+        "result": [
+          "1. FC Nürnberg",
+          "H06",
+          "S94"
+        ],
+        "points": 3.0
+      },
+      {
+        "label": "Deutscher Meister",
+        "result": "FC Bayern München",
+        "points": 3.0
+      },
+      {
+        "label": "Herbstmeister",
+        "result": "FC Bayern München",
+        "points": 3.0
+      },
+      {
+        "label": "Erster Trainerwechsel",
+        "result": "Borussia Mönchengladbach",
+        "points": 3.0
+      }
+    ],
+    "picks": [
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Da98"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Hannover 96"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Da98"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Hannover 96"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "peterm",
+        "name": "Peter M.",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Da98"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Hannover 96"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "roman",
+        "name": "Roman",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "VfL Wolfsburg"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Hamburger SV"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "daniel",
+        "name": "Daniel",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "VfB"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Hertha"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "huy",
+        "name": "Huy",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Da98"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Hertha"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "katrin",
+        "name": "Katrin",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Da98"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "VfB"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "pascal",
+        "name": "Pascal",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Da98"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Hamburger SV"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Da98"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Hannover 96"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Da98"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Hamburger SV"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 3.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 6.0
+      },
+      {
+        "player": "manu",
+        "name": "Manu",
+        "predictions": {
+          "Torschütze": "FC Bayern München",
+          "Plätze 16-18": [
+            "Da98"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "BMG",
+          "Erster Trainerwechsel": "Hamburger SV"
+        },
+        "result": {
+          "Torschütze": "Borussia Dortmund",
+          "Plätze 16-18": [
+            "1. FC Nürnberg",
+            "H06",
+            "S94"
+          ],
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München",
+          "Erster Trainerwechsel": "Borussia Mönchengladbach"
+        },
+        "points": {
+          "Torschütze": 0.0,
+          "Plätze 16-18": 0.0,
+          "Deutscher Meister": 3.0,
+          "Herbstmeister": 0.0,
+          "Erster Trainerwechsel": 0.0
+        },
+        "bonusTotal": 3.0
+      },
+      {
+        "player": "kathi",
+        "name": "Kathi",
+        "predictions": {},
+        "result": {},
+        "points": {},
+        "bonusTotal": 0.0
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "14.08.2015 - 16.08.2015",
+      "no": 1,
+      "file": "matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "21.08.2015 - 23.08.2015",
+      "no": 2,
+      "file": "matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "28.08.2015 - 30.08.2015",
+      "no": 3,
+      "file": "matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "11.09.2015 - 13.09.2015",
+      "no": 4,
+      "file": "matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "18.09.2015 - 20.09.2015",
+      "no": 5,
+      "file": "matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "22.09.2015 - 23.09.2015",
+      "no": 6,
+      "file": "matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "25.09.2015 - 27.09.2015",
+      "no": 7,
+      "file": "matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "02.10.2015 - 04.10.2015",
+      "no": 8,
+      "file": "matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "16.10.2015 - 18.10.2015",
+      "no": 9,
+      "file": "matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "23.10.2015 - 25.10.2015",
+      "no": 10,
+      "file": "matchdays/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "30.10.2015 - 01.11.2015",
+      "no": 11,
+      "file": "matchdays/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "06.11.2015 - 08.11.2015",
+      "no": 12,
+      "file": "matchdays/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "20.11.2015 - 22.11.2015",
+      "no": 13,
+      "file": "matchdays/md13.json"
+    },
+    {
+      "id": "md14",
+      "label": "Spieltag 14",
+      "date": "27.11.2015 - 29.11.2015",
+      "no": 14,
+      "file": "matchdays/md14.json"
+    },
+    {
+      "id": "md15",
+      "label": "Spieltag 15",
+      "date": "04.12.2015 - 06.12.2015",
+      "no": 15,
+      "file": "matchdays/md15.json"
+    },
+    {
+      "id": "md16",
+      "label": "Spieltag 16",
+      "date": "11.12.2015 - 13.12.2015",
+      "no": 16,
+      "file": "matchdays/md16.json"
+    },
+    {
+      "id": "md17",
+      "label": "Spieltag 17",
+      "date": "18.12.2015 - 20.12.2015",
+      "no": 17,
+      "file": "matchdays/md17.json"
+    },
+    {
+      "id": "md18",
+      "label": "Spieltag 18",
+      "date": "22.01.2016 - 24.01.2016",
+      "no": 18,
+      "file": "matchdays/md18.json"
+    },
+    {
+      "id": "md19",
+      "label": "Spieltag 19",
+      "date": "29.01.2016 - 31.01.2016",
+      "no": 19,
+      "file": "matchdays/md19.json"
+    },
+    {
+      "id": "md20",
+      "label": "Spieltag 20",
+      "date": "05.02.2016 - 07.02.2016",
+      "no": 20,
+      "file": "matchdays/md20.json"
+    },
+    {
+      "id": "md21",
+      "label": "Spieltag 21",
+      "date": "12.02.2016 - 14.02.2016",
+      "no": 21,
+      "file": "matchdays/md21.json"
+    },
+    {
+      "id": "md22",
+      "label": "Spieltag 22",
+      "date": "19.02.2016 - 21.02.2016",
+      "no": 22,
+      "file": "matchdays/md22.json"
+    },
+    {
+      "id": "md23",
+      "label": "Spieltag 23",
+      "date": "26.02.2016 - 28.02.2016",
+      "no": 23,
+      "file": "matchdays/md23.json"
+    },
+    {
+      "id": "md24",
+      "label": "Spieltag 24",
+      "date": "01.03.2016 - 02.03.2016",
+      "no": 24,
+      "file": "matchdays/md24.json"
+    },
+    {
+      "id": "md25",
+      "label": "Spieltag 25",
+      "date": "05.03.2016 - 06.03.2016",
+      "no": 25,
+      "file": "matchdays/md25.json"
+    },
+    {
+      "id": "md26",
+      "label": "Spieltag 26",
+      "date": "11.03.2016 - 13.03.2016",
+      "no": 26,
+      "file": "matchdays/md26.json"
+    },
+    {
+      "id": "md27",
+      "label": "Spieltag 27",
+      "date": "18.03.2016 - 20.03.2016",
+      "no": 27,
+      "file": "matchdays/md27.json"
+    },
+    {
+      "id": "md28",
+      "label": "Spieltag 28",
+      "date": "01.04.2016 - 03.04.2016",
+      "no": 28,
+      "file": "matchdays/md28.json"
+    },
+    {
+      "id": "md29",
+      "label": "Spieltag 29",
+      "date": "08.04.2016 - 10.04.2016",
+      "no": 29,
+      "file": "matchdays/md29.json"
+    },
+    {
+      "id": "md30",
+      "label": "Spieltag 30",
+      "date": "15.04.2016 - 17.04.2016",
+      "no": 30,
+      "file": "matchdays/md30.json"
+    },
+    {
+      "id": "md31",
+      "label": "Spieltag 31",
+      "date": "22.04.2016 - 24.04.2016",
+      "no": 31,
+      "file": "matchdays/md31.json"
+    },
+    {
+      "id": "md32",
+      "label": "Spieltag 32",
+      "date": "29.04.2016 - 02.05.2016",
+      "no": 32,
+      "file": "matchdays/md32.json"
+    },
+    {
+      "id": "md33",
+      "label": "Spieltag 33",
+      "date": "07.05.2016 - 07.05.2016",
+      "no": 33,
+      "file": "matchdays/md33.json"
+    },
+    {
+      "id": "md34",
+      "label": "Spieltag 34",
+      "date": "14.05.2016 - 14.05.2016",
+      "no": 34,
+      "file": "matchdays/md34.json"
+    },
+    {
+      "id": "md35",
+      "label": "Relegation",
+      "date": "",
+      "no": 35,
+      "file": "matchdays/md35.json"
+    }
+  ]
+}

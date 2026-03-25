@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "alex",
+    "name": "Alex",
+    "nickname": "Redline Regent",
+    "home": "Deutschland",
+    "photo": "img/players/alex.png"
+  },
+  {
+    "slug": "alois",
+    "name": "Alois",
+    "nickname": "Penalty Paladin",
+    "home": "Deutschland",
+    "photo": "img/players/alois.png"
+  },
+  {
+    "slug": "andy",
+    "name": "Andy",
+    "nickname": "Goal Whisperer",
+    "home": "Deutschland",
+    "photo": "img/players/andy.png"
+  },
+  {
+    "slug": "basti",
+    "name": "Basti",
+    "nickname": "Playmaker",
+    "home": "Deutschland",
+    "photo": "img/players/basti.png"
+  },
+  {
+    "slug": "bene",
+    "name": "Bene",
+    "nickname": "Tactician",
+    "home": "Deutschland",
+    "photo": "img/players/bene.png"
+  },
+  {
+    "slug": "bernhard",
+    "name": "Bernhard",
+    "nickname": "Defender",
+    "home": "Deutschland",
+    "photo": "img/players/bernhard.png"
+  },
+  {
+    "slug": "pascal",
+    "name": "Pascal",
+    "nickname": "Maestro",
+    "home": "Deutschland",
+    "photo": "img/players/pascal.png"
+  },
+  {
+    "slug": "daniel",
+    "name": "Daniel",
+    "nickname": "Midfield Archon",
+    "home": "Deutschland",
+    "photo": "img/players/daniel.png"
+  },
+  {
+    "slug": "denis",
+    "name": "Denis",
+    "nickname": "Shadow Finisher",
+    "home": "Deutschland",
+    "photo": "img/players/denis.png"
+  },
+  {
+    "slug": "dominik",
+    "name": "Dominik",
+    "nickname": "Tempo Tyrant",
+    "home": "Deutschland",
+    "photo": "img/players/dominik.png"
+  },
+  {
+    "slug": "flok",
+    "name": "Flo K.",
+    "nickname": "Box-to-Box Baron",
+    "home": "Deutschland",
+    "photo": "img/players/flok.png"
+  },
+  {
+    "slug": "felix",
+    "name": "Felix",
+    "nickname": "Wing Wizard",
+    "home": "Deutschland",
+    "photo": "img/players/felix.png"
+  },
+  {
+    "slug": "franzi",
+    "name": "Franzi",
+    "nickname": "Pressing Phantom",
+    "home": "Deutschland",
+    "photo": "img/players/franzi.png"
+  },
+  {
+    "slug": "manug",
+    "name": "Glauni",
+    "nickname": "Scoreline Oracle",
+    "home": "Deutschland",
+    "photo": "img/players/manug.png"
+  },
+  {
+    "slug": "hubi",
+    "name": "Hubi",
+    "nickname": "Final Boss",
+    "home": "Deutschland",
+    "photo": "img/players/hubi.png"
+  },
+  {
+    "slug": "huy",
+    "name": "Huy",
+    "nickname": "Grudge Keeper",
+    "home": "Deutschland",
+    "photo": "img/players/huy.png"
+  },
+  {
+    "slug": "jens",
+    "name": "Jens",
+    "nickname": "Night Watch",
+    "home": "Deutschland",
+    "photo": "img/players/jens.png"
+  },
+  {
+    "slug": "johannes",
+    "name": "Johannes",
+    "nickname": "Razor Mind",
+    "home": "Deutschland",
+    "photo": "img/players/johannes.png"
+  },
+  {
+    "slug": "juergen",
+    "name": "Jürgen",
+    "nickname": "Cold Blood",
+    "home": "Deutschland",
+    "photo": "img/players/juergen.png"
+  },
+  {
+    "slug": "kathi",
+    "name": "Kathi",
+    "nickname": "Chaos Controller",
+    "home": "Deutschland",
+    "photo": "img/players/kathi.png"
+  },
+  {
+    "slug": "manu",
+    "name": "Manu",
+    "nickname": "Warden",
+    "home": "Deutschland",
+    "photo": "img/players/manu.png"
+  },
+  {
+    "slug": "markus",
+    "name": "Markus",
+    "nickname": "Crownbreaker",
+    "home": "Deutschland",
+    "photo": "img/players/markus.png"
+  },
+  {
+    "slug": "melli",
+    "name": "Melli",
+    "nickname": "Flame Judge",
+    "home": "Deutschland",
+    "photo": "img/players/melli.png"
+  },
+  {
+    "slug": "michi",
+    "name": "Michi",
+    "nickname": "Apex Hunter",
+    "home": "Deutschland",
+    "photo": "img/players/michi.png"
+  },
+  {
+    "slug": "nyclon",
+    "name": "Nyclon",
+    "nickname": "Kingmaker",
+    "home": "Deutschland",
+    "photo": "img/players/nyclon.png"
+  },
+  {
+    "slug": "peter",
+    "name": "Peter",
+    "nickname": "Vanguard",
+    "home": "Deutschland",
+    "photo": "img/players/peter.png"
+  },
+  {
+    "slug": "michih",
+    "name": "Michi H.",
+    "nickname": "Silent Overlord",
+    "home": "Österreich",
+    "photo": "img/players/michih.png"
+  },
+  {
+    "slug": "peterm",
+    "name": "Peter M.",
+    "nickname": "Mastermind",
+    "home": "Deutschland",
+    "photo": "img/players/peterm.png"
+  },
+  {
+    "slug": "roman",
+    "name": "Roman",
+    "nickname": "Headliner",
+    "home": "Deutschland",
+    "photo": "img/players/roman.png"
+  },
+  {
+    "slug": "sabine",
+    "name": "Sabine",
+    "nickname": "Rivalry Reaper",
+    "home": "Deutschland",
+    "photo": "img/players/sabine.png"
+  },
+  {
+    "slug": "stefan",
+    "name": "Stefan",
+    "nickname": "Runesmith",
+    "home": "Deutschland",
+    "photo": "img/players/stefan.png"
+  },
+  {
+    "slug": "thomas",
+    "name": "Thomas",
+    "nickname": "Point Collector",
+    "home": "Deutschland",
+    "photo": "img/players/thomas.png"
+  },
+  {
+    "slug": "steffi",
+    "name": "Steffi",
+    "nickname": "The Strategist",
+    "home": "Deutschland",
+    "photo": "img/players/steffi.png"
+  },
+  {
+    "slug": "matthiasv",
+    "name": "Matthias V.",
+    "nickname": "The Enforcer",
+    "home": "Deutschland",
+    "photo": "img/players/matthiasv.png"
+  },
+  {
+    "slug": "flo",
+    "name": "Flo S.",
+    "nickname": "Tempo Master",
+    "home": "Deutschland",
+    "photo": "img/players/flo.png"
+  },
+  {
+    "slug": "helga",
+    "name": "Helga",
+    "nickname": "Iron Guardian",
+    "home": "USA",
+    "photo": "img/players/helga.png"
+  }
+]

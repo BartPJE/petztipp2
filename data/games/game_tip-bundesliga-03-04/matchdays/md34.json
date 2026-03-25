@@ -1,0 +1,174 @@
+{
+  "no": 34,
+  "label": "Spieltag 34",
+  "date": "22.05.2004",
+  "matches": [
+    {
+      "id": "md34-01",
+      "home": "Hamburger SV",
+      "away": "Eintracht Frankfurt",
+      "result": "2:1",
+      "date": "22.05.2004",
+      "time": "15:30",
+      "homeTeam": "HSV",
+      "awayTeam": "SGE"
+    },
+    {
+      "id": "md34-02",
+      "home": "FC Bayern München",
+      "away": "SC Freiburg",
+      "result": "2:0",
+      "date": "22.05.2004",
+      "time": "15:30",
+      "homeTeam": "FCB",
+      "awayTeam": "SCF"
+    },
+    {
+      "id": "md34-03",
+      "home": "Bayer 04 Leverkusen",
+      "away": "VfB Stuttgart",
+      "result": "2:0",
+      "date": "22.05.2004",
+      "time": "15:30",
+      "homeTeam": "B04",
+      "awayTeam": "VFB"
+    },
+    {
+      "id": "md34-04",
+      "home": "VfL Bochum",
+      "away": "Hannover 96",
+      "result": "3:1",
+      "date": "22.05.2004",
+      "time": "15:30",
+      "homeTeam": "BOC",
+      "awayTeam": "H96"
+    },
+    {
+      "id": "md34-05",
+      "home": "Hansa Rostock",
+      "away": "SV Werder Bremen",
+      "result": "3:1",
+      "date": "22.05.2004",
+      "time": "15:30",
+      "homeTeam": "ROS",
+      "awayTeam": "SVW"
+    },
+    {
+      "id": "md34-06",
+      "home": "VfL Wolfsburg",
+      "away": "FC Schalke 04",
+      "result": "1:1",
+      "date": "22.05.2004",
+      "time": "15:30",
+      "homeTeam": "WOB",
+      "awayTeam": "S04"
+    },
+    {
+      "id": "md34-07",
+      "home": "Hertha BSC",
+      "away": "1. FC Köln",
+      "result": "3:1",
+      "date": "22.05.2004",
+      "time": "15:30",
+      "homeTeam": "BSC",
+      "awayTeam": "KOE"
+    },
+    {
+      "id": "md34-08",
+      "home": "Borussia Mönchengladbach",
+      "away": "TSV München 1860",
+      "result": "3:1",
+      "date": "22.05.2004",
+      "time": "15:30",
+      "homeTeam": "BMG",
+      "awayTeam": "1860"
+    },
+    {
+      "id": "md34-09",
+      "home": "1. FC Kaiserslautern",
+      "away": "Borussia Dortmund",
+      "result": "1:1",
+      "date": "22.05.2004",
+      "time": "15:30",
+      "homeTeam": "FCK",
+      "awayTeam": "BVB"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md34-01": "2:3",
+        "md34-02": "4:1",
+        "md34-03": "3:2",
+        "md34-04": "2:0",
+        "md34-05": "2:2",
+        "md34-06": "1:2",
+        "md34-07": "3:1",
+        "md34-08": "0:2",
+        "md34-09": "0:3"
+      },
+      "pickPoints": {
+        "md34-01": 0.0,
+        "md34-02": 2.0,
+        "md34-03": 2.0,
+        "md34-04": 3.0,
+        "md34-05": 0.0,
+        "md34-06": 0.0,
+        "md34-07": 4.0,
+        "md34-08": 0.0,
+        "md34-09": 0.0
+      },
+      "points": 11.0,
+      "bonus": 0.0,
+      "total": 142.0,
+      "dayWin": false,
+      "dayWinsTotal": 9.0
+    },
+    {
+      "rank": 1,
+      "player": "thomas",
+      "picks": {
+        "md34-01": "3:2",
+        "md34-02": "1:1",
+        "md34-03": "3:1",
+        "md34-04": "3:1",
+        "md34-05": "3:1",
+        "md34-06": "2:1",
+        "md34-07": "2:1",
+        "md34-08": "2:4",
+        "md34-09": "1:2"
+      },
+      "pickPoints": {
+        "md34-01": 3.0,
+        "md34-02": 0.0,
+        "md34-03": 3.0,
+        "md34-04": 4.0,
+        "md34-05": 4.0,
+        "md34-06": 0.0,
+        "md34-07": 2.0,
+        "md34-08": 0.0,
+        "md34-09": 0.0
+      },
+      "points": 16.0,
+      "bonus": 0.0,
+      "total": 115.0,
+      "dayWin": true,
+      "dayWinsTotal": 6.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "thomas",
+      "points": 16.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 11.0
+    }
+  ],
+  "id": "md34"
+}

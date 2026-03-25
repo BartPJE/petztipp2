@@ -1,0 +1,228 @@
+{
+  "id": "md35",
+  "label": "Spieltag 35",
+  "date": "19.05.2011 - 25.05.2011",
+  "no": 35,
+  "matches": [
+    {
+      "id": "md35-01",
+      "home": "Borussia Mönchengladbach",
+      "away": "VfL Bochum",
+      "homeTeam": "BMG",
+      "awayTeam": "BOC",
+      "result": "1:0",
+      "time": ""
+    },
+    {
+      "id": "md35-02",
+      "home": "VfL Bochum",
+      "away": "Borussia Mönchengladbach",
+      "homeTeam": "BOC",
+      "awayTeam": "BMG",
+      "result": "1:1",
+      "time": ""
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "daniel",
+      "picks": {
+        "md35-01": "1:0",
+        "md35-02": "2:0"
+      },
+      "pickPoints": {
+        "md35-01": 4.0,
+        "md35-02": 0.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 368.0,
+      "dayWin": true,
+      "dayWinsTotal": 9.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md35-01": "2:0",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 355.0,
+      "dayWin": false,
+      "dayWinsTotal": 6.5
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "picks": {
+        "md35-01": "1:3",
+        "md35-02": "2:1"
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 354.0,
+      "dayWin": false,
+      "dayWinsTotal": 8.0
+    },
+    {
+      "rank": 4,
+      "player": "alois",
+      "picks": {
+        "md35-01": null,
+        "md35-02": null
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 337.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 5,
+      "player": "huy",
+      "picks": {
+        "md35-01": "1:0",
+        "md35-02": "2:3"
+      },
+      "pickPoints": {
+        "md35-01": 4.0,
+        "md35-02": 0.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 326.0,
+      "dayWin": true,
+      "dayWinsTotal": 6.5
+    },
+    {
+      "rank": 6,
+      "player": "markus",
+      "picks": {
+        "md35-01": null,
+        "md35-02": null
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 190.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 7,
+      "player": "melli",
+      "picks": {
+        "md35-01": null,
+        "md35-02": null
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 79.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 8,
+      "player": "franzi",
+      "picks": {
+        "md35-01": null,
+        "md35-02": null
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 28.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 9,
+      "player": "bernhard",
+      "picks": {
+        "md35-01": null,
+        "md35-02": null
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 4.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "daniel",
+      "points": 4.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 2.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 0.0
+    },
+    {
+      "rank": 4,
+      "player": "alois",
+      "points": 0.0
+    },
+    {
+      "rank": 5,
+      "player": "huy",
+      "points": 4.0
+    },
+    {
+      "rank": 6,
+      "player": "markus",
+      "points": 0.0
+    },
+    {
+      "rank": 7,
+      "player": "melli",
+      "points": 0.0
+    },
+    {
+      "rank": 8,
+      "player": "franzi",
+      "points": 0.0
+    },
+    {
+      "rank": 9,
+      "player": "bernhard",
+      "points": 0.0
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "id": "md18",
+  "label": "Spieltag 18",
+  "date": "27.01.2023 - 29.01.2023",
+  "no": 18,
+  "matches": [
+    {
+      "id": "md18-01",
+      "home": "RB Leipzig",
+      "away": "VfB Stuttgart",
+      "homeTeam": "RBL",
+      "awayTeam": "VFB",
+      "result": "2:1",
+      "date": "27.01.2023",
+      "time": "20:30"
+    },
+    {
+      "id": "md18-02",
+      "home": "1. FSV Mainz 05",
+      "away": "VfL Bochum 1848",
+      "homeTeam": "M05",
+      "awayTeam": "BOC",
+      "result": "5:2",
+      "date": "28.01.2023",
+      "time": "15:30"
+    },
+    {
+      "id": "md18-03",
+      "home": "SC Freiburg",
+      "away": "FC Augsburg",
+      "homeTeam": "SCF",
+      "awayTeam": "FCA",
+      "result": "3:1",
+      "date": "28.01.2023",
+      "time": "15:30"
+    },
+    {
+      "id": "md18-04",
+      "home": "Hertha BSC",
+      "away": "1. FC Union Berlin",
+      "homeTeam": "BSC",
+      "awayTeam": "FCU",
+      "result": "0:2",
+      "date": "28.01.2023",
+      "time": "15:30"
+    },
+    {
+      "id": "md18-05",
+      "home": "SV Werder Bremen",
+      "away": "VfL Wolfsburg",
+      "homeTeam": "SVW",
+      "awayTeam": "WOB",
+      "result": "2:1",
+      "date": "28.01.2023",
+      "time": "15:30"
+    },
+    {
+      "id": "md18-06",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "Borussia Mönchengladbach",
+      "homeTeam": "TSG",
+      "awayTeam": "BMG",
+      "result": "1:4",
+      "date": "28.01.2023",
+      "time": "15:30"
+    },
+    {
+      "id": "md18-07",
+      "home": "FC Bayern München",
+      "away": "Eintracht Frankfurt",
+      "homeTeam": "FCB",
+      "awayTeam": "SGE",
+      "result": "1:1",
+      "date": "28.01.2023",
+      "time": "18:30"
+    },
+    {
+      "id": "md18-08",
+      "home": "FC Schalke 04",
+      "away": "1. FC Köln",
+      "homeTeam": "S04",
+      "awayTeam": "KOE",
+      "result": "0:0",
+      "date": "29.01.2023",
+      "time": "15:30"
+    },
+    {
+      "id": "md18-09",
+      "home": "Bayer 04 Leverkusen",
+      "away": "Borussia Dortmund",
+      "homeTeam": "B04",
+      "awayTeam": "BVB",
+      "result": "0:2",
+      "date": "29.01.2023",
+      "time": "17:30"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 4,
+      "player": "hubi",
+      "picks": {
+        "md18-01": "2:1",
+        "md18-02": "2:1",
+        "md18-03": "2:1",
+        "md18-04": "1:2",
+        "md18-05": "1:2",
+        "md18-06": "2:1",
+        "md18-07": "2:1",
+        "md18-08": "1:2",
+        "md18-09": "2:1"
+      },
+      "pickPoints": {
+        "md18-01": 4.0,
+        "md18-02": 2.0,
+        "md18-03": 2.0,
+        "md18-04": 2.0,
+        "md18-05": 0.0,
+        "md18-06": 0.0,
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 224.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.8333333333333335
+    },
+    {
+      "rank": 2,
+      "player": "alois",
+      "picks": {
+        "md18-01": "2:0",
+        "md18-02": "2:1",
+        "md18-03": "2:1",
+        "md18-04": "1:2",
+        "md18-05": "2:1",
+        "md18-06": "2:1",
+        "md18-07": "2:0",
+        "md18-08": "1:2",
+        "md18-09": "2:1"
+      },
+      "pickPoints": {
+        "md18-01": 2.0,
+        "md18-02": 2.0,
+        "md18-03": 2.0,
+        "md18-04": 2.0,
+        "md18-05": 4.0,
+        "md18-06": 0.0,
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 220.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.833333333333333
+    },
+    {
+      "rank": 8,
+      "player": "peterm",
+      "picks": {
+        "md18-01": "2:0",
+        "md18-02": "2:1",
+        "md18-03": "2:1",
+        "md18-04": "0:1",
+        "md18-05": "1:3",
+        "md18-06": "1:1",
+        "md18-07": "2:1",
+        "md18-08": "0:2",
+        "md18-09": "2:2"
+      },
+      "pickPoints": {
+        "md18-01": 2.0,
+        "md18-02": 2.0,
+        "md18-03": 2.0,
+        "md18-04": 2.0,
+        "md18-05": 0.0,
+        "md18-06": 0.0,
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 212.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 4,
+      "player": "manug",
+      "picks": {
+        "md18-01": "2:0",
+        "md18-02": "1:0",
+        "md18-03": "2:1",
+        "md18-04": "0:2",
+        "md18-05": "0:2",
+        "md18-06": "1:1",
+        "md18-07": "4:1",
+        "md18-08": "2:1",
+        "md18-09": "2:2"
+      },
+      "pickPoints": {
+        "md18-01": 2.0,
+        "md18-02": 2.0,
+        "md18-03": 2.0,
+        "md18-04": 4.0,
+        "md18-05": 0.0,
+        "md18-06": 0.0,
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 198.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.6666666666666666
+    },
+    {
+      "rank": 8,
+      "player": "johannes",
+      "picks": {
+        "md18-01": "2:1",
+        "md18-02": "1:0",
+        "md18-03": "1:0",
+        "md18-04": "1:1",
+        "md18-05": "1:1",
+        "md18-06": "1:1",
+        "md18-07": "2:0",
+        "md18-08": "1:2",
+        "md18-09": "1:1"
+      },
+      "pickPoints": {
+        "md18-01": 4.0,
+        "md18-02": 2.0,
+        "md18-03": 2.0,
+        "md18-04": 0.0,
+        "md18-05": 0.0,
+        "md18-06": 0.0,
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 194.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 7,
+      "player": "roman",
+      "picks": {
+        "md18-01": "2:0",
+        "md18-02": "2:1",
+        "md18-03": "2:1",
+        "md18-04": "1:3",
+        "md18-05": "1:3",
+        "md18-06": "2:1",
+        "md18-07": "3:1",
+        "md18-08": "1:2",
+        "md18-09": "2:1"
+      },
+      "pickPoints": {
+        "md18-01": 2.0,
+        "md18-02": 2.0,
+        "md18-03": 2.0,
+        "md18-04": 3.0,
+        "md18-05": 0.0,
+        "md18-06": 0.0,
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 197.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.8333333333333333
+    },
+    {
+      "rank": 4,
+      "player": "alex",
+      "picks": {
+        "md18-01": "2:1",
+        "md18-02": "2:1",
+        "md18-03": "1:0",
+        "md18-04": "0:1",
+        "md18-05": "1:3",
+        "md18-06": "2:1",
+        "md18-07": "2:1",
+        "md18-08": "0:1",
+        "md18-09": "2:2"
+      },
+      "pickPoints": {
+        "md18-01": 4.0,
+        "md18-02": 2.0,
+        "md18-03": 2.0,
+        "md18-04": 2.0,
+        "md18-05": 0.0,
+        "md18-06": 0.0,
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 193.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 11,
+      "player": "markus",
+      "picks": {
+        "md18-07": "3:1",
+        "md18-08": "1:2",
+        "md18-09": "2:2"
+      },
+      "pickPoints": {
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 189.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md18-01": "4:1",
+        "md18-02": "2:0",
+        "md18-03": "2:1",
+        "md18-04": "0:2",
+        "md18-05": "0:3",
+        "md18-06": "2:1",
+        "md18-07": "2:1",
+        "md18-08": "1:2",
+        "md18-09": "3:4"
+      },
+      "pickPoints": {
+        "md18-01": 2.0,
+        "md18-02": 2.0,
+        "md18-03": 2.0,
+        "md18-04": 4.0,
+        "md18-05": 0.0,
+        "md18-06": 0.0,
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 2.0
+      },
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 187.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 10,
+      "player": "bene",
+      "picks": {
+        "md18-01": "1:2",
+        "md18-02": "2:2",
+        "md18-03": "2:1",
+        "md18-04": "1:2",
+        "md18-05": "1:3",
+        "md18-06": "2:2",
+        "md18-07": "2:1",
+        "md18-08": "1:2",
+        "md18-09": "2:2"
+      },
+      "pickPoints": {
+        "md18-01": 0.0,
+        "md18-02": 0.0,
+        "md18-03": 2.0,
+        "md18-04": 2.0,
+        "md18-05": 0.0,
+        "md18-06": 0.0,
+        "md18-07": 0.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 183.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.8333333333333333
+    },
+    {
+      "rank": 1,
+      "player": "huy",
+      "picks": {
+        "md18-01": "3:0",
+        "md18-02": "1:1",
+        "md18-03": "2:1",
+        "md18-04": "0:2",
+        "md18-05": "2:1",
+        "md18-06": "1:2",
+        "md18-07": "1:1",
+        "md18-08": "0:1",
+        "md18-09": "2:3"
+      },
+      "pickPoints": {
+        "md18-01": 2.0,
+        "md18-02": 0.0,
+        "md18-03": 2.0,
+        "md18-04": 4.0,
+        "md18-05": 4.0,
+        "md18-06": 2.0,
+        "md18-07": 4.0,
+        "md18-08": 0.0,
+        "md18-09": 2.0
+      },
+      "points": 20.0,
+      "bonus": 0.0,
+      "total": 183.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "hubi",
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 224.0,
+      "dayWinsTotal": 2.8333333333333335
+    },
+    {
+      "rank": 2,
+      "player": "alois",
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 220.0,
+      "dayWinsTotal": 2.833333333333333
+    },
+    {
+      "rank": 3,
+      "player": "peterm",
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 212.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 4,
+      "player": "manug",
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 198.0,
+      "dayWinsTotal": 0.6666666666666666
+    },
+    {
+      "rank": 6,
+      "player": "johannes",
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 194.0,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 5,
+      "player": "roman",
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 197.0,
+      "dayWinsTotal": 0.8333333333333333
+    },
+    {
+      "rank": 7,
+      "player": "alex",
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 193.0,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 8,
+      "player": "markus",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 189.0,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 9,
+      "player": "peter",
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 187.0,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 10,
+      "player": "bene",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 183.0,
+      "dayWinsTotal": 1.8333333333333333
+    },
+    {
+      "rank": 10,
+      "player": "huy",
+      "points": 20.0,
+      "bonus": 0.0,
+      "total": 183.0,
+      "dayWinsTotal": 2.0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="arc-holstein-kiel" d="M 40 100 A 60 60 0 0 1 160 100"></path>
+  </defs>
+
+  <!-- Badge -->
+  <path d="M100 12
+           L168 38
+           L168 110
+           Q168 152 100 188
+           Q32 152 32 110
+           L32 38 Z" fill="#00529F"></path>
+
+  <!-- Innenfläche -->
+  <path d="M100 26
+           L154 46
+           L154 106
+           Q154 141 100 171
+           Q46 141 46 106
+           L46 46 Z" fill="#ffffff" opacity="0.12"></path>
+
+  <!-- Gebogener Text -->
+  <text font-size="12" fill="#ffffff" font-weight="700" letter-spacing="1">
+    <textPath href="#arc-holstein-kiel" startOffset="50%" text-anchor="middle">
+      HOLSTEIN KIEL
+    </textPath>
+  </text>
+
+  <!-- Hauptkürzel -->
+  <text x="100" y="106" text-anchor="middle" font-size="34" font-weight="800" fill="#ffffff" font-family="Arial, Helvetica, sans-serif">
+    KSV
+  </text>
+
+  <!-- Zusatz -->
+  <text x="100" y="130" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" letter-spacing="1">
+    HOLSTEIN
+  </text>
+</svg>

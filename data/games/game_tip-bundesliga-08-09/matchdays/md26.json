@@ -1,0 +1,350 @@
+{
+  "id": "md26",
+  "label": "Spieltag 26",
+  "date": "03.04.2009 - 05.04.2009",
+  "no": 26,
+  "matches": [
+    {
+      "id": "md26-01",
+      "home": "Arminia Bielefeld",
+      "away": "FC Schalke 04",
+      "result": "0:2",
+      "date": "03.04.2009",
+      "time": "20:30",
+      "homeTeam": "DSC",
+      "awayTeam": "S04"
+    },
+    {
+      "id": "md26-02",
+      "home": "VfL Wolfsburg",
+      "away": "FC Bayern München",
+      "result": "5:1",
+      "date": "04.04.2009",
+      "time": "15:30",
+      "homeTeam": "WOB",
+      "awayTeam": "FCB"
+    },
+    {
+      "id": "md26-03",
+      "home": "VfL Bochum",
+      "away": "VfB Stuttgart",
+      "result": "1:2",
+      "date": "04.04.2009",
+      "time": "15:30",
+      "homeTeam": "BOC",
+      "awayTeam": "VFB"
+    },
+    {
+      "id": "md26-04",
+      "home": "Hertha BSC",
+      "away": "Borussia Dortmund",
+      "result": "1:3",
+      "date": "04.04.2009",
+      "time": "15:30",
+      "homeTeam": "BSC",
+      "awayTeam": "BVB"
+    },
+    {
+      "id": "md26-05",
+      "home": "Eintracht Frankfurt",
+      "away": "Energie Cottbus",
+      "result": "2:1",
+      "date": "04.04.2009",
+      "time": "15:30",
+      "homeTeam": "SGE",
+      "awayTeam": "COT"
+    },
+    {
+      "id": "md26-06",
+      "home": "Hamburger SV",
+      "away": "TSG 1899 Hoffenheim",
+      "result": "1:0",
+      "date": "04.04.2009",
+      "time": "15:30",
+      "homeTeam": "HSV",
+      "awayTeam": "TSG"
+    },
+    {
+      "id": "md26-07",
+      "home": "1. FC Köln",
+      "away": "Bayer 04 Leverkusen",
+      "result": "0:2",
+      "date": "05.04.2009",
+      "time": "17:00",
+      "homeTeam": "KOE",
+      "awayTeam": "B04"
+    },
+    {
+      "id": "md26-08",
+      "home": "SV Werder Bremen",
+      "away": "Hannover 96",
+      "result": "4:1",
+      "date": "05.04.2009",
+      "time": "17:00",
+      "homeTeam": "SVW",
+      "awayTeam": "H96"
+    },
+    {
+      "id": "md26-09",
+      "home": "Karlsruher SC",
+      "away": "Borussia Mönchengladbach",
+      "result": "0:0",
+      "date": "05.04.2009",
+      "time": "17:00",
+      "homeTeam": "KSC",
+      "awayTeam": "BMG"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md26-01": "1:2",
+        "md26-02": "1:2",
+        "md26-03": "1:3",
+        "md26-04": "1:0",
+        "md26-05": "2:1",
+        "md26-06": "2:0",
+        "md26-07": "1:2",
+        "md26-08": "2:1",
+        "md26-09": "2:1"
+      },
+      "pickPoints": {
+        "md26-01": 2.0,
+        "md26-02": 0.0,
+        "md26-03": 2.0,
+        "md26-04": 0.0,
+        "md26-05": 4.0,
+        "md26-06": 2.0,
+        "md26-07": 2.0,
+        "md26-08": 2.0,
+        "md26-09": 0.0
+      },
+      "points": 14.0,
+      "bonus": 0.0,
+      "total": 308.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md26-01": "1:0",
+        "md26-02": "0:1",
+        "md26-03": "1:0",
+        "md26-04": "1:0",
+        "md26-05": "1:0",
+        "md26-06": "1:0",
+        "md26-07": "1:0",
+        "md26-08": "1:0",
+        "md26-09": "2:1"
+      },
+      "pickPoints": {
+        "md26-01": 0.0,
+        "md26-02": 0.0,
+        "md26-03": 0.0,
+        "md26-04": 0.0,
+        "md26-05": 3.0,
+        "md26-06": 4.0,
+        "md26-07": 0.0,
+        "md26-08": 2.0,
+        "md26-09": 0.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 302.0,
+      "dayWin": false,
+      "dayWinsTotal": 6.0
+    },
+    {
+      "rank": 3,
+      "player": "huy",
+      "picks": {
+        "md26-01": "0:3",
+        "md26-02": "1:3",
+        "md26-03": "0:1",
+        "md26-04": "0:1",
+        "md26-05": "1:0",
+        "md26-06": "1:2",
+        "md26-07": "0:2",
+        "md26-08": "2:0",
+        "md26-09": "2:0"
+      },
+      "pickPoints": {
+        "md26-01": 2.0,
+        "md26-02": 0.0,
+        "md26-03": 3.0,
+        "md26-04": 2.0,
+        "md26-05": 3.0,
+        "md26-06": 0.0,
+        "md26-07": 4.0,
+        "md26-08": 2.0,
+        "md26-09": 0.0
+      },
+      "points": 16.0,
+      "bonus": 0.0,
+      "total": 283.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 5,
+      "player": "denis",
+      "picks": {
+        "md26-01": "0:1",
+        "md26-02": "2:1",
+        "md26-03": "0:2",
+        "md26-04": "1:0",
+        "md26-05": "2:0",
+        "md26-06": "2:2",
+        "md26-07": "1:1",
+        "md26-08": "2:1",
+        "md26-09": "0:1"
+      },
+      "pickPoints": {
+        "md26-01": 2.0,
+        "md26-02": 2.0,
+        "md26-03": 2.0,
+        "md26-04": 0.0,
+        "md26-05": 2.0,
+        "md26-06": 0.0,
+        "md26-07": 0.0,
+        "md26-08": 2.0,
+        "md26-09": 0.0
+      },
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 268.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 4,
+      "player": "daniel",
+      "picks": {
+        "md26-01": "2:1",
+        "md26-02": "1:0",
+        "md26-03": "1:1",
+        "md26-04": "2:0",
+        "md26-05": "0:1",
+        "md26-06": "2:0",
+        "md26-07": "0:1",
+        "md26-08": "2:1",
+        "md26-09": "1:3"
+      },
+      "pickPoints": {
+        "md26-01": 0.0,
+        "md26-02": 2.0,
+        "md26-03": 0.0,
+        "md26-04": 0.0,
+        "md26-05": 0.0,
+        "md26-06": 2.0,
+        "md26-07": 2.0,
+        "md26-08": 2.0,
+        "md26-09": 0.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 273.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.5
+    },
+    {
+      "rank": 6,
+      "player": "melli",
+      "picks": {
+        "md26-01": "0:2",
+        "md26-02": "1:3",
+        "md26-03": "1:2",
+        "md26-04": "0:1",
+        "md26-05": "2:1",
+        "md26-06": "2:3",
+        "md26-07": "1:2",
+        "md26-08": "1:1",
+        "md26-09": "1:0"
+      },
+      "pickPoints": {
+        "md26-01": 4.0,
+        "md26-02": 0.0,
+        "md26-03": 4.0,
+        "md26-04": 2.0,
+        "md26-05": 4.0,
+        "md26-06": 0.0,
+        "md26-07": 2.0,
+        "md26-08": 0.0,
+        "md26-09": 0.0
+      },
+      "points": 16.0,
+      "bonus": 0.0,
+      "total": 267.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 7,
+      "player": "flo",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 178.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 8,
+      "player": "dominik",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 99.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 14.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 9.0
+    },
+    {
+      "rank": 3,
+      "player": "huy",
+      "points": 16.0
+    },
+    {
+      "rank": 5,
+      "player": "denis",
+      "points": 10.0
+    },
+    {
+      "rank": 4,
+      "player": "daniel",
+      "points": 8.0
+    },
+    {
+      "rank": 6,
+      "player": "melli",
+      "points": 16.0
+    },
+    {
+      "rank": 7,
+      "player": "flo",
+      "points": 0.0
+    },
+    {
+      "rank": 8,
+      "player": "dominik",
+      "points": 0.0
+    }
+  ]
+}

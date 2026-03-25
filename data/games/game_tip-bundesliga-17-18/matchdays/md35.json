@@ -1,0 +1,280 @@
+{
+  "id": "md35",
+  "label": "Relegation",
+  "date": "",
+  "no": 35,
+  "matches": [
+    {
+      "id": "md35-01",
+      "home": "VfL Wolfsburg",
+      "away": "Holstein Kiel",
+      "homeTeam": "WOB",
+      "awayTeam": "KIE",
+      "result": "3:1",
+      "time": ""
+    },
+    {
+      "id": "md35-02",
+      "home": "Kiel2",
+      "away": "VfL Wolfsburg",
+      "homeTeam": "KIEL",
+      "awayTeam": "WOB",
+      "result": "0:1",
+      "time": ""
+    }
+  ],
+  "tips": [
+    {
+      "rank": 3,
+      "player": "pascal",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 3.0
+      },
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 436.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.5
+    },
+    {
+      "rank": 8,
+      "player": "peterm",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "1:1"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 411.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 3.0
+      },
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 408.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 3,
+      "player": "alois",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 3.0
+      },
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 407.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.833333333333333
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md35-01": "2:0",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 3.0,
+        "md35-02": 3.0
+      },
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 391.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.833333333333334
+    },
+    {
+      "rank": 1,
+      "player": "roman",
+      "picks": {
+        "md35-01": "2:0",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 3.0,
+        "md35-02": 3.0
+      },
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 391.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.3333333333333335
+    },
+    {
+      "rank": 3,
+      "player": "markus",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "1:2"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 3.0
+      },
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 383.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.8333333333333335
+    },
+    {
+      "rank": 8,
+      "player": "daniel",
+      "picks": {
+        "md35-01": "2:1",
+        "md35-02": "1:1"
+      },
+      "pickPoints": {
+        "md35-01": 2.0,
+        "md35-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 378.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.8333333333333335
+    },
+    {
+      "rank": 3,
+      "player": "kathi",
+      "picks": {
+        "md35-01": "2:0",
+        "md35-02": "0:2"
+      },
+      "pickPoints": {
+        "md35-01": 3.0,
+        "md35-02": 2.0
+      },
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 374.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.8333333333333333
+    },
+    {
+      "rank": 10,
+      "player": "huy",
+      "picks": {
+        "md35-01": null,
+        "md35-02": null
+      },
+      "pickPoints": {
+        "md35-01": 0.0,
+        "md35-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 319.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "pascal",
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 436.0,
+      "dayWinsTotal": 4.5
+    },
+    {
+      "rank": 2,
+      "player": "peterm",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 411.0,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 408.0,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 4,
+      "player": "alois",
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 407.0,
+      "dayWinsTotal": 4.833333333333333
+    },
+    {
+      "rank": 5,
+      "player": "johannes",
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 391.0,
+      "dayWinsTotal": 4.833333333333334
+    },
+    {
+      "rank": 5,
+      "player": "roman",
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 391.0,
+      "dayWinsTotal": 3.3333333333333335
+    },
+    {
+      "rank": 7,
+      "player": "markus",
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 383.0,
+      "dayWinsTotal": 3.8333333333333335
+    },
+    {
+      "rank": 8,
+      "player": "daniel",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 378.0,
+      "dayWinsTotal": 3.8333333333333335
+    },
+    {
+      "rank": 9,
+      "player": "kathi",
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 374.0,
+      "dayWinsTotal": 1.8333333333333333
+    },
+    {
+      "rank": 10,
+      "player": "huy",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 319.0,
+      "dayWinsTotal": 3.0
+    }
+  ]
+}

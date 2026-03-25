@@ -1,0 +1,648 @@
+{
+  "id": "tip-bundesliga-20-21",
+  "title": "Bundesliga 2020/2021",
+  "competition": "Bundesliga",
+  "season": "2020/2021",
+  "bonusTips": {
+    "questions": [
+      {
+        "label": "Plätze 16-18",
+        "result": [
+          "3",
+          "3",
+          "3"
+        ],
+        "points": 3.0
+      },
+      {
+        "label": "Torschütze",
+        "result": "3",
+        "points": 3.0
+      },
+      {
+        "label": "Deutscher Meister",
+        "result": "3",
+        "points": 3.0
+      },
+      {
+        "label": "Herbstmeister",
+        "result": "3",
+        "points": 3.0
+      }
+    ],
+    "picks": [
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Plätze 16-18": [
+            "Union",
+            "ArmB",
+            "SVW"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "manug",
+        "name": "manug",
+        "predictions": {
+          "Plätze 16-18": [
+            "Köln",
+            "Union",
+            "ArmB"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "Borussia Dortmund",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "peterm",
+        "name": "peterm",
+        "predictions": {
+          "Plätze 16-18": [
+            "ArmB",
+            "1. FSV Mainz 05",
+            "SC Freiburg"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Plätze 16-18": [
+            "Union",
+            "ArmB",
+            "1. FSV Mainz 05"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "alex",
+        "name": "Alex",
+        "predictions": {
+          "Plätze 16-18": [
+            "ArmB",
+            "1. FSV Mainz 05",
+            "SVW"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Plätze 16-18": [
+            "Union",
+            "ArmB",
+            "SC Freiburg"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "roman",
+        "name": "roman",
+        "predictions": {
+          "Plätze 16-18": [
+            "ArmB",
+            "FC Augsburg",
+            "1. FSV Mainz 05"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "huy",
+        "name": "huy",
+        "predictions": {
+          "Plätze 16-18": [
+            "ArmB",
+            "FC Augsburg",
+            "1. FSV Mainz 05"
+          ],
+          "Torschütze": "Borussia Dortmund",
+          "Deutscher Meister": "Borussia Dortmund",
+          "Herbstmeister": "Borussia Dortmund"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "bene",
+        "name": "bene",
+        "predictions": {
+          "Plätze 16-18": [
+            "Union",
+            "ArmB",
+            "SVW"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "VfB Stuttgart",
+          "Herbstmeister": "Borussia Dortmund"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "stefan",
+        "name": "stefan",
+        "predictions": {
+          "Plätze 16-18": [
+            "Union",
+            "ArmB",
+            "SVW"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Plätze 16-18": [
+            "Köln",
+            "ArmB",
+            "1. FSV Mainz 05"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      },
+      {
+        "player": "jens",
+        "name": "LütteHütte",
+        "predictions": {
+          "Plätze 16-18": [
+            "ArmB",
+            "Hertha BSC",
+            "SVW"
+          ],
+          "Torschütze": "FC Bayern München",
+          "Deutscher Meister": "FC Bayern München",
+          "Herbstmeister": "FC Bayern München"
+        },
+        "result": {
+          "Plätze 16-18": [
+            "3",
+            "3",
+            "3"
+          ],
+          "Torschütze": "3",
+          "Deutscher Meister": "3",
+          "Herbstmeister": "3"
+        },
+        "points": {
+          "Plätze 16-18": 0.0,
+          "Torschütze": 0.0,
+          "Deutscher Meister": 0.0,
+          "Herbstmeister": 0.0
+        },
+        "bonusTotal": 0.0
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "18.09.2020 - 20.09.2020",
+      "no": 1,
+      "file": "data/games/game_tip-bundesliga-20-21/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "25.09.2020 - 27.09.2020",
+      "no": 2,
+      "file": "data/games/game_tip-bundesliga-20-21/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "02.10.2020 - 04.10.2020",
+      "no": 3,
+      "file": "data/games/game_tip-bundesliga-20-21/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "17.10.2020 - 18.10.2020",
+      "no": 4,
+      "file": "data/games/game_tip-bundesliga-20-21/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "23.10.2020 - 26.10.2020",
+      "no": 5,
+      "file": "data/games/game_tip-bundesliga-20-21/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "30.10.2020 - 02.11.2020",
+      "no": 6,
+      "file": "data/games/game_tip-bundesliga-20-21/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "06.11.2020 - 08.11.2020",
+      "no": 7,
+      "file": "data/games/game_tip-bundesliga-20-21/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "21.11.2020 - 22.11.2020",
+      "no": 8,
+      "file": "data/games/game_tip-bundesliga-20-21/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "27.11.2020 - 29.11.2020",
+      "no": 9,
+      "file": "data/games/game_tip-bundesliga-20-21/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "04.12.2020 - 07.12.2020",
+      "no": 10,
+      "file": "data/games/game_tip-bundesliga-20-21/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "11.12.2020 - 13.12.2020",
+      "no": 11,
+      "file": "data/games/game_tip-bundesliga-20-21/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "15.12.2020 - 16.12.2020",
+      "no": 12,
+      "file": "data/games/game_tip-bundesliga-20-21/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "18.12.2020 - 20.12.2020",
+      "no": 13,
+      "file": "data/games/game_tip-bundesliga-20-21/md13.json"
+    },
+    {
+      "id": "md14",
+      "label": "Spieltag 14",
+      "date": "02.01.2021 - 03.01.2021",
+      "no": 14,
+      "file": "data/games/game_tip-bundesliga-20-21/md14.json"
+    },
+    {
+      "id": "md15",
+      "label": "Spieltag 15",
+      "date": "08.01.2021 - 10.01.2021",
+      "no": 15,
+      "file": "data/games/game_tip-bundesliga-20-21/md15.json"
+    },
+    {
+      "id": "md16",
+      "label": "Spieltag 16",
+      "date": "15.01.2021 - 17.01.2021",
+      "no": 16,
+      "file": "data/games/game_tip-bundesliga-20-21/md16.json"
+    },
+    {
+      "id": "md17",
+      "label": "Spieltag 17",
+      "date": "19.01.2021 - 20.01.2021",
+      "no": 17,
+      "file": "data/games/game_tip-bundesliga-20-21/md17.json"
+    },
+    {
+      "id": "md18",
+      "label": "Spieltag 18",
+      "date": "22.01.2021 - 24.01.2021",
+      "no": 18,
+      "file": "data/games/game_tip-bundesliga-20-21/md18.json"
+    },
+    {
+      "id": "md19",
+      "label": "Spieltag 19",
+      "date": "29.01.2021 - 31.01.2021",
+      "no": 19,
+      "file": "data/games/game_tip-bundesliga-20-21/md19.json"
+    },
+    {
+      "id": "md20",
+      "label": "Spieltag 20",
+      "date": "05.02.2021 - 10.03.2021",
+      "no": 20,
+      "file": "data/games/game_tip-bundesliga-20-21/md20.json"
+    },
+    {
+      "id": "md21",
+      "label": "Spieltag 21",
+      "date": "12.02.2021 - 15.02.2021",
+      "no": 21,
+      "file": "data/games/game_tip-bundesliga-20-21/md21.json"
+    },
+    {
+      "id": "md22",
+      "label": "Spieltag 22",
+      "date": "19.02.2021 - 21.02.2021",
+      "no": 22,
+      "file": "data/games/game_tip-bundesliga-20-21/md22.json"
+    },
+    {
+      "id": "md23",
+      "label": "Spieltag 23",
+      "date": "26.02.2021 - 28.02.2021",
+      "no": 23,
+      "file": "data/games/game_tip-bundesliga-20-21/md23.json"
+    },
+    {
+      "id": "md24",
+      "label": "Spieltag 24",
+      "date": "05.03.2021 - 07.03.2021",
+      "no": 24,
+      "file": "data/games/game_tip-bundesliga-20-21/md24.json"
+    },
+    {
+      "id": "md25",
+      "label": "Spieltag 25",
+      "date": "12.03.2021 - 14.03.2021",
+      "no": 25,
+      "file": "data/games/game_tip-bundesliga-20-21/md25.json"
+    },
+    {
+      "id": "md26",
+      "label": "Spieltag 26",
+      "date": "19.03.2021 - 21.03.2021",
+      "no": 26,
+      "file": "data/games/game_tip-bundesliga-20-21/md26.json"
+    },
+    {
+      "id": "md27",
+      "label": "Spieltag 27",
+      "date": "03.04.2021 - 04.04.2021",
+      "no": 27,
+      "file": "data/games/game_tip-bundesliga-20-21/md27.json"
+    },
+    {
+      "id": "md28",
+      "label": "Spieltag 28",
+      "date": "09.04.2021 - 12.04.2021",
+      "no": 28,
+      "file": "data/games/game_tip-bundesliga-20-21/md28.json"
+    },
+    {
+      "id": "md29",
+      "label": "Spieltag 29",
+      "date": "16.04.2021 - 03.05.2021",
+      "no": 29,
+      "file": "data/games/game_tip-bundesliga-20-21/md29.json"
+    },
+    {
+      "id": "md30",
+      "label": "Spieltag 30",
+      "date": "20.04.2021 - 06.05.2021",
+      "no": 30,
+      "file": "data/games/game_tip-bundesliga-20-21/md30.json"
+    },
+    {
+      "id": "md31",
+      "label": "Spieltag 31",
+      "date": "23.04.2021 - 12.05.2021",
+      "no": 31,
+      "file": "data/games/game_tip-bundesliga-20-21/md31.json"
+    },
+    {
+      "id": "md32",
+      "label": "Spieltag 32",
+      "date": "07.05.2021 - 09.05.2021",
+      "no": 32,
+      "file": "data/games/game_tip-bundesliga-20-21/md32.json"
+    },
+    {
+      "id": "md33",
+      "label": "Spieltag 33",
+      "date": "15.05.2021 - 16.05.2021",
+      "no": 33,
+      "file": "data/games/game_tip-bundesliga-20-21/md33.json"
+    },
+    {
+      "id": "md34",
+      "label": "Spieltag 34",
+      "date": "22.05.2021 - 22.05.2021",
+      "no": 34,
+      "file": "data/games/game_tip-bundesliga-20-21/md34.json"
+    }
+  ]
+}

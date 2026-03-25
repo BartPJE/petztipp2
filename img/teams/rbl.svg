@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="RB Leipzig">
+    <defs>
+      <path id="arc-rblsvg" d="M 30 102 A 70 70 0 0 1 170 102" />
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#000000" flood-opacity="0.22"/>
+      </filter>
+    </defs>
+    <g filter="url(#shadow)">
+      
+        <path d="M100 12
+                 L170 38
+                 L162 118
+                 Q156 165 100 188
+                 Q44 165 38 118
+                 L30 38 Z"
+              fill="#FFFFFF" stroke="#132257" stroke-width="8" />
+        <path d="M100 28
+                 L151 47
+                 L145 113
+                 Q140 150 100 167
+                 Q60 150 55 113
+                 L49 47 Z"
+              fill="none" stroke="#E31B23" stroke-width="4" opacity="0.95"/>
+        
+        <path d="M57 108 L72 90 L94 108 L72 126 Z" fill="#E31B23"/>
+        <path d="M143 108 L128 90 L106 108 L128 126 Z" fill="#E31B23"/>
+        <circle cx="100" cy="106" r="8" fill="#E31B23"/>
+        
+      <text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700"
+            letter-spacing="1.2" fill="#132257">
+        <textPath href="#arc-rblsvg" startOffset="50%" text-anchor="middle">RB LEIPZIG</textPath>
+      </text>
+      <text x="100" y="116" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="54" font-weight="800" letter-spacing="1.5"
+        fill="#132257">RBL</text>
+      
+    </g>
+</svg>

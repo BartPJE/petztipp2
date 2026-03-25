@@ -1,0 +1,118 @@
+{
+  "no": 21,
+  "label": "Spieltag 21",
+  "date": "21.02.2004 - 22.02.2004",
+  "matches": [
+    {
+      "id": "md21-01",
+      "home": "Hansa Rostock",
+      "away": "Hannover 96",
+      "result": "3:1",
+      "date": "21.02.2004",
+      "time": "15:30",
+      "homeTeam": "ROS",
+      "awayTeam": "H96"
+    },
+    {
+      "id": "md21-02",
+      "home": "Borussia Mönchengladbach",
+      "away": "SC Freiburg",
+      "result": "2:2",
+      "date": "21.02.2004",
+      "time": "15:30",
+      "homeTeam": "BMG",
+      "awayTeam": "SCF"
+    },
+    {
+      "id": "md21-03",
+      "home": "1. FC Kaiserslautern",
+      "away": "VfB Stuttgart",
+      "result": "1:0",
+      "date": "21.02.2004",
+      "time": "15:30",
+      "homeTeam": "FCK",
+      "awayTeam": "VFB"
+    },
+    {
+      "id": "md21-04",
+      "home": "FC Schalke 04",
+      "away": "SV Werder Bremen",
+      "result": "0:0",
+      "date": "21.02.2004",
+      "time": "15:30",
+      "homeTeam": "S04",
+      "awayTeam": "SVW"
+    },
+    {
+      "id": "md21-05",
+      "home": "VfL Wolfsburg",
+      "away": "TSV München 1860",
+      "result": "3:1",
+      "date": "21.02.2004",
+      "time": "15:30",
+      "homeTeam": "WOB",
+      "awayTeam": "1860"
+    },
+    {
+      "id": "md21-06",
+      "home": "FC Bayern München",
+      "away": "Hamburger SV",
+      "result": "1:0",
+      "date": "21.02.2004",
+      "time": "15:30",
+      "homeTeam": "FCB",
+      "awayTeam": "HSV"
+    },
+    {
+      "id": "md21-07",
+      "home": "Bayer 04 Leverkusen",
+      "away": "VfL Bochum",
+      "result": "1:3",
+      "date": "21.02.2004",
+      "time": "15:30",
+      "homeTeam": "B04",
+      "awayTeam": "BOC"
+    },
+    {
+      "id": "md21-08",
+      "home": "Hertha BSC",
+      "away": "Eintracht Frankfurt",
+      "result": "1:2",
+      "date": "22.02.2004",
+      "time": "17:30",
+      "homeTeam": "BSC",
+      "awayTeam": "SGE"
+    },
+    {
+      "id": "md21-09",
+      "home": "Borussia Dortmund",
+      "away": "1. FC Köln",
+      "result": "1:0",
+      "date": "22.02.2004",
+      "time": "17:30",
+      "homeTeam": "BVB",
+      "awayTeam": "KOE"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0,
+      "bonus": 0.0,
+      "total": 20.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 20.0
+    }
+  ],
+  "id": "md21"
+}

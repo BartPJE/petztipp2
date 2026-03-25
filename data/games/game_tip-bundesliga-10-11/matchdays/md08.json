@@ -1,0 +1,426 @@
+{
+  "id": "md08",
+  "label": "Spieltag 8",
+  "date": "15.10.2010 - 17.10.2010",
+  "no": 8,
+  "matches": [
+    {
+      "id": "md08-01",
+      "home": "1. FC Köln",
+      "away": "Borussia Dortmund",
+      "homeTeam": "KOE",
+      "awayTeam": "BVB",
+      "result": "1:2",
+      "date": "15.10.2010",
+      "time": "20:30"
+    },
+    {
+      "id": "md08-02",
+      "home": "FC Bayern München",
+      "away": "Hannover 96",
+      "homeTeam": "FCB",
+      "awayTeam": "H96",
+      "result": "3:0",
+      "date": "16.10.2010",
+      "time": "15:30"
+    },
+    {
+      "id": "md08-03",
+      "home": "FC Schalke 04",
+      "away": "VfB Stuttgart",
+      "homeTeam": "S04",
+      "awayTeam": "VFB",
+      "result": "2:2",
+      "date": "16.10.2010",
+      "time": "15:30"
+    },
+    {
+      "id": "md08-04",
+      "home": "SV Werder Bremen",
+      "away": "SC Freiburg",
+      "homeTeam": "SVW",
+      "awayTeam": "SCF",
+      "result": "2:1",
+      "date": "16.10.2010",
+      "time": "15:30"
+    },
+    {
+      "id": "md08-05",
+      "home": "FSV Mainz 05",
+      "away": "Hamburger SV",
+      "homeTeam": "M05",
+      "awayTeam": "HSV",
+      "result": "0:1",
+      "date": "16.10.2010",
+      "time": "15:30"
+    },
+    {
+      "id": "md08-06",
+      "home": "FC St. Pauli",
+      "away": "1. FC Nürnberg",
+      "homeTeam": "STP",
+      "awayTeam": "FCN",
+      "result": "3:2",
+      "date": "16.10.2010",
+      "time": "15:30"
+    },
+    {
+      "id": "md08-07",
+      "home": "VfL Wolfsburg",
+      "away": "Bayer 04 Leverkusen",
+      "homeTeam": "WOB",
+      "awayTeam": "B04",
+      "result": "2:3",
+      "date": "16.10.2010",
+      "time": "18:30"
+    },
+    {
+      "id": "md08-08",
+      "home": "1. FC Kaiserslautern",
+      "away": "Eintracht Frankfurt",
+      "homeTeam": "FCK",
+      "awayTeam": "SGE",
+      "result": "0:3",
+      "date": "17.10.2010",
+      "time": "15:30"
+    },
+    {
+      "id": "md08-09",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "Borussia Mönchengladbach",
+      "homeTeam": "TSG",
+      "awayTeam": "BMG",
+      "result": "3:2",
+      "date": "17.10.2010",
+      "time": "17:30"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "huy",
+      "picks": {
+        "md08-01": "1:3",
+        "md08-02": "3:0",
+        "md08-03": "2:1",
+        "md08-04": "2:0",
+        "md08-05": "3:2",
+        "md08-06": "0:1",
+        "md08-07": "1:2",
+        "md08-08": "0:1",
+        "md08-09": "2:0"
+      },
+      "pickPoints": {
+        "md08-01": 2.0,
+        "md08-02": 4.0,
+        "md08-03": 0.0,
+        "md08-04": 2.0,
+        "md08-05": 0.0,
+        "md08-06": 0.0,
+        "md08-07": 3.0,
+        "md08-08": 2.0,
+        "md08-09": 2.0
+      },
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 75.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "daniel",
+      "picks": {
+        "md08-01": "1:3",
+        "md08-02": "2:1",
+        "md08-03": "1:2",
+        "md08-04": "2:3",
+        "md08-05": "3:1",
+        "md08-06": "0:1",
+        "md08-07": "0:1",
+        "md08-08": "1:2",
+        "md08-09": "2:0"
+      },
+      "pickPoints": {
+        "md08-01": 2.0,
+        "md08-02": 2.0,
+        "md08-03": 0.0,
+        "md08-04": 0.0,
+        "md08-05": 0.0,
+        "md08-06": 0.0,
+        "md08-07": 3.0,
+        "md08-08": 2.0,
+        "md08-09": 2.0
+      },
+      "points": 11.0,
+      "bonus": 0.0,
+      "total": 68.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md08-01": "1:2",
+        "md08-02": "2:1",
+        "md08-03": "2:0",
+        "md08-04": "3:1",
+        "md08-05": "2:2",
+        "md08-06": "1:2",
+        "md08-07": "2:1",
+        "md08-08": "2:0",
+        "md08-09": "2:0"
+      },
+      "pickPoints": {
+        "md08-01": 4.0,
+        "md08-02": 2.0,
+        "md08-03": 0.0,
+        "md08-04": 2.0,
+        "md08-05": 0.0,
+        "md08-06": 0.0,
+        "md08-07": 0.0,
+        "md08-08": 0.0,
+        "md08-09": 2.0
+      },
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 68.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 4,
+      "player": "melli",
+      "picks": {
+        "md08-01": "1:0",
+        "md08-02": "2:0",
+        "md08-03": "2:1",
+        "md08-04": "1:2",
+        "md08-05": "1:0",
+        "md08-06": "2:1",
+        "md08-07": "2:0",
+        "md08-08": "1:0",
+        "md08-09": "2:1"
+      },
+      "pickPoints": {
+        "md08-01": 0.0,
+        "md08-02": 2.0,
+        "md08-03": 0.0,
+        "md08-04": 0.0,
+        "md08-05": 0.0,
+        "md08-06": 3.0,
+        "md08-07": 0.0,
+        "md08-08": 0.0,
+        "md08-09": 3.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 62.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 5,
+      "player": "markus",
+      "picks": {
+        "md08-01": null,
+        "md08-02": null,
+        "md08-03": null,
+        "md08-04": null,
+        "md08-05": null,
+        "md08-06": null,
+        "md08-07": null,
+        "md08-08": null,
+        "md08-09": null
+      },
+      "pickPoints": {
+        "md08-01": 0.0,
+        "md08-02": 0.0,
+        "md08-03": 0.0,
+        "md08-04": 0.0,
+        "md08-05": 0.0,
+        "md08-06": 0.0,
+        "md08-07": 0.0,
+        "md08-08": 0.0,
+        "md08-09": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 56.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 6,
+      "player": "alois",
+      "picks": {
+        "md08-01": "1:3",
+        "md08-02": "2:1",
+        "md08-03": "2:1",
+        "md08-04": "3:1",
+        "md08-05": "2:1",
+        "md08-06": "2:1",
+        "md08-07": "1:1",
+        "md08-08": "1:1",
+        "md08-09": "2:0"
+      },
+      "pickPoints": {
+        "md08-01": 2.0,
+        "md08-02": 2.0,
+        "md08-03": 0.0,
+        "md08-04": 2.0,
+        "md08-05": 0.0,
+        "md08-06": 3.0,
+        "md08-07": 0.0,
+        "md08-08": 0.0,
+        "md08-09": 2.0
+      },
+      "points": 11.0,
+      "bonus": 0.0,
+      "total": 52.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 7,
+      "player": "johannes",
+      "picks": {
+        "md08-01": "0:1",
+        "md08-02": "2:0",
+        "md08-03": "2:1",
+        "md08-04": "1:1",
+        "md08-05": "1:1",
+        "md08-06": "1:2",
+        "md08-07": "1:1",
+        "md08-08": "2:1",
+        "md08-09": "1:0"
+      },
+      "pickPoints": {
+        "md08-01": 3.0,
+        "md08-02": 2.0,
+        "md08-03": 0.0,
+        "md08-04": 0.0,
+        "md08-05": 0.0,
+        "md08-06": 0.0,
+        "md08-07": 0.0,
+        "md08-08": 0.0,
+        "md08-09": 3.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 43.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 8,
+      "player": "franzi",
+      "picks": {
+        "md08-01": null,
+        "md08-02": null,
+        "md08-03": null,
+        "md08-04": null,
+        "md08-05": null,
+        "md08-06": null,
+        "md08-07": null,
+        "md08-08": null,
+        "md08-09": null
+      },
+      "pickPoints": {
+        "md08-01": 0.0,
+        "md08-02": 0.0,
+        "md08-03": 0.0,
+        "md08-04": 0.0,
+        "md08-05": 0.0,
+        "md08-06": 0.0,
+        "md08-07": 0.0,
+        "md08-08": 0.0,
+        "md08-09": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 21.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 9,
+      "player": "bernhard",
+      "picks": {
+        "md08-01": null,
+        "md08-02": null,
+        "md08-03": null,
+        "md08-04": null,
+        "md08-05": null,
+        "md08-06": null,
+        "md08-07": null,
+        "md08-08": null,
+        "md08-09": null
+      },
+      "pickPoints": {
+        "md08-01": 0.0,
+        "md08-02": 0.0,
+        "md08-03": 0.0,
+        "md08-04": 0.0,
+        "md08-05": 0.0,
+        "md08-06": 0.0,
+        "md08-07": 0.0,
+        "md08-08": 0.0,
+        "md08-09": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 4.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "huy",
+      "points": 15.0
+    },
+    {
+      "rank": 2,
+      "player": "daniel",
+      "points": 11.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 10.0
+    },
+    {
+      "rank": 4,
+      "player": "melli",
+      "points": 8.0
+    },
+    {
+      "rank": 5,
+      "player": "markus",
+      "points": 0.0
+    },
+    {
+      "rank": 6,
+      "player": "alois",
+      "points": 11.0
+    },
+    {
+      "rank": 7,
+      "player": "johannes",
+      "points": 8.0
+    },
+    {
+      "rank": 8,
+      "player": "franzi",
+      "points": 0.0
+    },
+    {
+      "rank": 9,
+      "player": "bernhard",
+      "points": 0.0
+    }
+  ]
+}

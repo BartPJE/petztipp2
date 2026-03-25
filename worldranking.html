@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PetzTipp · Weltrangliste</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/worldranking.css" />
+  <link rel="icon" type="image/png" href="img/logo/favicon.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="wrap worldranking-page">
+    <div class="topbar">
+      <div class="brand">
+        <a href="index.html">
+          <img src="img/logo/tippspiel_logo.png" class="siteLogo" alt="Tippspiel Logo" width="64px">
+        </a>
+        <div>
+          <h1>PetzTipp</h1>
+          <p class="sub">Tippspiel Hub</p>
+        </div>
+      </div>
+      <div class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="games.html" class="nav-link">Tippspiele</a>
+        <a href="players.html" class="nav-link">Teilnehmer</a>
+        <a href="stats.html" class="nav-link">Statistik</a>
+        <a href="worldranking.html" class="nav-link active">Weltrangliste</a>
+      </div>
+
+      <nav class="mobile-bottom-nav">
+        <a href="index.html" aria-label="Home">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="games.html" aria-label="Tippspiele">
+          <i class="fa-solid fa-futbol"></i>
+        </a>
+        <a href="players.html" aria-label="Teilnehmer">
+          <i class="fa-solid fa-users"></i>
+        </a>
+        <a href="stats.html" aria-label="Statistik">
+          <i class="fa-solid fa-chart-column"></i>
+        </a>
+        <a href="worldranking.html" aria-label="Weltrangliste" class="active">
+          <i class="fa-solid fa-trophy"></i>
+        </a>
+      </nav>
+    </div>
+
+    <div class="card worldranking-filter-card" style="margin-top:18px">
+      <div class="hd">
+        <h2>Weltrangliste</h2>
+        <p>Aktuelle 5-Jahres-Wertung nach Kalenderjahren und Wettbewerbsgewichtung.</p>
+        <div id="rankingKpis" class="kpis" style="margin-top:10px"></div>
+      </div>
+      <div class="bd">
+        <div class="worldranking-filter-row">
+          <div>
+            <label class="small" for="rankingYear">Wertungsjahr</label>
+            <select id="rankingYear" class="input"></select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card worldranking-main-card" style="margin-top:16px">
+      <div class="hd">
+        <h2>Aktuelle Rangliste</h2>
+        <p id="rankingMeta">Gewichtete Punkte der letzten 5 Kalenderjahre.</p>
+      </div>
+      <div class="bd">
+        <div id="rankingTable"></div>
+      </div>
+    </div>
+
+    <div class="card worldranking-year-card" style="margin-top:16px">
+      <div class="hd">
+        <h2 id="rankingYearTitle">Jahrestabelle</h2>
+        <p id="rankingYearMeta">Nur die Rohpunkte aus dem aktuellen Wertungsjahr.</p>
+      </div>
+      <div class="bd">
+        <div id="rankingYearTable"></div>
+      </div>
+    </div>
+
+    <div class="footer">PetzTipp · © 2026</div>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/worldranking.js"></script>
+</body>
+</html>

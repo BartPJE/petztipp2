@@ -1,0 +1,174 @@
+{
+  "no": 25,
+  "label": "Spieltag 25",
+  "date": "20.03.2004 - 21.03.2004",
+  "matches": [
+    {
+      "id": "md25-01",
+      "home": "Borussia Dortmund",
+      "away": "Eintracht Frankfurt",
+      "result": "2:0",
+      "date": "20.03.2004",
+      "time": "15:30",
+      "homeTeam": "BVB",
+      "awayTeam": "SGE"
+    },
+    {
+      "id": "md25-02",
+      "home": "1. FC Köln",
+      "away": "VfB Stuttgart",
+      "result": "2:2",
+      "date": "20.03.2004",
+      "time": "15:30",
+      "homeTeam": "KOE",
+      "awayTeam": "VFB"
+    },
+    {
+      "id": "md25-03",
+      "home": "FC Schalke 04",
+      "away": "Hannover 96",
+      "result": "2:2",
+      "date": "20.03.2004",
+      "time": "15:30",
+      "homeTeam": "S04",
+      "awayTeam": "H96"
+    },
+    {
+      "id": "md25-04",
+      "home": "1. FC Kaiserslautern",
+      "away": "VfL Bochum",
+      "result": "2:2",
+      "date": "20.03.2004",
+      "time": "15:30",
+      "homeTeam": "FCK",
+      "awayTeam": "BOC"
+    },
+    {
+      "id": "md25-05",
+      "home": "Borussia Mönchengladbach",
+      "away": "Hamburger SV",
+      "result": "3:0",
+      "date": "20.03.2004",
+      "time": "15:30",
+      "homeTeam": "BMG",
+      "awayTeam": "HSV"
+    },
+    {
+      "id": "md25-06",
+      "home": "Hansa Rostock",
+      "away": "Bayer 04 Leverkusen",
+      "result": "0:2",
+      "date": "20.03.2004",
+      "time": "15:30",
+      "homeTeam": "ROS",
+      "awayTeam": "B04"
+    },
+    {
+      "id": "md25-07",
+      "home": "Hertha BSC",
+      "away": "FC Bayern München",
+      "result": "1:1",
+      "date": "20.03.2004",
+      "time": "15:30",
+      "homeTeam": "BSC",
+      "awayTeam": "FCB"
+    },
+    {
+      "id": "md25-08",
+      "home": "TSV München 1860",
+      "away": "SC Freiburg",
+      "result": "1:1",
+      "date": "21.03.2004",
+      "time": "17:30",
+      "homeTeam": "1860",
+      "awayTeam": "SCF"
+    },
+    {
+      "id": "md25-09",
+      "home": "VfL Wolfsburg",
+      "away": "SV Werder Bremen",
+      "result": "0:2",
+      "date": "21.03.2004",
+      "time": "17:30",
+      "homeTeam": "WOB",
+      "awayTeam": "SVW"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md25-01": "2:1",
+        "md25-02": "1:3",
+        "md25-03": "2:0",
+        "md25-04": "1:0",
+        "md25-05": "2:2",
+        "md25-06": "1:1",
+        "md25-07": "1:3",
+        "md25-08": "2:1",
+        "md25-09": "2:1"
+      },
+      "pickPoints": {
+        "md25-01": 2.0,
+        "md25-02": 0.0,
+        "md25-03": 0.0,
+        "md25-04": 0.0,
+        "md25-05": 0.0,
+        "md25-06": 0.0,
+        "md25-07": 0.0,
+        "md25-08": 0.0,
+        "md25-09": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 53.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.0
+    },
+    {
+      "rank": 1,
+      "player": "thomas",
+      "picks": {
+        "md25-01": "1:0",
+        "md25-02": "2:3",
+        "md25-03": "2:1",
+        "md25-04": "0:1",
+        "md25-05": "0:0",
+        "md25-06": "0:2",
+        "md25-07": "1:2",
+        "md25-08": "0:0",
+        "md25-09": "3:3"
+      },
+      "pickPoints": {
+        "md25-01": 2.0,
+        "md25-02": 0.0,
+        "md25-03": 0.0,
+        "md25-04": 0.0,
+        "md25-05": 0.0,
+        "md25-06": 4.0,
+        "md25-07": 0.0,
+        "md25-08": 2.0,
+        "md25-09": 0.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 18.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "thomas",
+      "points": 8.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 2.0
+    }
+  ],
+  "id": "md25"
+}

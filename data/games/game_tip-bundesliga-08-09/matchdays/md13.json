@@ -1,0 +1,370 @@
+{
+  "id": "md13",
+  "label": "Spieltag 13",
+  "date": "14.11.2008 - 16.11.2008",
+  "no": 13,
+  "matches": [
+    {
+      "id": "md13-01",
+      "home": "Hannover 96",
+      "away": "VfL Bochum",
+      "result": "1:1",
+      "date": "14.11.2008",
+      "time": "20:30",
+      "homeTeam": "H96",
+      "awayTeam": "BOC"
+    },
+    {
+      "id": "md13-02",
+      "home": "VfB Stuttgart",
+      "away": "Arminia Bielefeld",
+      "result": "0:0",
+      "date": "15.11.2008",
+      "time": "15:30",
+      "homeTeam": "VFB",
+      "awayTeam": "DSC"
+    },
+    {
+      "id": "md13-03",
+      "home": "Bayer 04 Leverkusen",
+      "away": "FC Schalke 04",
+      "result": "2:1",
+      "date": "15.11.2008",
+      "time": "15:30",
+      "homeTeam": "B04",
+      "awayTeam": "S04"
+    },
+    {
+      "id": "md13-04",
+      "home": "Hertha BSC",
+      "away": "Hamburger SV",
+      "result": "2:1",
+      "date": "15.11.2008",
+      "time": "15:30",
+      "homeTeam": "BSC",
+      "awayTeam": "HSV"
+    },
+    {
+      "id": "md13-05",
+      "home": "Borussia Dortmund",
+      "away": "Eintracht Frankfurt",
+      "result": "4:0",
+      "date": "15.11.2008",
+      "time": "15:30",
+      "homeTeam": "BVB",
+      "awayTeam": "SGE"
+    },
+    {
+      "id": "md13-06",
+      "home": "Energie Cottbus",
+      "away": "Karlsruher SC",
+      "result": "1:0",
+      "date": "15.11.2008",
+      "time": "15:30",
+      "homeTeam": "COT",
+      "awayTeam": "KSC"
+    },
+    {
+      "id": "md13-07",
+      "home": "Borussia Mönchengladbach",
+      "away": "FC Bayern München",
+      "result": "2:2",
+      "date": "15.11.2008",
+      "time": "15:30",
+      "homeTeam": "BMG",
+      "awayTeam": "FCB"
+    },
+    {
+      "id": "md13-08",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "VfL Wolfsburg",
+      "result": "3:2",
+      "date": "15.11.2008",
+      "time": "15:30",
+      "homeTeam": "TSG",
+      "awayTeam": "WOB"
+    },
+    {
+      "id": "md13-09",
+      "home": "SV Werder Bremen",
+      "away": "1. FC Köln",
+      "result": "3:1",
+      "date": "16.11.2008",
+      "time": "17:00",
+      "homeTeam": "SVW",
+      "awayTeam": "KOE"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md13-01": "2:1",
+        "md13-02": "2:0",
+        "md13-03": "3:1",
+        "md13-04": "1:2",
+        "md13-05": "2:1",
+        "md13-06": "0:1",
+        "md13-07": "0:3",
+        "md13-08": "3:2",
+        "md13-09": "4:1"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 2.0,
+        "md13-04": 0.0,
+        "md13-05": 2.0,
+        "md13-06": 0.0,
+        "md13-07": 0.0,
+        "md13-08": 4.0,
+        "md13-09": 2.0
+      },
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 155.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md13-01": "1:0",
+        "md13-02": "1:0",
+        "md13-03": "1:0",
+        "md13-04": "1:0",
+        "md13-05": "1:1",
+        "md13-06": "1:0",
+        "md13-07": "1:2",
+        "md13-08": "1:0",
+        "md13-09": "1:0"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 3.0,
+        "md13-04": 3.0,
+        "md13-05": 0.0,
+        "md13-06": 4.0,
+        "md13-07": 0.0,
+        "md13-08": 3.0,
+        "md13-09": 2.0
+      },
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 149.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 3,
+      "player": "daniel",
+      "picks": {
+        "md13-01": "2:1",
+        "md13-02": "2:0",
+        "md13-03": "3:1",
+        "md13-04": "1:0",
+        "md13-05": "1:1",
+        "md13-06": "2:2",
+        "md13-07": "1:3",
+        "md13-08": "2:0",
+        "md13-09": "1:0"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 2.0,
+        "md13-04": 3.0,
+        "md13-05": 0.0,
+        "md13-06": 0.0,
+        "md13-07": 0.0,
+        "md13-08": 2.0,
+        "md13-09": 2.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 143.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 4,
+      "player": "denis",
+      "picks": {
+        "md13-01": "1:0",
+        "md13-02": "2:0",
+        "md13-03": "2:1",
+        "md13-04": "1:2",
+        "md13-05": "2:2",
+        "md13-06": "0:2",
+        "md13-07": "1:3",
+        "md13-08": "3:2",
+        "md13-09": "1:3"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 4.0,
+        "md13-04": 0.0,
+        "md13-05": 0.0,
+        "md13-06": 0.0,
+        "md13-07": 0.0,
+        "md13-08": 4.0,
+        "md13-09": 0.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 139.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 6,
+      "player": "flo",
+      "picks": {
+        "md13-01": "2:1",
+        "md13-02": "3:1",
+        "md13-03": "3:1",
+        "md13-04": "0:2",
+        "md13-05": "3:1",
+        "md13-06": "1:2",
+        "md13-07": "1:2",
+        "md13-08": "5:2",
+        "md13-09": "5:1"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 2.0,
+        "md13-04": 0.0,
+        "md13-05": 2.0,
+        "md13-06": 0.0,
+        "md13-07": 0.0,
+        "md13-08": 2.0,
+        "md13-09": 2.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 136.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 5,
+      "player": "melli",
+      "picks": {
+        "md13-01": "1:0",
+        "md13-02": "2:1",
+        "md13-03": "1:2",
+        "md13-04": "1:1",
+        "md13-05": "2:1",
+        "md13-06": "2:0",
+        "md13-07": "1:3",
+        "md13-08": "3:1",
+        "md13-09": "2:0"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 0.0,
+        "md13-04": 0.0,
+        "md13-05": 2.0,
+        "md13-06": 2.0,
+        "md13-07": 0.0,
+        "md13-08": 2.0,
+        "md13-09": 3.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 138.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 7,
+      "player": "huy",
+      "picks": {
+        "md13-01": "1:0",
+        "md13-02": "2:0",
+        "md13-03": "1:2",
+        "md13-04": "1:0",
+        "md13-05": "2:0",
+        "md13-06": "1:0",
+        "md13-07": "1:2",
+        "md13-08": "1:2",
+        "md13-09": "2:0"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 0.0,
+        "md13-04": 3.0,
+        "md13-05": 2.0,
+        "md13-06": 4.0,
+        "md13-07": 0.0,
+        "md13-08": 0.0,
+        "md13-09": 3.0
+      },
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 135.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 8,
+      "player": "dominik",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 88.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 10.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 15.0
+    },
+    {
+      "rank": 3,
+      "player": "daniel",
+      "points": 9.0
+    },
+    {
+      "rank": 4,
+      "player": "denis",
+      "points": 8.0
+    },
+    {
+      "rank": 6,
+      "player": "flo",
+      "points": 8.0
+    },
+    {
+      "rank": 5,
+      "player": "melli",
+      "points": 9.0
+    },
+    {
+      "rank": 7,
+      "player": "huy",
+      "points": 12.0
+    },
+    {
+      "rank": 8,
+      "player": "dominik",
+      "points": 0.0
+    }
+  ]
+}

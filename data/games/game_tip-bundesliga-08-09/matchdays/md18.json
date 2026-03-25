@@ -1,0 +1,370 @@
+{
+  "id": "md18",
+  "label": "Spieltag 18",
+  "date": "30.01.2009 - 01.02.2009",
+  "no": 18,
+  "matches": [
+    {
+      "id": "md18-01",
+      "home": "Hamburger SV",
+      "away": "FC Bayern München",
+      "result": "1:0",
+      "date": "30.01.2009",
+      "time": "20:30",
+      "homeTeam": "HSV",
+      "awayTeam": "FCB"
+    },
+    {
+      "id": "md18-02",
+      "home": "Hannover 96",
+      "away": "FC Schalke 04",
+      "result": "1:0",
+      "date": "31.01.2009",
+      "time": "15:30",
+      "homeTeam": "H96",
+      "awayTeam": "S04"
+    },
+    {
+      "id": "md18-03",
+      "home": "1. FC Köln",
+      "away": "VfL Wolfsburg",
+      "result": "1:1",
+      "date": "31.01.2009",
+      "time": "15:30",
+      "homeTeam": "KOE",
+      "awayTeam": "WOB"
+    },
+    {
+      "id": "md18-04",
+      "home": "Borussia Dortmund",
+      "away": "Bayer 04 Leverkusen",
+      "result": "1:1",
+      "date": "31.01.2009",
+      "time": "15:30",
+      "homeTeam": "BVB",
+      "awayTeam": "B04"
+    },
+    {
+      "id": "md18-05",
+      "home": "Hertha BSC",
+      "away": "Eintracht Frankfurt",
+      "result": "2:1",
+      "date": "31.01.2009",
+      "time": "15:30",
+      "homeTeam": "BSC",
+      "awayTeam": "SGE"
+    },
+    {
+      "id": "md18-06",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "Energie Cottbus",
+      "result": "2:0",
+      "date": "31.01.2009",
+      "time": "15:30",
+      "homeTeam": "TSG",
+      "awayTeam": "COT"
+    },
+    {
+      "id": "md18-07",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Mönchengladbach",
+      "result": "2:0",
+      "date": "31.01.2009",
+      "time": "15:30",
+      "homeTeam": "VFB",
+      "awayTeam": "BMG"
+    },
+    {
+      "id": "md18-08",
+      "home": "VfL Bochum",
+      "away": "Karlsruher SC",
+      "result": "2:0",
+      "date": "01.02.2009",
+      "time": "17:00",
+      "homeTeam": "BOC",
+      "awayTeam": "KSC"
+    },
+    {
+      "id": "md18-09",
+      "home": "SV Werder Bremen",
+      "away": "Arminia Bielefeld",
+      "result": "1:2",
+      "date": "01.02.2009",
+      "time": "17:00",
+      "homeTeam": "SVW",
+      "awayTeam": "DSC"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md18-01": "1:3",
+        "md18-02": "0:2",
+        "md18-03": "1:2",
+        "md18-04": "1:2",
+        "md18-05": "2:0",
+        "md18-06": "2:1",
+        "md18-07": "1:0",
+        "md18-08": "1:1",
+        "md18-09": "3:1"
+      },
+      "pickPoints": {
+        "md18-01": 0.0,
+        "md18-02": 0.0,
+        "md18-03": 0.0,
+        "md18-04": 0.0,
+        "md18-05": 2.0,
+        "md18-06": 2.0,
+        "md18-07": 2.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 224.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md18-01": "0:1",
+        "md18-02": "1:0",
+        "md18-03": "1:0",
+        "md18-04": "1:0",
+        "md18-05": "1:0",
+        "md18-06": "1:0",
+        "md18-07": "1:0",
+        "md18-08": "1:0",
+        "md18-09": "1:0"
+      },
+      "pickPoints": {
+        "md18-01": 0.0,
+        "md18-02": 4.0,
+        "md18-03": 0.0,
+        "md18-04": 0.0,
+        "md18-05": 3.0,
+        "md18-06": 2.0,
+        "md18-07": 2.0,
+        "md18-08": 2.0,
+        "md18-09": 0.0
+      },
+      "points": 13.0,
+      "bonus": 0.0,
+      "total": 218.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 3,
+      "player": "huy",
+      "picks": {
+        "md18-01": "0:2",
+        "md18-02": "0:1",
+        "md18-03": "0:1",
+        "md18-04": "2:1",
+        "md18-05": "1:0",
+        "md18-06": "2:0",
+        "md18-07": "1:0",
+        "md18-08": "0:1",
+        "md18-09": "2:0"
+      },
+      "pickPoints": {
+        "md18-01": 0.0,
+        "md18-02": 0.0,
+        "md18-03": 0.0,
+        "md18-04": 0.0,
+        "md18-05": 3.0,
+        "md18-06": 4.0,
+        "md18-07": 2.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 210.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 4,
+      "player": "daniel",
+      "picks": {
+        "md18-01": "1:2",
+        "md18-02": "0:1",
+        "md18-03": "1:0",
+        "md18-04": "1:0",
+        "md18-05": "3:0",
+        "md18-06": "3:0",
+        "md18-07": "1:0",
+        "md18-08": "1:0",
+        "md18-09": "2:0"
+      },
+      "pickPoints": {
+        "md18-01": 0.0,
+        "md18-02": 0.0,
+        "md18-03": 0.0,
+        "md18-04": 0.0,
+        "md18-05": 2.0,
+        "md18-06": 2.0,
+        "md18-07": 2.0,
+        "md18-08": 2.0,
+        "md18-09": 0.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 205.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 5,
+      "player": "denis",
+      "picks": {
+        "md18-01": "1:3",
+        "md18-02": "0:2",
+        "md18-03": "2:2",
+        "md18-04": "1:2",
+        "md18-05": "2:0",
+        "md18-06": "3:0",
+        "md18-07": "2:0",
+        "md18-08": "0:1",
+        "md18-09": "2:0"
+      },
+      "pickPoints": {
+        "md18-01": 0.0,
+        "md18-02": 0.0,
+        "md18-03": 2.0,
+        "md18-04": 0.0,
+        "md18-05": 2.0,
+        "md18-06": 2.0,
+        "md18-07": 4.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 10.0,
+      "bonus": 0.0,
+      "total": 195.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 6,
+      "player": "melli",
+      "picks": {
+        "md18-01": "1:3",
+        "md18-02": "2:1",
+        "md18-03": "1:2",
+        "md18-04": "2:0",
+        "md18-05": "0:1",
+        "md18-06": "2:0",
+        "md18-07": "2:1",
+        "md18-08": "0:1",
+        "md18-09": "2:1"
+      },
+      "pickPoints": {
+        "md18-01": 0.0,
+        "md18-02": 3.0,
+        "md18-03": 0.0,
+        "md18-04": 0.0,
+        "md18-05": 0.0,
+        "md18-06": 4.0,
+        "md18-07": 2.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 194.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 7,
+      "player": "flo",
+      "picks": {
+        "md18-01": "1:3",
+        "md18-02": "1:2",
+        "md18-03": "1:2",
+        "md18-04": "2:2",
+        "md18-05": "2:0",
+        "md18-06": "4:1",
+        "md18-07": "3:1",
+        "md18-08": "1:2",
+        "md18-09": "3:1"
+      },
+      "pickPoints": {
+        "md18-01": 0.0,
+        "md18-02": 0.0,
+        "md18-03": 0.0,
+        "md18-04": 2.0,
+        "md18-05": 2.0,
+        "md18-06": 2.0,
+        "md18-07": 3.0,
+        "md18-08": 0.0,
+        "md18-09": 0.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 178.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 8,
+      "player": "dominik",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 99.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 6.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 13.0
+    },
+    {
+      "rank": 3,
+      "player": "huy",
+      "points": 9.0
+    },
+    {
+      "rank": 4,
+      "player": "daniel",
+      "points": 8.0
+    },
+    {
+      "rank": 5,
+      "player": "denis",
+      "points": 10.0
+    },
+    {
+      "rank": 6,
+      "player": "melli",
+      "points": 9.0
+    },
+    {
+      "rank": 7,
+      "player": "flo",
+      "points": 9.0
+    },
+    {
+      "rank": 8,
+      "player": "dominik",
+      "points": 0.0
+    }
+  ]
+}

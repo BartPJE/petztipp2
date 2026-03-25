@@ -1,0 +1,350 @@
+{
+  "id": "md32",
+  "label": "Spieltag 32",
+  "date": "12.05.2009 - 13.05.2009",
+  "no": 32,
+  "matches": [
+    {
+      "id": "md32-01",
+      "home": "FC Bayern München",
+      "away": "Bayer 04 Leverkusen",
+      "result": "3:0",
+      "date": "12.05.2009",
+      "time": "20:00",
+      "homeTeam": "FCB",
+      "awayTeam": "B04"
+    },
+    {
+      "id": "md32-02",
+      "home": "Karlsruher SC",
+      "away": "Hannover 96",
+      "result": "2:3",
+      "date": "12.05.2009",
+      "time": "20:00",
+      "homeTeam": "KSC",
+      "awayTeam": "H96"
+    },
+    {
+      "id": "md32-03",
+      "home": "1. FC Köln",
+      "away": "Hertha BSC",
+      "result": "1:2",
+      "date": "12.05.2009",
+      "time": "20:00",
+      "homeTeam": "KOE",
+      "awayTeam": "BSC"
+    },
+    {
+      "id": "md32-04",
+      "home": "VfL Wolfsburg",
+      "away": "Borussia Dortmund",
+      "result": "3:0",
+      "date": "12.05.2009",
+      "time": "20:00",
+      "homeTeam": "WOB",
+      "awayTeam": "BVB"
+    },
+    {
+      "id": "md32-05",
+      "home": "Eintracht Frankfurt",
+      "away": "SV Werder Bremen",
+      "result": "0:5",
+      "date": "13.05.2009",
+      "time": "20:00",
+      "homeTeam": "SGE",
+      "awayTeam": "SVW"
+    },
+    {
+      "id": "md32-06",
+      "home": "FC Schalke 04",
+      "away": "VfB Stuttgart",
+      "result": "1:2",
+      "date": "13.05.2009",
+      "time": "20:00",
+      "homeTeam": "S04",
+      "awayTeam": "VFB"
+    },
+    {
+      "id": "md32-07",
+      "home": "Hamburger SV",
+      "away": "VfL Bochum",
+      "result": "3:1",
+      "date": "13.05.2009",
+      "time": "20:00",
+      "homeTeam": "HSV",
+      "awayTeam": "BOC"
+    },
+    {
+      "id": "md32-08",
+      "home": "Energie Cottbus",
+      "away": "Borussia Mönchengladbach",
+      "result": "0:1",
+      "date": "13.05.2009",
+      "time": "20:00",
+      "homeTeam": "COT",
+      "awayTeam": "BMG"
+    },
+    {
+      "id": "md32-09",
+      "home": "Arminia Bielefeld",
+      "away": "TSG 1899 Hoffenheim",
+      "result": "0:2",
+      "date": "13.05.2009",
+      "time": "20:00",
+      "homeTeam": "DSC",
+      "awayTeam": "TSG"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md32-01": "2:0",
+        "md32-02": "2:1",
+        "md32-03": "2:1",
+        "md32-04": "2:1",
+        "md32-05": "1:0",
+        "md32-06": "2:1",
+        "md32-07": "2:0",
+        "md32-08": "1:0",
+        "md32-09": "2:1"
+      },
+      "pickPoints": {
+        "md32-01": 2.0,
+        "md32-02": 0.0,
+        "md32-03": 0.0,
+        "md32-04": 2.0,
+        "md32-05": 0.0,
+        "md32-06": 0.0,
+        "md32-07": 3.0,
+        "md32-08": 0.0,
+        "md32-09": 0.0
+      },
+      "points": 7.0,
+      "bonus": 0.0,
+      "total": 374.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md32-01": "1:0",
+        "md32-02": "1:0",
+        "md32-03": "1:0",
+        "md32-04": "1:0",
+        "md32-05": "1:0",
+        "md32-06": "1:0",
+        "md32-07": "1:0",
+        "md32-08": "1:0",
+        "md32-09": "1:0"
+      },
+      "pickPoints": {
+        "md32-01": 2.0,
+        "md32-02": 0.0,
+        "md32-03": 0.0,
+        "md32-04": 2.0,
+        "md32-05": 0.0,
+        "md32-06": 0.0,
+        "md32-07": 2.0,
+        "md32-08": 0.0,
+        "md32-09": 0.0
+      },
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 377.0,
+      "dayWin": false,
+      "dayWinsTotal": 7.0
+    },
+    {
+      "rank": 3,
+      "player": "huy",
+      "picks": {
+        "md32-01": "2:1",
+        "md32-02": "1:1",
+        "md32-03": "0:0",
+        "md32-04": "1:1",
+        "md32-05": "0:3",
+        "md32-06": "1:2",
+        "md32-07": "3:1",
+        "md32-08": "1:0",
+        "md32-09": "0:2"
+      },
+      "pickPoints": {
+        "md32-01": 2.0,
+        "md32-02": 0.0,
+        "md32-03": 0.0,
+        "md32-04": 0.0,
+        "md32-05": 2.0,
+        "md32-06": 4.0,
+        "md32-07": 4.0,
+        "md32-08": 0.0,
+        "md32-09": 4.0
+      },
+      "points": 16.0,
+      "bonus": 0.0,
+      "total": 367.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 4,
+      "player": "daniel",
+      "picks": {
+        "md32-01": "2:1",
+        "md32-02": "0:2",
+        "md32-03": "1:2",
+        "md32-04": "1:0",
+        "md32-05": "1:0",
+        "md32-06": "0:1",
+        "md32-07": "1:0",
+        "md32-08": "1:0",
+        "md32-09": "1:1"
+      },
+      "pickPoints": {
+        "md32-01": 2.0,
+        "md32-02": 2.0,
+        "md32-03": 4.0,
+        "md32-04": 2.0,
+        "md32-05": 0.0,
+        "md32-06": 3.0,
+        "md32-07": 2.0,
+        "md32-08": 0.0,
+        "md32-09": 0.0
+      },
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 343.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.5
+    },
+    {
+      "rank": 6,
+      "player": "denis",
+      "picks": {
+        "md32-01": "1:1",
+        "md32-02": "1:0",
+        "md32-03": "2:1",
+        "md32-04": "1:1",
+        "md32-05": "0:2",
+        "md32-06": "0:2",
+        "md32-07": "2:0",
+        "md32-08": "1:0",
+        "md32-09": "0:2"
+      },
+      "pickPoints": {
+        "md32-01": 0.0,
+        "md32-02": 0.0,
+        "md32-03": 0.0,
+        "md32-04": 0.0,
+        "md32-05": 2.0,
+        "md32-06": 2.0,
+        "md32-07": 3.0,
+        "md32-08": 0.0,
+        "md32-09": 4.0
+      },
+      "points": 11.0,
+      "bonus": 0.0,
+      "total": 324.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 5,
+      "player": "melli",
+      "picks": {
+        "md32-01": "3:2",
+        "md32-02": "2:1",
+        "md32-03": "0:1",
+        "md32-04": "3:1",
+        "md32-05": "0:2",
+        "md32-06": "0:3",
+        "md32-07": "1:0",
+        "md32-08": "0:2",
+        "md32-09": "1:2"
+      },
+      "pickPoints": {
+        "md32-01": 2.0,
+        "md32-02": 0.0,
+        "md32-03": 3.0,
+        "md32-04": 2.0,
+        "md32-05": 2.0,
+        "md32-06": 2.0,
+        "md32-07": 2.0,
+        "md32-08": 2.0,
+        "md32-09": 2.0
+      },
+      "points": 17.0,
+      "bonus": 0.0,
+      "total": 327.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.0
+    },
+    {
+      "rank": 7,
+      "player": "flo",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 178.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 8,
+      "player": "dominik",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 99.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 7.0
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 6.0
+    },
+    {
+      "rank": 3,
+      "player": "huy",
+      "points": 16.0
+    },
+    {
+      "rank": 4,
+      "player": "daniel",
+      "points": 15.0
+    },
+    {
+      "rank": 6,
+      "player": "denis",
+      "points": 11.0
+    },
+    {
+      "rank": 5,
+      "player": "melli",
+      "points": 17.0
+    },
+    {
+      "rank": 7,
+      "player": "flo",
+      "points": 0.0
+    },
+    {
+      "rank": 8,
+      "player": "dominik",
+      "points": 0.0
+    }
+  ]
+}
