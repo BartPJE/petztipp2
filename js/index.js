@@ -8,6 +8,9 @@ function tipDayPoints(tip){
 }
 
 function hasRealTips(tip) {
+  const hasPicks = Object.values(tip?.picks || {}).some(v =>
+    v !== null && v !== undefined && String(v).trim() !== ""
+  );
   const hasPicks = tip?.picks && Object.keys(tip.picks).length > 0;
   const hasBonus = Number(tip?.bonus || 0) > 0;
   return !!(hasPicks || hasBonus);
@@ -121,11 +124,8 @@ function renderKpis(players, gamesIndex) {
 
 function renderLeaderboard(allStats, maxRows = 10) {
   const top = allStats.slice(0, maxRows);
-  const maxTotal = Math.max(1, ...top.map(x => x.totalPoints || 0)); // Skala für Form-Bar
 
   const rows = top.map((s, idx) => {
-    const formPct = Math.round(Math.min(1, (s.totalPoints || 0) / maxTotal) * 100);
-
     return `
       <tr class="row">
         <td>${idx + 1}</td>
