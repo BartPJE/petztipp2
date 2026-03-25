@@ -33,36 +33,13 @@ function renderDuel() {
   const s = duelStats(a, b);
 
   resultEl.innerHTML = `
-    <div class="featureGrid">
-      <div class="featureCard">
-        <div class="person">
-          <img class="avatar" src="${escapeHtml(pa?.photo || "")}" alt="">
-          <div><b>${escapeHtml(pa?.name || a)}</b><div class="small">Spieler A</div></div>
-        </div>
-        <span class="pill good">${s.winsA} Siege</span>
-      </div>
-
-      <div class="featureCard">
-        <div class="person">
-          <img class="avatar" src="${escapeHtml(pb?.photo || "")}" alt="">
-          <div><b>${escapeHtml(pb?.name || b)}</b><div class="small">Spieler B</div></div>
-        </div>
-        <span class="pill good">${s.winsB} Siege</span>
-      </div>
-
-      <div class="featureCard">
-        <b>${s.total}</b>
-        <div class="small">Verglichene Tippspiele</div>
-      </div>
-
-      <div class="featureCard">
-        <b>${s.ties}</b>
-        <div class="small">Gleichstände</div>
-      </div>
+    <div class="kpis">
+      <div class="kpi"><b>${s.total}</b><span>Verglichene Tippspiele</span></div>
+      <div class="kpi"><b>${s.winsA}</b><span>${escapeHtml(pa?.name || a)} vorne</span></div>
+      <div class="kpi"><b>${s.winsB}</b><span>${escapeHtml(pb?.name || b)} vorne</span></div>
+      <div class="kpi"><b>${s.ties}</b><span>Gleichstände</span></div>
     </div>
   `;
-
-  applyImageFallbacks(resultEl);
 }
 
 (async function init() {

@@ -8,9 +8,10 @@ function tipDayPoints(tip){
 }
 
 function hasRealTips(tip) {
-  const hasPicks = Object.values(tip?.picks || {}).some(v =>
-    v !== null && v !== undefined && String(v).trim() !== ""
-  );
+//  const hasPicks = Object.values(tip?.picks || {}).some(v =>
+//    v !== null && v !== undefined && String(v).trim() !== ""
+  //);
+  const hasPicks = tip?.picks && Object.keys(tip.picks).length > 0;
   const hasBonus = Number(tip?.bonus || 0) > 0;
   return !!(hasPicks || hasBonus);
 }
