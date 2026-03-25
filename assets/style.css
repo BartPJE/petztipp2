@@ -57,6 +57,22 @@ small,
   padding: 22px 18px 42px;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.mt-12 { margin-top: 12px; }
+.mt-14 { margin-top: 14px; }
+.mt-18 { margin-top: 18px; }
+
 .hr {
   height: 1px;
   background: rgba(255,255,255,0.08);

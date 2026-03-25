@@ -122,38 +122,6 @@ function getFlag(home) {
   return map[home] || "🏳️";
 }
 
-function getOverallFromGame(game) {
-  // 1) wenn overall vorhanden ist: verwenden
-  if (Array.isArray(game.overall) && game.overall.length) return game.overall;
-
-  // 2) sonst: Endstand aus letztem Spieltag (total) berechnen
-  const last = (game.matchdays || []).slice(-1)[0];
-  if (!last) return [];
-
-  // total je Spieler nehmen (fallback: Punkte+Bonus aufsummieren)
-  const rows = (last.tips || []).map(t => {
-    const total = (t.total ?? null);
-    const points = Number(t.points || 0);
-    const bonus = Number(t.bonus || 0);
-    return {
-      player: t.player,
-      points: total !== null ? Number(total) : points + bonus,
-    };
-  });
-
-  rows.sort((a, b) => b.points - a.points);
-
-  // Ranking mit Gleichständen
-  let rank = 0, lastPts = null;
-  rows.forEach((r, i) => {
-    if (lastPts === null || r.points !== lastPts) rank = i + 1;
-    r.rank = rank;
-    lastPts = r.points;
-  });
-
-  return rows;
-}
-
 function parseISODate(d) {
   if (!d || typeof d !== "string") return null;
   const x = new Date(`${d}T00:00:00`);
