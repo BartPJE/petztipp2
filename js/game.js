@@ -1407,6 +1407,10 @@ async function renderCrossTableTab() {
 
 function renderBonusTab() {
   setStatsSectionsVisibility(false);
+  const dayCard = document.getElementById("matchdayTableSection");
+  const overallCard = document.getElementById("overallSection");
+  if (dayCard) dayCard.style.display = "";
+  if (overallCard) overallCard.style.display = "none";
   const bonus = game?.bonusTips;
   if (!bonus || !Array.isArray(bonus.picks) || !bonus.picks.length) {
     $("#mdContent").innerHTML =
@@ -1613,7 +1617,6 @@ function renderBonusTab() {
                 const resultSet = new Set(
                   resultVals.map((x) => normalizeBonusCompareValue(x)),
                 );
-
                 return Array.from({ length: 4 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
@@ -1666,7 +1669,6 @@ function renderBonusTab() {
                 const resultSet = new Set(
                   resultVals.map((x) => normalizeBonusCompareValue(x)),
                 );
-
                 return Array.from({ length: 3 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
@@ -1717,7 +1719,6 @@ function renderBonusTab() {
                 const resultSet = new Set(
                   resultVals.map((x) => normalizeBonusCompareValue(x)),
                 );
-
                 return Array.from({ length: 3 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
