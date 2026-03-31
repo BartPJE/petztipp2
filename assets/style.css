@@ -3170,3 +3170,34 @@ table td:nth-last-child(2) {
   color: #ff9c9c;
   font-weight: 700;
 }
+
+.crossTableWrap {
+  overflow: auto;
+}
+
+.crossTable th,
+.crossTable td {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.crossTable th:first-child,
+.crossTable td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: #111722;
+  text-align: left;
+}
+
+.crossTeam {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.crossCell {
+  transition: background-color .2s ease;
+  font-variant-numeric: tabular-nums;
+}

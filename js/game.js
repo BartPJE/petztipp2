@@ -497,6 +497,8 @@ function hasBonusTab() {
 
 let seasonStatsCache = null;
 let seasonStatsPromise = null;
+let crossTableCache = null;
+let crossTablePromise = null;
 const sortableTablesState = {};
 
 function safeDiv(a, b) {
@@ -1145,6 +1147,164 @@ async function renderTopsFlopsTab() {
   `;
 }
 
+async function computeCrossTableStats() {
+  if (crossTableCache) return crossTableCache;
+  if (crossTablePromise) return crossTablePromise;
+
+  crossTablePromise = (async () => {
+    const teamMap = new Map();
+    const playerSet = new Set();
+
+    for (const mdRef of game?.matchdays || []) {
+      const md = await loadMatchday(mdRef);
+      const matches = md.matches || [];
+      const tips = md.tips || [];
+
+      tips.forEach((t) => playerSet.add(t.player));
+
+      for (const match of matches) {
+        const matchPointsByPlayer = {};
+        tips.forEach((tip) => {
+          const pts = Number(tip?.pickPoints?.[match.id] || 0);
+          if (!Number.isFinite(pts)) return;
+          matchPointsByPlayer[tip.player] = pts;
+        });
+
+        [match.homeTeam || match.home, match.awayTeam || match.away]
+          .filter(Boolean)
+          .forEach((teamKey) => {
+            const entry = teamMap.get(teamKey) || {
+              teamKey,
+              scores: {},
+              total: 0,
+            };
+
+            Object.entries(matchPointsByPlayer).forEach(([player, pts]) => {
+              entry.scores[player] = Number(entry.scores[player] || 0) + pts;
+              entry.total += pts;
+            });
+
+            teamMap.set(teamKey, entry);
+          });
+      }
+    }
+
+    const playersInGame = [...playerSet].sort((a, b) =>
+      String(playersBySlug[a]?.name || a).localeCompare(
+        String(playersBySlug[b]?.name || b),
+        "de",
+      ),
+    );
+
+    const rows = [...teamMap.values()].sort((a, b) =>
+      String(resolveTeamLabel(a.teamKey)).localeCompare(
+        String(resolveTeamLabel(b.teamKey)),
+        "de",
+      ),
+    );
+
+    const cells = [];
+    rows.forEach((row) => {
+      playersInGame.forEach((player) => {
+        cells.push(Number(row.scores[player] || 0));
+      });
+    });
+    const mean = cells.length
+      ? cells.reduce((sum, v) => sum + v, 0) / cells.length
+      : 0;
+    const maxAbsDelta = Math.max(
+      0,
+      ...cells.map((v) => Math.abs(Number(v || 0) - mean)),
+    );
+
+    crossTableCache = {
+      rows,
+      playersInGame,
+      mean,
+      maxAbsDelta,
+    };
+    return crossTableCache;
+  })();
+
+  return crossTablePromise;
+}
+
+function crossTableHeatStyle(value, mean, maxAbsDelta) {
+  const delta = Number(value || 0) - Number(mean || 0);
+  if (!Number.isFinite(delta) || maxAbsDelta <= 0) return "";
+
+  const intensity = Math.min(1, Math.abs(delta) / maxAbsDelta);
+  if (intensity < 0.03) return "";
+
+  if (delta > 0) {
+    return `background: rgba(76, 190, 110, ${0.08 + intensity * 0.52});`;
+  }
+  return `background: rgba(230, 75, 75, ${0.08 + intensity * 0.52});`;
+}
+
+async function renderCrossTableTab() {
+  setStatsSectionsVisibility(false);
+  const { rows, playersInGame, mean, maxAbsDelta } = await computeCrossTableStats();
+
+  $("#mdTable").innerHTML = "";
+  $("#overall").innerHTML = "";
+  $("#mdTableMeta").textContent =
+    "Kreuztabelle: Team (Zeilen) × Spieler (Spalten), farbcodiert relativ zum Mittelwert.";
+
+  if (!rows.length || !playersInGame.length) {
+    $("#mdContent").innerHTML = `<div class="small">Keine Daten für die Kreuztabelle vorhanden.</div>`;
+    return;
+  }
+
+  const headerCells = playersInGame
+    .map(
+      (slug) =>
+        `<th>${escapeHtml(playersBySlug[slug]?.name || slug)}</th>`,
+    )
+    .join("");
+
+  const bodyRows = rows
+    .map((row) => {
+      const teamLogo =
+        typeof getTeamLogo === "function" ? getTeamLogo(row.teamKey) : "";
+      const teamLabel = resolveTeamLabel(row.teamKey);
+      const playerCells = playersInGame
+        .map((slug) => {
+          const val = Number(row.scores[slug] || 0);
+          const style = crossTableHeatStyle(val, mean, maxAbsDelta);
+          return `<td class="crossCell" style="${style}">${fmt2(val)}</td>`;
+        })
+        .join("");
+
+      return `
+        <tr class="row">
+          <td class="crossTeam">
+            ${teamLogo ? `<img class="teamLogo" src="${escapeHtml(teamLogo)}" alt="">` : ""}
+            <span>${escapeHtml(teamLabel)}</span>
+          </td>
+          ${playerCells}
+        </tr>
+      `;
+    })
+    .join("");
+
+  $("#mdContent").innerHTML = `
+    <div class="tableWrap crossTableWrap">
+      <table class="table crossTable">
+        <thead>
+          <tr>
+            <th>Team \\ Spieler</th>
+            ${headerCells}
+          </tr>
+        </thead>
+        <tbody>
+          ${bodyRows}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
 function renderBonusTab() {
   setStatsSectionsVisibility(false);
   const bonus = game?.bonusTips;
@@ -1736,9 +1896,15 @@ async function loadMatchday(md) {
   const playerStatsTab = `<div class="tab" data-i="spielerstatistik" data-type="playerstats">Spielerstatistik</div>`;
   const matchdayStatsTab = `<div class="tab" data-i="spieltagsstatistik" data-type="matchdaystats">Spieltagsstatistik</div>`;
   const topsFlopsTab = `<div class="tab" data-i="topsflops" data-type="topsflops">Tops & Flops</div>`;
+  const crossTableTab = `<div class="tab" data-i="kreuztabelle" data-type="crosstable">Kreuztabelle</div>`;
 
   $("#mdTabs").innerHTML =
-    matchdayTabs + bonusTab + playerStatsTab + matchdayStatsTab + topsFlopsTab;
+    matchdayTabs +
+    bonusTab +
+    playerStatsTab +
+    matchdayStatsTab +
+    topsFlopsTab +
+    crossTableTab;
 
   [...document.querySelectorAll(".tab")].forEach((el) => {
     el.addEventListener("click", async () => {
@@ -1761,6 +1927,10 @@ async function loadMatchday(md) {
       }
       if (el.dataset.type === "topsflops") {
         await renderTopsFlopsTab();
+        return;
+      }
+      if (el.dataset.type === "crosstable") {
+        await renderCrossTableTab();
         return;
       }
 
@@ -1795,6 +1965,10 @@ async function loadMatchday(md) {
     const tabEl = tabs.find((t) => t.dataset.type === "topsflops");
     if (tabEl) tabEl.classList.add("active");
     await renderTopsFlopsTab();
+  } else if (mdMode === "kreuztabelle" || mdMode === "crosstable") {
+    const tabEl = tabs.find((t) => t.dataset.type === "crosstable");
+    if (tabEl) tabEl.classList.add("active");
+    await renderCrossTableTab();
   } else {
     setStatsSectionsVisibility(true);
     const startIndex =
