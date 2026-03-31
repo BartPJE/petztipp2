@@ -1610,14 +1610,11 @@ function renderBonusTab() {
               if (key === "Halbfinale") {
                 const playerVals = normalizeBonusValue(preds[key]);
                 const resultVals = normalizeBonusValue(resultFor("Halbfinale"));
-                const resultSet = new Set(
-                  resultVals.map((x) => normalizeBonusCompareValue(x)),
-                );
-
                 return Array.from({ length: 4 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
                   const normalizedVal = normalizeBonusCompareValue(val);
+                  const normalizedResultVal = normalizeBonusCompareValue(resultVal);
                   const isDecided =
                     String(resultVal).trim() !== "" &&
                     String(resultVal).trim() !== "-" &&
@@ -1626,7 +1623,9 @@ function renderBonusTab() {
                   const isHit =
                     normalizedVal !== "" &&
                     normalizedVal !== "—" &&
-                    resultSet.has(normalizedVal);
+                    normalizedResultVal !== "" &&
+                    normalizedResultVal !== "—" &&
+                    normalizedVal === normalizedResultVal;
 
                   if (isHit) bonusPoints += pts;
 
@@ -1663,14 +1662,11 @@ function renderBonusTab() {
                 const resultVals = normalizeBonusValue(
                   resultFor("Plätze 16-18"),
                 );
-                const resultSet = new Set(
-                  resultVals.map((x) => normalizeBonusCompareValue(x)),
-                );
-
                 return Array.from({ length: 3 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
                   const normalizedVal = normalizeBonusCompareValue(val);
+                  const normalizedResultVal = normalizeBonusCompareValue(resultVal);
                   const isDecided =
                     String(resultVal).trim() !== "" &&
                     String(resultVal).trim() !== "-" &&
@@ -1679,7 +1675,9 @@ function renderBonusTab() {
                   const isHit =
                     normalizedVal !== "" &&
                     normalizedVal !== "—" &&
-                    resultSet.has(normalizedVal);
+                    normalizedResultVal !== "" &&
+                    normalizedResultVal !== "—" &&
+                    normalizedVal === normalizedResultVal;
 
                   if (isHit) bonusPoints += pts;
 
@@ -1714,14 +1712,11 @@ function renderBonusTab() {
               if (key === "Absteiger") {
                 const playerVals = normalizeBonusValue(preds[key]);
                 const resultVals = normalizeBonusValue(resultFor("Absteiger"));
-                const resultSet = new Set(
-                  resultVals.map((x) => normalizeBonusCompareValue(x)),
-                );
-
                 return Array.from({ length: 3 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
                   const normalizedVal = normalizeBonusCompareValue(val);
+                  const normalizedResultVal = normalizeBonusCompareValue(resultVal);
                   const isDecided =
                     String(resultVal).trim() !== "" &&
                     String(resultVal).trim() !== "-" &&
@@ -1730,7 +1725,9 @@ function renderBonusTab() {
                   const isHit =
                     normalizedVal !== "" &&
                     normalizedVal !== "—" &&
-                    resultSet.has(normalizedVal);
+                    normalizedResultVal !== "" &&
+                    normalizedResultVal !== "—" &&
+                    normalizedVal === normalizedResultVal;
 
                   if (isHit) bonusPoints += pts;
 
