@@ -1266,6 +1266,7 @@ async function renderCrossTableTab() {
     ...playersInGame.map((slug) => ({
       key: `player_${slug}`,
       label: playersBySlug[slug]?.name || slug,
+      avatar: playersBySlug[slug]?.photo || "",
       getSortValue: (row) => Number(row.scores[slug] || 0),
       slug,
     })),
@@ -1283,7 +1284,13 @@ async function renderCrossTableTab() {
     .map((column) => {
       const active = column.key === state.key;
       const dir = active ? (state.dir === "asc" ? "↑" : "↓") : "";
-      return `<th><button class="sortBtn ${active ? "active" : ""}" data-table="${tableId}" data-key="${column.key}">${escapeHtml(column.label)} ${dir}</button></th>`;
+      const ariaLabel = `Sortieren nach ${column.label}`;
+      const label = column.slug
+        ? (column.avatar
+            ? `<img class="avatar crossHeaderAvatar" src="${escapeHtml(column.avatar)}" alt="${escapeHtml(column.label)}" title="${escapeHtml(column.label)}">`
+            : `<span class="crossHeaderName">${escapeHtml(column.label)}</span>`)
+        : escapeHtml(column.label);
+      return `<th><button class="sortBtn crossHeaderBtn ${active ? "active" : ""}" data-table="${tableId}" data-key="${column.key}" aria-label="${escapeHtml(ariaLabel)}" title="${escapeHtml(column.label)}">${label}<span class="crossHeaderSort">${dir}</span></button></th>`;
     })
     .join("");
 
@@ -1296,7 +1303,7 @@ async function renderCrossTableTab() {
         .map((slug) => {
           const val = Number(row.scores[slug] || 0);
           const style = crossTableHeatStyle(val, mean, maxAbsDelta);
-          return `<td class="crossCell" style="${style}">${fmt2(val)}</td>`;
+          return `<td class="crossCell" style="${style}">${Math.round(val)}</td>`;
         })
         .join("");
 
