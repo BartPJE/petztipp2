@@ -707,6 +707,7 @@ function renderSortableTable({
   rows,
   defaultSortKey,
   defaultSortDir = "desc",
+  equalColumns = false,
 }) {
   if (!rows.length) {
     $(mountId).innerHTML = `<div class="small">Keine Daten vorhanden.</div>`;
@@ -742,14 +743,16 @@ function renderSortableTable({
     .map((c) => {
       const active = c.key === state.key;
       const dir = active ? (state.dir === "asc" ? "↑" : "↓") : "";
-      return `<th><button class="sortBtn ${active ? "active" : ""}" data-table="${tableId}" data-key="${c.key}">${escapeHtml(c.label)} ${dir}</button></th>`;
+      const colWidth = equalColumns ? ` style="width:${100 / columns.length}%"` : "";
+      const titleAttr = c.title ? ` title="${escapeHtml(c.title)}"` : "";
+      return `<th${colWidth}><button class="sortBtn ${active ? "active" : ""}" data-table="${tableId}" data-key="${c.key}"${titleAttr}>${escapeHtml(c.label)} ${dir}</button></th>`;
     })
     .join("");
 
   const body = sorted
     .map(
       (r) =>
-        `<tr class="row">${columns.map((c) => `<td>${c.render ? c.render(r) : escapeHtml(r[c.key])}</td>`).join("")}</tr>`,
+        `<tr class="row">${columns.map((c) => `<td${equalColumns ? ` style="width:${100 / columns.length}%"` : ""}>${c.render ? c.render(r) : escapeHtml(r[c.key])}</td>`).join("")}</tr>`,
     )
     .join("");
   $(mountId).innerHTML =
@@ -774,6 +777,7 @@ function renderSortableTable({
           rows,
           defaultSortKey,
           defaultSortDir,
+          equalColumns,
         });
       });
     });
@@ -804,6 +808,7 @@ function renderLinkedSortableTable({
   columns,
   rows,
   allColumns,
+  equalColumns = false,
 }) {
   const state = sortableTablesState[linkedTableId];
   const sorted = sortRowsByState(rows, allColumns, state);
@@ -812,14 +817,16 @@ function renderLinkedSortableTable({
     .map((c) => {
       const active = c.key === state.key;
       const dir = active ? (state.dir === "asc" ? "↑" : "↓") : "";
-      return `<th><button class="sortBtn ${active ? "active" : ""}" data-linked-table="${linkedTableId}" data-key="${c.key}">${escapeHtml(c.label)} ${dir}</button></th>`;
+      const colWidth = equalColumns ? ` style="width:${100 / columns.length}%"` : "";
+      const titleAttr = c.title ? ` title="${escapeHtml(c.title)}"` : "";
+      return `<th${colWidth}><button class="sortBtn ${active ? "active" : ""}" data-linked-table="${linkedTableId}" data-key="${c.key}"${titleAttr}>${escapeHtml(c.label)} ${dir}</button></th>`;
     })
     .join("");
 
   const body = sorted
     .map(
       (r) =>
-        `<tr class="row">${columns.map((c) => `<td>${c.render ? c.render(r) : escapeHtml(r[c.key])}</td>`).join("")}</tr>`,
+        `<tr class="row">${columns.map((c) => `<td${equalColumns ? ` style="width:${100 / columns.length}%"` : ""}>${c.render ? c.render(r) : escapeHtml(r[c.key])}</td>`).join("")}</tr>`,
     )
     .join("");
   $(mountId).innerHTML =
@@ -846,68 +853,100 @@ async function renderPlayerStatsTab() {
     "Saisonstatistiken aller Spieler (sortierbar).";
   $("#overall").innerHTML = "";
 
+  const sortedForOverallRank = [...playerRows].sort((a, b) => {
+    if (Number(b.totalPoints || 0) !== Number(a.totalPoints || 0)) {
+      return Number(b.totalPoints || 0) - Number(a.totalPoints || 0);
+    }
+    if (Number(b.dayWinsCumulative || 0) !== Number(a.dayWinsCumulative || 0)) {
+      return Number(b.dayWinsCumulative || 0) - Number(a.dayWinsCumulative || 0);
+    }
+    return String(playersBySlug[a.player]?.name || a.player).localeCompare(
+      String(playersBySlug[b.player]?.name || b.player),
+      "de",
+    );
+  });
+
+  let rank = 0;
+  let lastKey = null;
+  sortedForOverallRank.forEach((row, idx) => {
+    const key = `${Number(row.totalPoints || 0)}|${Number(row.dayWinsCumulative || 0)}`;
+    if (key !== lastKey) rank = idx + 1;
+    row.overallRank = rank;
+    lastKey = key;
+  });
+
   const allColumns = [
+      { key: "overallRank", label: "GP", title: "Gesamtplatzierung", render: (r) => r.overallRank ?? "—" },
       {
         key: "player",
-        label: "Spieler",
+        label: "Sp.",
+        title: "Spieler",
         getSortValue: (r) => playersBySlug[r.player]?.name || r.player,
         render: (r) => playerChip(r.player),
       },
       {
         key: "pointsPerPickedGame",
-        label: "Punkte/Spiel",
+        label: "P/Sp",
+        title: "Punkte pro getipptem Spiel",
         render: (r) => fmt2(r.pointsPerPickedGame),
       },
       {
         key: "totalPoints",
-        label: "Gesamtpunkte",
+        label: "Pkt",
+        title: "Gesamtpunkte",
         render: (r) => Math.round(r.totalPoints),
       },
-      { key: "pickedGames", label: "Getippte Spiele" },
+      { key: "pickedGames", label: "Tipps", title: "Getippte Spiele" },
       {
         key: "dayWinsCumulative",
-        label: "Tagessiege kumuliert",
+        label: "TS kum",
+        title: "Tagessiege kumuliert",
         render: (r) => fmt2(r.dayWinsCumulative),
       },
-      { key: "dayWinnerCount", label: "Tagessieger-Tage" },
-      { key: "bonusPoints", label: "Bonuspunkte" },
-      { key: "days20Plus", label: ">=20 Punkte" },
-      { key: "daysZeroWithPick", label: "0 Punkte (mit Tipp)" },
+      { key: "dayWinnerCount", label: "TS Tg", title: "Tagessieger-Tage" },
+      { key: "bonusPoints", label: "Bonus", title: "Bonuspunkte" },
+      { key: "days20Plus", label: "20+", title: "Spieltage mit mindestens 20 Punkten" },
+      { key: "daysZeroWithPick", label: "0P", title: "Spieltage mit 0 Punkten trotz Tipp" },
       {
         key: "highestDayPoints",
-        label: "Höchste Tagespunkte",
+        label: "Max",
+        title: "Höchste Tagespunkte",
         render: (r) => r.highestDayPoints ?? "—",
       },
       {
         key: "lowestDayPoints",
-        label: "Niedrigste Tagespunkte",
+        label: "Min",
+        title: "Niedrigste Tagespunkte",
         render: (r) => r.lowestDayPoints ?? "—",
       },
-      { key: "firstPlaceCount", label: "Wie oft Platz 1 Gesamt" },
+      { key: "firstPlaceCount", label: "P1", title: "Wie oft Platz 1 Gesamt" },
       {
         key: "bestRank",
-        label: "Bester Platz",
+        label: "Best",
+        title: "Bester Platz",
         render: (r) => r.bestRank ?? "—",
       },
       {
         key: "worstRank",
-        label: "Schlechtester Platz",
+        label: "Schl.",
+        title: "Schlechtester Platz",
         render: (r) => r.worstRank ?? "—",
       },
       {
         key: "avgRank",
-        label: "Durchschnittsplatz",
+        label: "ØPl",
+        title: "Durchschnittsplatz",
         render: (r) => fmt2(r.avgRank),
       },
-      { key: "exactHits", label: "Richtige Ergebnisse (4P)" },
-      { key: "diffHits", label: "Richtiges Torverhältnis (3P)" },
-      { key: "tendencyHits", label: "Richtige Tendenz (2P)" },
-      { key: "wrongHits", label: "Falsch (0P)" },
-      { key: "tippedMatchdays", label: "Getippte Spieltage" },
+      { key: "exactHits", label: "4P", title: "Richtige Ergebnisse (4 Punkte)" },
+      { key: "diffHits", label: "3P", title: "Richtiges Torverhältnis (3 Punkte)" },
+      { key: "tendencyHits", label: "2P", title: "Richtige Tendenz (2 Punkte)" },
+      { key: "wrongHits", label: "0P", title: "Falsch getippte Spiele (0 Punkte)" },
+      { key: "tippedMatchdays", label: "SpT", title: "Getippte Spieltage" },
     ];
 
   const columnsA = allColumns.slice(0, 10);
-  const columnsB = allColumns.slice(10);
+  const columnsB = [allColumns[0], allColumns[1], ...allColumns.slice(10)];
   const linkedTableId = "playerStats";
 
   sortableTablesState[linkedTableId] ||= {
@@ -921,6 +960,7 @@ async function renderPlayerStatsTab() {
     columns: columnsA,
     rows: playerRows,
     allColumns,
+    equalColumns: true,
   });
 
   renderLinkedSortableTable({
@@ -929,6 +969,7 @@ async function renderPlayerStatsTab() {
     columns: columnsB,
     rows: playerRows,
     allColumns,
+    equalColumns: true,
   });
 
   document
