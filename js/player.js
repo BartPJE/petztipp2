@@ -536,6 +536,92 @@ function renderPlacements(list) {
   );
 }
 
+function computeTeamPointsAllTime(slug) {
+  const totals = {};
+
+  function ensureRow(teamKey) {
+    if (!totals[teamKey]) {
+      totals[teamKey] = {
+        team: teamKey,
+        points: 0,
+        picks: 0,
+        exactHits: 0
+      };
+    }
+    return totals[teamKey];
+  }
+
+  for (const g of games) {
+    for (const md of (g.matchdays || [])) {
+      const tip = (md.tips || []).find(x => x.player === slug);
+      if (!hasRealTips(tip)) continue;
+
+      for (const match of (md.matches || [])) {
+        const pick = tip.picks?.[match.id];
+        if (!pick) continue;
+
+        const matchPoints = Number(tip.pickPoints?.[match.id] || 0);
+        const isExactHit = matchPoints >= 4;
+
+        const homeKey = match.homeTeam || match.home || "Unbekannt";
+        const awayKey = match.awayTeam || match.away || "Unbekannt";
+
+        const home = ensureRow(homeKey);
+        const away = ensureRow(awayKey);
+
+        home.points += matchPoints;
+        away.points += matchPoints;
+        home.picks += 1;
+        away.picks += 1;
+
+        if (isExactHit) {
+          home.exactHits += 1;
+          away.exactHits += 1;
+        }
+      }
+    }
+  }
+
+  return Object.values(totals)
+    .map(row => ({
+      ...row,
+      avg: row.picks ? row.points / row.picks : 0
+    }))
+    .sort((a, b) =>
+      (b.points - a.points) ||
+      (b.avg - a.avg) ||
+      String(teamDisplayName(a.team)).localeCompare(String(teamDisplayName(b.team)))
+    );
+}
+
+function renderTeamPointsAllTime(list) {
+  if (!list.length) return `<div class="small">Noch keine Team-Punkte vorhanden.</div>`;
+
+  return renderExpandableTable(
+    list,
+    ["Verein", "Punkte", "Tipps", "Ø / Spiel", "Exakte Tipps"],
+    x => {
+      const logo = teamLogo(x.team);
+      const label = teamDisplayName(x.team) || x.team;
+      return `
+        <tr class="row" data-expand-row="1">
+          <td style="text-align:left;">
+            <div class="person">
+              ${logo ? `<img class="avatar" src="${escapeHtml(logo)}" alt="">` : ""}
+              <b>${escapeHtml(label)}</b>
+            </div>
+          </td>
+          <td style="text-align:right;"><span class="pill good">${Math.round(x.points)} P</span></td>
+          <td style="text-align:right;">${x.picks}</td>
+          <td style="text-align:right;">${fmt2(x.avg)}</td>
+          <td style="text-align:right;">${x.exactHits}</td>
+        </tr>
+      `;
+    },
+    { initialCount: 10, tableId: "teamPointsMoreRows" }
+  );
+}
+
 function renderRecentMatchdays(slug) {
   const rec = [];
 
@@ -1090,6 +1176,7 @@ function initPerfectBundesligaSelector(slug) {
   $("#pMedals").innerHTML = blocks.join("");
 
   $("#pPlacements").innerHTML = renderPlacements(s.placements);
+  $("#pTeamPoints").innerHTML = renderTeamPointsAllTime(computeTeamPointsAllTime(slug));
   $("#pMatchdays").innerHTML = renderRecentMatchdays(slug);
   $("#pMatchdays").insertAdjacentHTML("afterend", extraHtml);
 
