@@ -1074,19 +1074,19 @@ async function renderTopsFlopsTab() {
   const mostExact = byMetric(playerRows, "exactHits");
   const bestStreak = byMetric(playerRows, "dayWinStreakBest");
 
-  const kpiMatchdays = matchdayStats.filter((row) => row.hasNonWinnerTips);
+  const kpiMatchdays = matchdayStats.filter((row) => row.hasTips);
 
-  const bestAbs = byMetric(kpiMatchdays, "totalPointsNoWinners");
-  const bestRel = byMetric(kpiMatchdays, "pointsPerPlayerNoWinners");
-  const bestCut = byMetric(kpiMatchdays, "pointsPerGameNoWinners");
-  const worstAbs = byMetric(kpiMatchdays, "totalPointsNoWinners", true);
-  const worstRel = byMetric(kpiMatchdays, "pointsPerPlayerNoWinners", true);
-  const worstCut = byMetric(kpiMatchdays, "pointsPerGameNoWinners", true);
+  const bestAbs = byMetric(kpiMatchdays, "totalPoints");
+  const bestRel = byMetric(kpiMatchdays, "pointsPerPlayer");
+  const bestCut = byMetric(kpiMatchdays, "pointsPerGame");
+  const worstAbs = byMetric(kpiMatchdays, "totalPoints", true);
+  const worstRel = byMetric(kpiMatchdays, "pointsPerPlayer", true);
+  const worstCut = byMetric(kpiMatchdays, "pointsPerGame", true);
 
   const matchdayLine = (row, metricLabel, metricValue) =>
-    `${row.label} · Tagessieger: ${(row.winners || []).map((w) => playersBySlug[w]?.name || w).join(", ") || "—"} (${Math.round(row.winnerPoints)} P) · ${metricLabel}: ${metricValue}`;
+    `${row.label} · ${metricLabel}: ${metricValue}`;
 
-  const fallbackKpi = `<div class="kpi"><b>Spieltag-KPIs</b><span>Keine auswertbaren Spieltage (ohne Tagessieger) vorhanden.</span></div>`;
+  const fallbackKpi = `<div class="kpi"><b>Spieltag-KPIs</b><span>Keine auswertbaren Spieltage vorhanden.</span></div>`;
 
   $("#mdContent").innerHTML = `
     <div class="kpis gameStatsKpis">
@@ -1122,12 +1122,12 @@ async function renderTopsFlopsTab() {
       )}
     </div>
     <div class="kpis gameStatsKpis" style="margin-top:12px">
-      ${bestAbs.rows[0] ? `<div class="kpi"><b>Bester Spieltag (absolut)</b><span>${escapeHtml(matchdayLine(bestAbs.rows[0], "Punkte gesamt (ohne Tagessieger)", Math.round(bestAbs.value)))}</span></div>` : fallbackKpi}
-      ${bestRel.rows[0] ? `<div class="kpi"><b>Bester Spieltag (relativ)</b><span>${escapeHtml(matchdayLine(bestRel.rows[0], "Punkte/Spieler (ohne Tagessieger)", fmt2(bestRel.value)))}</span></div>` : ""}
-      ${bestCut.rows[0] ? `<div class="kpi"><b>Bester Spieltag (Schnitt)</b><span>${escapeHtml(matchdayLine(bestCut.rows[0], "Punkte/Spiel (ohne Tagessieger)", fmt2(bestCut.value)))}</span></div>` : ""}
-      ${worstAbs.rows[0] ? `<div class="kpi"><b>Schlechtester Spieltag (absolut)</b><span>${escapeHtml(matchdayLine(worstAbs.rows[0], "Punkte gesamt (ohne Tagessieger)", Math.round(worstAbs.value)))}</span></div>` : ""}
-      ${worstRel.rows[0] ? `<div class="kpi"><b>Schlechtester Spieltag (relativ)</b><span>${escapeHtml(matchdayLine(worstRel.rows[0], "Punkte/Spieler (ohne Tagessieger)", fmt2(worstRel.value)))}</span></div>` : ""}
-      ${worstCut.rows[0] ? `<div class="kpi"><b>Schlechtester Spieltag (Schnitt)</b><span>${escapeHtml(matchdayLine(worstCut.rows[0], "Punkte/Spiel (ohne Tagessieger)", fmt2(worstCut.value)))}</span></div>` : ""}
+      ${bestAbs.rows[0] ? `<div class="kpi"><b>Bester Spieltag (absolut)</b><span>${escapeHtml(matchdayLine(bestAbs.rows[0], "Punkte", Math.round(bestAbs.value)))}</span></div>` : fallbackKpi}
+      ${bestRel.rows[0] ? `<div class="kpi"><b>Bester Spieltag (relativ)</b><span>${escapeHtml(matchdayLine(bestRel.rows[0], "Punkte/Spieler", fmt2(bestRel.value)))}</span></div>` : ""}
+      ${bestCut.rows[0] ? `<div class="kpi"><b>Bester Spieltag (Schnitt)</b><span>${escapeHtml(matchdayLine(bestCut.rows[0], "Punkte/Spiel", fmt2(bestCut.value)))}</span></div>` : ""}
+      ${worstAbs.rows[0] ? `<div class="kpi"><b>Schlechtester Spieltag (absolut)</b><span>${escapeHtml(matchdayLine(worstAbs.rows[0], "Punkte", Math.round(worstAbs.value)))}</span></div>` : ""}
+      ${worstRel.rows[0] ? `<div class="kpi"><b>Schlechtester Spieltag (relativ)</b><span>${escapeHtml(matchdayLine(worstRel.rows[0], "Punkte/Spieler", fmt2(worstRel.value)))}</span></div>` : ""}
+      ${worstCut.rows[0] ? `<div class="kpi"><b>Schlechtester Spieltag (Schnitt)</b><span>${escapeHtml(matchdayLine(worstCut.rows[0], "Punkte/Spiel", fmt2(worstCut.value)))}</span></div>` : ""}
     </div>
   `;
 }
