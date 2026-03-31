@@ -84,11 +84,19 @@ function normalizeBonusCompareValue(value) {
   const raw = String(value ?? "").trim();
   if (!raw) return "";
 
-  const lowerRaw = raw.toLowerCase();
+  const rawVariants = [
+    raw,
+    raw.replace(/^[^\p{L}\p{N}]+/gu, "").trim(),
+    raw.replace(/[^\p{L}\p{N}\s-]+/gu, "").trim(),
+  ].filter(Boolean);
+
+  const lowerRawVariants = rawVariants.map((v) => v.toLowerCase());
 
   if (typeof getTeam === "function") {
-    const direct = getTeam(raw);
-    if (direct?.key) return String(direct.key).trim().toLowerCase();
+    for (const variant of rawVariants) {
+      const direct = getTeam(variant);
+      if (direct?.key) return String(direct.key).trim().toLowerCase();
+    }
   }
 
   if (Array.isArray(teams)) {
@@ -102,12 +110,12 @@ function normalizeBonusCompareValue(value) {
       ]
         .filter(Boolean)
         .map((v) => String(v).trim().toLowerCase());
-      return candidates.includes(lowerRaw);
+      return lowerRawVariants.some((variant) => candidates.includes(variant));
     });
     if (byName?.key) return String(byName.key).trim().toLowerCase();
   }
 
-  return lowerRaw;
+  return lowerRawVariants[0] || "";
 }
 
 function normalizeBonusValue(value) {
