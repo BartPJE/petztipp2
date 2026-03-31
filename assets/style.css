@@ -3181,6 +3181,12 @@ table td:nth-last-child(2) {
   white-space: nowrap;
 }
 
+.crossTable th:not(:first-child),
+.crossTable td:not(:first-child) {
+  width: 64px;
+  min-width: 64px;
+}
+
 .crossTable th:first-child,
 .crossTable td:first-child {
   position: sticky;
