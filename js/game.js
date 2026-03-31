@@ -211,8 +211,11 @@ async function computeOverallUntil(matchdayIndex) {
           Number(tip.dayWinsTotal || 0),
         );
       } else {
-        if (tip.dayWin === true || Number(tip.dayWin || 0) > 0) {
-          s.dayWinsTotal += 1;
+        if (tip.dayWin === true) s.dayWinsTotal += 1;
+        else {
+          const dayWinShare = Number(tip.dayWin || 0);
+          if (Number.isFinite(dayWinShare) && dayWinShare > 0)
+            s.dayWinsTotal += dayWinShare;
         }
       }
     }
@@ -743,9 +746,68 @@ function renderSortableTable({
     });
 }
 
+function sortRowsByState(rows, columns, state) {
+  return [...rows].sort((a, b) => {
+    const col = columns.find((c) => c.key === state.key) || columns[0];
+    const av = col.getSortValue ? col.getSortValue(a) : a[col.key];
+    const bv = col.getSortValue ? col.getSortValue(b) : b[col.key];
+    let cmp = 0;
+    if (typeof av === "string" || typeof bv === "string")
+      cmp = String(av ?? "").localeCompare(String(bv ?? ""), "de");
+    else cmp = Number(av || 0) - Number(bv || 0);
+    if (cmp === 0 && col.key !== "player") {
+      cmp = String(playersBySlug[a.player]?.name || "").localeCompare(
+        String(playersBySlug[b.player]?.name || ""),
+        "de",
+      );
+    }
+    return state.dir === "asc" ? cmp : -cmp;
+  });
+}
+
+function renderLinkedSortableTable({
+  mountId,
+  linkedTableId,
+  columns,
+  rows,
+  allColumns,
+}) {
+  const state = sortableTablesState[linkedTableId];
+  const sorted = sortRowsByState(rows, allColumns, state);
+
+  const headers = columns
+    .map((c) => {
+      const active = c.key === state.key;
+      const dir = active ? (state.dir === "asc" ? "↑" : "↓") : "";
+      return `<th><button class="sortBtn ${active ? "active" : ""}" data-linked-table="${linkedTableId}" data-key="${c.key}">${escapeHtml(c.label)} ${dir}</button></th>`;
+    })
+    .join("");
+
+  const body = sorted
+    .map(
+      (r) =>
+        `<tr class="row">${columns.map((c) => `<td>${c.render ? c.render(r) : escapeHtml(r[c.key])}</td>`).join("")}</tr>`,
+    )
+    .join("");
+  $(mountId).innerHTML =
+    `<div class="tableWrap gameStatsTableWrap"><table class="table gameStatsTable"><thead><tr>${headers}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+function setStatsSectionsVisibility(visible) {
+  const dayCard = document.getElementById("matchdayTableSection");
+  const overallCard = document.getElementById("overallSection");
+  if (dayCard) dayCard.style.display = visible ? "" : "none";
+  if (overallCard) overallCard.style.display = visible ? "" : "none";
+}
+
 async function renderPlayerStatsTab() {
   const { playerRows } = await computeSeasonStats();
-  $("#mdContent").innerHTML = `<div id="playerStatsMount"></div>`;
+  setStatsSectionsVisibility(false);
+  $("#mdContent").innerHTML = `
+    <div id="playerStatsMountA"></div>
+    <div style="height:12px"></div>
+    <div id="playerStatsMountB"></div>
+  `;
   $("#mdTable").innerHTML = "";
   $("#mdTableMeta").textContent =
     "Saisonstatistiken aller Spieler (sortierbar).";
@@ -820,6 +882,7 @@ async function renderPlayerStatsTab() {
 
 async function renderMatchdayStatsTab() {
   const { matchdayStats } = await computeSeasonStats();
+  setStatsSectionsVisibility(false);
   $("#mdContent").innerHTML = `<div id="matchdayStatsMount"></div>`;
   $("#mdTable").innerHTML = "";
   $("#mdTableMeta").textContent = "Statistik je Spieltag (sortierbar).";
@@ -880,6 +943,7 @@ function renderKpiPlayers(label, value, playersList) {
 
 async function renderTopsFlopsTab() {
   const { playerRows, matchdayStats } = await computeSeasonStats();
+  setStatsSectionsVisibility(false);
   $("#mdTable").innerHTML = "";
   $("#mdTableMeta").textContent = "KPI-Auswertung Tops & Flops.";
   $("#overall").innerHTML = "";
@@ -944,21 +1008,19 @@ async function renderTopsFlopsTab() {
         bestStreak.rows.map((r) => r.player),
       )}
     </div>
-    <div class="card" style="margin-top:12px">
-      <div class="bd">
-        <div class="hd"><h3>Spieltage Tops & Flops</h3></div>
-        <div class="small" style="margin-top:8px">Bester Spieltag (absolut): ${escapeHtml(matchdayLine(bestAbs.rows[0], "Punkte gesamt", Math.round(bestAbs.value)))}</div>
-        <div class="small" style="margin-top:8px">Bester Spieltag (relativ): ${escapeHtml(matchdayLine(bestRel.rows[0], "Punkte/Spieler", fmt2(bestRel.value)))}</div>
-        <div class="small" style="margin-top:8px">Bester Spieltag (schnitt): ${escapeHtml(matchdayLine(bestCut.rows[0], "Punkte/Spiel", fmt2(bestCut.value)))}</div>
-        <div class="small" style="margin-top:8px">Schlechtester Spieltag (absolut): ${escapeHtml(matchdayLine(worstAbs.rows[0], "Punkte gesamt", Math.round(worstAbs.value)))}</div>
-        <div class="small" style="margin-top:8px">Schlechtester Spieltag (relativ): ${escapeHtml(matchdayLine(worstRel.rows[0], "Punkte/Spieler", fmt2(worstRel.value)))}</div>
-        <div class="small" style="margin-top:8px">Schlechtester Spieltag (schnitt): ${escapeHtml(matchdayLine(worstCut.rows[0], "Punkte/Spiel", fmt2(worstCut.value)))}</div>
-      </div>
+    <div class="kpis gameStatsKpis" style="margin-top:12px">
+      <div class="kpi"><b>Bester Spieltag (absolut)</b><span>${escapeHtml(matchdayLine(bestAbs.rows[0], "Punkte gesamt", Math.round(bestAbs.value)))}</span></div>
+      <div class="kpi"><b>Bester Spieltag (relativ)</b><span>${escapeHtml(matchdayLine(bestRel.rows[0], "Punkte/Spieler", fmt2(bestRel.value)))}</span></div>
+      <div class="kpi"><b>Bester Spieltag (Schnitt)</b><span>${escapeHtml(matchdayLine(bestCut.rows[0], "Punkte/Spiel", fmt2(bestCut.value)))}</span></div>
+      <div class="kpi"><b>Schlechtester Spieltag (absolut)</b><span>${escapeHtml(matchdayLine(worstAbs.rows[0], "Punkte gesamt", Math.round(worstAbs.value)))}</span></div>
+      <div class="kpi"><b>Schlechtester Spieltag (relativ)</b><span>${escapeHtml(matchdayLine(worstRel.rows[0], "Punkte/Spieler", fmt2(worstRel.value)))}</span></div>
+      <div class="kpi"><b>Schlechtester Spieltag (Schnitt)</b><span>${escapeHtml(matchdayLine(worstCut.rows[0], "Punkte/Spiel", fmt2(worstCut.value)))}</span></div>
     </div>
   `;
 }
 
 function renderBonusTab() {
+  setStatsSectionsVisibility(false);
   const bonus = game?.bonusTips;
   if (!bonus || !Array.isArray(bonus.picks) || !bonus.picks.length) {
     $("#mdContent").innerHTML =
@@ -1576,6 +1638,7 @@ async function loadMatchday(md) {
         return;
       }
 
+      setStatsSectionsVisibility(true);
       const i = Number(el.dataset.i);
       const md = await loadMatchday(game.matchdays[i]);
       renderMatchday(md);
@@ -1607,6 +1670,7 @@ async function loadMatchday(md) {
     if (tabEl) tabEl.classList.add("active");
     await renderTopsFlopsTab();
   } else {
+    setStatsSectionsVisibility(true);
     const startIndex =
       Number.isFinite(mdParam) &&
       mdParam > 0 &&
