@@ -84,11 +84,19 @@ function normalizeBonusCompareValue(value) {
   const raw = String(value ?? "").trim();
   if (!raw) return "";
 
-  const lowerRaw = raw.toLowerCase();
+  const rawVariants = [
+    raw,
+    raw.replace(/^[^\p{L}\p{N}]+/gu, "").trim(),
+    raw.replace(/[^\p{L}\p{N}\s-]+/gu, "").trim(),
+  ].filter(Boolean);
+
+  const lowerRawVariants = rawVariants.map((v) => v.toLowerCase());
 
   if (typeof getTeam === "function") {
-    const direct = getTeam(raw);
-    if (direct?.key) return String(direct.key).trim().toLowerCase();
+    for (const variant of rawVariants) {
+      const direct = getTeam(variant);
+      if (direct?.key) return String(direct.key).trim().toLowerCase();
+    }
   }
 
   if (Array.isArray(teams)) {
@@ -102,12 +110,12 @@ function normalizeBonusCompareValue(value) {
       ]
         .filter(Boolean)
         .map((v) => String(v).trim().toLowerCase());
-      return candidates.includes(lowerRaw);
+      return lowerRawVariants.some((variant) => candidates.includes(variant));
     });
     if (byName?.key) return String(byName.key).trim().toLowerCase();
   }
 
-  return lowerRaw;
+  return lowerRawVariants[0] || "";
 }
 
 function normalizeBonusValue(value) {
@@ -1407,6 +1415,10 @@ async function renderCrossTableTab() {
 
 function renderBonusTab() {
   setStatsSectionsVisibility(false);
+  const dayCard = document.getElementById("matchdayTableSection");
+  const overallCard = document.getElementById("overallSection");
+  if (dayCard) dayCard.style.display = "";
+  if (overallCard) overallCard.style.display = "none";
   const bonus = game?.bonusTips;
   if (!bonus || !Array.isArray(bonus.picks) || !bonus.picks.length) {
     $("#mdContent").innerHTML =
@@ -1613,7 +1625,6 @@ function renderBonusTab() {
                 const resultSet = new Set(
                   resultVals.map((x) => normalizeBonusCompareValue(x)),
                 );
-
                 return Array.from({ length: 4 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
@@ -1666,7 +1677,6 @@ function renderBonusTab() {
                 const resultSet = new Set(
                   resultVals.map((x) => normalizeBonusCompareValue(x)),
                 );
-
                 return Array.from({ length: 3 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
@@ -1717,7 +1727,6 @@ function renderBonusTab() {
                 const resultSet = new Set(
                   resultVals.map((x) => normalizeBonusCompareValue(x)),
                 );
-
                 return Array.from({ length: 3 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
