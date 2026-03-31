@@ -12,6 +12,15 @@
     "logo": "img/teams/fc-bayern-muenchen.svg"
   },
   {
+    "key": "F95",
+    "name": "Fortuna Düsseldorf",
+    "shortName": "Fortuna Düsseldorf",
+    "mobileName": "Düsseldorf",
+    "country": "GER",
+    "displayName": "Fortuna Düsseldorf",
+    "logo": "img/teams/fortuna-duesseldorf.svg"
+  },
+  {
     "key": "BVB",
     "name": "Borussia Dortmund",
     "shortName": "Bor. Dortmund",
@@ -349,7 +358,7 @@
     "logo": "img/teams/atletico-madrid.svg"
   },
   {
-    "key": "VAL",
+    "key": "VCF",
     "name": "Valencia CF",
     "shortName": "Valencia CF",
     "mobileName": "Valencia",
@@ -628,6 +637,15 @@
     "logo": "img/teams/osc-lille.svg"
   },
   {
+    "key": "BAT",
+    "name": "BATE Baryssau",
+    "shortName": "BATE",
+    "mobileName": "BATE",
+    "country": "BLR",
+    "displayName": "BATE Baryssau",
+    "logo": "img/teams/bate-baryssau.svg"
+  },
+  {
     "key": "BOR",
     "name": "Girondins Bordeaux",
     "shortName": "Bordeaux",
@@ -772,13 +790,31 @@
     "logo": "img/teams/glasgow-rangers.svg"
   },
   {
-    "key": "AND",
+    "key": "RSC",
     "name": "RSC Anderlecht",
     "shortName": "RSC Anderlecht",
     "mobileName": "Anderlecht",
     "country": "BEL",
     "displayName": "RSC Anderlecht",
     "logo": "img/teams/rsc-anderlecht.svg"
+  },
+  {
+    "key": "SBR",
+    "name": "Sporting Braga",
+    "shortName": "Sporting Braga",
+    "mobileName": "Braga",
+    "country": "POR",
+    "displayName": "Sporting Braga",
+    "logo": "img/teams/sporting-braga.svg"
+  },
+  {
+    "key": "NOD",
+    "name": "FC Nordsjælland",
+    "shortName": "FC Nordsjælland",
+    "mobileName": "Nordsjælland",
+    "country": "DEN",
+    "displayName": "FC Nordsjælland",
+    "logo": "img/teams/fc-nordsjaelland.svg"
   },
   {
     "key": "BRU",
@@ -808,7 +844,7 @@
     "logo": "img/teams/kaa-gent.svg"
   },
   {
-    "key": "OLYI",
+    "key": "PIR",
     "name": "Olympiakos Piräus",
     "shortName": "Olympiakos",
     "mobileName": "Olympiakos",
@@ -862,7 +898,7 @@
     "logo": "img/teams/zska-moskau.svg"
   },
   {
-    "key": "SPL",
+    "key": "SMO",
     "name": "Spartak Moskau",
     "shortName": "Spartak Moskau",
     "mobileName": "Spartak",
@@ -908,12 +944,12 @@
   },
   {
     "key": "DZA",
-    "name": "Dynamo Zagreb",
-    "shortName": "Dynamo Zagreb",
+    "name": "Dinamo Zagreb",
+    "shortName": "Dinamo Zagreb",
     "mobileName": "D. Zagreb",
     "country": "CRO",
-    "displayName": "Dynamo Zagreb",
-    "logo": "img/teams/dynamo-zagreb.svg"
+    "displayName": "Dinamo Zagreb",
+    "logo": "img/teams/dinamo-zagreb.svg"
   },
   {
     "key": "RSB",
@@ -1114,6 +1150,15 @@
     "logo": "img/teams/malmoe-ff.svg"
   },
   {
+    "key": "MAL",
+    "name": "FC Málaga",
+    "shortName": "FC Málaga",
+    "mobileName": "Málaga",
+    "country": "ESP",
+    "displayName": "FC Málaga",
+    "logo": "img/teams/fc-malaga.svg"
+  },
+  {
     "key": "HJK",
     "name": "HJK Helsinki",
     "shortName": "HJK Helsinki",
@@ -1134,6 +1179,15 @@
     "country": "ALB",
     "displayName": "Albanien",
     "logo": "img/teams/albanien.svg"
+  },
+  {
+    "key": "ALG",
+    "name": "Algerien",
+    "shortName": "Algerien",
+    "mobileName": "Algerien",
+    "country": "ALG",
+    "displayName": "Algerien",
+    "logo": "img/teams/algerien.svg"
   },
   {
     "key": "AND",
@@ -1316,6 +1370,15 @@
     "logo": "img/teams/griechenland.svg"
   },
   {
+    "key": "HON",
+    "name": "Honduras",
+    "shortName": "Honduras",
+    "mobileName": "Honduras",
+    "country": "HON",
+    "displayName": "Honduras",
+    "logo": "img/teams/honduras.svg"
+  },
+  {
     "key": "HUN",
     "name": "Ungarn",
     "shortName": "Ungarn",
@@ -1442,6 +1505,15 @@
     "logo": "img/teams/montenegro.svg"
   },
   {
+    "key": "MSC",
+    "name": "Montpellier HSC",
+    "shortName": "Montpellier",
+    "mobileName": "Montpellier",
+    "country": "FRA",
+    "displayName": "Montpellier HSC",
+    "logo": "img/teams/hsc-montpellier.svg"
+  },
+  {
     "key": "NED",
     "name": "Niederlande",
     "shortName": "Niederlande",
@@ -1494,6 +1566,15 @@
     "country": "ROU",
     "displayName": "Rumänien",
     "logo": "img/teams/rumaenien.svg"
+  },
+  {
+    "key": "RSA",
+    "name": "Südafrika",
+    "shortName": "Südafrika",
+    "mobileName": "Südafrika",
+    "country": "RSA",
+    "displayName": "Südafrika",
+    "logo": "img/teams/suedafrika.svg"
   },
   {
     "key": "SCO",
@@ -1617,11 +1698,11 @@
     "logo": "img/teams/kanada.svg"
   },
   {
-    "key": "CHI",
+    "key": "CHL",
     "name": "Chile",
     "shortName": "Chile",
     "mobileName": "Chile",
-    "country": "CHI",
+    "country": "CHL",
     "displayName": "Chile",
     "logo": "img/teams/chile.svg"
   },
@@ -1759,6 +1840,15 @@
     "country": "NGA",
     "displayName": "Nigeria",
     "logo": "img/teams/nigeria.svg"
+  },
+  {
+    "key": "NKR",
+    "name": "Nordkorea",
+    "shortName": "Nordkorea",
+    "mobileName": "Nordkorea",
+    "country": "NKR",
+    "displayName": "Nordkorea",
+    "logo": "img/teams/nordkorea.svg"
   },
   {
     "key": "NZL",

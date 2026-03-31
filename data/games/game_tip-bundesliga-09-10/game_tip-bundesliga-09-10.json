@@ -13,11 +13,7 @@
           "Deutscher Meister": "FCB",
           "Herbstmeister": "FCB",
           "Torschütze": "BVB",
-          "Plätze 16-18": [
-            "SCF",
-            "BOC",
-            "M05"
-          ],
+          "Plätze 16-18": ["SCF", "BOC", "M05"],
           "Erster Trainerwechsel": "BOC"
         }
       },
@@ -28,11 +24,7 @@
           "Deutscher Meister": "FCB",
           "Herbstmeister": "FCB",
           "Torschütze": "FCB",
-          "Plätze 16-18": [
-            "SGE",
-            "BOC",
-            "M05"
-          ],
+          "Plätze 16-18": ["SGE", "BOC", "M05"],
           "Erster Trainerwechsel": "H96"
         }
       },
@@ -43,11 +35,7 @@
           "Deutscher Meister": "HSV",
           "Herbstmeister": "FCB",
           "Torschütze": "HSV",
-          "Plätze 16-18": [
-            "BMG",
-            "BOC",
-            "M05"
-          ],
+          "Plätze 16-18": ["BMG", "BOC", "M05"],
           "Erster Trainerwechsel": "BOC"
         }
       },
@@ -58,11 +46,7 @@
           "Deutscher Meister": "FCB",
           "Herbstmeister": "FCB",
           "Torschütze": "FCB",
-          "Plätze 16-18": [
-            "SCF",
-            "H96",
-            "M05"
-          ],
+          "Plätze 16-18": ["SCF", "H96", "M05"],
           "Erster Trainerwechsel": "H96"
         }
       },
@@ -73,11 +57,7 @@
           "Deutscher Meister": "FCB",
           "Herbstmeister": "FCB",
           "Torschütze": "FCB",
-          "Plätze 16-18": [
-            "BOC",
-            "H96",
-            "M05"
-          ],
+          "Plätze 16-18": ["BOC", "H96", "M05"],
           "Erster Trainerwechsel": "H96"
         }
       },
@@ -88,11 +68,7 @@
           "Deutscher Meister": "FCB",
           "Herbstmeister": "FCB",
           "Torschütze": "HSV",
-          "Plätze 16-18": [
-            "BOC",
-            "H96",
-            "M05"
-          ],
+          "Plätze 16-18": ["BOC", "H96", "M05"],
           "Erster Trainerwechsel": "BMG"
         }
       },
@@ -103,11 +79,7 @@
           "Deutscher Meister": "FCB",
           "Herbstmeister": "FCB",
           "Torschütze": "FCB",
-          "Plätze 16-18": [
-            "BMG",
-            "SCF",
-            "M05"
-          ],
+          "Plätze 16-18": ["BMG", "SCF", "M05"],
           "Erster Trainerwechsel": "HSV"
         }
       },
@@ -118,11 +90,7 @@
           "Deutscher Meister": "FCB",
           "Herbstmeister": "SVW",
           "Torschütze": "TSG",
-          "Plätze 16-18": [
-            "BOC",
-            "SCF",
-            "FCN"
-          ],
+          "Plätze 16-18": ["BOC", "SCF", "FCN"],
           "Erster Trainerwechsel": "BOC"
         }
       },
@@ -138,11 +106,7 @@
           "Deutscher Meister": "FCB",
           "Herbstmeister": "B04",
           "Torschütze": "WOB",
-          "Plätze 16-18": [
-            "FCN",
-            "BOC",
-            "BSC"
-          ],
+          "Plätze 16-18": ["FCN", "BOC", "BSC"],
           "Erster Trainerwechsel": "H96"
         }
       },
@@ -165,245 +129,245 @@
       "label": "Spieltag 1",
       "date": "07.08.2009 - 09.08.2009",
       "no": 1,
-      "file": "matchdays/md01.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md01.json"
     },
     {
       "id": "md02",
       "label": "Spieltag 2",
       "date": "15.08.2009 - 16.08.2009",
       "no": 2,
-      "file": "matchdays/md02.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md02.json"
     },
     {
       "id": "md03",
       "label": "Spieltag 3",
       "date": "21.08.2009 - 23.08.2009",
       "no": 3,
-      "file": "matchdays/md03.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md03.json"
     },
     {
       "id": "md04",
       "label": "Spieltag 4",
       "date": "28.08.2009 - 30.08.2009",
       "no": 4,
-      "file": "matchdays/md04.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md04.json"
     },
     {
       "id": "md05",
       "label": "Spieltag 5",
       "date": "12.09.2009 - 13.09.2009",
       "no": 5,
-      "file": "matchdays/md05.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md05.json"
     },
     {
       "id": "md06",
       "label": "Spieltag 6",
       "date": "18.09.2009 - 20.09.2009",
       "no": 6,
-      "file": "matchdays/md06.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md06.json"
     },
     {
       "id": "md07",
       "label": "Spieltag 7",
       "date": "25.09.2009 - 27.09.2009",
       "no": 7,
-      "file": "matchdays/md07.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md07.json"
     },
     {
       "id": "md08",
       "label": "Spieltag 8",
       "date": "02.10.2009 - 04.10.2009",
       "no": 8,
-      "file": "matchdays/md08.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md08.json"
     },
     {
       "id": "md09",
       "label": "Spieltag 9",
       "date": "17.10.2009 - 18.10.2009",
       "no": 9,
-      "file": "matchdays/md09.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md09.json"
     },
     {
       "id": "md10",
       "label": "Spieltag 10",
       "date": "23.10.2009 - 25.10.2009",
       "no": 10,
-      "file": "matchdays/md10.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md10.json"
     },
     {
       "id": "md11",
       "label": "Spieltag 11",
       "date": "30.10.2009 - 01.11.2009",
       "no": 11,
-      "file": "matchdays/md11.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md11.json"
     },
     {
       "id": "md12",
       "label": "Spieltag 12",
       "date": "06.11.2009 - 08.11.2009",
       "no": 12,
-      "file": "matchdays/md12.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md12.json"
     },
     {
       "id": "md13",
       "label": "Spieltag 13",
       "date": "21.11.2009 - 22.11.2009",
       "no": 13,
-      "file": "matchdays/md13.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md13.json"
     },
     {
       "id": "md14",
       "label": "Spieltag 14",
       "date": "27.11.2009 - 29.11.2009",
       "no": 14,
-      "file": "matchdays/md14.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md14.json"
     },
     {
       "id": "md15",
       "label": "Spieltag 15",
       "date": "04.12.2009 - 06.12.2009",
       "no": 15,
-      "file": "matchdays/md15.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md15.json"
     },
     {
       "id": "md16",
       "label": "Spieltag 16",
       "date": "11.12.2009 - 13.12.2009",
       "no": 16,
-      "file": "matchdays/md16.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md16.json"
     },
     {
       "id": "md17",
       "label": "Spieltag 17",
       "date": "18.12.2009 - 20.12.2009",
       "no": 17,
-      "file": "matchdays/md17.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md17.json"
     },
     {
       "id": "md18",
       "label": "Spieltag 18",
       "date": "15.01.2010 - 17.01.2010",
       "no": 18,
-      "file": "matchdays/md18.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md18.json"
     },
     {
       "id": "md19",
       "label": "Spieltag 19",
       "date": "22.01.2010 - 24.01.2010",
       "no": 19,
-      "file": "matchdays/md19.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md19.json"
     },
     {
       "id": "md20",
       "label": "Spieltag 20",
       "date": "29.01.2010 - 31.01.2010",
       "no": 20,
-      "file": "matchdays/md20.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md20.json"
     },
     {
       "id": "md21",
       "label": "Spieltag 21",
       "date": "05.02.2010 - 07.02.2010",
       "no": 21,
-      "file": "matchdays/md21.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md21.json"
     },
     {
       "id": "md22",
       "label": "Spieltag 22",
       "date": "12.02.2010 - 14.02.2010",
       "no": 22,
-      "file": "matchdays/md22.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md22.json"
     },
     {
       "id": "md23",
       "label": "Spieltag 23",
       "date": "19.02.2010 - 21.02.2010",
       "no": 23,
-      "file": "matchdays/md23.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md23.json"
     },
     {
       "id": "md24",
       "label": "Spieltag 24",
       "date": "26.02.2010 - 28.02.2010",
       "no": 24,
-      "file": "matchdays/md24.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md24.json"
     },
     {
       "id": "md25",
       "label": "Spieltag 25",
       "date": "06.03.2010 - 07.03.2010",
       "no": 25,
-      "file": "matchdays/md25.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md25.json"
     },
     {
       "id": "md26",
       "label": "Spieltag 26",
       "date": "12.03.2010 - 14.03.2010",
       "no": 26,
-      "file": "matchdays/md26.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md26.json"
     },
     {
       "id": "md27",
       "label": "Spieltag 27",
       "date": "19.03.2010 - 21.03.2010",
       "no": 27,
-      "file": "matchdays/md27.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md27.json"
     },
     {
       "id": "md28",
       "label": "Spieltag 28",
       "date": "26.03.2010 - 28.03.2010",
       "no": 28,
-      "file": "matchdays/md28.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md28.json"
     },
     {
       "id": "md29",
       "label": "Spieltag 29",
       "date": "03.04.2010 - 04.04.2010",
       "no": 29,
-      "file": "matchdays/md29.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md29.json"
     },
     {
       "id": "md30",
       "label": "Spieltag 30",
       "date": "09.04.2010 - 11.04.2010",
       "no": 30,
-      "file": "matchdays/md30.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md30.json"
     },
     {
       "id": "md31",
       "label": "Spieltag 31",
       "date": "16.04.2010 - 18.04.2010",
       "no": 31,
-      "file": "matchdays/md31.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md31.json"
     },
     {
       "id": "md32",
       "label": "Spieltag 32",
       "date": "23.04.2010 - 25.04.2010",
       "no": 32,
-      "file": "matchdays/md32.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md32.json"
     },
     {
       "id": "md33",
       "label": "Spieltag 33",
       "date": "01.05.2010",
       "no": 33,
-      "file": "matchdays/md33.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md33.json"
     },
     {
       "id": "md34",
       "label": "Spieltag 34",
       "date": "08.05.2010",
       "no": 34,
-      "file": "matchdays/md34.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md34.json"
     },
     {
       "id": "md35",
       "label": "Relegation",
       "date": "13.05.2010 - 16.05.2010",
       "no": 35,
-      "file": "matchdays/md35.json"
+      "file": "data/games/game_tip-bundesliga-09-10/matchdays/md35.json"
     }
   ]
 }

@@ -1,0 +1,378 @@
+{
+  "id": "tip-bundesliga-10-11",
+  "title": "Bundesliga 2010/2011",
+  "competition": "Bundesliga",
+  "season": "2010/2011",
+  "bonusTips": {
+    "picks": [
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["H96", "SCF", "STP"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "H96"
+        }
+      },
+      {
+        "player": "daniel",
+        "name": "Daniel",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["1. FC Köln", "SCF", "STP"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "SVW",
+          "Erster Trainerwechsel": "SGE"
+        }
+      },
+      {
+        "player": "franzi",
+        "name": "Franzi",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["FCK", "M05", "STP"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "S04",
+          "Erster Trainerwechsel": "FCK"
+        }
+      },
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["FCK", "SCF", "STP"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "H96"
+        }
+      },
+      {
+        "player": "melli",
+        "name": "Melli",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["KOE", "FCN", "M05"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "FCN"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschütze": "FC Schalke 04",
+          "Plätze 16-18": ["KOE", "SCF", "STP"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "BMG"
+        }
+      },
+      {
+        "player": "huy",
+        "name": "Huy",
+        "predictions": {
+          "Torschütze": "Bayer 04 Leverkusen",
+          "Plätze 16-18": ["1. FC Nürnberg", "SC Freiburg", "FC St. Pauli"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FC Schalke 04",
+          "Erster Trainerwechsel": "H96"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschütze": "FC Schalke 04",
+          "Plätze 16-18": ["FSV Mainz 05", "SC Freiburg", "FC St. Pauli"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "H96"
+        }
+      },
+      {
+        "player": "bernhard",
+        "name": "Bernhard",
+        "predictions": {
+          "Torschütze": "-",
+          "Plätze 16-18": ["-", "-", "-"],
+          "Deutscher Meister": "-",
+          "Herbstmeister": "-",
+          "Erster Trainerwechsel": "-"
+        }
+      },
+      {
+        "player": "result",
+        "name": "Ergebnis",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["SGE", "STP", "BOC"],
+          "Deutscher Meister": "BVB",
+          "Herbstmeister": "BVB",
+          "Erster Trainerwechsel": "VFB"
+        }
+      },
+      {
+        "player": "points",
+        "name": "Punkte",
+        "predictions": {
+          "Torschütze": "3",
+          "Plätze 16-18": "3",
+          "Deutscher Meister": "6",
+          "Herbstmeister": "6",
+          "Erster Trainerwechsel": "6"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "20.08.2010 - 22.08.2010",
+      "no": 1,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "27.08.2010 - 29.08.2010",
+      "no": 2,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "10.09.2010 - 12.09.2010",
+      "no": 3,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "17.09.2010 - 19.09.2010",
+      "no": 4,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "21.09.2010 - 22.09.2010",
+      "no": 5,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "24.09.2010 - 26.09.2010",
+      "no": 6,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "01.10.2010 - 03.10.2010",
+      "no": 7,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "15.10.2010 - 17.10.2010",
+      "no": 8,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "22.10.2010 - 24.10.2010",
+      "no": 9,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "29.10.2010 - 31.10.2010",
+      "no": 10,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "05.11.2010 - 07.11.2010",
+      "no": 11,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "12.11.2010 - 14.11.2010",
+      "no": 12,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "20.11.2010 - 21.11.2010",
+      "no": 13,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md13.json"
+    },
+    {
+      "id": "md14",
+      "label": "Spieltag 14",
+      "date": "26.11.2010 - 28.11.2010",
+      "no": 14,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md14.json"
+    },
+    {
+      "id": "md15",
+      "label": "Spieltag 15",
+      "date": "03.12.2010 - 05.12.2010",
+      "no": 15,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md15.json"
+    },
+    {
+      "id": "md16",
+      "label": "Spieltag 16",
+      "date": "10.12.2010 - 12.12.2010",
+      "no": 16,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md16.json"
+    },
+    {
+      "id": "md17",
+      "label": "Spieltag 17",
+      "date": "17.12.2010 - 19.12.2010",
+      "no": 17,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md17.json"
+    },
+    {
+      "id": "md18",
+      "label": "Spieltag 18",
+      "date": "14.01.2011 - 16.01.2011",
+      "no": 18,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md18.json"
+    },
+    {
+      "id": "md19",
+      "label": "Spieltag 19",
+      "date": "21.01.2011 - 23.01.2011",
+      "no": 19,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md19.json"
+    },
+    {
+      "id": "md20",
+      "label": "Spieltag 20",
+      "date": "28.01.2011 - 30.01.2011",
+      "no": 20,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md20.json"
+    },
+    {
+      "id": "md21",
+      "label": "Spieltag 21",
+      "date": "04.02.2011 - 16.02.2011",
+      "no": 21,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md21.json"
+    },
+    {
+      "id": "md22",
+      "label": "Spieltag 22",
+      "date": "12.02.2011 - 13.02.2011",
+      "no": 22,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md22.json"
+    },
+    {
+      "id": "md23",
+      "label": "Spieltag 23",
+      "date": "18.02.2011 - 20.02.2011",
+      "no": 23,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md23.json"
+    },
+    {
+      "id": "md24",
+      "label": "Spieltag 24",
+      "date": "25.02.2011 - 27.02.2011",
+      "no": 24,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md24.json"
+    },
+    {
+      "id": "md25",
+      "label": "Spieltag 25",
+      "date": "04.03.2011 - 06.03.2011",
+      "no": 25,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md25.json"
+    },
+    {
+      "id": "md26",
+      "label": "Spieltag 26",
+      "date": "11.03.2011 - 13.03.2011",
+      "no": 26,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md26.json"
+    },
+    {
+      "id": "md27",
+      "label": "Spieltag 27",
+      "date": "18.03.2011 - 20.03.2011",
+      "no": 27,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md27.json"
+    },
+    {
+      "id": "md28",
+      "label": "Spieltag 28",
+      "date": "01.04.2011 - 03.04.2011",
+      "no": 28,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md28.json"
+    },
+    {
+      "id": "md29",
+      "label": "Spieltag 29",
+      "date": "08.04.2011 - 10.04.2011",
+      "no": 29,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md29.json"
+    },
+    {
+      "id": "md30",
+      "label": "Spieltag 30",
+      "date": "15.04.2011 - 17.04.2011",
+      "no": 30,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md30.json"
+    },
+    {
+      "id": "md31",
+      "label": "Spieltag 31",
+      "date": "21.04.2011 - 24.04.2011",
+      "no": 31,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md31.json"
+    },
+    {
+      "id": "md32",
+      "label": "Spieltag 32",
+      "date": "29.04.2011 - 30.04.2011",
+      "no": 32,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md32.json"
+    },
+    {
+      "id": "md33",
+      "label": "Spieltag 33",
+      "date": "07.05.2011 - 07.05.2011",
+      "no": 33,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md33.json"
+    },
+    {
+      "id": "md34",
+      "label": "Spieltag 34",
+      "date": "14.05.2011 - 14.05.2011",
+      "no": 34,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md34.json"
+    },
+    {
+      "id": "md35",
+      "label": "Spieltag 35",
+      "date": "19.05.2011 - 25.05.2011",
+      "no": 35,
+      "file": "data/games/game_tip-bundesliga-10-11/matchdays/md35.json"
+    }
+  ]
+}

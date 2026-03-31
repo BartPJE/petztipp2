@@ -1,0 +1,430 @@
+{
+  "id": "md07",
+  "label": "Spieltag 7",
+  "date": "23.06.2010 - 25.06.2010",
+  "no": 7,
+  "matches": [
+    {
+      "id": "md07-01",
+      "home": "Paraguay",
+      "away": "Neuseeland",
+      "result": "0:0",
+      "date": "23.06.2010",
+      "time": "20:30",
+      "homeTeam": "PAR",
+      "awayTeam": "NZL"
+    },
+    {
+      "id": "md07-02",
+      "home": "Slowakei",
+      "away": "Italien",
+      "result": "3:2",
+      "date": "23.06.2010",
+      "time": "20:30",
+      "homeTeam": "SVK",
+      "awayTeam": "ITA"
+    },
+    {
+      "id": "md07-03",
+      "home": "Dänemark",
+      "away": "Japan",
+      "result": "1:3",
+      "date": "24.06.2010",
+      "time": "16:00",
+      "homeTeam": "DEN",
+      "awayTeam": "JPN"
+    },
+    {
+      "id": "md07-04",
+      "home": "Kamerun",
+      "away": "Niederlande",
+      "result": "1:2",
+      "date": "24.06.2010",
+      "time": "16:00",
+      "homeTeam": "CMR",
+      "awayTeam": "NED"
+    },
+    {
+      "id": "md07-05",
+      "home": "Nordkorea",
+      "away": "Elfenbeinküste",
+      "result": "0:3",
+      "date": "24.06.2010",
+      "time": "20:30",
+      "homeTeam": "NKR",
+      "awayTeam": "CIV"
+    },
+    {
+      "id": "md07-06",
+      "home": "Portugal",
+      "away": "Brasilien",
+      "result": "0:0",
+      "date": "24.06.2010",
+      "time": "20:30",
+      "homeTeam": "POR",
+      "awayTeam": "BRA"
+    },
+    {
+      "id": "md07-07",
+      "home": "Schweiz",
+      "away": "Honduras",
+      "result": "0:0",
+      "date": "25.06.2010",
+      "time": "16:00",
+      "homeTeam": "SUI",
+      "awayTeam": "HON"
+    },
+    {
+      "id": "md07-08",
+      "home": "Chile",
+      "away": "Spanien",
+      "result": "1:2",
+      "date": "25.06.2010",
+      "time": "16:00",
+      "homeTeam": "CHL",
+      "awayTeam": "ESP"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "basti",
+      "picks": {
+        "md07-01": "2:1",
+        "md07-02": "1:2",
+        "md07-03": "1:1",
+        "md07-04": "1:4",
+        "md07-05": "0:2",
+        "md07-06": "2:3",
+        "md07-07": "1:0",
+        "md07-08": "1:2"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 0.0,
+        "md07-04": 2.0,
+        "md07-05": 2.0,
+        "md07-06": 0.0,
+        "md07-07": 0.0,
+        "md07-08": 4.0
+      },
+      "points": 8.0,
+      "bonus": 9.0,
+      "total": 89.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "melli",
+      "picks": {
+        "md07-01": "1:2",
+        "md07-02": "2:1",
+        "md07-03": "0:2",
+        "md07-04": "3:0",
+        "md07-05": "0:1",
+        "md07-06": "2:3",
+        "md07-07": "2:0",
+        "md07-08": "1:2"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 3.0,
+        "md07-03": 3.0,
+        "md07-04": 0.0,
+        "md07-05": 2.0,
+        "md07-06": 0.0,
+        "md07-07": 0.0,
+        "md07-08": 4.0
+      },
+      "points": 12.0,
+      "bonus": 6.0,
+      "total": 71.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "picks": {
+        "md07-01": "1:0",
+        "md07-02": "0:2",
+        "md07-03": "2:1",
+        "md07-04": "1:2",
+        "md07-05": "0:1",
+        "md07-06": "1:2",
+        "md07-07": "1:0",
+        "md07-08": "1:2"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 0.0,
+        "md07-04": 4.0,
+        "md07-05": 2.0,
+        "md07-06": 0.0,
+        "md07-07": 0.0,
+        "md07-08": 4.0
+      },
+      "points": 10.0,
+      "bonus": 9.0,
+      "total": 70.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.3333333333333333
+    },
+    {
+      "rank": 4,
+      "player": "thomas",
+      "picks": {
+        "md07-01": "2:1",
+        "md07-02": "0:2",
+        "md07-03": "1:0",
+        "md07-04": "1:3",
+        "md07-05": "0:4",
+        "md07-06": "2:3",
+        "md07-07": "2:0",
+        "md07-08": "0:2"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 0.0,
+        "md07-04": 2.0,
+        "md07-05": 2.0,
+        "md07-06": 0.0,
+        "md07-07": 0.0,
+        "md07-08": 2.0
+      },
+      "points": 6.0,
+      "bonus": 9.0,
+      "total": 68.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.3333333333333333
+    },
+    {
+      "rank": 5,
+      "player": "markus",
+      "picks": {
+        "md07-01": "2:1",
+        "md07-02": "1:2",
+        "md07-03": "2:2",
+        "md07-04": "2:3",
+        "md07-05": "1:3",
+        "md07-06": "2:2",
+        "md07-07": "3:1",
+        "md07-08": "1:3"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 0.0,
+        "md07-04": 3.0,
+        "md07-05": 2.0,
+        "md07-06": 3.0,
+        "md07-07": 0.0,
+        "md07-08": 2.0
+      },
+      "points": 10.0,
+      "bonus": 9.0,
+      "total": 67.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 6,
+      "player": "alois",
+      "picks": {
+        "md07-01": "2:0",
+        "md07-02": "1:2",
+        "md07-03": "1:1",
+        "md07-04": "0:1",
+        "md07-05": "0:2",
+        "md07-06": "1:2",
+        "md07-07": "1:0",
+        "md07-08": "0:1"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 0.0,
+        "md07-04": 3.0,
+        "md07-05": 2.0,
+        "md07-06": 0.0,
+        "md07-07": 0.0,
+        "md07-08": 3.0
+      },
+      "points": 8.0,
+      "bonus": 9.0,
+      "total": 64.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 6,
+      "player": "flo",
+      "picks": {
+        "md07-01": "2:0",
+        "md07-02": "1:2",
+        "md07-03": "2:1",
+        "md07-04": "0:2",
+        "md07-05": "0:0",
+        "md07-06": "2:3",
+        "md07-07": "2:0",
+        "md07-08": "0:2"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 0.0,
+        "md07-04": 2.0,
+        "md07-05": 0.0,
+        "md07-06": 0.0,
+        "md07-07": 0.0,
+        "md07-08": 2.0
+      },
+      "points": 4.0,
+      "bonus": 9.0,
+      "total": 64.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.3333333333333333
+    },
+    {
+      "rank": 8,
+      "player": "peter",
+      "picks": {
+        "md07-01": "2:0",
+        "md07-02": "1:2",
+        "md07-03": "3:1",
+        "md07-04": "0:3",
+        "md07-05": "0:5",
+        "md07-06": "2:1",
+        "md07-07": "2:0",
+        "md07-08": "0:1"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 0.0,
+        "md07-04": 2.0,
+        "md07-05": 2.0,
+        "md07-06": 0.0,
+        "md07-07": 0.0,
+        "md07-08": 3.0
+      },
+      "points": 7.0,
+      "bonus": 6.0,
+      "total": 62.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 9,
+      "player": "dominik",
+      "picks": {
+        "md07-01": "2:1",
+        "md07-02": "1:2",
+        "md07-03": "1:1",
+        "md07-04": "0:2",
+        "md07-05": "0:2",
+        "md07-06": "1:2",
+        "md07-07": "2:0",
+        "md07-08": "0:3"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 0.0,
+        "md07-04": 2.0,
+        "md07-05": 2.0,
+        "md07-06": 0.0,
+        "md07-07": 0.0,
+        "md07-08": 2.0
+      },
+      "points": 6.0,
+      "bonus": 6.0,
+      "total": 60.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 10,
+      "player": "bernhard",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 9.0,
+      "total": 31.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 11,
+      "player": "helga",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 23.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "basti",
+      "points": 8.0
+    },
+    {
+      "rank": 2,
+      "player": "melli",
+      "points": 12.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 10.0
+    },
+    {
+      "rank": 4,
+      "player": "thomas",
+      "points": 6.0
+    },
+    {
+      "rank": 5,
+      "player": "markus",
+      "points": 10.0
+    },
+    {
+      "rank": 6,
+      "player": "alois",
+      "points": 8.0
+    },
+    {
+      "rank": 6,
+      "player": "flo",
+      "points": 4.0
+    },
+    {
+      "rank": 8,
+      "player": "peter",
+      "points": 7.0
+    },
+    {
+      "rank": 9,
+      "player": "dominik",
+      "points": 6.0
+    },
+    {
+      "rank": 10,
+      "player": "bernhard",
+      "points": 0.0
+    },
+    {
+      "rank": 11,
+      "player": "helga",
+      "points": 0.0
+    }
+  ]
+}

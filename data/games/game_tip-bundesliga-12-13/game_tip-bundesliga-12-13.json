@@ -1,0 +1,372 @@
+{
+  "id": "tip-bundesliga-12-13",
+  "title": "Bundesliga 2012/2013",
+  "competition": "Bundesliga",
+  "season": "2012/2013",
+  "bonusTips": {
+    "picks": [
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["F95", "FCA", "SGF"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "WOB"
+        }
+      },
+      {
+        "player": "thomas",
+        "name": "Thomas",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["F95", "SGF", "FCA"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "SGE"
+        }
+      },
+      {
+        "player": "kathi",
+        "name": "Kathi",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["F95", "SGE", "SGF"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "SGE"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["F95", "SGF", "FCA"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "HSV"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Torschütze": "S04",
+          "Plätze 16-18": ["F95", "FCA", "F95"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "FCA"
+        }
+      },
+      {
+        "player": "huy",
+        "name": "Huy",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["SGF", "SGE", "FCA"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "HSV"
+        }
+      },
+      {
+        "player": "daniel",
+        "name": "Daniel",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["F95", "SGE", "FCA"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "FCN"
+        }
+      },
+      {
+        "player": "melli",
+        "name": "Melli",
+        "predictions": {
+          "Torschütze": "FCB",
+          "Plätze 16-18": ["F95", "SGF", "FCA"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "BVB",
+          "Erster Trainerwechsel": "FCA"
+        }
+      },
+      {
+        "player": "manu"
+      },
+      {
+        "player": "nyclon",
+        "name": "nyclon"
+      },
+      {
+        "player": "result",
+        "predictions": {
+          "Torschütze": "B04",
+          "Plätze 16-18": ["SGF", "TSG", "F95"],
+          "Deutscher Meister": "FCB",
+          "Herbstmeister": "FCB",
+          "Erster Trainerwechsel": "WOB"
+        }
+      },
+      {
+        "player": "points",
+        "predictions": {
+          "Torschütze": "5",
+          "Plätze 16-18": "3",
+          "Deutscher Meister": "5",
+          "Herbstmeister": "4",
+          "Erster Trainerwechsel": "3"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "24.08.2012 - 26.08.2012",
+      "no": 1,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "31.08.2012 - 02.09.2012",
+      "no": 2,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "14.09.2012 - 16.09.2012",
+      "no": 3,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "21.09.2012 - 23.09.2012",
+      "no": 4,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "25.09.2012 - 26.09.2012",
+      "no": 5,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "28.09.2012 - 30.09.2012",
+      "no": 6,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "05.10.2012 - 07.10.2012",
+      "no": 7,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "19.10.2012 - 21.10.2012",
+      "no": 8,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "26.10.2012 - 28.10.2012",
+      "no": 9,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "02.11.2012 - 04.11.2012",
+      "no": 10,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "09.11.2012 - 11.11.2012",
+      "no": 11,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "17.11.2012 - 18.11.2012",
+      "no": 12,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "23.11.2012 - 25.11.2012",
+      "no": 13,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md13.json"
+    },
+    {
+      "id": "md14",
+      "label": "Spieltag 14",
+      "date": "27.11.2012 - 28.11.2012",
+      "no": 14,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md14.json"
+    },
+    {
+      "id": "md15",
+      "label": "Spieltag 15",
+      "date": "30.11.2012 - 02.12.2012",
+      "no": 15,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md15.json"
+    },
+    {
+      "id": "md16",
+      "label": "Spieltag 16",
+      "date": "07.12.2012 - 09.12.2012",
+      "no": 16,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md16.json"
+    },
+    {
+      "id": "md17",
+      "label": "Spieltag 17",
+      "date": "14.12.2012 - 16.12.2012",
+      "no": 17,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md17.json"
+    },
+    {
+      "id": "md18",
+      "label": "Spieltag 18",
+      "date": "18.01.2013 - 20.01.2013",
+      "no": 18,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md18.json"
+    },
+    {
+      "id": "md19",
+      "label": "Spieltag 19",
+      "date": "25.01.2013 - 27.01.2013",
+      "no": 19,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md19.json"
+    },
+    {
+      "id": "md20",
+      "label": "Spieltag 20",
+      "date": "01.02.2013 - 03.02.2013",
+      "no": 20,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md20.json"
+    },
+    {
+      "id": "md21",
+      "label": "Spieltag 21",
+      "date": "09.02.2013 - 10.02.2013",
+      "no": 21,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md21.json"
+    },
+    {
+      "id": "md22",
+      "label": "Spieltag 22",
+      "date": "15.02.2013 - 17.02.2013",
+      "no": 22,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md22.json"
+    },
+    {
+      "id": "md23",
+      "label": "Spieltag 23",
+      "date": "22.02.2013 - 24.02.2013",
+      "no": 23,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md23.json"
+    },
+    {
+      "id": "md24",
+      "label": "Spieltag 24",
+      "date": "01.03.2013 - 03.03.2013",
+      "no": 24,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md24.json"
+    },
+    {
+      "id": "md25",
+      "label": "Spieltag 25",
+      "date": "08.03.2013 - 10.03.2013",
+      "no": 25,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md25.json"
+    },
+    {
+      "id": "md26",
+      "label": "Spieltag 26",
+      "date": "15.03.2013 - 17.03.2013",
+      "no": 26,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md26.json"
+    },
+    {
+      "id": "md27",
+      "label": "Spieltag 27",
+      "date": "30.03.2013 - 31.03.2013",
+      "no": 27,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md27.json"
+    },
+    {
+      "id": "md28",
+      "label": "Spieltag 28",
+      "date": "05.04.2013 - 07.04.2013",
+      "no": 28,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md28.json"
+    },
+    {
+      "id": "md29",
+      "label": "Spieltag 29",
+      "date": "12.04.2013 - 14.04.2013",
+      "no": 29,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md29.json"
+    },
+    {
+      "id": "md30",
+      "label": "Spieltag 30",
+      "date": "19.04.2013 - 21.04.2013",
+      "no": 30,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md30.json"
+    },
+    {
+      "id": "md31",
+      "label": "Spieltag 31",
+      "date": "26.04.2013 - 28.04.2013",
+      "no": 31,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md31.json"
+    },
+    {
+      "id": "md32",
+      "label": "Spieltag 32",
+      "date": "03.05.2013 - 05.05.2013",
+      "no": 32,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md32.json"
+    },
+    {
+      "id": "md33",
+      "label": "Spieltag 33",
+      "date": "11.05.2013 - 11.05.2013",
+      "no": 33,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md33.json"
+    },
+    {
+      "id": "md34",
+      "label": "Spieltag 34",
+      "date": "18.05.2013 - 18.05.2013",
+      "no": 34,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md34.json"
+    },
+    {
+      "id": "md35",
+      "label": "Relegation",
+      "date": "",
+      "no": 35,
+      "file": "data/games/game_tip-bundesliga-12-13/matchdays/md35.json"
+    }
+  ]
+}

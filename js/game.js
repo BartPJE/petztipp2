@@ -79,7 +79,6 @@ function resolveTeamLabel(val) {
   return raw;
 }
 
-
 function normalizeBonusCompareValue(value) {
   const raw = String(value ?? "").trim();
   if (!raw) return "";
@@ -133,7 +132,9 @@ function bonusPointsForQuestion(key, playerValue, resultValue, pointsRow) {
 
   // Mehrfachantworten: jede richtige Antwort zählt
   let score = 0;
-  const resultSet = new Set(resultVals.map((x) => normalizeBonusCompareValue(x)));
+  const resultSet = new Set(
+    resultVals.map((x) => normalizeBonusCompareValue(x)),
+  );
 
   for (const val of playerVals) {
     if (resultSet.has(normalizeBonusCompareValue(val))) {
@@ -150,13 +151,14 @@ function bonusHitsForQuestion(playerValue, resultValue) {
 
   if (!playerVals.length || !resultVals.length) return [];
 
-  const resultSet = new Set(resultVals.map((x) => normalizeBonusCompareValue(x)));
+  const resultSet = new Set(
+    resultVals.map((x) => normalizeBonusCompareValue(x)),
+  );
   return playerVals.map((v) => ({
     value: v,
     hit: resultSet.has(normalizeBonusCompareValue(v)),
   }));
 }
-
 
 function getBonusPickIdentifier(pick) {
   const candidate =
@@ -775,7 +777,9 @@ function renderSortableTable({
     .map((c) => {
       const active = c.key === state.key;
       const dir = active ? (state.dir === "asc" ? "↑" : "↓") : "";
-      const colWidth = equalColumns ? ` style="width:${100 / columns.length}%"` : "";
+      const colWidth = equalColumns
+        ? ` style="width:${100 / columns.length}%"`
+        : "";
       const titleAttr = c.title ? ` title="${escapeHtml(c.title)}"` : "";
       return `<th${colWidth}><button class="sortBtn ${active ? "active" : ""}" data-table="${tableId}" data-key="${c.key}"${titleAttr}>${escapeHtml(c.label)} ${dir}</button></th>`;
     })
@@ -845,7 +849,10 @@ function renderLinkedSortableTable({
 }) {
   const state = sortableTablesState[linkedTableId];
   const sorted = sortRowsByState(rows, allColumns, state);
-  const fixedWidthCount = Math.min(fixedLeadingColumnWidths.length, columns.length);
+  const fixedWidthCount = Math.min(
+    fixedLeadingColumnWidths.length,
+    columns.length,
+  );
   const fixedWidthSum = fixedLeadingColumnWidths
     .slice(0, fixedWidthCount)
     .reduce((sum, width) => sum + Number(width || 0), 0);
@@ -853,7 +860,8 @@ function renderLinkedSortableTable({
   const flexibleWidth = Math.max(0, (100 - fixedWidthSum) / flexibleCount);
   const columnWidthStyle = (index) => {
     if (!equalColumns) return "";
-    const width = index < fixedWidthCount ? fixedLeadingColumnWidths[index] : flexibleWidth;
+    const width =
+      index < fixedWidthCount ? fixedLeadingColumnWidths[index] : flexibleWidth;
     return ` style="width:${width}%"`;
   };
 
@@ -901,7 +909,9 @@ async function renderPlayerStatsTab() {
       return Number(b.totalPoints || 0) - Number(a.totalPoints || 0);
     }
     if (Number(b.dayWinsCumulative || 0) !== Number(a.dayWinsCumulative || 0)) {
-      return Number(b.dayWinsCumulative || 0) - Number(a.dayWinsCumulative || 0);
+      return (
+        Number(b.dayWinsCumulative || 0) - Number(a.dayWinsCumulative || 0)
+      );
     }
     return String(playersBySlug[a.player]?.name || a.player).localeCompare(
       String(playersBySlug[b.player]?.name || b.player),
@@ -919,74 +929,95 @@ async function renderPlayerStatsTab() {
   });
 
   const allColumns = [
-      { key: "overallRank", label: "GP", title: "Gesamtplatzierung", render: (r) => r.overallRank ?? "—" },
-      {
-        key: "player",
-        label: "Sp.",
-        title: "Spieler",
-        getSortValue: (r) => playersBySlug[r.player]?.name || r.player,
-        render: (r) => playerChip(r.player),
-      },
-      {
-        key: "pointsPerPickedGame",
-        label: "P/Sp",
-        title: "Punkte pro getipptem Spiel",
-        render: (r) => fmt2(r.pointsPerPickedGame),
-      },
-      {
-        key: "totalPoints",
-        label: "Pkt",
-        title: "Gesamtpunkte",
-        render: (r) => Math.round(r.totalPoints),
-      },
-      { key: "pickedGames", label: "Tipps", title: "Getippte Spiele" },
-      {
-        key: "dayWinsCumulative",
-        label: "TS kum",
-        title: "Tagessiege kumuliert",
-        render: (r) => fmt2(r.dayWinsCumulative),
-      },
-      { key: "dayWinnerCount", label: "TS Tg", title: "Tagessieger-Tage" },
-      { key: "bonusPoints", label: "Bonus", title: "Bonuspunkte" },
-      { key: "days20Plus", label: "20+", title: "Spieltage mit mindestens 20 Punkten" },
-      { key: "daysZeroWithPick", label: "0P", title: "Spieltage mit 0 Punkten trotz Tipp" },
-      {
-        key: "highestDayPoints",
-        label: "Max",
-        title: "Höchste Tagespunkte",
-        render: (r) => r.highestDayPoints ?? "—",
-      },
-      {
-        key: "lowestDayPoints",
-        label: "Min",
-        title: "Niedrigste Tagespunkte",
-        render: (r) => r.lowestDayPoints ?? "—",
-      },
-      { key: "firstPlaceCount", label: "P1", title: "Wie oft Platz 1 Gesamt" },
-      {
-        key: "bestRank",
-        label: "Best",
-        title: "Bester Platz",
-        render: (r) => r.bestRank ?? "—",
-      },
-      {
-        key: "worstRank",
-        label: "Schl.",
-        title: "Schlechtester Platz",
-        render: (r) => r.worstRank ?? "—",
-      },
-      {
-        key: "avgRank",
-        label: "ØPl",
-        title: "Durchschnittsplatz",
-        render: (r) => fmt2(r.avgRank),
-      },
-      { key: "exactHits", label: "4P", title: "Richtige Ergebnisse (4 Punkte)" },
-      { key: "diffHits", label: "3P", title: "Richtiges Torverhältnis (3 Punkte)" },
-      { key: "tendencyHits", label: "2P", title: "Richtige Tendenz (2 Punkte)" },
-      { key: "wrongHits", label: "0P", title: "Falsch getippte Spiele (0 Punkte)" },
-      { key: "tippedMatchdays", label: "SpT", title: "Getippte Spieltage" },
-    ];
+    {
+      key: "overallRank",
+      label: "GP",
+      title: "Gesamtplatzierung",
+      render: (r) => r.overallRank ?? "—",
+    },
+    {
+      key: "player",
+      label: "Sp.",
+      title: "Spieler",
+      getSortValue: (r) => playersBySlug[r.player]?.name || r.player,
+      render: (r) => playerChip(r.player),
+    },
+    {
+      key: "pointsPerPickedGame",
+      label: "P/Sp",
+      title: "Punkte pro getipptem Spiel",
+      render: (r) => fmt2(r.pointsPerPickedGame),
+    },
+    {
+      key: "totalPoints",
+      label: "Pkt",
+      title: "Gesamtpunkte",
+      render: (r) => Math.round(r.totalPoints),
+    },
+    { key: "pickedGames", label: "Tipps", title: "Getippte Spiele" },
+    {
+      key: "dayWinsCumulative",
+      label: "TS kum",
+      title: "Tagessiege kumuliert",
+      render: (r) => fmt2(r.dayWinsCumulative),
+    },
+    { key: "dayWinnerCount", label: "TS Tg", title: "Tagessieger-Tage" },
+    { key: "bonusPoints", label: "Bonus", title: "Bonuspunkte" },
+    {
+      key: "days20Plus",
+      label: "20+",
+      title: "Spieltage mit mindestens 20 Punkten",
+    },
+    {
+      key: "daysZeroWithPick",
+      label: "0P",
+      title: "Spieltage mit 0 Punkten trotz Tipp",
+    },
+    {
+      key: "highestDayPoints",
+      label: "Max",
+      title: "Höchste Tagespunkte",
+      render: (r) => r.highestDayPoints ?? "—",
+    },
+    {
+      key: "lowestDayPoints",
+      label: "Min",
+      title: "Niedrigste Tagespunkte",
+      render: (r) => r.lowestDayPoints ?? "—",
+    },
+    { key: "firstPlaceCount", label: "P1", title: "Wie oft Platz 1 Gesamt" },
+    {
+      key: "bestRank",
+      label: "Best",
+      title: "Bester Platz",
+      render: (r) => r.bestRank ?? "—",
+    },
+    {
+      key: "worstRank",
+      label: "Schl.",
+      title: "Schlechtester Platz",
+      render: (r) => r.worstRank ?? "—",
+    },
+    {
+      key: "avgRank",
+      label: "ØPl",
+      title: "Durchschnittsplatz",
+      render: (r) => fmt2(r.avgRank),
+    },
+    { key: "exactHits", label: "4P", title: "Richtige Ergebnisse (4 Punkte)" },
+    {
+      key: "diffHits",
+      label: "3P",
+      title: "Richtiges Torverhältnis (3 Punkte)",
+    },
+    { key: "tendencyHits", label: "2P", title: "Richtige Tendenz (2 Punkte)" },
+    {
+      key: "wrongHits",
+      label: "0P",
+      title: "Falsch getippte Spiele (0 Punkte)",
+    },
+    { key: "tippedMatchdays", label: "SpT", title: "Getippte Spieltage" },
+  ];
 
   const columnsA = allColumns.slice(0, 10);
   const columnsB = [allColumns[0], allColumns[1], ...allColumns.slice(10)];
@@ -1274,7 +1305,8 @@ function crossTableHeatStyle(value, mean, maxAbsDelta) {
 
 async function renderCrossTableTab() {
   setStatsSectionsVisibility(false);
-  const { rows, playersInGame, mean, maxAbsDelta } = await computeCrossTableStats();
+  const { rows, playersInGame, mean, maxAbsDelta } =
+    await computeCrossTableStats();
 
   $("#mdTable").innerHTML = "";
   $("#overall").innerHTML = "";
@@ -1282,7 +1314,8 @@ async function renderCrossTableTab() {
     "Kreuztabelle: Team (Zeilen) × Spieler (Spalten), farbcodiert relativ zum Mittelwert.";
 
   if (!rows.length || !playersInGame.length) {
-    $("#mdContent").innerHTML = `<div class="small">Keine Daten für die Kreuztabelle vorhanden.</div>`;
+    $("#mdContent").innerHTML =
+      `<div class="small">Keine Daten für die Kreuztabelle vorhanden.</div>`;
     return;
   }
 
@@ -1316,9 +1349,9 @@ async function renderCrossTableTab() {
       const dir = active ? (state.dir === "asc" ? "↑" : "↓") : "";
       const ariaLabel = `Sortieren nach ${column.label}`;
       const label = column.slug
-        ? (column.avatar
-            ? `<img class="avatar crossHeaderAvatar" src="${escapeHtml(column.avatar)}" alt="${escapeHtml(column.label)}" title="${escapeHtml(column.label)}">`
-            : `<span class="crossHeaderName">${escapeHtml(column.label)}</span>`)
+        ? column.avatar
+          ? `<img class="avatar crossHeaderAvatar" src="${escapeHtml(column.avatar)}" alt="${escapeHtml(column.label)}" title="${escapeHtml(column.label)}">`
+          : `<span class="crossHeaderName">${escapeHtml(column.label)}</span>`
         : escapeHtml(column.label);
       return `<th><button class="sortBtn crossHeaderBtn ${active ? "active" : ""}" data-table="${tableId}" data-key="${column.key}" aria-label="${escapeHtml(ariaLabel)}" title="${escapeHtml(column.label)}">${label}<span class="crossHeaderSort">${dir}</span></button></th>`;
     })
@@ -1593,7 +1626,9 @@ function renderBonusTab() {
                 const resultSet = new Set(
                   resultVals.map((x) => normalizeBonusCompareValue(x)),
                 );
-                const isDecided = hasDecidedBonusResult(resultFor("Halbfinale"));
+                const isDecided = hasDecidedBonusResult(
+                  resultFor("Halbfinale"),
+                );
                 return Array.from({ length: 4 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const normalizedVal = normalizeBonusCompareValue(val);
@@ -1641,7 +1676,9 @@ function renderBonusTab() {
                 const resultSet = new Set(
                   resultVals.map((x) => normalizeBonusCompareValue(x)),
                 );
-                const isDecided = hasDecidedBonusResult(resultFor("Plätze 16-18"));
+                const isDecided = hasDecidedBonusResult(
+                  resultFor("Plätze 16-18"),
+                );
                 return Array.from({ length: 3 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const normalizedVal = normalizeBonusCompareValue(val);
@@ -1929,7 +1966,7 @@ async function loadMatchday(md) {
   gIndex = await loadJSON("data/games_index.json");
 
   const id = getParam("id") || gIndex[0]?.id;
-  game = await loadJSON(`data/games/game_${id}.json`);
+  game = await loadJSON(`data/games/game_${id}/game_${id}.json`);
 
   syncMobileCompNav();
   renderGameNavigation(game, gIndex);

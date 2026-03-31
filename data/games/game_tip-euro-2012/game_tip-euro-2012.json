@@ -1,0 +1,237 @@
+{
+  "id": "tip-euro-2012",
+  "title": "Euro 2012 - Polen/Ukraine",
+  "competition": "Europameisterschaft",
+  "season": "2012",
+  "bonusTips": {
+    "questions": [],
+    "picks": [
+      {
+        "player": "melli",
+        "name": "Melli",
+        "predictions": {
+          "Torschützenkönig": "ESP",
+          "Halbfinale": ["GER", "ITA", "CZE", "ESP"],
+          "Sieger A": "CZE",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "ENG",
+          "Europameister": "GER",
+          "Deutschland": "EM"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschützenkönig": "GER",
+          "Halbfinale": ["GER", "FRA", "NED", "ESP"],
+          "Sieger A": "POL",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "GER",
+          "Deutschland": "EM"
+        }
+      },
+      {
+        "player": "manu",
+        "name": "Manu",
+        "predictions": {
+          "Torschützenkönig": "NED",
+          "Halbfinale": ["GER", "FRA", "CZE", "ESP"],
+          "Sieger A": "CZE",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "GER",
+          "Deutschland": "EM"
+        }
+      },
+      {
+        "player": "thomas",
+        "name": "Thomas",
+        "predictions": {
+          "Torschützenkönig": "NED",
+          "Halbfinale": ["GER", "FRA", "NED", "ESP"],
+          "Sieger A": "POL",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "GER",
+          "Deutschland": "EM"
+        }
+      },
+      {
+        "player": "denis",
+        "name": "Denis",
+        "predictions": {
+          "Torschützenkönig": "GER",
+          "Halbfinale": ["GER", "FRA", "NED", "ESP"],
+          "Sieger A": "POL",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "GER",
+          "Deutschland": "EM"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschützenkönig": "ESP",
+          "Halbfinale": ["GER", "FRA", "NED", "ESP"],
+          "Sieger A": "POL",
+          "Sieger B": "NED",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "ESP",
+          "Deutschland": "VM"
+        }
+      },
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Torschützenkönig": "GER",
+          "Halbfinale": ["GER", "FRA", "NED", "ESP"],
+          "Sieger A": "CZE",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "GER",
+          "Deutschland": "EM"
+        }
+      },
+      {
+        "player": "bernhard",
+        "name": "Bernhard",
+        "predictions": {
+          "Torschützenkönig": "ENG",
+          "Halbfinale": ["GER", "FRA", "NED", "ITA"],
+          "Sieger A": "POL",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "GER",
+          "Deutschland": "VM"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Torschützenkönig": "NED",
+          "Halbfinale": ["GER", "FRA", "RUS", "ESP"],
+          "Sieger A": "RUS",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "GER",
+          "Deutschland": "EM"
+        }
+      },
+      {
+        "player": "franzi",
+        "name": "Franzi",
+        "predictions": {
+          "Torschützenkönig": "ESP",
+          "Halbfinale": ["GER", "FRA", "FRA", "ESP"],
+          "Sieger A": "POL",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "GER",
+          "Deutschland": "EM"
+        }
+      },
+      {
+        "player": "basti",
+        "name": "Basti",
+        "predictions": {
+          "Torschützenkönig": "ESP",
+          "Halbfinale": ["GER", "FRA", "POL", "ESP"],
+          "Sieger A": "POL",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "FRA ",
+          "Europameister": "GER",
+          "Deutschland": "VM"
+        }
+      },
+      {
+        "player": "result",
+        "name": "Ergebnis",
+        "predictions": {
+          "Torschützenkönig": ["GER", "ITA", "CRO", "POR", "RUS", "ESP"],
+          "Halbfinale": ["GER", "ITA", "POR", "ESP"],
+          "Sieger A": "CZE",
+          "Sieger B": "GER",
+          "Sieger C": "ESP",
+          "Sieger D": "ENG",
+          "Europameister": "ESP",
+          "Deutschland": "HF"
+        }
+      },
+      {
+        "player": "points",
+        "name": "Punkte",
+        "predictions": {
+          "Torschützenkönig": "3",
+          "Halbfinale": "3",
+          "Sieger A": "3",
+          "Sieger B": "3",
+          "Sieger C": "3",
+          "Sieger D": "3",
+          "Europameister": "3",
+          "Deutschland": "3"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "07.06.2012 - 10.06.2012",
+      "no": 1,
+      "file": "data/games/game_tip-euro-2012/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "11.06.2012 - 14.06.2012",
+      "no": 2,
+      "file": "data/games/game_tip-euro-2012/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "15.06.2012 - 18.06.2012",
+      "no": 3,
+      "file": "data/games/game_tip-euro-2012/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "19.06.2012 - 22.06.2012",
+      "no": 4,
+      "file": "data/games/game_tip-euro-2012/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "25.06.2012 - 26.06.2012  ",
+      "no": 5,
+      "file": "data/games/game_tip-euro-2012/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "29.06.2012 - 29.06.2012",
+      "no": 6,
+      "file": "data/games/game_tip-euro-2012/matchdays/md06.json"
+    }
+  ]
+}

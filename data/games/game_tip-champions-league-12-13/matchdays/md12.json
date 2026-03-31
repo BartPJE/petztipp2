@@ -1,0 +1,132 @@
+{
+  "id": "md12",
+  "label": "Spieltag 12",
+  "date": "30.04.2013",
+  "no": 12,
+  "matches": [
+    {
+      "id": "md12-01",
+      "home": "Real Madrid",
+      "away": "Borussia Dortmund",
+      "homeTeam": "RMA",
+      "awayTeam": "BVB",
+      "result": "2:0",
+      "date": "30.04.2013",
+      "time": "20:45"
+    },
+    {
+      "id": "md12-02",
+      "home": "FC Barcelona",
+      "away": "FC Bayern München",
+      "homeTeam": "BAR",
+      "awayTeam": "FCB",
+      "result": "0:3",
+      "date": "01.05.2013",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md12-01": "1:1",
+        "md12-02": "1:2"
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 2.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 156.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.833333333333333
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md12-01": "3:2",
+        "md12-02": "1:1"
+      },
+      "pickPoints": {
+        "md12-01": 2.0,
+        "md12-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 151.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.8333333333333335
+    },
+    {
+      "rank": 1,
+      "player": "thomas",
+      "picks": {
+        "md12-01": "1:2",
+        "md12-02": "1:2"
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 2.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 149.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.333333333333333
+    },
+    {
+      "rank": 4,
+      "player": "alois",
+      "picks": {
+        "md12-01": null,
+        "md12-02": null
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 29.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 156.0,
+      "dayWinsTotal": 4.833333333333333
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 151.0,
+      "dayWinsTotal": 2.8333333333333335
+    },
+    {
+      "rank": 3,
+      "player": "thomas",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 149.0,
+      "dayWinsTotal": 4.333333333333333
+    },
+    {
+      "rank": 4,
+      "player": "alois",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 29.0,
+      "dayWinsTotal": 0.0
+    }
+  ]
+}

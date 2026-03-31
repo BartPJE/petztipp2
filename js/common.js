@@ -92,7 +92,7 @@ function slugifyTeam(name) {
 
   return name
     .toLowerCase()
-    .replace(/&/g, "and")
+    .replace(/&/g, "RSC")
     .replace(/\./g, "")
     .replace(/'/g, "")
     .replace(/ä/g, "ae")
@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function loadGameWithMatchdays(id) {
-  const game = await loadJSON(`data/games/game_${id}.json`);
+  const game = await loadJSON(`data/games/game_${id}/game_${id}.json`);
 
   if (!Array.isArray(game.matchdays)) {
     game.matchdays = [];

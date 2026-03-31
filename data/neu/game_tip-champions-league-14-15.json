@@ -24,7 +24,7 @@
           "id": "md01-02",
           "home": "Olympiakos Piräus",
           "away": "Atlético Madrid",
-          "homeCode": "OLY",
+          "homeCode": "PIR",
           "awayCode": "ATM",
           "result": "3:2",
           "date": "16.09.2014",
@@ -84,8 +84,8 @@
           "id": "md01-08",
           "home": "Gala",
           "away": "RSC Anderlecht",
-          "homeCode": "GALA",
-          "awayCode": "AND",
+          "homeCode": "GAL",
+          "awayCode": "RSC",
           "result": "1:1",
           "date": "04.11.2014",
           "time": "20:45"
@@ -114,7 +114,7 @@
           "id": "md01-11",
           "home": "Ajax Amsterdam",
           "away": "Paris Saint-Germain",
-          "homeCode": "AJA",
+          "homeCode": "AJX",
           "awayCode": "PSG",
           "result": "1:1",
           "date": "09.12.2014",
@@ -401,7 +401,7 @@
           "home": "APOEL Nikosia",
           "away": "Ajax Amsterdam",
           "homeCode": "APO",
-          "awayCode": "AJA",
+          "awayCode": "AJX",
           "result": "1:1",
           "date": "22.10.2014",
           "time": "20:45"
@@ -481,7 +481,7 @@
           "home": "Malmö",
           "away": "Olympiakos Piräus",
           "homeCode": "MALM",
-          "awayCode": "OLY",
+          "awayCode": "PIR",
           "result": "2:0",
           "date": "16.09.2014",
           "time": "20:45"
@@ -520,7 +520,7 @@
           "id": "md02-15",
           "home": "RSC Anderlecht",
           "away": "Borussia Dortmund",
-          "homeCode": "AND",
+          "homeCode": "RSC",
           "awayCode": "BVB",
           "result": "0:3",
           "date": "22.10.2014",
@@ -531,7 +531,7 @@
           "home": "FC Arsenal",
           "away": "Gala",
           "homeCode": "ARS",
-          "awayCode": "GALA",
+          "awayCode": "GAL",
           "result": "4:1",
           "date": "04.11.2014",
           "time": "18:00"
@@ -3554,9 +3554,7 @@
         "name": "Peter",
         "predictions": {
           "Torschütze": "Real Madrid (ESP)",
-          "Halbfinale": [
-            "FC Bayern München"
-          ],
+          "Halbfinale": ["FC Bayern München"],
           "Sieger": "FC Bayern München",
           "Sieger A": "Juventus",
           "Sieger B": "Real Madrid (ESP)",
@@ -3573,9 +3571,7 @@
         "name": "Alois",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Halbfinale": [
-            "FC Bayern München"
-          ],
+          "Halbfinale": ["FC Bayern München"],
           "Sieger": "Real Madrid (ESP)",
           "Sieger A": "Atl",
           "Sieger B": "Real Madrid (ESP)",
@@ -3592,9 +3588,7 @@
         "name": "Johannes",
         "predictions": {
           "Torschütze": "FC Barcelona",
-          "Halbfinale": [
-            "FC Bayern München"
-          ],
+          "Halbfinale": ["FC Bayern München"],
           "Sieger": "FC Bayern München",
           "Sieger A": "Atl",
           "Sieger B": "Real Madrid (ESP)",
@@ -3611,9 +3605,7 @@
         "name": "Thomas",
         "predictions": {
           "Torschütze": "Real Madrid (ESP)",
-          "Halbfinale": [
-            "FC Bayern München"
-          ],
+          "Halbfinale": ["FC Bayern München"],
           "Sieger": "FC Bayern München",
           "Sieger A": "Atl",
           "Sieger B": "Real Madrid (ESP)",

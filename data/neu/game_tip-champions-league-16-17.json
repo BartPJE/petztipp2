@@ -44,7 +44,7 @@
           "id": "md01-04",
           "home": "Dynamo Kiew",
           "away": "SSC Neapel",
-          "homeCode": "DYN",
+          "homeCode": "DKY",
           "awayCode": "NAP",
           "result": "1:2",
           "date": "28.09.2016",
@@ -155,7 +155,7 @@
           "home": "Olympique Lyon",
           "away": "Dinamo Zagreb",
           "homeCode": "LYO",
-          "awayCode": "DIN",
+          "awayCode": "DZA",
           "result": "3:0",
           "date": "28.09.2016",
           "time": "20:45"
@@ -399,7 +399,7 @@
           "id": "md02-08",
           "home": "Dinamo Zagreb",
           "away": "Juventus Turin",
-          "homeCode": "DIN",
+          "homeCode": "DZA",
           "awayCode": "JUV",
           "result": "0:4",
           "date": "06.12.2016",
@@ -430,7 +430,7 @@
           "home": "Bes",
           "away": "Dynamo Kiew",
           "homeCode": "BES",
-          "awayCode": "DYN",
+          "awayCode": "DKY",
           "result": "1:1",
           "date": "14.09.2016",
           "time": "20:45"
@@ -720,7 +720,7 @@
           "id": "md03-07",
           "home": "Dinamo Zagreb",
           "away": "FC Sevilla",
-          "homeCode": "DIN",
+          "homeCode": "DZA",
           "awayCode": "SEV",
           "result": "0:1",
           "date": "13.09.2016",
@@ -770,7 +770,7 @@
           "id": "md03-12",
           "home": "Dynamo Kiew",
           "away": "Benfica Lissabon",
-          "homeCode": "DYN",
+          "homeCode": "DKY",
           "awayCode": "BEN",
           "result": "0:2",
           "date": "01.11.2016",
@@ -1022,7 +1022,7 @@
           "home": "Benfica Lissabon",
           "away": "Dynamo Kiew",
           "homeCode": "BEN",
-          "awayCode": "DYN",
+          "awayCode": "DKY",
           "result": "1:0",
           "date": "27.09.2016",
           "time": "20:45"
@@ -1132,7 +1132,7 @@
           "home": "FC Sevilla",
           "away": "Dinamo Zagreb",
           "homeCode": "SEV",
-          "awayCode": "DIN",
+          "awayCode": "DZA",
           "result": "4:0",
           "date": "14.09.2016",
           "time": "20:45"
@@ -3033,9 +3033,7 @@
         "name": "Peter",
         "predictions": {
           "Torschütze": "Real Madrid",
-          "Halbfinale": [
-            "Real Madrid"
-          ],
+          "Halbfinale": ["Real Madrid"],
           "Sieger": "FC Bayern München",
           "Sieger A": "Paris Saint-Germain",
           "Sieger B": "Neap",
@@ -3052,9 +3050,7 @@
         "name": "Alois",
         "predictions": {
           "Torschütze": "FC Barcelona",
-          "Halbfinale": [
-            "Real Madrid"
-          ],
+          "Halbfinale": ["Real Madrid"],
           "Sieger": "FC Barcelona",
           "Sieger A": "Paris Saint-Germain",
           "Sieger B": "Neap",
@@ -3071,9 +3067,7 @@
         "name": "Johannes",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Halbfinale": [
-            "Real Madrid"
-          ],
+          "Halbfinale": ["Real Madrid"],
           "Sieger": "FC Bayern München",
           "Sieger A": "Paris Saint-Germain",
           "Sieger B": "Benfica",

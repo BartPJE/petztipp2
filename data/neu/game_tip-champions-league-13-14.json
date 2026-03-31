@@ -34,7 +34,7 @@
           "id": "md01-03",
           "home": "Gala",
           "away": "Real Madrid",
-          "homeCode": "GALA",
+          "homeCode": "GAL",
           "awayCode": "RMA",
           "result": "1:6",
           "date": "02.10.2013",
@@ -55,7 +55,7 @@
           "home": "Benfica Lissabon",
           "away": "RSC Anderlecht",
           "homeCode": "BEN",
-          "awayCode": "AND",
+          "awayCode": "RSC",
           "result": "2:0",
           "date": "23.10.2013",
           "time": "20:45"
@@ -64,7 +64,7 @@
           "id": "md01-06",
           "home": "Olympiakos Piräus",
           "away": "Paris Saint-Germain",
-          "homeCode": "OLY",
+          "homeCode": "PIR",
           "awayCode": "PSG",
           "result": "1:4",
           "date": "23.10.2013",
@@ -440,7 +440,7 @@
           "id": "md02-07",
           "home": "Ajax Amsterdam",
           "away": "AC Mailand",
-          "homeCode": "AJA",
+          "homeCode": "AJX",
           "awayCode": "ACM",
           "result": "1:1",
           "date": "27.11.2013",
@@ -491,7 +491,7 @@
           "home": "Juventus Turin",
           "away": "Gala",
           "homeCode": "JUV",
-          "awayCode": "GALA",
+          "awayCode": "GAL",
           "result": "2:2",
           "date": "02.10.2013",
           "time": "20:45"
@@ -511,7 +511,7 @@
           "home": "Anderl.",
           "away": "Olympiakos Piräus",
           "homeCode": "ANDE",
-          "awayCode": "OLY",
+          "awayCode": "PIR",
           "result": "0:3",
           "date": "23.10.2013",
           "time": "20:45"
@@ -825,7 +825,7 @@
           "home": "Celtic Glasgow",
           "away": "Ajax Amsterdam",
           "homeCode": "CEL",
-          "awayCode": "AJA",
+          "awayCode": "AJX",
           "result": "2:1",
           "date": "17.09.2013",
           "time": "20:45"
@@ -884,7 +884,7 @@
           "id": "md03-13",
           "home": "Gala",
           "away": "FC Kopenhagen",
-          "homeCode": "GALA",
+          "homeCode": "GAL",
           "awayCode": "FCKO",
           "result": "3:1",
           "date": "05.11.2013",
@@ -905,7 +905,7 @@
           "home": "Benfica Lissabon",
           "away": "Olympiakos Piräus",
           "homeCode": "BEN",
-          "awayCode": "OLY",
+          "awayCode": "PIR",
           "result": "1:1",
           "date": "27.11.2013",
           "time": "20:45"
@@ -1169,7 +1169,7 @@
           "home": "FC Kopenhagen",
           "away": "Gala",
           "homeCode": "FCKO",
-          "awayCode": "GALA",
+          "awayCode": "GAL",
           "result": "1:0",
           "date": "18.09.2013",
           "time": "20:45"
@@ -1188,7 +1188,7 @@
           "id": "md04-05",
           "home": "Olympiakos Piräus",
           "away": "Benfica Lissabon",
-          "homeCode": "OLY",
+          "homeCode": "PIR",
           "awayCode": "BEN",
           "result": "1:0",
           "date": "01.10.2013",
@@ -1298,7 +1298,7 @@
           "id": "md04-16",
           "home": "Ajax Amsterdam",
           "away": "Celtic Glasgow",
-          "homeCode": "AJA",
+          "homeCode": "AJX",
           "awayCode": "CEL",
           "result": "1:0",
           "date": "01.10.2013",
@@ -1592,7 +1592,7 @@
           "id": "md05-07",
           "home": "Ajax Amsterdam",
           "away": "FC Barcelona",
-          "homeCode": "AJA",
+          "homeCode": "AJX",
           "awayCode": "BAR",
           "result": "2:1",
           "date": "26.11.2013",
@@ -1643,7 +1643,7 @@
           "home": "Real Madrid",
           "away": "Gala",
           "homeCode": "RMA",
-          "awayCode": "GALA",
+          "awayCode": "GAL",
           "result": "4:1",
           "date": "01.10.2013",
           "time": "18:00"
@@ -1663,7 +1663,7 @@
           "home": "Paris Saint-Germain",
           "away": "Olympiakos Piräus",
           "homeCode": "PSG",
-          "awayCode": "OLY",
+          "awayCode": "PIR",
           "result": "2:1",
           "date": "22.10.2013",
           "time": "20:45"
@@ -1956,7 +1956,7 @@
           "id": "md06-05",
           "home": "Olympiakos Piräus",
           "away": "Anderl.",
-          "homeCode": "OLY",
+          "homeCode": "PIR",
           "awayCode": "ANDE",
           "result": "3:1",
           "date": "11.12.2013",
@@ -1986,7 +1986,7 @@
           "id": "md06-08",
           "home": "Gala",
           "away": "Juventus Turin",
-          "homeCode": "GALA",
+          "homeCode": "GAL",
           "awayCode": "JUV",
           "result": "1:0",
           "date": "01.10.2013",
@@ -2067,7 +2067,7 @@
           "home": "AC Mailand",
           "away": "Ajax Amsterdam",
           "homeCode": "ACM",
-          "awayCode": "AJA",
+          "awayCode": "AJX",
           "result": "0:0",
           "date": "11.12.2013",
           "time": "20:45"
@@ -2350,7 +2350,7 @@
           "id": "md07-06",
           "home": "Olympiakos Piräus",
           "away": "Manchester United",
-          "homeCode": "OLY",
+          "homeCode": "PIR",
           "awayCode": "MUN",
           "result": "2:0",
           "date": "25.02.2014",
@@ -2360,7 +2360,7 @@
           "id": "md07-07",
           "home": "Gala",
           "away": "FC Chelsea",
-          "homeCode": "GALA",
+          "homeCode": "GAL",
           "awayCode": "CHE",
           "result": "1:1",
           "date": "25.02.2014",
@@ -2581,7 +2581,7 @@
           "home": "FC Chelsea",
           "away": "Gala",
           "homeCode": "CHE",
-          "awayCode": "GALA",
+          "awayCode": "GAL",
           "result": "2:0",
           "date": "12.03.2014",
           "time": "20:45"
@@ -2601,7 +2601,7 @@
           "home": "Manchester United",
           "away": "Olympiakos Piräus",
           "homeCode": "MUN",
-          "awayCode": "OLY",
+          "awayCode": "PIR",
           "result": "3:0",
           "date": "18.03.2014",
           "time": "20:45"
@@ -3661,9 +3661,7 @@
         "name": "Thomas",
         "predictions": {
           "Torschütze": "FC Barcelona",
-          "Halbfinale": [
-            "Real Madrid"
-          ],
+          "Halbfinale": ["Real Madrid"],
           "Sieger": "FC Barcelona",
           "Sieger A": "Manchester United",
           "Sieger B": "Real Madrid",
@@ -3680,9 +3678,7 @@
         "name": "Peter",
         "predictions": {
           "Torschütze": "FC Barcelona",
-          "Halbfinale": [
-            "Real Madrid"
-          ],
+          "Halbfinale": ["Real Madrid"],
           "Sieger": "FC Bayern München",
           "Sieger A": "Manchester United",
           "Sieger B": "Real Madrid",
@@ -3699,9 +3695,7 @@
         "name": "Peter M.",
         "predictions": {
           "Torschütze": "FC Barcelona",
-          "Halbfinale": [
-            "Real Madrid"
-          ],
+          "Halbfinale": ["Real Madrid"],
           "Sieger": "FC Bayern München"
         }
       },
@@ -3710,9 +3704,7 @@
         "name": "Alois",
         "predictions": {
           "Torschütze": "Real Madrid",
-          "Halbfinale": [
-            "Real Madrid"
-          ],
+          "Halbfinale": ["Real Madrid"],
           "Sieger": "FC Bayern München",
           "Sieger A": "Manchester United",
           "Sieger B": "Real Madrid",
