@@ -1,0 +1,130 @@
+{
+  "id": "tip-dfb-pokal-13-14",
+  "title": "DFB Pokal 2013/2014",
+  "competition": "DFB Pokal",
+  "season": "2013/2014",
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "",
+      "no": 1,
+      "file": "data/games/game_tip-dfb-pokal-13-14/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "",
+      "no": 2,
+      "file": "data/games/game_tip-dfb-pokal-13-14/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "",
+      "no": 3,
+      "file": "data/games/game_tip-dfb-pokal-13-14/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "",
+      "no": 4,
+      "file": "data/games/game_tip-dfb-pokal-13-14/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "",
+      "no": 5,
+      "file": "data/games/game_tip-dfb-pokal-13-14/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "",
+      "no": 6,
+      "file": "data/games/game_tip-dfb-pokal-13-14/matchdays/md06.json"
+    }
+  ],
+  "bonusTips": {
+    "questions": [
+      {
+        "label": "Sieger",
+        "result": "FC Bayern München",
+        "points": 5.0
+      },
+      {
+        "label": "Finale",
+        "result": ["Borussia Dortmund", "FC Bayern München"],
+        "points": 4.0
+      },
+      {
+        "label": "Halbfinale",
+        "result": [
+          "Borussia Dortmund",
+          "FC Bayern München",
+          "VfL Wolfsburg",
+          "1. FC Kaiserslautern"
+        ],
+        "points": 4.0
+      },
+      {
+        "label": "Viertelfinale",
+        "result": [
+          "Eintracht Frankfurt",
+          "TSG 1899 Hoffenheim",
+          "Bayer 04 Leverkusen",
+          "Hamburger SV",
+          "Borussia Dortmund",
+          "VfL Wolfsburg",
+          "1. FC Kaiserslautern",
+          "FC Bayern München"
+        ],
+        "points": 4.0
+      }
+    ],
+    "picks": [
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Finale": ["FC Bayern München"],
+          "Halbfinale": ["Bayer 04 Leverkusen"],
+          "Viertelfinale": ["VfL Wolfsburg"],
+          "Sieger": "FC Bayern München"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Finale": ["FC Bayern München"],
+          "Halbfinale": ["VfL Wolfsburg"],
+          "Viertelfinale": ["VfL Wolfsburg"],
+          "Sieger": "FC Bayern München"
+        }
+      },
+      {
+        "player": "peterm",
+        "name": "Peter M.",
+        "predictions": {
+          "Finale": ["FC Bayern München"],
+          "Halbfinale": ["Bayer 04 Leverkusen"],
+          "Viertelfinale": ["VfL Wolfsburg"],
+          "Sieger": "FC Bayern München"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Finale": ["FC Bayern München"],
+          "Halbfinale": ["Bayer 04 Leverkusen"],
+          "Viertelfinale": ["SVW"],
+          "Sieger": "FC Bayern München"
+        }
+      }
+    ]
+  }
+}
