@@ -1407,6 +1407,10 @@ async function renderCrossTableTab() {
 
 function renderBonusTab() {
   setStatsSectionsVisibility(false);
+  const dayCard = document.getElementById("matchdayTableSection");
+  const overallCard = document.getElementById("overallSection");
+  if (dayCard) dayCard.style.display = "";
+  if (overallCard) overallCard.style.display = "none";
   const bonus = game?.bonusTips;
   if (!bonus || !Array.isArray(bonus.picks) || !bonus.picks.length) {
     $("#mdContent").innerHTML =
