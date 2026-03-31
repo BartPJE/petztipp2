@@ -1614,6 +1614,9 @@ function renderBonusTab() {
               if (key === "Halbfinale") {
                 const playerVals = normalizeBonusValue(preds[key]);
                 const resultVals = normalizeBonusValue(resultFor("Halbfinale"));
+                const resultSet = new Set(
+                  resultVals.map((x) => normalizeBonusCompareValue(x)),
+                );
                 return Array.from({ length: 4 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
@@ -1666,6 +1669,9 @@ function renderBonusTab() {
                 const resultVals = normalizeBonusValue(
                   resultFor("Plätze 16-18"),
                 );
+                const resultSet = new Set(
+                  resultVals.map((x) => normalizeBonusCompareValue(x)),
+                );
                 return Array.from({ length: 3 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
@@ -1716,6 +1722,9 @@ function renderBonusTab() {
               if (key === "Absteiger") {
                 const playerVals = normalizeBonusValue(preds[key]);
                 const resultVals = normalizeBonusValue(resultFor("Absteiger"));
+                const resultSet = new Set(
+                  resultVals.map((x) => normalizeBonusCompareValue(x)),
+                );
                 return Array.from({ length: 3 }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
