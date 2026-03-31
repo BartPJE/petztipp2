@@ -34,5 +34,14 @@
     "season": "2007",
     "start": "2007-07-21",
     "end": "2007-07-28"
+  },
+  {
+    "id": "tip-bundesliga-07-08",
+    "title": "Bundesliga 2007/2008",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2007/2008",
+    "start": "2007-08-10",
+    "end": "2008-05-17"
   }
 ]
