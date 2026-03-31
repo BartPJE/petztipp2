@@ -863,7 +863,7 @@ function createStandingRow(team) {
   };
 }
 
-function computePerfectBundesligaTable(game, slug) {
+function computePerfectCompetitionTable(game, slug) {
   if (!game) return [];
 
   const standings = {};
@@ -959,11 +959,11 @@ function teamLogo(teamKey) {
   return "";
 }
 
-function renderPerfectBundesligaTable(game, slug) {
-  const rows = computePerfectBundesligaTable(game, slug);
+function renderPerfectCompetitionTable(game, slug) {
+  const rows = computePerfectCompetitionTable(game, slug);
 
   if (!rows.length) {
-    return `<div class="small">Keine getippten Bundesliga-Ergebnisse für diese Saison vorhanden.</div>`;
+    return `<div class="small">Keine getippten Ergebnisse für diese Saison vorhanden.</div>`;
   }
 
   const htmlRows = rows.map(r => {
@@ -996,33 +996,37 @@ function renderPerfectBundesligaTable(game, slug) {
   );
 }
 
-function initPerfectBundesligaSelector(slug) {
-  const select = document.getElementById("perfectBundesligaSelect");
-  const target = document.getElementById("perfectBundesligaTable");
+function initPerfectCompetitionSelector(slug) {
+  const select = document.getElementById("perfectTableSelect");
+  const target = document.getElementById("perfectTable");
   if (!select || !target) return;
 
-  const bundesligaGames = games
-    .filter(g => String(g.competition).toLowerCase().includes("bundesliga"))
-    .sort((a, b) => String(b.season || "").localeCompare(String(a.season || "")));
+  const competitionGames = [...games]
+    .sort((a, b) => {
+      const compCompare = String(a.competition || "").localeCompare(String(b.competition || ""));
+      if (compCompare !== 0) return compCompare;
+      return String(b.season || "").localeCompare(String(a.season || ""));
+    });
 
-  if (!bundesligaGames.length) {
+  if (!competitionGames.length) {
     select.innerHTML = "";
-    target.innerHTML = `<div class="small">Keine Bundesliga-Saisons gefunden.</div>`;
+    target.innerHTML = `<div class="small">Keine Wettbewerbe gefunden.</div>`;
     return;
   }
 
-  select.innerHTML = bundesligaGames.map(g => `
+  select.innerHTML = competitionGames.map(g => `
     <option value="${escapeHtml(g.id)}">${escapeHtml(g.competition)} ${escapeHtml(g.season || "")}</option>
   `).join("");
 
   const renderSelected = () => {
-    const selectedGame = bundesligaGames.find(g => g.id === select.value) || bundesligaGames[0];
-    target.innerHTML = renderPerfectBundesligaTable(selectedGame, slug);
+    const selectedGame = competitionGames.find(g => g.id === select.value) || competitionGames[0];
+    target.innerHTML = renderPerfectCompetitionTable(selectedGame, slug);
   };
 
   select.addEventListener("change", renderSelected);
 
-  select.value = bundesligaGames[0].id;
+  const initialGame = competitionGames.find(g => String(g.competition).toLowerCase().includes("bundesliga")) || competitionGames[0];
+  select.value = initialGame.id;
   renderSelected();
 }
 
@@ -1180,6 +1184,6 @@ function initPerfectBundesligaSelector(slug) {
   $("#pMatchdays").innerHTML = renderRecentMatchdays(slug);
   $("#pMatchdays").insertAdjacentHTML("afterend", extraHtml);
 
-  initPerfectBundesligaSelector(slug);
+  initPerfectCompetitionSelector(slug);
 
 })();
