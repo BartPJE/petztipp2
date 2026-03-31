@@ -809,24 +809,35 @@ function renderLinkedSortableTable({
   rows,
   allColumns,
   equalColumns = false,
+  fixedLeadingColumnWidths = [],
 }) {
   const state = sortableTablesState[linkedTableId];
   const sorted = sortRowsByState(rows, allColumns, state);
+  const fixedWidthCount = Math.min(fixedLeadingColumnWidths.length, columns.length);
+  const fixedWidthSum = fixedLeadingColumnWidths
+    .slice(0, fixedWidthCount)
+    .reduce((sum, width) => sum + Number(width || 0), 0);
+  const flexibleCount = Math.max(columns.length - fixedWidthCount, 1);
+  const flexibleWidth = Math.max(0, (100 - fixedWidthSum) / flexibleCount);
+  const columnWidthStyle = (index) => {
+    if (!equalColumns) return "";
+    const width = index < fixedWidthCount ? fixedLeadingColumnWidths[index] : flexibleWidth;
+    return ` style="width:${width}%"`;
+  };
 
   const headers = columns
-    .map((c) => {
+    .map((c, i) => {
       const active = c.key === state.key;
       const dir = active ? (state.dir === "asc" ? "↑" : "↓") : "";
-      const colWidth = equalColumns ? ` style="width:${100 / columns.length}%"` : "";
       const titleAttr = c.title ? ` title="${escapeHtml(c.title)}"` : "";
-      return `<th${colWidth}><button class="sortBtn ${active ? "active" : ""}" data-linked-table="${linkedTableId}" data-key="${c.key}"${titleAttr}>${escapeHtml(c.label)} ${dir}</button></th>`;
+      return `<th${columnWidthStyle(i)}><button class="sortBtn ${active ? "active" : ""}" data-linked-table="${linkedTableId}" data-key="${c.key}"${titleAttr}>${escapeHtml(c.label)} ${dir}</button></th>`;
     })
     .join("");
 
   const body = sorted
     .map(
       (r) =>
-        `<tr class="row">${columns.map((c) => `<td${equalColumns ? ` style="width:${100 / columns.length}%"` : ""}>${c.render ? c.render(r) : escapeHtml(r[c.key])}</td>`).join("")}</tr>`,
+        `<tr class="row">${columns.map((c, i) => `<td${columnWidthStyle(i)}>${c.render ? c.render(r) : escapeHtml(r[c.key])}</td>`).join("")}</tr>`,
     )
     .join("");
   $(mountId).innerHTML =
@@ -961,6 +972,7 @@ async function renderPlayerStatsTab() {
     rows: playerRows,
     allColumns,
     equalColumns: true,
+    fixedLeadingColumnWidths: [8, 20],
   });
 
   renderLinkedSortableTable({
@@ -970,6 +982,7 @@ async function renderPlayerStatsTab() {
     rows: playerRows,
     allColumns,
     equalColumns: true,
+    fixedLeadingColumnWidths: [8, 20],
   });
 
   document
