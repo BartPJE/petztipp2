@@ -110,7 +110,13 @@ function normalizeBonusCompareValue(value) {
       ]
         .filter(Boolean)
         .map((v) => String(v).trim().toLowerCase());
-      return lowerRawVariants.some((variant) => candidates.includes(variant));
+      return lowerRawVariants.some((variant) =>
+        candidates.some((candidate) => {
+          if (candidate === variant) return true;
+          if (variant.length < 4 || candidate.length < 4) return false;
+          return candidate.includes(variant) || variant.includes(candidate);
+        }),
+      );
     });
     if (byName?.key) return String(byName.key).trim().toLowerCase();
   }
