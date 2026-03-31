@@ -181,6 +181,29 @@ function bonusHitsForQuestion(playerValue, resultValue) {
   }));
 }
 
+
+function getBonusPickIdentifier(pick) {
+  const candidate =
+    pick?.player ?? pick?.slug ?? pick?.tipper ?? pick?.tipperId ?? pick?.name;
+  return String(candidate ?? "").trim();
+}
+
+function getBonusPickDisplayName(pick) {
+  const slug = getBonusPickIdentifier(pick);
+  if (slug && playersBySlug[slug]?.name) return playersBySlug[slug].name;
+
+  const fallback =
+    pick?.name ?? pick?.playerName ?? pick?.tipperName ?? pick?.player ?? slug;
+  return String(fallback ?? "Unbekannt").trim() || "Unbekannt";
+}
+
+function bonusPlayerChip(pick) {
+  const slug = getBonusPickIdentifier(pick);
+  if (slug && playersBySlug[slug]) return playerChip(slug);
+
+  return `<span class="person"><span><b>${escapeHtml(getBonusPickDisplayName(pick))}</b></span></span>`;
+}
+
 function tipClass(points) {
   if (points >= 4) return "tip-4";
   if (points === 3) return "tip-3";
@@ -1398,15 +1421,15 @@ function renderBonusTab() {
   const picks = bonus.picks || [];
 
   const resultRow = picks.find(
-    (p) => String(p.player).toLowerCase() === "result",
+    (p) => getBonusPickIdentifier(p).toLowerCase() === "result",
   );
   const pointsRow = picks.find(
-    (p) => String(p.player).toLowerCase() === "points",
+    (p) => getBonusPickIdentifier(p).toLowerCase() === "points",
   );
 
   const playerRows = picks.filter((p) => {
-    const slug = String(p.player).toLowerCase();
-    return slug !== "result" && slug !== "points";
+    const id = getBonusPickIdentifier(p).toLowerCase();
+    return id !== "result" && id !== "points";
   });
 
   const rawKeys = [
@@ -1570,8 +1593,8 @@ function renderBonusTab() {
 
   const rows = playerRows
     .sort((a, b) => {
-      const an = playersBySlug[a.player]?.name || a.name || a.player;
-      const bn = playersBySlug[b.player]?.name || b.name || b.player;
+      const an = getBonusPickDisplayName(a);
+      const bn = getBonusPickDisplayName(b);
       return String(an).localeCompare(String(bn));
     })
     .map((p) => {
@@ -1810,7 +1833,7 @@ function renderBonusTab() {
           <td colspan="3" class="bonusRowFull">
             <div class="bonusHeader">
               <div class="bonusPlayer">
-                ${playerChip(p.player)}
+                ${bonusPlayerChip(p)}
               </div>
 
               <div class="bonusPoints">
