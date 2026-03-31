@@ -1256,14 +1256,38 @@ async function renderCrossTableTab() {
     return;
   }
 
-  const headerCells = playersInGame
-    .map(
-      (slug) =>
-        `<th>${escapeHtml(playersBySlug[slug]?.name || slug)}</th>`,
-    )
+  const tableId = "crossTableMain";
+  const crossColumns = [
+    {
+      key: "team",
+      label: "Team \\ Spieler",
+      getSortValue: (row) => resolveTeamLabel(row.teamKey),
+    },
+    ...playersInGame.map((slug) => ({
+      key: `player_${slug}`,
+      label: playersBySlug[slug]?.name || slug,
+      getSortValue: (row) => Number(row.scores[slug] || 0),
+      slug,
+    })),
+  ];
+
+  const state = sortableTablesState[tableId] || {
+    key: "team",
+    dir: "asc",
+  };
+  sortableTablesState[tableId] = state;
+
+  const sortedRows = sortRowsByState(rows, crossColumns, state);
+
+  const headerCells = crossColumns
+    .map((column) => {
+      const active = column.key === state.key;
+      const dir = active ? (state.dir === "asc" ? "↑" : "↓") : "";
+      return `<th><button class="sortBtn ${active ? "active" : ""}" data-table="${tableId}" data-key="${column.key}">${escapeHtml(column.label)} ${dir}</button></th>`;
+    })
     .join("");
 
-  const bodyRows = rows
+  const bodyRows = sortedRows
     .map((row) => {
       const teamLogo =
         typeof getTeamLogo === "function" ? getTeamLogo(row.teamKey) : "";
@@ -1293,7 +1317,6 @@ async function renderCrossTableTab() {
       <table class="table crossTable">
         <thead>
           <tr>
-            <th>Team \\ Spieler</th>
             ${headerCells}
           </tr>
         </thead>
@@ -1303,6 +1326,22 @@ async function renderCrossTableTab() {
       </table>
     </div>
   `;
+
+  document
+    .querySelectorAll(`button.sortBtn[data-table="${tableId}"]`)
+    .forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const key = btn.dataset.key;
+        const t = sortableTablesState[tableId];
+        if (t.key === key) {
+          t.dir = t.dir === "asc" ? "desc" : "asc";
+        } else {
+          t.key = key;
+          t.dir = key === "team" ? "asc" : "desc";
+        }
+        void renderCrossTableTab();
+      });
+    });
 }
 
 function renderBonusTab() {
