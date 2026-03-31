@@ -83,45 +83,7 @@ function resolveTeamLabel(val) {
 function normalizeBonusCompareValue(value) {
   const raw = String(value ?? "").trim();
   if (!raw) return "";
-
-  const rawVariants = [
-    raw,
-    raw.replace(/^[^\p{L}\p{N}]+/gu, "").trim(),
-    raw.replace(/[^\p{L}\p{N}\s-]+/gu, "").trim(),
-  ].filter(Boolean);
-
-  const lowerRawVariants = rawVariants.map((v) => v.toLowerCase());
-
-  if (typeof getTeam === "function") {
-    for (const variant of rawVariants) {
-      const direct = getTeam(variant);
-      if (direct?.key) return String(direct.key).trim().toLowerCase();
-    }
-  }
-
-  if (Array.isArray(teams)) {
-    const byName = teams.find((team) => {
-      const candidates = [
-        team?.key,
-        team?.name,
-        team?.displayName,
-        team?.shortName,
-        team?.mobileName,
-      ]
-        .filter(Boolean)
-        .map((v) => String(v).trim().toLowerCase());
-      return lowerRawVariants.some((variant) =>
-        candidates.some((candidate) => {
-          if (candidate === variant) return true;
-          if (variant.length < 4 || candidate.length < 4) return false;
-          return candidate.includes(variant) || variant.includes(candidate);
-        }),
-      );
-    });
-    if (byName?.key) return String(byName.key).trim().toLowerCase();
-  }
-
-  return lowerRawVariants[0] || "";
+  return raw.toLowerCase();
 }
 
 function normalizeBonusValue(value) {
