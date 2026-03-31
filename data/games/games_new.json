@@ -1,14 +1,5 @@
 [
   {
-    "id": "tip-euro-2008",
-    "title": "Euro 2008 - Österreich/Schweiz",
-    "competition": "Europameisterschaft",
-    "compShort": "EM",
-    "season": "2008",
-    "start": "2008-06-07",
-    "end": "2008-06-29"
-  },
-  {
     "id": "tip-bundesliga-08-09",
     "title": "Bundesliga 2008/2009",
     "competition": "Bundesliga",

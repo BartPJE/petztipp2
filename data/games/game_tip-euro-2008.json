@@ -1,0 +1,237 @@
+{
+  "id": "tip-euro-2008",
+  "title": "Euro 2008 - Österreich/Schweiz",
+  "competition": "Europameisterschaft",
+  "season": "2008",
+  "bonusTips": {
+    "questions": [],
+    "picks": [
+      {
+        "player": "denis",
+        "predictions": {
+          "Europameister": "GER",
+          "Deutschland": "Europameister",
+          "Österreich": "Gruppendritter",
+          "Schweiz": "Viertelfinale",
+          "Halbfinale": ["GER", "POR", "ITA", "FRA"],
+          "Torschütze": "GER",
+          "Sieger A": "POR",
+          "Sieger B": "GER",
+          "Sieger C": "FRA",
+          "Sieger D": "ESP"
+        }
+      },
+      {
+        "player": "peter",
+        "predictions": {
+          "Europameister": "ITA",
+          "Deutschland": "Vizeeuropameister",
+          "Österreich": "Gruppenvierter",
+          "Schweiz": "Viertelfinale",
+          "Halbfinale": ["GER", "POR", "ITA", "NED"],
+          "Torschütze": "POR",
+          "Sieger A": "POR",
+          "Sieger B": "GER",
+          "Sieger C": "NED",
+          "Sieger D": "ESP"
+        }
+      },
+      {
+        "player": "daniel",
+        "predictions": {
+          "Europameister": "FRA",
+          "Deutschland": "Halbfinale",
+          "Österreich": "Gruppendritter",
+          "Schweiz": "Gruppenvierter",
+          "Halbfinale": ["GER", "POR", "ITA", "FRA"],
+          "Torschütze": "CZE",
+          "Sieger A": "CZE",
+          "Sieger B": "GER",
+          "Sieger C": "ITA",
+          "Sieger D": "ESP"
+        }
+      },
+      {
+        "player": "melli",
+        "predictions": {
+          "Europameister": "GER",
+          "Deutschland": "Europameister",
+          "Österreich": "Viertelfinale",
+          "Schweiz": "Viertelfinale",
+          "Halbfinale": ["GER", "CZE", "GRE", "FRA"],
+          "Torschütze": "POR",
+          "Sieger A": "POR",
+          "Sieger B": "GER",
+          "Sieger C": "FRA",
+          "Sieger D": "ESP"
+        }
+      },
+      {
+        "player": "johannes",
+        "predictions": {
+          "Europameister": "GER",
+          "Deutschland": "Europameister",
+          "Österreich": "Gruppendritter",
+          "Schweiz": "Viertelfinale",
+          "Halbfinale": ["GER", "POR", "ITA", "FRA"],
+          "Torschütze": "GER",
+          "Sieger A": "POR",
+          "Sieger B": "GER",
+          "Sieger C": "ITA",
+          "Sieger D": "ESP"
+        }
+      },
+      {
+        "player": "flo",
+        "predictions": {
+          "Europameister": "NED",
+          "Deutschland": "Halbfinale",
+          "Österreich": "Gruppendritter",
+          "Schweiz": "Viertelfinale",
+          "Halbfinale": ["GER", "POR", "NED", "FRA"],
+          "Torschütze": "ITA",
+          "Sieger A": "POR",
+          "Sieger B": "GER",
+          "Sieger C": "NED",
+          "Sieger D": "RUS"
+        }
+      },
+      {
+        "player": "manu",
+        "predictions": {
+          "Europameister": "GER",
+          "Deutschland": "Europameister",
+          "Österreich": "Gruppendritter",
+          "Schweiz": "Viertelfinale",
+          "Halbfinale": ["GER", "FRA", "ITA", "ESP"],
+          "Torschütze": "ITA",
+          "Sieger A": "POR",
+          "Sieger B": "GER",
+          "Sieger C": "ITA",
+          "Sieger D": "ESP"
+        }
+      },
+      {
+        "player": "basti",
+        "predictions": {
+          "Europameister": "GER",
+          "Deutschland": "Europameister",
+          "Österreich": "Gruppendritter",
+          "Schweiz": "Gruppenvierter",
+          "Halbfinale": ["GER", "TUR", "POL", "FRA"],
+          "Torschütze": "GRE",
+          "Sieger A": "CZE",
+          "Sieger B": "GER",
+          "Sieger C": "FRA",
+          "Sieger D": "GRE"
+        }
+      },
+      {
+        "player": "thomas",
+        "predictions": {
+          "Europameister": "GER",
+          "Deutschland": "Europameister",
+          "Österreich": "Gruppendritter",
+          "Schweiz": "Viertelfinale",
+          "Halbfinale": ["GER", "POR", "ITA", "FRA"],
+          "Torschütze": "POR",
+          "Sieger A": "POR",
+          "Sieger B": "GER",
+          "Sieger C": "FRA",
+          "Sieger D": "ESP"
+        }
+      },
+      {
+        "player": "dominik",
+        "predictions": {
+          "Europameister": null,
+          "Deutschland": null,
+          "Österreich": null,
+          "Schweiz": null,
+          "Halbfinale": null,
+          "Torschütze": null,
+          "Sieger A": null,
+          "Sieger B": null,
+          "Sieger C": null,
+          "Sieger D": null
+        }
+      },
+      {
+        "player": "result",
+        "name": "Ergebnis",
+        "predictions": {
+          "Europameister": "ESP",
+          "Deutschland": "Vizeeuropameister",
+          "Österreich": "Gruppendritter",
+          "Schweiz": "Gruppenvierter",
+          "Halbfinale": ["GER", "TUR", "RUS", "ESP"],
+          "Torschütze": "EPS",
+          "Sieger A": "POR",
+          "Sieger B": "CRO",
+          "Sieger C": "NED",
+          "Sieger D": "ESP"
+        }
+      },
+      {
+        "player": "points",
+        "name": "Punkte",
+        "predictions": {
+          "Europameister": "5",
+          "Deutschland": "2",
+          "Österreich": "2",
+          "Schweiz": "2",
+          "Halbfinale": "3",
+          "Torschütze": "3",
+          "Sieger A": "3",
+          "Sieger B": "3",
+          "Sieger C": "3",
+          "Sieger D": "3"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "07.06.2008 - 10.06.2008",
+      "no": 1,
+      "file": "data/games/game_tip-euro-2008/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "11.06.2008 - 14.06.2008",
+      "no": 2,
+      "file": "data/games/game_tip-euro-2008/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "15.06.2008 - 18.06.2008",
+      "no": 3,
+      "file": "data/games/game_tip-euro-2008/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "19.06.2008 - 22.06.2008",
+      "no": 4,
+      "file": "data/games/game_tip-euro-2008/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "25.06.2008 - 26.06.2008",
+      "no": 5,
+      "file": "data/games/game_tip-euro-2008/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "29.06.2008 - 29.06.2008",
+      "no": 6,
+      "file": "data/games/game_tip-euro-2008/matchdays/md06.json"
+    }
+  ]
+}
