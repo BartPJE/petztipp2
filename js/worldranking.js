@@ -58,7 +58,18 @@ function buildYearPool(games) {
     }
   }
 
-  return [...years].sort((a, b) => b - a);
+  const sortedYears = [...years].sort((a, b) => b - a);
+  if (sortedYears.length === 0) return [];
+
+  const maxYear = sortedYears[0];
+  const minYear = sortedYears[sortedYears.length - 1];
+  const completeYearRange = [];
+
+  for (let y = maxYear; y >= minYear; y -= 1) {
+    completeYearRange.push(y);
+  }
+
+  return completeYearRange;
 }
 
 function computeRanking(baseYear) {
