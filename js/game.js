@@ -196,8 +196,10 @@ async function computeOverallUntil(matchdayIndex) {
       if (tip.dayWinsTotal !== undefined && tip.dayWinsTotal !== null && tip.dayWinsTotal !== "") {
         s.dayWinsTotal = Math.max(s.dayWinsTotal, Number(tip.dayWinsTotal || 0));
       } else {
-        if (tip.dayWin === true || Number(tip.dayWin || 0) > 0) {
-          s.dayWinsTotal += 1;
+        if (tip.dayWin === true) s.dayWinsTotal += 1;
+        else {
+          const dayWinShare = Number(tip.dayWin || 0);
+          if (Number.isFinite(dayWinShare) && dayWinShare > 0) s.dayWinsTotal += dayWinShare;
         }
       }
     }
@@ -580,18 +582,20 @@ async function computeSeasonStats() {
         if (r.rank === 1) p.firstPlaceCount += 1;
       });
 
-      const gamesCount = (md.matches || []).length;
-      matchdayStats.push({
-        index: i + 1,
-        label: md.label || `Spieltag ${i + 1}`,
-        winners: winners.map(w => w.player),
-        winnerPoints: dayWinnerPoints,
-        totalPoints: dayTotalPoints,
-        gamesCount,
-        pointsPerGame: safeDiv(dayTotalPoints, gamesCount),
-        playersCount: dayPlayers,
-        pointsPerPlayer: safeDiv(dayTotalPoints, dayPlayers)
-      });
+      if (dayPlayers > 0) {
+        const gamesCount = (md.matches || []).length;
+        matchdayStats.push({
+          index: i + 1,
+          label: md.label || `Spieltag ${i + 1}`,
+          winners: winners.map(w => w.player),
+          winnerPoints: dayWinnerPoints,
+          totalPoints: dayTotalPoints,
+          gamesCount,
+          pointsPerGame: safeDiv(dayTotalPoints, gamesCount),
+          playersCount: dayPlayers,
+          pointsPerPlayer: safeDiv(dayTotalPoints, dayPlayers)
+        });
+      }
     }
 
     const playerRows = Object.values(playerStats).map(p => ({
@@ -659,45 +663,106 @@ function renderSortableTable({ mountId, tableId, columns, rows, defaultSortKey, 
   });
 }
 
+function sortRowsByState(rows, columns, state) {
+  return [...rows].sort((a, b) => {
+    const col = columns.find(c => c.key === state.key) || columns[0];
+    const av = col.getSortValue ? col.getSortValue(a) : a[col.key];
+    const bv = col.getSortValue ? col.getSortValue(b) : b[col.key];
+    let cmp = 0;
+    if (typeof av === "string" || typeof bv === "string") cmp = String(av ?? "").localeCompare(String(bv ?? ""), "de");
+    else cmp = Number(av || 0) - Number(bv || 0);
+    if (cmp === 0 && col.key !== "player") {
+      cmp = String(playersBySlug[a.player]?.name || "").localeCompare(String(playersBySlug[b.player]?.name || ""), "de");
+    }
+    return state.dir === "asc" ? cmp : -cmp;
+  });
+}
+
+function renderLinkedSortableTable({ mountId, linkedTableId, columns, rows, allColumns }) {
+  const state = sortableTablesState[linkedTableId];
+  const sorted = sortRowsByState(rows, allColumns, state);
+
+  const headers = columns.map(c => {
+    const active = c.key === state.key;
+    const dir = active ? (state.dir === "asc" ? "↑" : "↓") : "";
+    return `<th><button class="sortBtn ${active ? "active" : ""}" data-linked-table="${linkedTableId}" data-key="${c.key}">${escapeHtml(c.label)} ${dir}</button></th>`;
+  }).join("");
+
+  const body = sorted.map(r => `<tr class="row">${columns.map(c => `<td>${c.render ? c.render(r) : escapeHtml(r[c.key])}</td>`).join("")}</tr>`).join("");
+  $(mountId).innerHTML = `<div class="tableWrap gameStatsTableWrap"><table class="table gameStatsTable"><thead><tr>${headers}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+function setStatsSectionsVisibility(visible) {
+  const dayCard = document.getElementById("matchdayTableSection");
+  const overallCard = document.getElementById("overallSection");
+  if (dayCard) dayCard.style.display = visible ? "" : "none";
+  if (overallCard) overallCard.style.display = visible ? "" : "none";
+}
+
 async function renderPlayerStatsTab() {
   const { playerRows } = await computeSeasonStats();
-  $("#mdContent").innerHTML = `<div id="playerStatsMount"></div>`;
+  setStatsSectionsVisibility(false);
+  $("#mdContent").innerHTML = `
+    <div id="playerStatsMountA"></div>
+    <div style="height:12px"></div>
+    <div id="playerStatsMountB"></div>
+  `;
   $("#mdTable").innerHTML = "";
   $("#mdTableMeta").textContent = "Saisonstatistiken aller Spieler (sortierbar).";
   $("#overall").innerHTML = "";
 
-  renderSortableTable({
-    mountId: "#playerStatsMount",
-    tableId: "playerStats",
-    defaultSortKey: "totalPoints",
-    columns: [
-      { key: "player", label: "Spieler", getSortValue: (r) => playersBySlug[r.player]?.name || r.player, render: (r) => playerChip(r.player) },
-      { key: "pointsPerPickedGame", label: "Punkte/Spiel", render: (r) => fmt2(r.pointsPerPickedGame) },
-      { key: "totalPoints", label: "Gesamtpunkte", render: (r) => Math.round(r.totalPoints) },
-      { key: "pickedGames", label: "Getippte Spiele" },
-      { key: "dayWinsCumulative", label: "Tagessiege kumuliert", render: (r) => fmt2(r.dayWinsCumulative) },
-      { key: "dayWinnerCount", label: "Tagessieger-Tage" },
-      { key: "bonusPoints", label: "Bonuspunkte" },
-      { key: "days20Plus", label: ">=20 Punkte" },
-      { key: "daysZeroWithPick", label: "0 Punkte (mit Tipp)" },
-      { key: "highestDayPoints", label: "Höchste Tagespunkte", render: (r) => r.highestDayPoints ?? "—" },
-      { key: "lowestDayPoints", label: "Niedrigste Tagespunkte", render: (r) => r.lowestDayPoints ?? "—" },
-      { key: "firstPlaceCount", label: "Wie oft Platz 1 Gesamt" },
-      { key: "bestRank", label: "Bester Platz", render: (r) => r.bestRank ?? "—" },
-      { key: "worstRank", label: "Schlechtester Platz", render: (r) => r.worstRank ?? "—" },
-      { key: "avgRank", label: "Durchschnittsplatz", render: (r) => fmt2(r.avgRank) },
-      { key: "exactHits", label: "Richtige Ergebnisse (4P)" },
-      { key: "diffHits", label: "Richtiges Torverhältnis (3P)" },
-      { key: "tendencyHits", label: "Richtige Tendenz (2P)" },
-      { key: "wrongHits", label: "Falsch (0P)" },
-      { key: "tippedMatchdays", label: "Getippte Spieltage" }
-    ],
-    rows: playerRows
-  });
+  const allColumns = [
+    { key: "player", label: "Spieler", getSortValue: (r) => playersBySlug[r.player]?.name || r.player, render: (r) => playerChip(r.player) },
+    { key: "pointsPerPickedGame", label: "Punkte/Spiel", render: (r) => fmt2(r.pointsPerPickedGame) },
+    { key: "totalPoints", label: "Gesamtpunkte", render: (r) => Math.round(r.totalPoints) },
+    { key: "pickedGames", label: "Getippte Spiele" },
+    { key: "dayWinsCumulative", label: "Tagessiege kumuliert", render: (r) => fmt2(r.dayWinsCumulative) },
+    { key: "dayWinnerCount", label: "Tagessieger-Tage" },
+    { key: "bonusPoints", label: "Bonuspunkte" },
+    { key: "days20Plus", label: ">=20 Punkte" },
+    { key: "daysZeroWithPick", label: "0 Punkte (mit Tipp)" },
+    { key: "highestDayPoints", label: "Höchste Tagespunkte", render: (r) => r.highestDayPoints ?? "—" },
+    { key: "lowestDayPoints", label: "Niedrigste Tagespunkte", render: (r) => r.lowestDayPoints ?? "—" },
+    { key: "firstPlaceCount", label: "Wie oft Platz 1 Gesamt" },
+    { key: "bestRank", label: "Bester Platz", render: (r) => r.bestRank ?? "—" },
+    { key: "worstRank", label: "Schlechtester Platz", render: (r) => r.worstRank ?? "—" },
+    { key: "avgRank", label: "Durchschnittsplatz", render: (r) => fmt2(r.avgRank) },
+    { key: "exactHits", label: "Richtige Ergebnisse (4P)" },
+    { key: "diffHits", label: "Richtiges Torverhältnis (3P)" },
+    { key: "tendencyHits", label: "Richtige Tendenz (2P)" },
+    { key: "wrongHits", label: "Falsch (0P)" },
+    { key: "tippedMatchdays", label: "Getippte Spieltage" }
+  ];
+
+  const columnsA = allColumns.slice(0, 10);
+  const columnsB = [allColumns[0], ...allColumns.slice(10)];
+  const linkedTableId = "playerStatsLinked";
+  sortableTablesState[linkedTableId] ||= { key: "totalPoints", dir: "desc" };
+
+  const renderBoth = () => {
+    renderLinkedSortableTable({ mountId: "#playerStatsMountA", linkedTableId, columns: columnsA, rows: playerRows, allColumns });
+    renderLinkedSortableTable({ mountId: "#playerStatsMountB", linkedTableId, columns: columnsB, rows: playerRows, allColumns });
+
+    document.querySelectorAll(`button.sortBtn[data-linked-table="${linkedTableId}"]`).forEach(btn => {
+      btn.addEventListener("click", () => {
+        const key = btn.dataset.key;
+        const t = sortableTablesState[linkedTableId];
+        if (t.key === key) t.dir = t.dir === "asc" ? "desc" : "asc";
+        else {
+          t.key = key;
+          t.dir = "desc";
+        }
+        renderBoth();
+      });
+    });
+  };
+
+  renderBoth();
 }
 
 async function renderMatchdayStatsTab() {
   const { matchdayStats } = await computeSeasonStats();
+  setStatsSectionsVisibility(false);
   $("#mdContent").innerHTML = `<div id="matchdayStatsMount"></div>`;
   $("#mdTable").innerHTML = "";
   $("#mdTableMeta").textContent = "Statistik je Spieltag (sortierbar).";
@@ -710,7 +775,6 @@ async function renderMatchdayStatsTab() {
     defaultSortDir: "asc",
     columns: [
       { key: "index", label: "Spieltag", render: (r) => escapeHtml(r.label) },
-      { key: "winners", label: "Tagessieger", getSortValue: (r) => r.winners.length, render: (r) => r.winners.length ? r.winners.map(w => playerChip(w)).join(" ") : "—" },
       { key: "winnerPoints", label: "Punkte Tagessieger", render: (r) => Math.round(r.winnerPoints) },
       { key: "totalPoints", label: "Punkte gesamt", render: (r) => Math.round(r.totalPoints) },
       { key: "gamesCount", label: "Spiele" },
@@ -734,6 +798,7 @@ function renderKpiPlayers(label, value, playersList) {
 
 async function renderTopsFlopsTab() {
   const { playerRows, matchdayStats } = await computeSeasonStats();
+  setStatsSectionsVisibility(false);
   $("#mdTable").innerHTML = "";
   $("#mdTableMeta").textContent = "KPI-Auswertung Tops & Flops.";
   $("#overall").innerHTML = "";
@@ -760,7 +825,7 @@ async function renderTopsFlopsTab() {
   const worstCut = byMetric(matchdayStats, "pointsPerGame", true);
 
   const matchdayLine = (row, metricLabel, metricValue) =>
-    `${row.label} · Tagessieger: ${(row.winners || []).map(w => playersBySlug[w]?.name || w).join(", ") || "—"} (${Math.round(row.winnerPoints)} P) · ${metricLabel}: ${metricValue}`;
+    `${row.label} · Punkte Tagessieger: ${Math.round(row.winnerPoints)} · ${metricLabel}: ${metricValue}`;
 
   $("#mdContent").innerHTML = `
     <div class="kpis gameStatsKpis">
@@ -771,22 +836,20 @@ async function renderTopsFlopsTab() {
       ${renderKpiPlayers("Meiste richtige Ergebnisse", `${mostExact.value}`, mostExact.rows.map(r => r.player))}
       ${renderKpiPlayers("Meiste Tagessiege in Folge", `${bestStreak.value}`, bestStreak.rows.map(r => r.player))}
     </div>
-    <div class="card" style="margin-top:12px">
-      <div class="bd">
-        <div class="hd"><h3>Spieltage Tops & Flops</h3></div>
-        <div class="small" style="margin-top:8px">Bester Spieltag (absolut): ${escapeHtml(matchdayLine(bestAbs.rows[0], "Punkte gesamt", Math.round(bestAbs.value)))}</div>
-        <div class="small" style="margin-top:8px">Bester Spieltag (relativ): ${escapeHtml(matchdayLine(bestRel.rows[0], "Punkte/Spieler", fmt2(bestRel.value)))}</div>
-        <div class="small" style="margin-top:8px">Bester Spieltag (schnitt): ${escapeHtml(matchdayLine(bestCut.rows[0], "Punkte/Spiel", fmt2(bestCut.value)))}</div>
-        <div class="small" style="margin-top:8px">Schlechtester Spieltag (absolut): ${escapeHtml(matchdayLine(worstAbs.rows[0], "Punkte gesamt", Math.round(worstAbs.value)))}</div>
-        <div class="small" style="margin-top:8px">Schlechtester Spieltag (relativ): ${escapeHtml(matchdayLine(worstRel.rows[0], "Punkte/Spieler", fmt2(worstRel.value)))}</div>
-        <div class="small" style="margin-top:8px">Schlechtester Spieltag (schnitt): ${escapeHtml(matchdayLine(worstCut.rows[0], "Punkte/Spiel", fmt2(worstCut.value)))}</div>
-      </div>
+    <div class="kpis gameStatsKpis" style="margin-top:12px">
+      <div class="kpi"><b>Bester Spieltag (absolut)</b><span>${escapeHtml(matchdayLine(bestAbs.rows[0], "Punkte gesamt", Math.round(bestAbs.value)))}</span></div>
+      <div class="kpi"><b>Bester Spieltag (relativ)</b><span>${escapeHtml(matchdayLine(bestRel.rows[0], "Punkte/Spieler", fmt2(bestRel.value)))}</span></div>
+      <div class="kpi"><b>Bester Spieltag (Schnitt)</b><span>${escapeHtml(matchdayLine(bestCut.rows[0], "Punkte/Spiel", fmt2(bestCut.value)))}</span></div>
+      <div class="kpi"><b>Schlechtester Spieltag (absolut)</b><span>${escapeHtml(matchdayLine(worstAbs.rows[0], "Punkte gesamt", Math.round(worstAbs.value)))}</span></div>
+      <div class="kpi"><b>Schlechtester Spieltag (relativ)</b><span>${escapeHtml(matchdayLine(worstRel.rows[0], "Punkte/Spieler", fmt2(worstRel.value)))}</span></div>
+      <div class="kpi"><b>Schlechtester Spieltag (Schnitt)</b><span>${escapeHtml(matchdayLine(worstCut.rows[0], "Punkte/Spiel", fmt2(worstCut.value)))}</span></div>
     </div>
   `;
 }
 
 
 function renderBonusTab() {
+  setStatsSectionsVisibility(false);
   const bonus = game?.bonusTips;
   if (!bonus || !Array.isArray(bonus.picks) || !bonus.picks.length) {
     $("#mdContent").innerHTML = `<div class="small">Keine Bonustipps vorhanden.</div>`;
@@ -1324,6 +1387,7 @@ async function loadMatchday(md) {
         return;
       }
 
+      setStatsSectionsVisibility(true);
       const i = Number(el.dataset.i);
       const md = await loadMatchday(game.matchdays[i]);
       renderMatchday(md);
@@ -1355,6 +1419,7 @@ async function loadMatchday(md) {
     if (tabEl) tabEl.classList.add("active");
     await renderTopsFlopsTab();
   } else {
+    setStatsSectionsVisibility(true);
     const startIndex =
       Number.isFinite(mdParam) && mdParam > 0 && mdParam <= game.matchdays.length
         ? mdParam - 1
