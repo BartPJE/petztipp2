@@ -16,5 +16,14 @@
     "season": "2003/2004",
     "start": "2003-08-01",
     "end": "2004-05-22"
+  },
+  {
+    "id": "tip-bundesliga-06-07",
+    "title": "Bundesliga 2006/2007",
+    "competition": "Bundesliga",
+    "compShort": "BL",
+    "season": "2006/2007",
+    "start": "2006-08-11",
+    "end": "2007-05-19"
   }
 ]
