@@ -3190,6 +3190,27 @@ table td:nth-last-child(2) {
   text-align: left;
 }
 
+
+.crossHeaderBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 24px;
+}
+
+.crossHeaderAvatar {
+  width: 24px;
+  height: 24px;
+}
+
+.crossHeaderSort {
+  min-width: 10px;
+}
+
+.crossHeaderName {
+  font-size: 12px;
+}
 .crossTeam {
   display: flex;
   align-items: center;
