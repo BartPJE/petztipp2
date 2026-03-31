@@ -10,7 +10,7 @@
         "player": "alois",
         "name": "Alois",
         "predictions": {
-          "Plätze 16-18": ["AAA", "Unbekannt", "Unbekannt"],
+          "Plätze 16-18": [["AAA", "Unbekannt", "Unbekannt"]],
           "Torschütze": "Unbekannt",
           "Deutscher Meister": "Unbekannt",
           "Herbstmeister": "SVW",
