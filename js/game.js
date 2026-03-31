@@ -814,7 +814,7 @@ async function renderPlayerStatsTab() {
   $("#overall").innerHTML = "";
 
   renderSortableTable({
-    mountId: "#playerStatsMount",
+    mountId: "#playerStatsMountA",
     tableId: "playerStats",
     defaultSortKey: "totalPoints",
     columns: [
