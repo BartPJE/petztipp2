@@ -1,0 +1,260 @@
+{
+  "id": "md06",
+  "label": "Finale",
+  "date": "29.06.2008 - 29.06.2008",
+  "no": 6,
+  "matches": [
+    {
+      "id": "md06-01",
+      "home": "Deutschland",
+      "away": "Spanien",
+      "result": "0:1",
+      "date": "29.06.2008",
+      "time": "20:45",
+      "homeTeam": "GER",
+      "awayTeam": "ESP"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 11,
+      "player": "daniel",
+      "picks": {
+        "md06-01": "2:3"
+      },
+      "pickPoints": {
+        "md06-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 56.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.25
+    },
+    {
+      "rank": 12,
+      "player": "peter",
+      "picks": {
+        "md06-01": "3:1"
+      },
+      "pickPoints": {
+        "md06-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 2.0,
+      "total": 57.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.25
+    },
+    {
+      "rank": 12,
+      "player": "basti",
+      "picks": {
+        "md06-01": "3:1"
+      },
+      "pickPoints": {
+        "md06-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 40.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 12,
+      "player": "denis",
+      "picks": {
+        "md06-01": "2:1"
+      },
+      "pickPoints": {
+        "md06-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 63.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.75
+    },
+    {
+      "rank": 12,
+      "player": "dominik",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 2.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 12,
+      "player": "flo",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 47.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 12,
+      "player": "johannes",
+      "picks": {
+        "md06-01": "2:0"
+      },
+      "pickPoints": {
+        "md06-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 48.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 12,
+      "player": "manu",
+      "picks": {
+        "md06-01": "3:2"
+      },
+      "pickPoints": {
+        "md06-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 44.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 12,
+      "player": "melli",
+      "picks": {
+        "md06-01": "3:2"
+      },
+      "pickPoints": {
+        "md06-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 49.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.25
+    },
+    {
+      "rank": 12,
+      "player": "thomas",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 18.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "denis",
+      "points": 0.0
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 13.0
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 13.0
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 6.0
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 8.0
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 11.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 0.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "points": 10.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "points": 13.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "points": 6.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "points": 15.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "points": 16.0
+    },
+    {
+      "rank": 3,
+      "player": "daniel",
+      "points": 3.0
+    },
+    {
+      "rank": 4,
+      "player": "melli",
+      "points": 0.0
+    },
+    {
+      "rank": 5,
+      "player": "johannes",
+      "points": 0.0
+    },
+    {
+      "rank": 6,
+      "player": "flo",
+      "points": 0.0
+    },
+    {
+      "rank": 7,
+      "player": "manu",
+      "points": 0.0
+    },
+    {
+      "rank": 8,
+      "player": "basti",
+      "points": 0.0
+    },
+    {
+      "rank": 9,
+      "player": "thomas",
+      "points": 0.0
+    },
+    {
+      "rank": 10,
+      "player": "dominik",
+      "points": 0.0
+    }
+  ]
+}

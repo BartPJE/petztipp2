@@ -1,0 +1,88 @@
+{
+  "id": "tip-ligapokal-2007",
+  "title": "Ligapokal 2007",
+  "competition": "Ligapokal",
+  "season": "2007",
+  "bonusTips": {
+    "questions": [],
+    "picks": [
+      {
+        "player": "basti",
+        "predictions": {
+          "Ligapokal": "1. FC Nürnberg"
+        }
+      },
+      {
+        "player": "thomas",
+        "predictions": {
+          "Ligapokal": "VfB Stuttgart"
+        }
+      },
+      {
+        "player": "dominik",
+        "predictions": {
+          "Ligapokal": "FC Bayern München"
+        }
+      },
+      {
+        "player": "melli",
+        "predictions": {
+          "Ligapokal": null
+        }
+      },
+      {
+        "player": "peter",
+        "predictions": {
+          "Ligapokal": "FC Bayern München"
+        }
+      },
+      {
+        "player": "daniel",
+        "predictions": {
+          "Ligapokal": "1. FC Nürnberg"
+        }
+      },
+      {
+        "player": "johannes",
+        "predictions": {
+          "Ligapokal": null
+        }
+      },
+      {
+        "player": "result",
+        "predictions": {
+          "Ligapokal": "FC Bayern München"
+        }
+      },
+      {
+        "player": "points",
+        "predictions": {
+          "Ligapokal": "2"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "21.07.2007 - 21.07.2007",
+      "no": 1,
+      "file": "data/games/game_tip-ligapokal-2007/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "24.07.2007 - 25.07.2007",
+      "no": 2,
+      "file": "data/games/game_tip-ligapokal-2007/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "28.07.2007 - 28.07.2007",
+      "no": 3,
+      "file": "data/games/game_tip-ligapokal-2007/matchdays/md03.json"
+    }
+  ]
+}

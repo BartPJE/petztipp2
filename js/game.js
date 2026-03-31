@@ -1597,6 +1597,7 @@ function renderBonusTab() {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
                   const normalizedVal = normalizeBonusCompareValue(val);
+                  const normalizedResultVal = normalizeBonusCompareValue(resultVal);
                   const isDecided =
                     String(resultVal).trim() !== "" &&
                     String(resultVal).trim() !== "-" &&
@@ -1605,7 +1606,9 @@ function renderBonusTab() {
                   const isHit =
                     normalizedVal !== "" &&
                     normalizedVal !== "—" &&
-                    resultSet.has(normalizedVal);
+                    normalizedResultVal !== "" &&
+                    normalizedResultVal !== "—" &&
+                    normalizedVal === normalizedResultVal;
 
                   if (isHit) bonusPoints += pts;
 
@@ -1649,6 +1652,7 @@ function renderBonusTab() {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
                   const normalizedVal = normalizeBonusCompareValue(val);
+                  const normalizedResultVal = normalizeBonusCompareValue(resultVal);
                   const isDecided =
                     String(resultVal).trim() !== "" &&
                     String(resultVal).trim() !== "-" &&
@@ -1657,7 +1661,9 @@ function renderBonusTab() {
                   const isHit =
                     normalizedVal !== "" &&
                     normalizedVal !== "—" &&
-                    resultSet.has(normalizedVal);
+                    normalizedResultVal !== "" &&
+                    normalizedResultVal !== "—" &&
+                    normalizedVal === normalizedResultVal;
 
                   if (isHit) bonusPoints += pts;
 
@@ -1699,6 +1705,7 @@ function renderBonusTab() {
                   const val = playerVals[i] ?? "—";
                   const resultVal = resultVals[i] ?? "—";
                   const normalizedVal = normalizeBonusCompareValue(val);
+                  const normalizedResultVal = normalizeBonusCompareValue(resultVal);
                   const isDecided =
                     String(resultVal).trim() !== "" &&
                     String(resultVal).trim() !== "-" &&
@@ -1707,7 +1714,9 @@ function renderBonusTab() {
                   const isHit =
                     normalizedVal !== "" &&
                     normalizedVal !== "—" &&
-                    resultSet.has(normalizedVal);
+                    normalizedResultVal !== "" &&
+                    normalizedResultVal !== "—" &&
+                    normalizedVal === normalizedResultVal;
 
                   if (isHit) bonusPoints += pts;
 
