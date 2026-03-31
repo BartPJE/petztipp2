@@ -20,7 +20,7 @@ async function loadJSON(path) {
 
 async function loadTeams() {
   teams = await loadJSON("data/teams.json");
-  teamsByKey = Object.fromEntries((teams || []).map(t => [t.key, t]));
+  teamsByKey = Object.fromEntries((teams || []).map((t) => [t.key, t]));
 }
 
 function getTeam(teamKey) {
@@ -54,7 +54,11 @@ function fmtDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return String(iso);
-  return d.toLocaleDateString("de-DE", { year: "numeric", month: "long", day: "2-digit" });
+  return d.toLocaleDateString("de-DE", {
+    year: "numeric",
+    month: "long",
+    day: "2-digit",
+  });
 }
 
 function fmt2(x) {
@@ -72,7 +76,7 @@ function bar(pct) {
 }
 
 function renderTable(rowHtml, headers) {
-  const th = headers.map(h => `<th>${escapeHtml(h)}</th>`).join("");
+  const th = headers.map((h) => `<th>${escapeHtml(h)}</th>`).join("");
   return `
     <div class="tableWrap">
       <table class="table">
@@ -107,17 +111,21 @@ function fallbackTeamLogoSrc(team) {
   return `img/teams/${slugifyTeam(team)}.svg`;
 }
 
-function linkGame(id) { return `game.html?id=${encodeURIComponent(id)}`; }
-function linkPlayer(slug) { return `player.html?slug=${encodeURIComponent(slug)}`; }
+function linkGame(id) {
+  return `game.html?id=${encodeURIComponent(id)}`;
+}
+function linkPlayer(slug) {
+  return `player.html?slug=${encodeURIComponent(slug)}`;
+}
 
 function getFlag(home) {
   const map = {
-    "Deutschland": "🇩🇪",
-    "Vietnam": "🇻🇳",
-    "USA": "🇺🇸",
-    "Italien": "🇮🇹",
-    "Ungarn": "🇭🇺",
-    "Brasilien": "🇧🇷",
+    Deutschland: "🇩🇪",
+    Vietnam: "🇻🇳",
+    USA: "🇺🇸",
+    Italien: "🇮🇹",
+    Ungarn: "🇭🇺",
+    Brasilien: "🇧🇷",
   };
   return map[home] || "🏳️";
 }
@@ -163,25 +171,31 @@ function gameStatusBadge(g) {
   return `<span class="badge past">?</span>`;
 }
 
-
-
 function applyImageFallbacks(root = document) {
-  root.querySelectorAll('img.avatar').forEach(img => {
+  root.querySelectorAll("img.avatar").forEach((img) => {
     img.loading = img.loading || "lazy";
     img.referrerPolicy = img.referrerPolicy || "no-referrer";
-    img.addEventListener("error", () => {
-      if (!img.dataset.fallbackApplied) {
-        img.dataset.fallbackApplied = "1";
-        img.src = "img/players/_default.png";
-      }
-    }, { once: true });
+    img.addEventListener(
+      "error",
+      () => {
+        if (!img.dataset.fallbackApplied) {
+          img.dataset.fallbackApplied = "1";
+          img.src = "img/players/_default.png";
+        }
+      },
+      { once: true },
+    );
   });
 
-  root.querySelectorAll('img.teamLogo').forEach(img => {
+  root.querySelectorAll("img.teamLogo").forEach((img) => {
     img.loading = img.loading || "lazy";
-    img.addEventListener("error", () => {
-      img.style.display = "none";
-    }, { once: true });
+    img.addEventListener(
+      "error",
+      () => {
+        img.style.display = "none";
+      },
+      { once: true },
+    );
   });
 }
 
@@ -189,9 +203,19 @@ function buildTopNavigation() {
   const nav = document.querySelector(".nav");
   if (!nav) return;
 
-  const current = (location.pathname.split("/").pop() || "index.html").toLowerCase();
-  const isStatsSection = ["stats.html", "worldranking.html", "duels.html", "season-review.html", "awards.html"].includes(current);
-  const isGamesSection = ["games.html", "game.html", "live-race.html"].includes(current);
+  const current = (
+    location.pathname.split("/").pop() || "index.html"
+  ).toLowerCase();
+  const isStatsSection = [
+    "stats.html",
+    "worldranking.html",
+    "duels.html",
+    "season-review.html",
+    "awards.html",
+  ].includes(current);
+  const isGamesSection = ["games.html", "game.html", "live-race.html"].includes(
+    current,
+  );
 
   nav.innerHTML = `
     <a href="index.html" class="${current === "index.html" ? "active" : "nav-link"}">Home</a>
@@ -225,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function loadGameWithMatchdays(id) {
-  const game = await loadJSON(`data/game_${id}.json`);
+  const game = await loadJSON(`data/games/game_${id}.json`);
 
   if (!Array.isArray(game.matchdays)) {
     game.matchdays = [];
@@ -237,7 +261,7 @@ async function loadGameWithMatchdays(id) {
       if (!md?.file) return md;
       const fullMd = await loadJSON(md.file);
       return { ...md, ...fullMd, _loaded: true };
-    })
+    }),
   );
 
   game.matchdays = hydratedMatchdays;
@@ -250,8 +274,8 @@ function getOverallFromGame(game) {
   const last = (game.matchdays || []).slice(-1)[0];
   if (!last || !Array.isArray(last.tips)) return [];
 
-  const rows = (last.tips || []).map(t => {
-    const total = (t.total ?? null);
+  const rows = (last.tips || []).map((t) => {
+    const total = t.total ?? null;
     const points = Number(t.points || 0);
     const bonus = Number(t.bonus || 0);
     return {
@@ -262,7 +286,8 @@ function getOverallFromGame(game) {
 
   rows.sort((a, b) => b.points - a.points);
 
-  let rank = 0, lastPts = null;
+  let rank = 0,
+    lastPts = null;
   rows.forEach((r, i) => {
     if (lastPts === null || r.points !== lastPts) rank = i + 1;
     r.rank = rank;
@@ -273,5 +298,7 @@ function getOverallFromGame(game) {
 }
 
 async function loadAllGamesWithMatchdays(gamesIndex) {
-  return Promise.all((gamesIndex || []).map(g => loadGameWithMatchdays(g.id)));
+  return Promise.all(
+    (gamesIndex || []).map((g) => loadGameWithMatchdays(g.id)),
+  );
 }

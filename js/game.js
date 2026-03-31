@@ -1,4 +1,7 @@
-let players = [], playersBySlug = {}, gIndex = [], game = null;
+let players = [],
+  playersBySlug = {},
+  gIndex = [],
+  game = null;
 
 function fmt2(x) {
   const n = Number(x || 0);
@@ -16,10 +19,13 @@ function syncMobileCompNav() {
   currentText.textContent = game.title || `${game.competition} ${game.season}`;
 
   const allGames = Array.isArray(gIndex) ? gIndex : [];
-  const currentIndex = allGames.findIndex(g => g.id === game.id);
+  const currentIndex = allGames.findIndex((g) => g.id === game.id);
 
   const prevGame = currentIndex > 0 ? allGames[currentIndex - 1] : null;
-  const nextGame = currentIndex >= 0 && currentIndex < allGames.length - 1 ? allGames[currentIndex + 1] : null;
+  const nextGame =
+    currentIndex >= 0 && currentIndex < allGames.length - 1
+      ? allGames[currentIndex + 1]
+      : null;
 
   if (prevGame) {
     prevBtn.style.visibility = "visible";
@@ -28,7 +34,6 @@ function syncMobileCompNav() {
       e.preventDefault();
       window.location.href = linkGame(prevGame.id);
     };
-
   } else {
     prevBtn.style.visibility = "hidden";
     prevBtn.onclick = null;
@@ -41,7 +46,6 @@ function syncMobileCompNav() {
       e.preventDefault();
       window.location.href = linkGame(nextGame.id);
     };
-
   } else {
     nextBtn.style.visibility = "hidden";
     nextBtn.onclick = null;
@@ -62,8 +66,8 @@ function resolveTeamLabel(val) {
     const team = getTeam(raw);
     if (team) {
       return isMobile
-        ? (team.mobileName || team.shortName || team.name || raw)
-        : (team.mobileName || team.name || raw);
+        ? team.mobileName || team.shortName || team.name || raw
+        : team.mobileName || team.name || raw;
     }
   }
 
@@ -78,8 +82,8 @@ function resolveTeamLabel(val) {
 function normalizeBonusValue(value) {
   if (Array.isArray(value)) {
     return value
-      .flatMap(v => String(v).split(","))
-      .map(v => String(v).trim())
+      .flatMap((v) => String(v).split(","))
+      .map((v) => String(v).trim())
       .filter(Boolean);
   }
 
@@ -89,14 +93,14 @@ function normalizeBonusValue(value) {
 
   return String(value)
     .split(",")
-    .map(v => v.trim())
+    .map((v) => v.trim())
     .filter(Boolean);
 }
 
 function hasDecidedBonusResult(value) {
   const vals = normalizeBonusValue(value);
   if (!vals.length) return false;
-  return vals.some(v => {
+  return vals.some((v) => {
     const s = String(v).trim();
     return s !== "" && s !== "-" && s !== "—";
   });
@@ -113,12 +117,16 @@ function bonusPointsForQuestion(key, playerValue, resultValue, pointsRow) {
 
   // Einzeltipp gegen mehrere richtige Antworten
   if (playerVals.length === 1) {
-    return resultVals.some(x => x.toLowerCase() === playerVals[0].toLowerCase()) ? pts : 0;
+    return resultVals.some(
+      (x) => x.toLowerCase() === playerVals[0].toLowerCase(),
+    )
+      ? pts
+      : 0;
   }
 
   // Mehrfachantworten: jede richtige Antwort zählt
   let score = 0;
-  const resultSet = new Set(resultVals.map(x => x.toLowerCase()));
+  const resultSet = new Set(resultVals.map((x) => x.toLowerCase()));
 
   for (const val of playerVals) {
     if (resultSet.has(val.toLowerCase())) {
@@ -135,10 +143,10 @@ function bonusHitsForQuestion(playerValue, resultValue) {
 
   if (!playerVals.length || !resultVals.length) return [];
 
-  const resultSet = new Set(resultVals.map(x => x.toLowerCase()));
-  return playerVals.map(v => ({
+  const resultSet = new Set(resultVals.map((x) => x.toLowerCase()));
+  return playerVals.map((v) => ({
     value: v,
-    hit: resultSet.has(v.toLowerCase())
+    hit: resultSet.has(v.toLowerCase()),
   }));
 }
 
@@ -180,7 +188,7 @@ async function computeOverallUntil(matchdayIndex) {
   for (let i = 0; i <= matchdayIndex; i++) {
     const md = await loadMatchday(game.matchdays[i]);
 
-    for (const tip of (md.tips || [])) {
+    for (const tip of md.tips || []) {
       const hasPicks = tip.picks && Object.keys(tip.picks).length > 0;
       const hasBonus = Number(tip.bonus || 0) > 0;
       if (!hasPicks && !hasBonus) continue;
@@ -188,13 +196,20 @@ async function computeOverallUntil(matchdayIndex) {
       const s = (totals[tip.player] ||= {
         player: tip.player,
         points: 0,
-        dayWinsTotal: 0
+        dayWinsTotal: 0,
       });
 
       s.points += Number(tip.points || 0) + Number(tip.bonus || 0);
 
-      if (tip.dayWinsTotal !== undefined && tip.dayWinsTotal !== null && tip.dayWinsTotal !== "") {
-        s.dayWinsTotal = Math.max(s.dayWinsTotal, Number(tip.dayWinsTotal || 0));
+      if (
+        tip.dayWinsTotal !== undefined &&
+        tip.dayWinsTotal !== null &&
+        tip.dayWinsTotal !== ""
+      ) {
+        s.dayWinsTotal = Math.max(
+          s.dayWinsTotal,
+          Number(tip.dayWinsTotal || 0),
+        );
       } else {
         if (tip.dayWin === true || Number(tip.dayWin || 0) > 0) {
           s.dayWinsTotal += 1;
@@ -234,54 +249,60 @@ async function computeOverallUntil(matchdayIndex) {
 function renderMatchday(md) {
   const dateBits = [
     md.date ? pill(fmtDate(md.date), "neutral") : "",
-    md.dateTo ? pill(`bis ${fmtDate(md.dateTo)}`, "neutral") : ""
-  ].filter(Boolean).join("");
+    md.dateTo ? pill(`bis ${fmtDate(md.dateTo)}`, "neutral") : "",
+  ]
+    .filter(Boolean)
+    .join("");
 
   const head = `<div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center">
     ${pill(md.label, "good")}
     ${dateBits}
   </div>`;
 
-  const matchRows = (md.matches || []).map(m => {
-    const tipLines = (md.tips || []).map(t => {
-      const pick = t.picks?.[m.id] ?? "—";
-      const pts = (t.pickPoints && (m.id in t.pickPoints)) ? Number(t.pickPoints[m.id] || 0) : null;
-      const ptsClass = pts === null ? "" : tipClass(pts);
+  const matchRows = (md.matches || [])
+    .map((m) => {
+      const tipLines = (md.tips || [])
+        .map((t) => {
+          const pick = t.picks?.[m.id] ?? "—";
+          const pts =
+            t.pickPoints && m.id in t.pickPoints
+              ? Number(t.pickPoints[m.id] || 0)
+              : null;
+          const ptsClass = pts === null ? "" : tipClass(pts);
 
-
-
-      return `
+          return `
   <div class="tipRow">
     <div class="tipName">${escapeHtml(playersBySlug[t.player]?.name || t.player)}:</div>
     <div class="tipPick"><b>${escapeHtml(pick)}</b></div>
     <div class="tipPts">${pts === null ? "" : `<span class="pill miniPill ${ptsClass}">${pts}</span>`}</div>
   </div>
 `;
-    }).join("");
+        })
+        .join("");
 
-    const isMobile = window.innerWidth <= 640;
+      const isMobile = window.innerWidth <= 640;
 
-    const homeName =
-      (typeof getTeamName === "function" && m.homeTeam)
-        ? getTeamName(m.homeTeam, isMobile ? "mobile" : "desktop")
-        : (m.home || m.homeTeam || "");
+      const homeName =
+        typeof getTeamName === "function" && m.homeTeam
+          ? getTeamName(m.homeTeam, isMobile ? "mobile" : "desktop")
+          : m.home || m.homeTeam || "";
 
-    const awayName =
-      (typeof getTeamName === "function" && m.awayTeam)
-        ? getTeamName(m.awayTeam, isMobile ? "mobile" : "desktop")
-        : (m.away || m.awayTeam || "");
+      const awayName =
+        typeof getTeamName === "function" && m.awayTeam
+          ? getTeamName(m.awayTeam, isMobile ? "mobile" : "desktop")
+          : m.away || m.awayTeam || "";
 
-    const homeLogo =
-      (typeof getTeamLogo === "function" && m.homeTeam)
-        ? getTeamLogo(m.homeTeam)
-        : "";
+      const homeLogo =
+        typeof getTeamLogo === "function" && m.homeTeam
+          ? getTeamLogo(m.homeTeam)
+          : "";
 
-    const awayLogo =
-      (typeof getTeamLogo === "function" && m.awayTeam)
-        ? getTeamLogo(m.awayTeam)
-        : "";
+      const awayLogo =
+        typeof getTeamLogo === "function" && m.awayTeam
+          ? getTeamLogo(m.awayTeam)
+          : "";
 
-    return `
+      return `
 <div class="card matchCard" style="margin:10px 0">
 
   <div class="matchHeader" onclick="toggleMatch(this)">
@@ -306,7 +327,8 @@ function renderMatchday(md) {
 
 </div>
 `;
-  }).join("");
+    })
+    .join("");
 
   // Bonus-Meta (wie "Abstieg: Aachen" etc.)
   const bonusMeta = (md.bonusMeta || []).length
@@ -314,7 +336,7 @@ function renderMatchday(md) {
         <div class="bd">
           <div class="hd"><h3>Bonus</h3><p>Events &amp; Punkte.</p></div>
           <div style="display:flex; gap:8px; flex-wrap:wrap">
-            ${(md.bonusMeta || []).map(b => pill(`${b.value}: ${b.label}`, "neutral")).join("")}
+            ${(md.bonusMeta || []).map((b) => pill(`${b.value}: ${b.label}`, "neutral")).join("")}
           </div>
         </div>
       </div>`
@@ -325,7 +347,7 @@ function renderMatchday(md) {
 }
 
 function renderDayTable(md) {
-  const tips = (md.tips || []).filter(t => {
+  const tips = (md.tips || []).filter((t) => {
     const hasPicks = t.picks && Object.keys(t.picks).length > 0;
     const hasBonus = Number(t.bonus || 0) > 0;
     return hasPicks || hasBonus;
@@ -357,18 +379,20 @@ function renderDayTable(md) {
     return { rank, tip: t };
   });
 
-  const rows = ranked.map(({ rank, tip }) => {
-    const dayPts = Number(tip.points || 0);     // ohne Bonus
-    const bonus = Number(tip.bonus || 0);
-    const total = (tip.total === null || tip.total === undefined || tip.total === "")
-      ? null
-      : Number(tip.total || 0);
+  const rows = ranked
+    .map(({ rank, tip }) => {
+      const dayPts = Number(tip.points || 0); // ohne Bonus
+      const bonus = Number(tip.bonus || 0);
+      const total =
+        tip.total === null || tip.total === undefined || tip.total === ""
+          ? null
+          : Number(tip.total || 0);
 
-    const metaBits = [];
-    if (bonus) metaBits.push(`Bonus: +${Math.round(bonus)}`);
-    if (total !== null) metaBits.push(`Gesamt: ${Math.round(total)}`);
+      const metaBits = [];
+      if (bonus) metaBits.push(`Bonus: +${Math.round(bonus)}`);
+      if (total !== null) metaBits.push(`Gesamt: ${Math.round(total)}`);
 
-    return `
+      return `
       <tr class="row">
         <td>${rank}</td>
         <td>${playerChip(tip.player)}</td>
@@ -378,10 +402,12 @@ function renderDayTable(md) {
         </td>
       </tr>
     `;
-  }).join("");
+    })
+    .join("");
 
   $("#mdTable").innerHTML = renderTable(rows, ["#", "Spieler", "Punkte"]);
-  $("#mdTableMeta").textContent = `Rangliste für ${md.label} (Punkte ohne Bonus, Bonus separat).`;
+  $("#mdTableMeta").textContent =
+    `Rangliste für ${md.label} (Punkte ohne Bonus, Bonus separat).`;
 }
 
 async function renderOverall(matchdayIndex) {
@@ -389,18 +415,23 @@ async function renderOverall(matchdayIndex) {
   const overall = await computeOverallUntil(matchdayIndex);
   const dayWinners = new Set(
     (md.tips || [])
-      .filter(t => (t.dayWin === true || Number(t.dayWin || 0) > 0) && t.picks && Object.keys(t.picks).length)
-      .map(t => t.player)
+      .filter(
+        (t) =>
+          (t.dayWin === true || Number(t.dayWin || 0) > 0) &&
+          t.picks &&
+          Object.keys(t.picks).length,
+      )
+      .map((t) => t.player),
   );
 
-  
   // Podium bleibt wie gehabt, nur mit Klassen (siehe CSS unten)
   const podium = overall.slice(0, 3);
 
-  const podiumCards = podium.map((r, i) => {
-    const cls = i === 0 ? "pod-gold" : i === 1 ? "pod-silver" : "pod-bronze";
-    const medal = i === 0 ? "🥇" : i === 1 ? "🥈" : "🥉";
-    return `
+  const podiumCards = podium
+    .map((r, i) => {
+      const cls = i === 0 ? "pod-gold" : i === 1 ? "pod-silver" : "pod-bronze";
+      const medal = i === 0 ? "🥇" : i === 1 ? "🥈" : "🥉";
+      return `
     <div class="card podiumCard ${cls}" style="margin:10px 0">
       <div class="bd" style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap">
         <div>${playerChip(r.player)}<div class="small">Platz ${r.rank}</div></div>
@@ -413,16 +444,22 @@ async function renderOverall(matchdayIndex) {
   </div>
 </div>      </div>
     </div>`;
-  }).join("");
+    })
+    .join("");
 
-  const rows = overall.slice(3).map(r => `
+  const rows = overall
+    .slice(3)
+    .map(
+      (r) => `
   <tr class="row ${dayWinners.has(r.player) ? "daywinRow" : ""}">
     <td>${r.rank}</td>
     <td>${playerChip(r.player)}</td>
     <td><span class="pill neutral">${Math.round(r.points)} P</span></td>
     <td><span class="pill neutral">🏆 ${fmt2(r.dayWinsTotal || 0)}</span></td>
   </tr>
-`).join("");
+`,
+    )
+    .join("");
 
   $("#overall").innerHTML = `
   ${podiumCards}
@@ -432,14 +469,18 @@ async function renderOverall(matchdayIndex) {
 }
 
 function hasBonusTab() {
-  return !!(game?.bonusTips?.picks && Array.isArray(game.bonusTips.picks) && game.bonusTips.picks.length);
+  return !!(
+    game?.bonusTips?.picks &&
+    Array.isArray(game.bonusTips.picks) &&
+    game.bonusTips.picks.length
+  );
 }
-
 
 function renderBonusTab() {
   const bonus = game?.bonusTips;
   if (!bonus || !Array.isArray(bonus.picks) || !bonus.picks.length) {
-    $("#mdContent").innerHTML = `<div class="small">Keine Bonustipps vorhanden.</div>`;
+    $("#mdContent").innerHTML =
+      `<div class="small">Keine Bonustipps vorhanden.</div>`;
     $("#mdTable").innerHTML = "";
     $("#mdTableMeta").textContent = "";
     $("#overall").innerHTML = "";
@@ -449,17 +490,21 @@ function renderBonusTab() {
   const questions = Array.isArray(bonus.questions) ? bonus.questions : [];
   const picks = bonus.picks || [];
 
-  const resultRow = picks.find(p => String(p.player).toLowerCase() === "result");
-  const pointsRow = picks.find(p => String(p.player).toLowerCase() === "points");
+  const resultRow = picks.find(
+    (p) => String(p.player).toLowerCase() === "result",
+  );
+  const pointsRow = picks.find(
+    (p) => String(p.player).toLowerCase() === "points",
+  );
 
-  const playerRows = picks.filter(p => {
+  const playerRows = picks.filter((p) => {
     const slug = String(p.player).toLowerCase();
     return slug !== "result" && slug !== "points";
   });
 
-  const rawKeys = [...new Set(
-    picks.flatMap(p => Object.keys(p.predictions || {}))
-  )].filter(k => k !== "TipperID");
+  const rawKeys = [
+    ...new Set(picks.flatMap((p) => Object.keys(p.predictions || {}))),
+  ].filter((k) => k !== "TipperID");
 
   const questionMeta = questions.reduce((acc, q) => {
     if (q && q.key) acc[q.key] = q;
@@ -474,8 +519,9 @@ function renderBonusTab() {
     return Number.isFinite(n) ? n : 0;
   };
 
-  const displayKeys = rawKeys.flatMap(key => {
-    if (key === "Halbfinale") return ["Halbfinale1", "Halbfinale2", "Halbfinale3", "Halbfinale4"];
+  const displayKeys = rawKeys.flatMap((key) => {
+    if (key === "Halbfinale")
+      return ["Halbfinale1", "Halbfinale2", "Halbfinale3", "Halbfinale4"];
     if (key === "Plätze 16-18") return ["Platz16", "Platz17", "Platz18"];
     if (key === "Absteiger") return ["Absteiger1", "Absteiger2", "Absteiger3"];
     return [key];
@@ -491,15 +537,19 @@ function renderBonusTab() {
 
   const resultTiles = `
     <div class="bonusMatrix bonusMatrixResults">
-      ${displayKeys.map(displayKey => {
-    if (displayKey.startsWith("Halbfinale")) {
-      const idx = Number(displayKey.replace("Halbfinale", "")) - 1;
-      const vals = normalizeBonusValue(resultFor("Halbfinale"));
-      const val = vals[idx] ?? "—";
-      const pts = pointsFor("Halbfinale");
-      const isDecided = String(val).trim() !== "" && String(val).trim() !== "-" && String(val).trim() !== "—";
+      ${displayKeys
+        .map((displayKey) => {
+          if (displayKey.startsWith("Halbfinale")) {
+            const idx = Number(displayKey.replace("Halbfinale", "")) - 1;
+            const vals = normalizeBonusValue(resultFor("Halbfinale"));
+            const val = vals[idx] ?? "—";
+            const pts = pointsFor("Halbfinale");
+            const isDecided =
+              String(val).trim() !== "" &&
+              String(val).trim() !== "-" &&
+              String(val).trim() !== "—";
 
-      return `
+            return `
             <div class="bonusCell bonusResultCell">
               <div class="bonusCellLabel">
                 Halbfinale${idx + 1}
@@ -512,16 +562,19 @@ function renderBonusTab() {
               </div>
             </div>
           `;
-    }
+          }
 
-    if (displayKey.startsWith("Platz")) {
-      const idx = Number(displayKey.replace("Platz", "")) - 16;
-      const vals = normalizeBonusValue(resultFor("Plätze 16-18"));
-      const val = vals[idx] ?? "—";
-      const pts = pointsFor("Plätze 16-18");
-      const isDecided = String(val).trim() !== "" && String(val).trim() !== "-" && String(val).trim() !== "—";
+          if (displayKey.startsWith("Platz")) {
+            const idx = Number(displayKey.replace("Platz", "")) - 16;
+            const vals = normalizeBonusValue(resultFor("Plätze 16-18"));
+            const val = vals[idx] ?? "—";
+            const pts = pointsFor("Plätze 16-18");
+            const isDecided =
+              String(val).trim() !== "" &&
+              String(val).trim() !== "-" &&
+              String(val).trim() !== "—";
 
-      return `
+            return `
             <div class="bonusCell bonusResultCell">
               <div class="bonusCellLabel">
                 Platz ${16 + idx}
@@ -534,16 +587,19 @@ function renderBonusTab() {
               </div>
             </div>
           `;
-    }
+          }
 
-    if (displayKey.startsWith("Absteiger")) {
-      const idx = Number(displayKey.replace("Absteiger", "")) - 1;
-      const vals = normalizeBonusValue(resultFor("Absteiger"));
-      const val = vals[idx] ?? "—";
-      const pts = pointsFor("Absteiger");
-      const isDecided = String(val).trim() !== "" && String(val).trim() !== "-" && String(val).trim() !== "—";
+          if (displayKey.startsWith("Absteiger")) {
+            const idx = Number(displayKey.replace("Absteiger", "")) - 1;
+            const vals = normalizeBonusValue(resultFor("Absteiger"));
+            const val = vals[idx] ?? "—";
+            const pts = pointsFor("Absteiger");
+            const isDecided =
+              String(val).trim() !== "" &&
+              String(val).trim() !== "-" &&
+              String(val).trim() !== "—";
 
-      return `
+            return `
             <div class="bonusCell bonusResultCell">
               <div class="bonusCellLabel">
                 Absteiger ${idx + 1}
@@ -556,31 +612,37 @@ function renderBonusTab() {
               </div>
             </div>
           `;
-    }
+          }
 
-    const resultVals = normalizeBonusValue(resultFor(displayKey));
-    const pts = pointsFor(displayKey);
-    const isDecided = hasDecidedBonusResult(resultFor(displayKey));
+          const resultVals = normalizeBonusValue(resultFor(displayKey));
+          const pts = pointsFor(displayKey);
+          const isDecided = hasDecidedBonusResult(resultFor(displayKey));
 
-    return `
+          return `
           <div class="bonusCell bonusResultCell">
             <div class="bonusCellLabel">
               ${escapeHtml(labelFor(displayKey))}
               <span class="small" style="opacity:.7">(${pts}P)</span>
             </div>
             <div class="bonusCellValue bonusAnswers">
-              ${resultVals.length
-        ? resultVals.map(v => `
+              ${
+                resultVals.length
+                  ? resultVals
+                      .map(
+                        (v) => `
                       <span class="bonusAnswer ${isDecided ? "bonusAnswerHit" : ""}">
                         ${escapeHtml(resolveTeamLabel(v))}
                       </span>
-                    `).join("")
-        : `<span class="bonusAnswer">—</span>`
-      }
+                    `,
+                      )
+                      .join("")
+                  : `<span class="bonusAnswer">—</span>`
+              }
             </div>
           </div>
         `;
-  }).join("")}
+        })
+        .join("")}
     </div>
   `;
 
@@ -605,40 +667,51 @@ function renderBonusTab() {
       const bn = playersBySlug[b.player]?.name || b.name || b.player;
       return String(an).localeCompare(String(bn));
     })
-    .map(p => {
+    .map((p) => {
       const preds = p.predictions || {};
       let bonusPoints = 0;
 
       const predictionGrid = `
         <div class="bonusMatrix">
-          ${rawKeys.flatMap(key => {
-        const pts = pointsFor(key);
+          ${rawKeys
+            .flatMap((key) => {
+              const pts = pointsFor(key);
 
-        if (key === "Halbfinale") {
-          const playerVals = normalizeBonusValue(preds[key]);
-          const resultVals = normalizeBonusValue(resultFor("Halbfinale"));
-          const resultSet = new Set(resultVals.map(x => String(x).trim().toLowerCase()));
+              if (key === "Halbfinale") {
+                const playerVals = normalizeBonusValue(preds[key]);
+                const resultVals = normalizeBonusValue(resultFor("Halbfinale"));
+                const resultSet = new Set(
+                  resultVals.map((x) => String(x).trim().toLowerCase()),
+                );
 
-          return Array.from({ length: 4 }).map((_, i) => {
-            const val = playerVals[i] ?? "—";
-            const resultVal = resultVals[i] ?? "—";
-            const normalizedVal = String(val).trim().toLowerCase();
-            const isDecided =
-              String(resultVal).trim() !== "" &&
-              String(resultVal).trim() !== "-" &&
-              String(resultVal).trim() !== "—";
+                return Array.from({ length: 4 }).map((_, i) => {
+                  const val = playerVals[i] ?? "—";
+                  const resultVal = resultVals[i] ?? "—";
+                  const normalizedVal = String(val).trim().toLowerCase();
+                  const isDecided =
+                    String(resultVal).trim() !== "" &&
+                    String(resultVal).trim() !== "-" &&
+                    String(resultVal).trim() !== "—";
 
-            const isHit =
-              normalizedVal !== "" &&
-              normalizedVal !== "—" &&
-              resultSet.has(normalizedVal);
+                  const isHit =
+                    normalizedVal !== "" &&
+                    normalizedVal !== "—" &&
+                    resultSet.has(normalizedVal);
 
-            if (isHit) bonusPoints += pts;
+                  if (isHit) bonusPoints += pts;
 
-            const cellClass = isHit ? "bonusHit" : (isDecided ? "bonusMiss" : "");
-            const answerClass = isHit ? "bonusAnswerHit" : (isDecided ? "bonusAnswerMiss" : "");
+                  const cellClass = isHit
+                    ? "bonusHit"
+                    : isDecided
+                      ? "bonusMiss"
+                      : "";
+                  const answerClass = isHit
+                    ? "bonusAnswerHit"
+                    : isDecided
+                      ? "bonusAnswerMiss"
+                      : "";
 
-            return `
+                  return `
                   <div class="bonusCell ${cellClass}">
                     <div class="bonusCellLabel">
                       Halbfinale${i + 1}
@@ -652,34 +725,46 @@ function renderBonusTab() {
                     </div>
                   </div>
                 `;
-          });
-        }
+                });
+              }
 
-        if (key === "Plätze 16-18") {
-          const playerVals = normalizeBonusValue(preds[key]);
-          const resultVals = normalizeBonusValue(resultFor("Plätze 16-18"));
-          const resultSet = new Set(resultVals.map(x => String(x).trim().toLowerCase()));
+              if (key === "Plätze 16-18") {
+                const playerVals = normalizeBonusValue(preds[key]);
+                const resultVals = normalizeBonusValue(
+                  resultFor("Plätze 16-18"),
+                );
+                const resultSet = new Set(
+                  resultVals.map((x) => String(x).trim().toLowerCase()),
+                );
 
-          return Array.from({ length: 3 }).map((_, i) => {
-            const val = playerVals[i] ?? "—";
-            const resultVal = resultVals[i] ?? "—";
-            const normalizedVal = String(val).trim().toLowerCase();
-            const isDecided =
-              String(resultVal).trim() !== "" &&
-              String(resultVal).trim() !== "-" &&
-              String(resultVal).trim() !== "—";
+                return Array.from({ length: 3 }).map((_, i) => {
+                  const val = playerVals[i] ?? "—";
+                  const resultVal = resultVals[i] ?? "—";
+                  const normalizedVal = String(val).trim().toLowerCase();
+                  const isDecided =
+                    String(resultVal).trim() !== "" &&
+                    String(resultVal).trim() !== "-" &&
+                    String(resultVal).trim() !== "—";
 
-            const isHit =
-              normalizedVal !== "" &&
-              normalizedVal !== "—" &&
-              resultSet.has(normalizedVal);
+                  const isHit =
+                    normalizedVal !== "" &&
+                    normalizedVal !== "—" &&
+                    resultSet.has(normalizedVal);
 
-            if (isHit) bonusPoints += pts;
+                  if (isHit) bonusPoints += pts;
 
-            const cellClass = isHit ? "bonusHit" : (isDecided ? "bonusMiss" : "");
-            const answerClass = isHit ? "bonusAnswerHit" : (isDecided ? "bonusAnswerMiss" : "");
+                  const cellClass = isHit
+                    ? "bonusHit"
+                    : isDecided
+                      ? "bonusMiss"
+                      : "";
+                  const answerClass = isHit
+                    ? "bonusAnswerHit"
+                    : isDecided
+                      ? "bonusAnswerMiss"
+                      : "";
 
-            return `
+                  return `
                   <div class="bonusCell ${cellClass}">
                     <div class="bonusCellLabel">
                       Platz ${16 + i}
@@ -693,34 +778,44 @@ function renderBonusTab() {
                     </div>
                   </div>
                 `;
-          });
-        }
+                });
+              }
 
-        if (key === "Absteiger") {
-          const playerVals = normalizeBonusValue(preds[key]);
-          const resultVals = normalizeBonusValue(resultFor("Absteiger"));
-          const resultSet = new Set(resultVals.map(x => String(x).trim().toLowerCase()));
+              if (key === "Absteiger") {
+                const playerVals = normalizeBonusValue(preds[key]);
+                const resultVals = normalizeBonusValue(resultFor("Absteiger"));
+                const resultSet = new Set(
+                  resultVals.map((x) => String(x).trim().toLowerCase()),
+                );
 
-          return Array.from({ length: 3 }).map((_, i) => {
-            const val = playerVals[i] ?? "—";
-            const resultVal = resultVals[i] ?? "—";
-            const normalizedVal = String(val).trim().toLowerCase();
-            const isDecided =
-              String(resultVal).trim() !== "" &&
-              String(resultVal).trim() !== "-" &&
-              String(resultVal).trim() !== "—";
+                return Array.from({ length: 3 }).map((_, i) => {
+                  const val = playerVals[i] ?? "—";
+                  const resultVal = resultVals[i] ?? "—";
+                  const normalizedVal = String(val).trim().toLowerCase();
+                  const isDecided =
+                    String(resultVal).trim() !== "" &&
+                    String(resultVal).trim() !== "-" &&
+                    String(resultVal).trim() !== "—";
 
-            const isHit =
-              normalizedVal !== "" &&
-              normalizedVal !== "—" &&
-              resultSet.has(normalizedVal);
+                  const isHit =
+                    normalizedVal !== "" &&
+                    normalizedVal !== "—" &&
+                    resultSet.has(normalizedVal);
 
-            if (isHit) bonusPoints += pts;
+                  if (isHit) bonusPoints += pts;
 
-            const cellClass = isHit ? "bonusHit" : (isDecided ? "bonusMiss" : "");
-            const answerClass = isHit ? "bonusAnswerHit" : (isDecided ? "bonusAnswerMiss" : "");
+                  const cellClass = isHit
+                    ? "bonusHit"
+                    : isDecided
+                      ? "bonusMiss"
+                      : "";
+                  const answerClass = isHit
+                    ? "bonusAnswerHit"
+                    : isDecided
+                      ? "bonusAnswerMiss"
+                      : "";
 
-            return `
+                  return `
                   <div class="bonusCell ${cellClass}">
                     <div class="bonusCellLabel">
                       Absteiger ${i + 1}
@@ -734,49 +829,60 @@ function renderBonusTab() {
                     </div>
                   </div>
                 `;
-          });
-        }
+                });
+              }
 
-        const playerVals = normalizeBonusValue(preds[key]);
-        const resultVals = normalizeBonusValue(resultFor(key));
-        const resultSet = new Set(resultVals.map(x => String(x).trim().toLowerCase()));
-        const isDecided = hasDecidedBonusResult(resultFor(key));
+              const playerVals = normalizeBonusValue(preds[key]);
+              const resultVals = normalizeBonusValue(resultFor(key));
+              const resultSet = new Set(
+                resultVals.map((x) => String(x).trim().toLowerCase()),
+              );
+              const isDecided = hasDecidedBonusResult(resultFor(key));
 
-        let localPoints = 0;
-        let hasAnyMiss = false;
+              let localPoints = 0;
+              let hasAnyMiss = false;
 
-        const displayValues = playerVals.length
-          ? playerVals.map(v => {
-            const normalizedVal = String(v).trim().toLowerCase();
-            const isHit =
-              normalizedVal !== "" &&
-              normalizedVal !== "—" &&
-              resultSet.has(normalizedVal);
+              const displayValues = playerVals.length
+                ? playerVals
+                    .map((v) => {
+                      const normalizedVal = String(v).trim().toLowerCase();
+                      const isHit =
+                        normalizedVal !== "" &&
+                        normalizedVal !== "—" &&
+                        resultSet.has(normalizedVal);
 
-            if (isHit) {
-              localPoints += pts;
-            } else if (isDecided) {
-              hasAnyMiss = true;
-            }
+                      if (isHit) {
+                        localPoints += pts;
+                      } else if (isDecided) {
+                        hasAnyMiss = true;
+                      }
 
-            const answerClass = isHit ? "bonusAnswerHit" : (isDecided ? "bonusAnswerMiss" : "");
+                      const answerClass = isHit
+                        ? "bonusAnswerHit"
+                        : isDecided
+                          ? "bonusAnswerMiss"
+                          : "";
 
-            return `
+                      return `
                     <span class="bonusAnswer ${answerClass}">
                       ${typeof getTeamLogo === "function" && v && v !== "—" ? `<img src="${escapeHtml(getTeamLogo(v) || "")}" class="teamLogoSmall">` : ""}
                       ${escapeHtml(resolveTeamLabel(v))}
                     </span>
                   `;
-          }).join("")
-          : `<span class="bonusAnswer">—</span>`;
+                    })
+                    .join("")
+                : `<span class="bonusAnswer">—</span>`;
 
-        bonusPoints += localPoints;
+              bonusPoints += localPoints;
 
-        const cellClass = localPoints > 0
-          ? "bonusHit"
-          : (isDecided && hasAnyMiss ? "bonusMiss" : "");
+              const cellClass =
+                localPoints > 0
+                  ? "bonusHit"
+                  : isDecided && hasAnyMiss
+                    ? "bonusMiss"
+                    : "";
 
-        return `
+              return `
               <div class="bonusCell ${cellClass}">
                 <div class="bonusCellLabel">
                   ${escapeHtml(labelFor(key))}
@@ -787,7 +893,8 @@ function renderBonusTab() {
                 </div>
               </div>
             `;
-      }).join("")}
+            })
+            .join("")}
         </div>
       `;
 
@@ -810,17 +917,20 @@ function renderBonusTab() {
           </td>
         </tr>
       `;
-    }).join("");
+    })
+    .join("");
 
   $("#mdTable").innerHTML = renderTable(rows, ["Spieler"]);
-  $("#mdTableMeta").textContent = "Bonustipps als Matrix. Grün = richtig, Rot = falsch, Weiß = offen.";
+  $("#mdTableMeta").textContent =
+    "Bonustipps als Matrix. Grün = richtig, Rot = falsch, Weiß = offen.";
   $("#overall").innerHTML = "";
 }
 
 function renderBanner() {
-
   // Banner aus games_index
-  const indexGame = (Array.isArray(gIndex) ? gIndex : gIndex?.games || []).find(g => g.id === game.id);
+  const indexGame = (Array.isArray(gIndex) ? gIndex : gIndex?.games || []).find(
+    (g) => g.id === game.id,
+  );
 
   let bannerSrc = indexGame?.banner;
 
@@ -839,7 +949,6 @@ function renderBanner() {
   if (tabs) {
     tabs.insertAdjacentHTML("beforebegin", bannerHTML);
   }
-
 }
 
 function renderGameNavigation(game, gamesIndex) {
@@ -848,7 +957,9 @@ function renderGameNavigation(game, gamesIndex) {
   const tabsEl = $("#mdTabs");
   if (!tabsEl) return;
 
-  const items = (Array.isArray(gamesIndex) ? gamesIndex : gamesIndex?.games || [])
+  const items = (
+    Array.isArray(gamesIndex) ? gamesIndex : gamesIndex?.games || []
+  )
     .slice()
     .sort((a, b) => {
       const as = parseISODate(a.start)?.getTime() ?? 0;
@@ -856,19 +967,22 @@ function renderGameNavigation(game, gamesIndex) {
       return as - bs;
     });
 
-  const idx = items.findIndex(g => g?.id === game.id);
+  const idx = items.findIndex((g) => g?.id === game.id);
   if (idx < 0) return;
 
   const prev = idx > 0 ? items[idx - 1] : null;
   const next = idx < items.length - 1 ? items[idx + 1] : null;
 
-  const compItems = items.filter(g => g.competition === game.competition);
-  const compIdx = compItems.findIndex(g => g?.id === game.id);
+  const compItems = items.filter((g) => g.competition === game.competition);
+  const compIdx = compItems.findIndex((g) => g?.id === game.id);
   const prevComp = compIdx > 0 ? compItems[compIdx - 1] : null;
-  const nextComp = compIdx >= 0 && compIdx < compItems.length - 1 ? compItems[compIdx + 1] : null;
+  const nextComp =
+    compIdx >= 0 && compIdx < compItems.length - 1
+      ? compItems[compIdx + 1]
+      : null;
 
   // Alte Navigation entfernen, falls schon vorhanden
-  document.querySelectorAll(".gameNavMount").forEach(el => el.remove());
+  document.querySelectorAll(".gameNavMount").forEach((el) => el.remove());
 
   const navHTML = `
     <div class="gameNavMount" style="margin:12px 0 10px 0">
@@ -904,7 +1018,7 @@ function renderGameNavigation(game, gamesIndex) {
 async function loadMatchday(md) {
   if (md._loaded) return md; // Cache
 
-  const data = await fetch(md.file).then(r => r.json());
+  const data = await fetch(md.file).then((r) => r.json());
 
   // Daten reinmischen
   Object.assign(md, data);
@@ -914,15 +1028,13 @@ async function loadMatchday(md) {
 }
 
 (async function init() {
-
   players = await loadJSON("data/players.json");
-  playersBySlug = Object.fromEntries(players.map(p => [p.slug, p]));
+  playersBySlug = Object.fromEntries(players.map((p) => [p.slug, p]));
   await loadTeams();
   gIndex = await loadJSON("data/games_index.json");
 
-
   const id = getParam("id") || gIndex[0]?.id;
-  game = await loadJSON(`data/game_${id}.json`);
+  game = await loadJSON(`data/games/game_${id}.json`);
 
   syncMobileCompNav();
   renderGameNavigation(game, gIndex);
@@ -936,14 +1048,17 @@ async function loadMatchday(md) {
   }
 
   $("#gTitle").textContent = game.title;
-  $("#gMeta").innerHTML =
-    `${pill(game.competition, "good")}
+  $("#gMeta").innerHTML = `${pill(game.competition, "good")}
      ${pill(game.season, "neutral")}
      ${pill(`${(game.matchdays || []).length} Spieltage`, "neutral")}`;
 
-  const matchdayTabs = (game.matchdays || []).map((md, i) => `
-  <div class="tab" data-i="${i}" data-type="matchday">${md.no ?? (i + 1)}</div>
-`).join("");
+  const matchdayTabs = (game.matchdays || [])
+    .map(
+      (md, i) => `
+  <div class="tab" data-i="${i}" data-type="matchday">${md.no ?? i + 1}</div>
+`,
+    )
+    .join("");
 
   const bonusTab = hasBonusTab()
     ? `<div class="tab" data-i="bonus" data-type="bonus">Bonus</div>`
@@ -951,9 +1066,11 @@ async function loadMatchday(md) {
 
   $("#mdTabs").innerHTML = matchdayTabs + bonusTab;
 
-  [...document.querySelectorAll(".tab")].forEach(el => {
+  [...document.querySelectorAll(".tab")].forEach((el) => {
     el.addEventListener("click", async () => {
-      [...document.querySelectorAll(".tab")].forEach(x => x.classList.remove("active"));
+      [...document.querySelectorAll(".tab")].forEach((x) =>
+        x.classList.remove("active"),
+      );
       el.classList.add("active");
 
       if (el.dataset.type === "bonus") {
@@ -972,27 +1089,30 @@ async function loadMatchday(md) {
   const mdParam = parseInt(mdRaw, 10);
 
   const tabs = [...document.querySelectorAll("#mdTabs .tab")];
-  tabs.forEach(t => t.classList.remove("active"));
+  tabs.forEach((t) => t.classList.remove("active"));
 
   if (String(mdRaw).toLowerCase() === "bonus" && hasBonusTab()) {
-    const bonusEl = tabs.find(t => t.dataset.type === "bonus");
+    const bonusEl = tabs.find((t) => t.dataset.type === "bonus");
     if (bonusEl) bonusEl.classList.add("active");
     renderBonusTab();
   } else {
     const startIndex =
-      Number.isFinite(mdParam) && mdParam > 0 && mdParam <= game.matchdays.length
+      Number.isFinite(mdParam) &&
+      mdParam > 0 &&
+      mdParam <= game.matchdays.length
         ? mdParam - 1
         : game.matchdays.length - 1;
 
-    const startTab = tabs.find(t => t.dataset.type === "matchday" && Number(t.dataset.i) === startIndex);
+    const startTab = tabs.find(
+      (t) =>
+        t.dataset.type === "matchday" && Number(t.dataset.i) === startIndex,
+    );
     if (startTab) startTab.classList.add("active");
 
     const md = await loadMatchday(game.matchdays[startIndex]);
     renderMatchday(md);
     await renderOverall(startIndex);
   }
-
-
 })();
 
 function toggleMatch(el) {
