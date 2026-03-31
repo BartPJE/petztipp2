@@ -476,6 +476,27 @@ table td:nth-last-child(2) {
   box-shadow: 0 0 18px rgba(255,59,59,0.16);
 }
 
+.sortBtn {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+}
+
+.sortBtn.active {
+  color: var(--accent);
+}
+
+.gameStatsKpis .kpiPlayers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
 .bar {
   height: 8px;
   border-radius: 999px;
