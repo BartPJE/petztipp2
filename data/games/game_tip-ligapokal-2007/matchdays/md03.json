@@ -1,0 +1,142 @@
+{
+  "id": "md03",
+  "label": "Finale",
+  "date": "28.07.2007 - 28.07.2007",
+  "no": 3,
+  "matches": [
+    {
+      "id": "md03-01",
+      "home": "FC Schalke 04",
+      "homeTeam": "S04",
+      "away": "FC Bayern München",
+      "awayTeam": "FCB",
+      "result": "0:1",
+      "date": "28.07.2007",
+      "time": "20:30"
+    }
+  ],
+  "tips": [
+    {
+      "player": "peter",
+      "picks": {
+        "md03-01": "1:2"
+      },
+      "pickPoints": {
+        "md03-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 2.0,
+      "total": 12.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0,
+      "rank": 1
+    },
+    {
+      "player": "dominik",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 2.0,
+      "total": 8.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0,
+      "rank": 2
+    },
+    {
+      "player": "basti",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 7.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0,
+      "rank": 2
+    },
+    {
+      "player": "daniel",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 2.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0,
+      "rank": 2
+    },
+    {
+      "player": "johannes",
+      "picks": {
+        "md03-01": "2:1"
+      },
+      "pickPoints": {
+        "md03-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 8.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0,
+      "rank": 2
+    },
+    {
+      "player": "melli",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 7.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0,
+      "rank": 2
+    },
+    {
+      "player": "thomas",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 5.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0,
+      "rank": 2
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "dominik",
+      "points": 0.0
+    },
+    {
+      "rank": 2,
+      "player": "basti",
+      "points": 0.0
+    },
+    {
+      "rank": 2,
+      "player": "daniel",
+      "points": 0.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 0.0
+    },
+    {
+      "rank": 2,
+      "player": "melli",
+      "points": 0.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "points": 0.0
+    }
+  ]
+}

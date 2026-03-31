@@ -25,5 +25,14 @@
     "season": "2006/2007",
     "start": "2006-08-11",
     "end": "2007-05-19"
+  },
+  {
+    "id": "tip-ligapokal-2007",
+    "title": "Ligapokal 2007",
+    "competition": "Ligapokal",
+    "compShort": "LP",
+    "season": "2007",
+    "start": "2007-07-21",
+    "end": "2007-07-28"
   }
 ]
