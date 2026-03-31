@@ -1,0 +1,76 @@
+{
+  "id": "md05",
+  "label": "Halbfinale",
+  "date": "30.06.2004 - 01.07.2004",
+  "no": 5,
+  "matches": [
+    {
+      "id": "md05-01",
+      "home": "Portugal",
+      "away": "Niederlande",
+      "result": "2:1",
+      "date": "30.06.2004",
+      "time": "19:45",
+      "homeTeam": "POR",
+      "awayTeam": "NED"
+    },
+    {
+      "id": "md05-02",
+      "home": "Griechenland",
+      "away": "Tschechien",
+      "result": "1:0",
+      "date": "01.07.2004",
+      "time": "19:45",
+      "homeTeam": "GRE",
+      "awayTeam": "CZE"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md05-01": "2:1",
+        "md05-02": "1:0"
+      },
+      "pickPoints": {
+        "md05-01": 4.0,
+        "md05-02": 4.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 43.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "picks": {
+        "md05-01": "0:0",
+        "md05-02": "0:4"
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 49.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 8.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "points": 0.0
+    }
+  ]
+}

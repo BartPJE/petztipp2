@@ -1,0 +1,54 @@
+{
+  "id": "tip-euro-2004",
+  "title": "Euro 2004 - Portugal",
+  "competition": "Europameisterschaft",
+  "season": "2004",
+  "bonusTips": {
+    "questions": [],
+    "picks": []
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "12.06.2004 - 15.06.2004",
+      "no": 1,
+      "file": "data/games/game_tip-euro-2004/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "16.06.2004 - 19.06.2004",
+      "no": 2,
+      "file": "data/games/game_tip-euro-2004/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "20.06.2004 - 23.06.2004",
+      "no": 3,
+      "file": "data/games/game_tip-euro-2004/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "24.06.2004 - 27.06.2004",
+      "no": 4,
+      "file": "data/games/game_tip-euro-2004/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "30.06.2004 - 01.07.2004",
+      "no": 5,
+      "file": "data/games/game_tip-euro-2004/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "04.07.2004 - 04.07.2004",
+      "no": 6,
+      "file": "data/games/game_tip-euro-2004/matchdays/md06.json"
+    }
+  ]
+}

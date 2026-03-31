@@ -1,212 +1,1853 @@
 [
-  {"_comment":"============================== BUNDESLIGA TEAMS ==============================================================="},
-  {"key":"FCB","name":"FC Bayern München","shortName":"FC Bayern","mobileName":"Bayern","country":"GER","displayName":"FC Bayern München","logo":"img/teams/fc-bayern-muenchen.svg"},
-  {"key":"BVB","name":"Borussia Dortmund","shortName":"Bor. Dortmund","mobileName":"Dortmund","country":"GER","displayName":"Borussia Dortmund","logo":"img/teams/borussia-dortmund.svg"},
-  {"key":"B04","name":"Bayer 04 Leverkusen","shortName":"Leverkusen","mobileName":"Leverkusen","country":"GER","displayName":"Bayer 04 Leverkusen","logo":"img/teams/bayer-04-leverkusen.svg"},
-  {"key":"BMG","name":"Borussia Mönchengladbach","shortName":"Gladbach","mobileName":"Gladbach","country":"GER","displayName":"Borussia Mönchengladbach","logo":"img/teams/borussia-moenchengladbach.svg"},
-  {"key":"WOB","name":"VfL Wolfsburg","shortName":"Wolfsburg","mobileName":"Wolfsburg","country":"GER","displayName":"VfL Wolfsburg","logo":"img/teams/vfl-wolfsburg.svg"},
-  {"key":"TSG","name":"TSG 1899 Hoffenheim","shortName":"Hoffenheim","mobileName":"Hoffenheim","country":"GER","displayName":"TSG 1899 Hoffenheim","logo":"img/teams/tsg-1899-hoffenheim.svg"},
-  {"key":"RBL","name":"RB Leipzig","shortName":"RB Leipzig","mobileName":"Leipzig","country":"GER","displayName":"RB Leipzig","logo":"img/teams/rb-leipzig.svg"},
-  {"key":"SGE","name":"Eintracht Frankfurt","shortName":"Frankfurt","mobileName":"Frankfurt","country":"GER","displayName":"Eintracht Frankfurt","logo":"img/teams/eintracht-frankfurt.svg"},
-  {"key":"SCF","name":"SC Freiburg","shortName":"Freiburg","mobileName":"Freiburg","country":"GER","displayName":"SC Freiburg","logo":"img/teams/sc-freiburg.svg"},
-  {"key":"FCA","name":"FC Augsburg","shortName":"Augsburg","mobileName":"Augsburg","country":"GER","displayName":"FC Augsburg","logo":"img/teams/fc-augsburg.svg"},
-  {"key":"VFB","name":"VfB Stuttgart","shortName":"Stuttgart","mobileName":"Stuttgart","country":"GER","displayName":"VfB Stuttgart","logo":"img/teams/vfb-stuttgart.svg"},
-  {"key":"SVW","name":"Werder Bremen","shortName":"Werder Bremen","mobileName":"Bremen","country":"GER","displayName":"Werder Bremen","logo":"img/teams/werder-bremen.svg"},
-  {"key":"HSV","name":"Hamburger SV","shortName":"Hamburger SV","mobileName":"Hamburg","country":"GER","displayName":"Hamburger SV","logo":"img/teams/hamburger-sv.svg"},
-  {"key":"S04","name":"FC Schalke 04","shortName":"Schalke 04","mobileName":"Schalke","country":"GER","displayName":"FC Schalke 04","logo":"img/teams/fc-schalke-04.svg"},
-  {"key":"KOE","name":"1. FC Köln","shortName":"1. FC Köln","mobileName":"Köln","country":"GER","displayName":"1. FC Köln","logo":"img/teams/1-fc-koeln.svg"},
-  {"key":"H96","name":"Hannover 96","shortName":"Hannover 96","mobileName":"Hannover","country":"GER","displayName":"Hannover 96","logo":"img/teams/hannover-96.svg"},
-  {"key":"M05","name":"1. FSV Mainz 05","shortName":"Mainz 05","mobileName":"Mainz","country":"GER","displayName":"1. FSV Mainz 05","logo":"img/teams/fsv-mainz-05.svg"},
-  {"key":"FCU","name":"1. FC Union Berlin","shortName":"Union Berlin","mobileName":"Union","country":"GER","displayName":"1. FC Union Berlin","logo":"img/teams/1-fc-union-berlin.svg"},
-  {"key":"BOC","name":"VfL Bochum","shortName":"VfL Bochum","mobileName":"Bochum","country":"GER","displayName":"VfL Bochum","logo":"img/teams/vfl-bochum.svg"},
-  {"key":"FCK","name":"1. FC Kaiserslautern","shortName":"1. FC Kaiserslautern","mobileName":"K'lautern","country":"GER","displayName":"1. FC Kaiserslautern","logo":"img/teams/1-fc-kaiserslautern.svg"},
-  {"key":"SGF","name":"SpVgg Greuther Fürth","shortName":"Greuther Fürth","mobileName":"Fürth","country":"GER","displayName":"SpVgg Greuther Fürth","logo":"img/teams/spvgg-greuther-fuerth.svg"},
-  {"key":"STP","name":"FC St. Pauli","shortName":"FC St. Pauli","mobileName":"St. Pauli","country":"GER","displayName":"FC St. Pauli","logo":"img/teams/fc-st-pauli.svg"},
-  {"key":"DSC","name":"DSC Arminia Bielefeld","shortName":"Arminia Bielefeld","mobileName":"Bielefeld","country":"GER","displayName":"DSC Arminia Bielefeld","logo":"img/teams/dsc-arminia-bielefeld.svg"},
-  {"key":"FCN","name":"1. FC Nürnberg","shortName":"1. FC Nürnberg","mobileName":"Nürnberg","country":"GER","displayName":"1. FC Nürnberg","logo":"img/teams/1-fc-nuernberg.svg"},
-  {"key":"KSC","name":"Karlsruher SC","shortName":"Karlsruher SC","mobileName":"Karlsruhe","country":"GER","displayName":"Karlsruher SC","logo":"img/teams/karlsruher-sc.svg"},
-  {"key":"D98","name":"SV Darmstadt 98","shortName":"Darmstadt 98","mobileName":"Darmstadt","country":"GER","displayName":"SV Darmstadt 98","logo":"img/teams/sv-darmstadt-98.svg"},
-  {"key":"AAA","name":"Alemannia Aachen","shortName":"Alemannia Aachen","mobileName":"Aachen","country":"GER","displayName":"Alemannia Aachen","logo":"img/teams/alemannia-aachen.svg"},
-  {"key":"MSV","name":"MSV Duisburg","shortName":"MSV Duisburg","mobileName":"Duisburg","country":"GER","displayName":"MSV Duisburg","logo":"img/teams/msv-duisburg.svg"},
-  {"key":"ROS","name":"Hansa Rostock","shortName":"Hansa Rostock","mobileName":"Rostock","country":"GER","displayName":"Hansa Rostock","logo":"img/teams/hansa-rostock.svg"},
-  {"key":"COT","name":"Energie Cottbus","shortName":"Energie Cottbus","mobileName":"Cottbus","country":"GER","displayName":"Energie Cottbus","logo":"img/teams/energie-cottbus.svg"},
-  {"key":"ULM","name":"SSV Ulm 1846","shortName":"SSV Ulm 1846","mobileName":"Ulm","country":"GER","displayName":"SSV Ulm 1846","logo":"img/teams/ssv-ulm-1846.svg"},
-  {"key":"BSC","name":"Hertha BSC","shortName":"Hertha BSC","mobileName":"Hertha","country":"GER","displayName":"Hertha BSC","logo":"img/teams/hertha-bsc.svg"},
-  {"key":"HDH","name":"1. FC Heidenheim 1846","shortName":"Heidenheim","mobileName":"Heidenheim","country":"GER","displayName": "1. FC Heidenheim 1846","logo":"img/teams/fc-heidenheim-1846.svg"},
-  {"key":"1860","name":"TSV München 1846","shortName":"1860 München","mobileName":"1860 München","country":"GER","displayName": "TSV München 1860","logo":"img/teams/tsv-muenchen-1860.svg"},
-  {"key":"KIE","name":"Holstein Kiel","shortName":"Holstein Kiel","mobileName":"Holstein Kiel","country":"GER","displayName": "Holstein Kiel","logo":"img/teams/holstein-kiel.svg"},
+  {
+    "_comment": "============================== BUNDESLIGA TEAMS ==============================================================="
+  },
+  {
+    "key": "FCB",
+    "name": "FC Bayern München",
+    "shortName": "FC Bayern",
+    "mobileName": "Bayern",
+    "country": "GER",
+    "displayName": "FC Bayern München",
+    "logo": "img/teams/fc-bayern-muenchen.svg"
+  },
+  {
+    "key": "BVB",
+    "name": "Borussia Dortmund",
+    "shortName": "Bor. Dortmund",
+    "mobileName": "Dortmund",
+    "country": "GER",
+    "displayName": "Borussia Dortmund",
+    "logo": "img/teams/borussia-dortmund.svg"
+  },
+  {
+    "key": "B04",
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen",
+    "mobileName": "Leverkusen",
+    "country": "GER",
+    "displayName": "Bayer 04 Leverkusen",
+    "logo": "img/teams/bayer-04-leverkusen.svg"
+  },
+  {
+    "key": "BMG",
+    "name": "Borussia Mönchengladbach",
+    "shortName": "Gladbach",
+    "mobileName": "Gladbach",
+    "country": "GER",
+    "displayName": "Borussia Mönchengladbach",
+    "logo": "img/teams/borussia-moenchengladbach.svg"
+  },
+  {
+    "key": "WOB",
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg",
+    "mobileName": "Wolfsburg",
+    "country": "GER",
+    "displayName": "VfL Wolfsburg",
+    "logo": "img/teams/vfl-wolfsburg.svg"
+  },
+  {
+    "key": "TSG",
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim",
+    "mobileName": "Hoffenheim",
+    "country": "GER",
+    "displayName": "TSG 1899 Hoffenheim",
+    "logo": "img/teams/tsg-1899-hoffenheim.svg"
+  },
+  {
+    "key": "RBL",
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig",
+    "mobileName": "Leipzig",
+    "country": "GER",
+    "displayName": "RB Leipzig",
+    "logo": "img/teams/rb-leipzig.svg"
+  },
+  {
+    "key": "SGE",
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt",
+    "mobileName": "Frankfurt",
+    "country": "GER",
+    "displayName": "Eintracht Frankfurt",
+    "logo": "img/teams/eintracht-frankfurt.svg"
+  },
+  {
+    "key": "SCF",
+    "name": "SC Freiburg",
+    "shortName": "Freiburg",
+    "mobileName": "Freiburg",
+    "country": "GER",
+    "displayName": "SC Freiburg",
+    "logo": "img/teams/sc-freiburg.svg"
+  },
+  {
+    "key": "FCA",
+    "name": "FC Augsburg",
+    "shortName": "Augsburg",
+    "mobileName": "Augsburg",
+    "country": "GER",
+    "displayName": "FC Augsburg",
+    "logo": "img/teams/fc-augsburg.svg"
+  },
+  {
+    "key": "VFB",
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart",
+    "mobileName": "Stuttgart",
+    "country": "GER",
+    "displayName": "VfB Stuttgart",
+    "logo": "img/teams/vfb-stuttgart.svg"
+  },
+  {
+    "key": "SVW",
+    "name": "Werder Bremen",
+    "shortName": "Werder Bremen",
+    "mobileName": "Bremen",
+    "country": "GER",
+    "displayName": "Werder Bremen",
+    "logo": "img/teams/werder-bremen.svg"
+  },
+  {
+    "key": "HSV",
+    "name": "Hamburger SV",
+    "shortName": "Hamburger SV",
+    "mobileName": "Hamburg",
+    "country": "GER",
+    "displayName": "Hamburger SV",
+    "logo": "img/teams/hamburger-sv.svg"
+  },
+  {
+    "key": "S04",
+    "name": "FC Schalke 04",
+    "shortName": "Schalke 04",
+    "mobileName": "Schalke",
+    "country": "GER",
+    "displayName": "FC Schalke 04",
+    "logo": "img/teams/fc-schalke-04.svg"
+  },
+  {
+    "key": "KOE",
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln",
+    "mobileName": "Köln",
+    "country": "GER",
+    "displayName": "1. FC Köln",
+    "logo": "img/teams/1-fc-koeln.svg"
+  },
+  {
+    "key": "H96",
+    "name": "Hannover 96",
+    "shortName": "Hannover 96",
+    "mobileName": "Hannover",
+    "country": "GER",
+    "displayName": "Hannover 96",
+    "logo": "img/teams/hannover-96.svg"
+  },
+  {
+    "key": "M05",
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz 05",
+    "mobileName": "Mainz",
+    "country": "GER",
+    "displayName": "1. FSV Mainz 05",
+    "logo": "img/teams/fsv-mainz-05.svg"
+  },
+  {
+    "key": "FCU",
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin",
+    "mobileName": "Union",
+    "country": "GER",
+    "displayName": "1. FC Union Berlin",
+    "logo": "img/teams/1-fc-union-berlin.svg"
+  },
+  {
+    "key": "BOC",
+    "name": "VfL Bochum",
+    "shortName": "VfL Bochum",
+    "mobileName": "Bochum",
+    "country": "GER",
+    "displayName": "VfL Bochum",
+    "logo": "img/teams/vfl-bochum.svg"
+  },
+  {
+    "key": "FCK",
+    "name": "1. FC Kaiserslautern",
+    "shortName": "1. FC Kaiserslautern",
+    "mobileName": "K'lautern",
+    "country": "GER",
+    "displayName": "1. FC Kaiserslautern",
+    "logo": "img/teams/1-fc-kaiserslautern.svg"
+  },
+  {
+    "key": "SGF",
+    "name": "SpVgg Greuther Fürth",
+    "shortName": "Greuther Fürth",
+    "mobileName": "Fürth",
+    "country": "GER",
+    "displayName": "SpVgg Greuther Fürth",
+    "logo": "img/teams/spvgg-greuther-fuerth.svg"
+  },
+  {
+    "key": "STP",
+    "name": "FC St. Pauli",
+    "shortName": "FC St. Pauli",
+    "mobileName": "St. Pauli",
+    "country": "GER",
+    "displayName": "FC St. Pauli",
+    "logo": "img/teams/fc-st-pauli.svg"
+  },
+  {
+    "key": "DSC",
+    "name": "DSC Arminia Bielefeld",
+    "shortName": "Arminia Bielefeld",
+    "mobileName": "Bielefeld",
+    "country": "GER",
+    "displayName": "DSC Arminia Bielefeld",
+    "logo": "img/teams/dsc-arminia-bielefeld.svg"
+  },
+  {
+    "key": "FCN",
+    "name": "1. FC Nürnberg",
+    "shortName": "1. FC Nürnberg",
+    "mobileName": "Nürnberg",
+    "country": "GER",
+    "displayName": "1. FC Nürnberg",
+    "logo": "img/teams/1-fc-nuernberg.svg"
+  },
+  {
+    "key": "KSC",
+    "name": "Karlsruher SC",
+    "shortName": "Karlsruher SC",
+    "mobileName": "Karlsruhe",
+    "country": "GER",
+    "displayName": "Karlsruher SC",
+    "logo": "img/teams/karlsruher-sc.svg"
+  },
+  {
+    "key": "D98",
+    "name": "SV Darmstadt 98",
+    "shortName": "Darmstadt 98",
+    "mobileName": "Darmstadt",
+    "country": "GER",
+    "displayName": "SV Darmstadt 98",
+    "logo": "img/teams/sv-darmstadt-98.svg"
+  },
+  {
+    "key": "AAA",
+    "name": "Alemannia Aachen",
+    "shortName": "Alemannia Aachen",
+    "mobileName": "Aachen",
+    "country": "GER",
+    "displayName": "Alemannia Aachen",
+    "logo": "img/teams/alemannia-aachen.svg"
+  },
+  {
+    "key": "MSV",
+    "name": "MSV Duisburg",
+    "shortName": "MSV Duisburg",
+    "mobileName": "Duisburg",
+    "country": "GER",
+    "displayName": "MSV Duisburg",
+    "logo": "img/teams/msv-duisburg.svg"
+  },
+  {
+    "key": "ROS",
+    "name": "Hansa Rostock",
+    "shortName": "Hansa Rostock",
+    "mobileName": "Rostock",
+    "country": "GER",
+    "displayName": "Hansa Rostock",
+    "logo": "img/teams/hansa-rostock.svg"
+  },
+  {
+    "key": "COT",
+    "name": "Energie Cottbus",
+    "shortName": "Energie Cottbus",
+    "mobileName": "Cottbus",
+    "country": "GER",
+    "displayName": "Energie Cottbus",
+    "logo": "img/teams/energie-cottbus.svg"
+  },
+  {
+    "key": "ULM",
+    "name": "SSV Ulm 1846",
+    "shortName": "SSV Ulm 1846",
+    "mobileName": "Ulm",
+    "country": "GER",
+    "displayName": "SSV Ulm 1846",
+    "logo": "img/teams/ssv-ulm-1846.svg"
+  },
+  {
+    "key": "BSC",
+    "name": "Hertha BSC",
+    "shortName": "Hertha BSC",
+    "mobileName": "Hertha",
+    "country": "GER",
+    "displayName": "Hertha BSC",
+    "logo": "img/teams/hertha-bsc.svg"
+  },
+  {
+    "key": "HDH",
+    "name": "1. FC Heidenheim 1846",
+    "shortName": "Heidenheim",
+    "mobileName": "Heidenheim",
+    "country": "GER",
+    "displayName": "1. FC Heidenheim 1846",
+    "logo": "img/teams/fc-heidenheim-1846.svg"
+  },
+  {
+    "key": "1860",
+    "name": "TSV München 1846",
+    "shortName": "1860 München",
+    "mobileName": "1860 München",
+    "country": "GER",
+    "displayName": "TSV München 1860",
+    "logo": "img/teams/tsv-muenchen-1860.svg"
+  },
+  {
+    "key": "KIE",
+    "name": "Holstein Kiel",
+    "shortName": "Holstein Kiel",
+    "mobileName": "Holstein Kiel",
+    "country": "GER",
+    "displayName": "Holstein Kiel",
+    "logo": "img/teams/holstein-kiel.svg"
+  },
 
-  {"_comment":"============================== CHAMPIONS LEAGUE TEAMS ========================================================="},
-  {"key":"RMA","name":"Real Madrid","shortName":"Real Madrid","mobileName":"Real","country":"ESP","displayName":"Real Madrid","logo":"img/teams/real-madrid.svg"},
-  {"key":"BAR","name":"FC Barcelona","shortName":"FC Barcelona","mobileName":"Barça","country":"ESP","displayName":"FC Barcelona","logo":"img/teams/fc-barcelona.svg"},
-  {"key":"ATM","name":"Atlético Madrid","shortName":"Atlético Madrid","mobileName":"Atlético","country":"ESP","displayName":"Atlético Madrid","logo":"img/teams/atletico-madrid.svg"},
-  {"key":"VAL","name":"Valencia CF","shortName":"Valencia CF","mobileName":"Valencia","country":"ESP","displayName":"Valencia CF","logo":"img/teams/valencia-cf.svg"},
-  {"key":"VIL","name":"Villarreal CF","shortName":"Villarreal CF","mobileName":"Villarreal","country":"ESP","displayName":"Villarreal CF","logo":"img/teams/villarreal-cf.svg"},
-  {"key":"SEV","name":"Sevilla FC","shortName":"Sevilla FC","mobileName":"Sevilla","country":"ESP","displayName":"Sevilla FC","logo":"img/teams/sevilla-fc.svg"},
-  {"key":"DEP","name":"Deportivo La Coruña","shortName":"Deportivo","mobileName":"Depor","country":"ESP","displayName":"Deportivo La Coruña","logo":"img/teams/deportivo-la-coruna.svg"},
-  {"key":"BET","name":"Real Betis","shortName":"Real Betis","mobileName":"Betis","country":"ESP","displayName":"Real Betis","logo":"img/teams/real-betis.svg"},
-  {"key":"MCI","name":"Manchester City","shortName":"Manchester City","mobileName":"Man City","country":"ENG","displayName":"Manchester City","logo":"img/teams/manchester-city.svg"},
-  {"key":"MUN","name":"Manchester United","shortName":"Manchester United","mobileName":"Man United","country":"ENG","displayName":"Manchester United","logo":"img/teams/manchester-united.svg"},
-  {"key":"LIV","name":"Liverpool FC","shortName":"Liverpool FC","mobileName":"Liverpool","country":"ENG","displayName":"Liverpool FC","logo":"img/teams/liverpool-fc.svg"},
-  {"key":"CHE","name":"Chelsea FC","shortName":"Chelsea FC","mobileName":"Chelsea","country":"ENG","displayName":"Chelsea FC","logo":"img/teams/chelsea-fc.svg"},
-  {"key":"ARS","name":"Arsenal FC","shortName":"Arsenal FC","mobileName":"Arsenal","country":"ENG","displayName":"Arsenal FC","logo":"img/teams/arsenal-fc.svg"},
-  {"key":"TOT","name":"Tottenham Hotspur","shortName":"Tottenham","mobileName":"Tottenham","country":"ENG","displayName":"Tottenham Hotspur","logo":"img/teams/tottenham-hotspur.svg"},
-  {"key":"NEW","name":"Newcastle United","shortName":"Newcastle United","mobileName":"Newcastle","country":"ENG","displayName":"Newcastle United","logo":"img/teams/newcastle-united.svg"},
-  {"key":"LEE","name":"Leeds United","shortName":"Leeds United","mobileName":"Leeds","country":"ENG","displayName":"Leeds United","logo":"img/teams/leeds-united.svg"},
-  {"key":"LEI","name":"Leicester City","shortName":"Leicester City","mobileName":"Leicester","country":"ENG","displayName":"Leicester City","logo":"img/teams/leicester-city.svg"},
-  {"key":"BLA","name":"Blackburn Rovers","shortName":"Blackburn Rovers","mobileName":"Blackburn","country":"ENG","displayName":"Blackburn Rovers","logo":"img/teams/blackburn-rovers.svg"},
-  {"key":"IPS","name":"Ipswich Town","shortName":"Ipswich Town","mobileName":"Ipswich","country":"ENG","displayName":"Ipswich Town","logo":"img/teams/ipswich-town.svg"},
-  {"key":"JUV","name":"Juventus Turin","shortName":"Juventus","mobileName":"Juventus","country":"ITA","displayName":"Juventus Turin","logo":"img/teams/juventus-turin.svg"},
-  {"key":"INT","name":"Inter Mailand","shortName":"Inter Mailand","mobileName":"Inter","country":"ITA","displayName":"Inter Mailand","logo":"img/teams/inter-mailand.svg"},
-  {"key":"ACM","name":"AC Mailand","shortName":"AC Mailand","mobileName":"AC Milan","country":"ITA","displayName":"AC Mailand","logo":"img/teams/ac-mailand.svg"},
-  {"key":"NAP","name":"SSC Neapel","shortName":"SSC Neapel","mobileName":"Neapel","country":"ITA","displayName":"SSC Neapel","logo":"img/teams/ssc-neapel.svg"},
-  {"key":"LAZ","name":"Lazio Rom","shortName":"Lazio Rom","mobileName":"Lazio","country":"ITA","displayName":"Lazio Rom","logo":"img/teams/lazio-rom.svg"},
-  {"key":"ROM","name":"AS Rom","shortName":"AS Rom","mobileName":"Roma","country":"ITA","displayName":"AS Rom","logo":"img/teams/as-rom.svg"},
-  {"key":"ATA","name":"Atalanta Bergamo","shortName":"Atalanta","mobileName":"Atalanta","country":"ITA","displayName":"Atalanta Bergamo","logo":"img/teams/atalanta-bergamo.svg"},
-  {"key":"PAR","name":"Parma Calcio","shortName":"Parma Calcio","mobileName":"Parma","country":"ITA","displayName":"Parma Calcio","logo":"img/teams/parma-calcio.svg"},
-  {"key":"FIO","name":"ACF Fiorentina","shortName":"Fiorentina","mobileName":"Fiorentina","country":"ITA","displayName":"ACF Fiorentina","logo":"img/teams/acf-fiorentina.svg"},
-  {"key":"UDI","name":"Udinese Calcio","shortName":"Udinese","mobileName":"Udinese","country":"ITA","displayName":"Udinese Calcio","logo":"img/teams/udinese-calcio.svg"},
-  {"key":"PSG","name":"Paris Saint-Germain","shortName":"Paris Saint-Germain","mobileName":"PSG","country":"FRA","displayName":"Paris Saint-Germain","logo":"img/teams/paris-saint-germain.svg"},
-  {"key":"OLY","name":"Olympique Lyon","shortName":"Olympique Lyon","mobileName":"Lyon","country":"FRA","displayName":"Olympique Lyon","logo":"img/teams/olympique-lyon.svg"},
-  {"key":"MAR","name":"Olympique Marseille","shortName":"Olympique Marseille","mobileName":"Marseille","country":"FRA","displayName":"Olympique Marseille","logo":"img/teams/olympique-marseille.svg"},
-  {"key":"MON","name":"AS Monaco","shortName":"AS Monaco","mobileName":"Monaco","country":"FRA","displayName":"AS Monaco","logo":"img/teams/as-monaco.svg"},
-  {"key":"LIL","name":"OSC Lille","shortName":"OSC Lille","mobileName":"Lille","country":"FRA","displayName":"OSC Lille","logo":"img/teams/osc-lille.svg"},
-  {"key":"BOR","name":"Girondins Bordeaux","shortName":"Bordeaux","mobileName":"Bordeaux","country":"FRA","displayName":"Girondins Bordeaux","logo":"img/teams/girondins-bordeaux.svg"},
-  {"key":"REN","name":"Stade Rennes","shortName":"Stade Rennes","mobileName":"Rennes","country":"FRA","displayName":"Stade Rennes","logo":"img/teams/stade-rennes.svg"},
-  {"key":"AJX","name":"Ajax Amsterdam","shortName":"Ajax Amsterdam","mobileName":"Ajax","country":"NED","displayName":"Ajax Amsterdam","logo":"img/teams/ajax-amsterdam.svg"},
-  {"key":"PSV","name":"PSV Eindhoven","shortName":"PSV Eindhoven","mobileName":"PSV","country":"NED","displayName":"PSV Eindhoven","logo":"img/teams/psv-eindhoven.svg"},
-  {"key":"FEY","name":"Feyenoord Rotterdam","shortName":"Feyenoord","mobileName":"Feyenoord","country":"NED","displayName":"Feyenoord Rotterdam","logo":"img/teams/feyenoord-rotterdam.svg"},
-  {"key":"AZA","name":"AZ Alkmaar","shortName":"AZ Alkmaar","mobileName":"AZ","country":"NED","displayName":"AZ Alkmaar","logo":"img/teams/az-alkmaar.svg"},
-  {"key":"BEN","name":"Benfica Lissabon","shortName":"Benfica","mobileName":"Benfica","country":"POR","displayName":"Benfica Lissabon","logo":"img/teams/benfica-lissabon.svg"},
-  {"key":"FCP","name":"FC Porto","shortName":"FC Porto","mobileName":"Porto","country":"POR","displayName":"FC Porto","logo":"img/teams/fc-porto.svg"},
-  {"key":"SCP","name":"Sporting CP","shortName":"Sporting CP","mobileName":"Sporting","country":"POR","displayName":"Sporting CP","logo":"img/teams/sporting-cp.svg"},
-  {"key":"BOA","name":"Boavista Porto","shortName":"Boavista","mobileName":"Boavista","country":"POR","displayName":"Boavista Porto","logo":"img/teams/boavista-porto.svg"},
-  {"key":"GAL","name":"Galatasaray Istanbul","shortName":"Galatasaray","mobileName":"Galatasaray","country":"TUR","displayName":"Galatasaray Istanbul","logo":"img/teams/galatasaray-istanbul.svg"},
-  {"key":"FEN","name":"Fenerbahçe Istanbul","shortName":"Fenerbahçe","mobileName":"Fenerbahçe","country":"TUR","displayName":"Fenerbahçe Istanbul","logo":"img/teams/fenerbahce-istanbul.svg"},
-  {"key":"BES","name":"Beşiktaş Istanbul","shortName":"Beşiktaş","mobileName":"Beşiktaş","country":"TUR","displayName":"Beşiktaş Istanbul","logo":"img/teams/besiktas-istanbul.svg"},
-  {"key":"TRA","name":"Trabzonspor","shortName":"Trabzonspor","mobileName":"Trabzon","country":"TUR","displayName":"Trabzonspor","logo":"img/teams/trabzonspor.svg"},
-  {"key":"CEL","name":"Celtic Glasgow","shortName":"Celtic","mobileName":"Celtic","country":"SCO","displayName":"Celtic Glasgow","logo":"img/teams/celtic-glasgow.svg"},
-  {"key":"RAN","name":"Glasgow Rangers","shortName":"Rangers","mobileName":"Rangers","country":"SCO","displayName":"Glasgow Rangers","logo":"img/teams/glasgow-rangers.svg"},
-  {"key":"AND","name":"RSC Anderlecht","shortName":"RSC Anderlecht","mobileName":"Anderlecht","country":"BEL","displayName":"RSC Anderlecht","logo":"img/teams/rsc-anderlecht.svg"},
-  {"key":"BRU","name":"Club Brügge","shortName":"Club Brügge","mobileName":"Brügge","country":"BEL","displayName":"Club Brügge","logo":"img/teams/club-bruegge.svg"},
-  {"key":"GEN","name":"KRC Genk","shortName":"KRC Genk","mobileName":"Genk","country":"BEL","displayName":"KRC Genk","logo":"img/teams/krc-genk.svg"},
-  {"key":"GNT","name":"KAA Gent","shortName":"KAA Gent","mobileName":"Gent","country":"BEL","displayName":"KAA Gent","logo":"img/teams/kaa-gent.svg"},
-  {"key":"OLYI","name":"Olympiakos Piräus","shortName":"Olympiakos","mobileName":"Olympiakos","country":"GRE","displayName":"Olympiakos Piräus","logo":"img/teams/olympiakos-piraeus.svg"},
-  {"key":"PAN","name":"Panathinaikos Athen","shortName":"Panathinaikos","mobileName":"Panathinaikos","country":"GRE","displayName":"Panathinaikos Athen","logo":"img/teams/panathinaikos-athen.svg"},
-  {"key":"AEK","name":"AEK Athen","shortName":"AEK Athen","mobileName":"AEK","country":"GRE","displayName":"AEK Athen","logo":"img/teams/aek-athen.svg"},
-  {"key":"PAO","name":"PAOK Saloniki","shortName":"PAOK Saloniki","mobileName":"PAOK","country":"GRE","displayName":"PAOK Saloniki","logo":"img/teams/paok-saloniki.svg"},
-  {"key":"ZEN","name":"Zenit St. Petersburg","shortName":"Zenit","mobileName":"Zenit","country":"RUS","displayName":"Zenit St. Petersburg","logo":"img/teams/zenit-st-petersburg.svg"},
-  {"key":"CSK","name":"ZSKA Moskau","shortName":"ZSKA Moskau","mobileName":"ZSKA","country":"RUS","displayName":"ZSKA Moskau","logo":"img/teams/zska-moskau.svg"},
-  {"key":"SPL","name":"Spartak Moskau","shortName":"Spartak Moskau","mobileName":"Spartak","country":"RUS","displayName":"Spartak Moskau","logo":"img/teams/spartak-moskau.svg"},
-  {"key":"LOM","name":"Lokomotive Moskau","shortName":"Lok Moskau","mobileName":"Lokomotive","country":"RUS","displayName":"Lokomotive Moskau","logo":"img/teams/lokomotive-moskau.svg"},
-  {"key":"KRA","name":"Krasnodar","shortName":"FK Krasnodar","mobileName":"Krasnodar","country":"RUS","displayName":"FK Krasnodar","logo":"img/teams/fk-krasnodar.svg"},
-  {"key":"SHA","name":"Schachtar Donezk","shortName":"Schachtar Donezk","mobileName":"Schachtar","country":"UKR","displayName":"Schachtar Donezk","logo":"img/teams/schachtar-donezk.svg"},
-  {"key":"DKY","name":"Dynamo Kiew","shortName":"Dynamo Kiew","mobileName":"Dynamo Kiew","country":"UKR","displayName":"Dynamo Kiew","logo":"img/teams/dynamo-kiew.svg"},
-  {"key":"DZA","name":"Dynamo Zagreb","shortName":"Dynamo Zagreb","mobileName":"D. Zagreb","country":"CRO","displayName":"Dynamo Zagreb","logo":"img/teams/dynamo-zagreb.svg"},
-  {"key":"RSB","name":"Roter Stern Belgrad","shortName":"Roter Stern","mobileName":"Roter Stern","country":"SRB","displayName":"Roter Stern Belgrad","logo":"img/teams/roter-stern-belgrad.svg"},
-  {"key":"PARS","name":"Partizan Belgrad","shortName":"Partizan Belgrad","mobileName":"Partizan","country":"SRB","displayName":"Partizan Belgrad","logo":"img/teams/partizan-belgrad.svg"},
-  {"key":"STE","name":"Steaua Bukarest","shortName":"Steaua Bukarest","mobileName":"Steaua","country":"ROU","displayName":"Steaua Bukarest","logo":"img/teams/steaua-bukarest.svg"},
-  {"key":"CLU","name":"CFR Cluj","shortName":"CFR Cluj","mobileName":"Cluj","country":"ROU","displayName":"CFR Cluj","logo":"img/teams/cfr-cluj.svg"},
-  {"key":"BAS","name":"FC Basel","shortName":"FC Basel","mobileName":"Basel","country":"SUI","displayName":"FC Basel","logo":"img/teams/fc-basel.svg"},
-  {"key":"YBB","name":"BSC Young Boys","shortName":"Young Boys","mobileName":"Young Boys","country":"SUI","displayName":"BSC Young Boys","logo":"img/teams/bsc-young-boys.svg"},
-  {"key":"ZUE","name":"FC Zürich","shortName":"FC Zürich","mobileName":"Zürich","country":"SUI","displayName":"FC Zürich","logo":"img/teams/fc-zuerich.svg"},
-  {"key":"LAU","name":"Lausanne-Sport","shortName":"Lausanne-Sport","mobileName":"Lausanne","country":"SUI","displayName":"Lausanne-Sport","logo":"img/teams/lausanne-sport.svg"},
-  {"key":"SLP","name":"Slavia Prag","shortName":"Slavia Prag","mobileName":"Slavia Prag","country":"CZE","displayName":"Slavia Prag","logo":"img/teams/slavia-prag.svg"},
-  {"key":"SPA","name":"Sparta Prag","shortName":"Sparta Prag","mobileName":"Sparta Prag","country":"CZE","displayName":"Sparta Prag","logo":"img/teams/sparta-prag.svg"},
-  {"key":"PLZ","name":"Viktoria Pilsen","shortName":"Viktoria Pilsen","mobileName":"Pilsen","country":"CZE","displayName":"Viktoria Pilsen","logo":"img/teams/viktoria-pilsen.svg"},
-  {"key":"RBS","name":"Red Bull Salzburg","shortName":"RB Salzburg","mobileName":"Salzburg","country":"AUT","displayName":"Red Bull Salzburg","logo":"img/teams/red-bull-salzburg.svg"},
-  {"key":"STG","name":"SK Sturm Graz","shortName":"Sturm Graz","mobileName":"Sturm Graz","country":"AUT","displayName":"SK Sturm Graz","logo":"img/teams/sk-sturm-graz.svg"},
-  {"key":"RAP","name":"Rapid Wien","shortName":"Rapid Wien","mobileName":"Rapid Wien","country":"AUT","displayName":"Rapid Wien","logo":"img/teams/rapid-wien.svg"},
-  {"key":"AUS","name":"FK Austria Wien","shortName":"Austria Wien","mobileName":"Austria Wien","country":"AUT","displayName":"FK Austria Wien","logo":"img/teams/fk-austria-wien.svg"},
-  {"key":"KOP","name":"FC Kopenhagen","shortName":"FC Kopenhagen","mobileName":"Kopenhagen","country":"DEN","displayName":"FC Kopenhagen","logo":"img/teams/fc-kopenhagen.svg"},
-  {"key":"MTA","name":"Maccabi Tel Aviv","shortName":"Maccabi Tel Aviv","mobileName":"Maccabi TA","country":"ISR","displayName":"Maccabi Tel Aviv","logo":"img/teams/maccabi-tel-aviv.svg"},
-  {"key":"HAP","name":"Hapoel Tel Aviv","shortName":"Hapoel Tel Aviv","mobileName":"Hapoel TA","country":"ISR","displayName":"Hapoel Tel Aviv","logo":"img/teams/hapoel-tel-aviv.svg"},
-  {"key":"ROSN","name":"Rosenborg Trondheim","shortName":"Rosenborg","mobileName":"Rosenborg","country":"NOR","displayName":"Rosenborg Trondheim","logo":"img/teams/rosenborg-trondheim.svg"},
-  {"key":"MOL","name":"Molde FK","shortName":"Molde FK","mobileName":"Molde","country":"NOR","displayName":"Molde FK","logo":"img/teams/molde-fk.svg"},
-  {"key":"AIK","name":"AIK Solna","shortName":"AIK Solna","mobileName":"AIK","country":"SWE","displayName":"AIK Solna","logo":"img/teams/aik-solna.svg"},
-  {"key":"MALM","name":"Malmö FF","shortName":"Malmö FF","mobileName":"Malmö","country":"SWE","displayName":"Malmö FF","logo":"img/teams/malmoe-ff.svg"},
-  {"key":"HJK","name":"HJK Helsinki","shortName":"HJK Helsinki","mobileName":"HJK","country":"FIN","displayName":"HJK Helsinki","logo":"img/teams/hjk-helsinki.svg"},
+  {
+    "_comment": "============================== CHAMPIONS LEAGUE TEAMS ========================================================="
+  },
+  {
+    "key": "RMA",
+    "name": "Real Madrid",
+    "shortName": "Real Madrid",
+    "mobileName": "Real",
+    "country": "ESP",
+    "displayName": "Real Madrid",
+    "logo": "img/teams/real-madrid.svg"
+  },
+  {
+    "key": "BAR",
+    "name": "FC Barcelona",
+    "shortName": "FC Barcelona",
+    "mobileName": "Barça",
+    "country": "ESP",
+    "displayName": "FC Barcelona",
+    "logo": "img/teams/fc-barcelona.svg"
+  },
+  {
+    "key": "ATM",
+    "name": "Atlético Madrid",
+    "shortName": "Atlético Madrid",
+    "mobileName": "Atlético",
+    "country": "ESP",
+    "displayName": "Atlético Madrid",
+    "logo": "img/teams/atletico-madrid.svg"
+  },
+  {
+    "key": "VAL",
+    "name": "Valencia CF",
+    "shortName": "Valencia CF",
+    "mobileName": "Valencia",
+    "country": "ESP",
+    "displayName": "Valencia CF",
+    "logo": "img/teams/valencia-cf.svg"
+  },
+  {
+    "key": "VIL",
+    "name": "Villarreal CF",
+    "shortName": "Villarreal CF",
+    "mobileName": "Villarreal",
+    "country": "ESP",
+    "displayName": "Villarreal CF",
+    "logo": "img/teams/villarreal-cf.svg"
+  },
+  {
+    "key": "SEV",
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC",
+    "mobileName": "Sevilla",
+    "country": "ESP",
+    "displayName": "Sevilla FC",
+    "logo": "img/teams/sevilla-fc.svg"
+  },
+  {
+    "key": "DEP",
+    "name": "Deportivo La Coruña",
+    "shortName": "Deportivo",
+    "mobileName": "Depor",
+    "country": "ESP",
+    "displayName": "Deportivo La Coruña",
+    "logo": "img/teams/deportivo-la-coruna.svg"
+  },
+  {
+    "key": "BET",
+    "name": "Real Betis",
+    "shortName": "Real Betis",
+    "mobileName": "Betis",
+    "country": "ESP",
+    "displayName": "Real Betis",
+    "logo": "img/teams/real-betis.svg"
+  },
+  {
+    "key": "MCI",
+    "name": "Manchester City",
+    "shortName": "Manchester City",
+    "mobileName": "Man City",
+    "country": "ENG",
+    "displayName": "Manchester City",
+    "logo": "img/teams/manchester-city.svg"
+  },
+  {
+    "key": "MUN",
+    "name": "Manchester United",
+    "shortName": "Manchester United",
+    "mobileName": "Man United",
+    "country": "ENG",
+    "displayName": "Manchester United",
+    "logo": "img/teams/manchester-united.svg"
+  },
+  {
+    "key": "LIV",
+    "name": "Liverpool FC",
+    "shortName": "Liverpool FC",
+    "mobileName": "Liverpool",
+    "country": "ENG",
+    "displayName": "Liverpool FC",
+    "logo": "img/teams/liverpool-fc.svg"
+  },
+  {
+    "key": "CHE",
+    "name": "Chelsea FC",
+    "shortName": "Chelsea FC",
+    "mobileName": "Chelsea",
+    "country": "ENG",
+    "displayName": "Chelsea FC",
+    "logo": "img/teams/chelsea-fc.svg"
+  },
+  {
+    "key": "ARS",
+    "name": "Arsenal FC",
+    "shortName": "Arsenal FC",
+    "mobileName": "Arsenal",
+    "country": "ENG",
+    "displayName": "Arsenal FC",
+    "logo": "img/teams/arsenal-fc.svg"
+  },
+  {
+    "key": "TOT",
+    "name": "Tottenham Hotspur",
+    "shortName": "Tottenham",
+    "mobileName": "Tottenham",
+    "country": "ENG",
+    "displayName": "Tottenham Hotspur",
+    "logo": "img/teams/tottenham-hotspur.svg"
+  },
+  {
+    "key": "NEW",
+    "name": "Newcastle United",
+    "shortName": "Newcastle United",
+    "mobileName": "Newcastle",
+    "country": "ENG",
+    "displayName": "Newcastle United",
+    "logo": "img/teams/newcastle-united.svg"
+  },
+  {
+    "key": "LEE",
+    "name": "Leeds United",
+    "shortName": "Leeds United",
+    "mobileName": "Leeds",
+    "country": "ENG",
+    "displayName": "Leeds United",
+    "logo": "img/teams/leeds-united.svg"
+  },
+  {
+    "key": "LEI",
+    "name": "Leicester City",
+    "shortName": "Leicester City",
+    "mobileName": "Leicester",
+    "country": "ENG",
+    "displayName": "Leicester City",
+    "logo": "img/teams/leicester-city.svg"
+  },
+  {
+    "key": "BLA",
+    "name": "Blackburn Rovers",
+    "shortName": "Blackburn Rovers",
+    "mobileName": "Blackburn",
+    "country": "ENG",
+    "displayName": "Blackburn Rovers",
+    "logo": "img/teams/blackburn-rovers.svg"
+  },
+  {
+    "key": "IPS",
+    "name": "Ipswich Town",
+    "shortName": "Ipswich Town",
+    "mobileName": "Ipswich",
+    "country": "ENG",
+    "displayName": "Ipswich Town",
+    "logo": "img/teams/ipswich-town.svg"
+  },
+  {
+    "key": "JUV",
+    "name": "Juventus Turin",
+    "shortName": "Juventus",
+    "mobileName": "Juventus",
+    "country": "ITA",
+    "displayName": "Juventus Turin",
+    "logo": "img/teams/juventus-turin.svg"
+  },
+  {
+    "key": "INT",
+    "name": "Inter Mailand",
+    "shortName": "Inter Mailand",
+    "mobileName": "Inter",
+    "country": "ITA",
+    "displayName": "Inter Mailand",
+    "logo": "img/teams/inter-mailand.svg"
+  },
+  {
+    "key": "ACM",
+    "name": "AC Mailand",
+    "shortName": "AC Mailand",
+    "mobileName": "AC Milan",
+    "country": "ITA",
+    "displayName": "AC Mailand",
+    "logo": "img/teams/ac-mailand.svg"
+  },
+  {
+    "key": "NAP",
+    "name": "SSC Neapel",
+    "shortName": "SSC Neapel",
+    "mobileName": "Neapel",
+    "country": "ITA",
+    "displayName": "SSC Neapel",
+    "logo": "img/teams/ssc-neapel.svg"
+  },
+  {
+    "key": "LAZ",
+    "name": "Lazio Rom",
+    "shortName": "Lazio Rom",
+    "mobileName": "Lazio",
+    "country": "ITA",
+    "displayName": "Lazio Rom",
+    "logo": "img/teams/lazio-rom.svg"
+  },
+  {
+    "key": "ROM",
+    "name": "AS Rom",
+    "shortName": "AS Rom",
+    "mobileName": "Roma",
+    "country": "ITA",
+    "displayName": "AS Rom",
+    "logo": "img/teams/as-rom.svg"
+  },
+  {
+    "key": "ATA",
+    "name": "Atalanta Bergamo",
+    "shortName": "Atalanta",
+    "mobileName": "Atalanta",
+    "country": "ITA",
+    "displayName": "Atalanta Bergamo",
+    "logo": "img/teams/atalanta-bergamo.svg"
+  },
+  {
+    "key": "PAR",
+    "name": "Parma Calcio",
+    "shortName": "Parma Calcio",
+    "mobileName": "Parma",
+    "country": "ITA",
+    "displayName": "Parma Calcio",
+    "logo": "img/teams/parma-calcio.svg"
+  },
+  {
+    "key": "FIO",
+    "name": "ACF Fiorentina",
+    "shortName": "Fiorentina",
+    "mobileName": "Fiorentina",
+    "country": "ITA",
+    "displayName": "ACF Fiorentina",
+    "logo": "img/teams/acf-fiorentina.svg"
+  },
+  {
+    "key": "UDI",
+    "name": "Udinese Calcio",
+    "shortName": "Udinese",
+    "mobileName": "Udinese",
+    "country": "ITA",
+    "displayName": "Udinese Calcio",
+    "logo": "img/teams/udinese-calcio.svg"
+  },
+  {
+    "key": "PSG",
+    "name": "Paris Saint-Germain",
+    "shortName": "Paris Saint-Germain",
+    "mobileName": "PSG",
+    "country": "FRA",
+    "displayName": "Paris Saint-Germain",
+    "logo": "img/teams/paris-saint-germain.svg"
+  },
+  {
+    "key": "OLY",
+    "name": "Olympique Lyon",
+    "shortName": "Olympique Lyon",
+    "mobileName": "Lyon",
+    "country": "FRA",
+    "displayName": "Olympique Lyon",
+    "logo": "img/teams/olympique-lyon.svg"
+  },
+  {
+    "key": "MAR",
+    "name": "Olympique Marseille",
+    "shortName": "Olympique Marseille",
+    "mobileName": "Marseille",
+    "country": "FRA",
+    "displayName": "Olympique Marseille",
+    "logo": "img/teams/olympique-marseille.svg"
+  },
+  {
+    "key": "MON",
+    "name": "AS Monaco",
+    "shortName": "AS Monaco",
+    "mobileName": "Monaco",
+    "country": "FRA",
+    "displayName": "AS Monaco",
+    "logo": "img/teams/as-monaco.svg"
+  },
+  {
+    "key": "LIL",
+    "name": "OSC Lille",
+    "shortName": "OSC Lille",
+    "mobileName": "Lille",
+    "country": "FRA",
+    "displayName": "OSC Lille",
+    "logo": "img/teams/osc-lille.svg"
+  },
+  {
+    "key": "BOR",
+    "name": "Girondins Bordeaux",
+    "shortName": "Bordeaux",
+    "mobileName": "Bordeaux",
+    "country": "FRA",
+    "displayName": "Girondins Bordeaux",
+    "logo": "img/teams/girondins-bordeaux.svg"
+  },
+  {
+    "key": "REN",
+    "name": "Stade Rennes",
+    "shortName": "Stade Rennes",
+    "mobileName": "Rennes",
+    "country": "FRA",
+    "displayName": "Stade Rennes",
+    "logo": "img/teams/stade-rennes.svg"
+  },
+  {
+    "key": "AJX",
+    "name": "Ajax Amsterdam",
+    "shortName": "Ajax Amsterdam",
+    "mobileName": "Ajax",
+    "country": "NED",
+    "displayName": "Ajax Amsterdam",
+    "logo": "img/teams/ajax-amsterdam.svg"
+  },
+  {
+    "key": "PSV",
+    "name": "PSV Eindhoven",
+    "shortName": "PSV Eindhoven",
+    "mobileName": "PSV",
+    "country": "NED",
+    "displayName": "PSV Eindhoven",
+    "logo": "img/teams/psv-eindhoven.svg"
+  },
+  {
+    "key": "FEY",
+    "name": "Feyenoord Rotterdam",
+    "shortName": "Feyenoord",
+    "mobileName": "Feyenoord",
+    "country": "NED",
+    "displayName": "Feyenoord Rotterdam",
+    "logo": "img/teams/feyenoord-rotterdam.svg"
+  },
+  {
+    "key": "AZA",
+    "name": "AZ Alkmaar",
+    "shortName": "AZ Alkmaar",
+    "mobileName": "AZ",
+    "country": "NED",
+    "displayName": "AZ Alkmaar",
+    "logo": "img/teams/az-alkmaar.svg"
+  },
+  {
+    "key": "BEN",
+    "name": "Benfica Lissabon",
+    "shortName": "Benfica",
+    "mobileName": "Benfica",
+    "country": "POR",
+    "displayName": "Benfica Lissabon",
+    "logo": "img/teams/benfica-lissabon.svg"
+  },
+  {
+    "key": "FCP",
+    "name": "FC Porto",
+    "shortName": "FC Porto",
+    "mobileName": "Porto",
+    "country": "POR",
+    "displayName": "FC Porto",
+    "logo": "img/teams/fc-porto.svg"
+  },
+  {
+    "key": "SCP",
+    "name": "Sporting CP",
+    "shortName": "Sporting CP",
+    "mobileName": "Sporting",
+    "country": "POR",
+    "displayName": "Sporting CP",
+    "logo": "img/teams/sporting-cp.svg"
+  },
+  {
+    "key": "BOA",
+    "name": "Boavista Porto",
+    "shortName": "Boavista",
+    "mobileName": "Boavista",
+    "country": "POR",
+    "displayName": "Boavista Porto",
+    "logo": "img/teams/boavista-porto.svg"
+  },
+  {
+    "key": "GAL",
+    "name": "Galatasaray Istanbul",
+    "shortName": "Galatasaray",
+    "mobileName": "Galatasaray",
+    "country": "TUR",
+    "displayName": "Galatasaray Istanbul",
+    "logo": "img/teams/galatasaray-istanbul.svg"
+  },
+  {
+    "key": "FEN",
+    "name": "Fenerbahçe Istanbul",
+    "shortName": "Fenerbahçe",
+    "mobileName": "Fenerbahçe",
+    "country": "TUR",
+    "displayName": "Fenerbahçe Istanbul",
+    "logo": "img/teams/fenerbahce-istanbul.svg"
+  },
+  {
+    "key": "BES",
+    "name": "Beşiktaş Istanbul",
+    "shortName": "Beşiktaş",
+    "mobileName": "Beşiktaş",
+    "country": "TUR",
+    "displayName": "Beşiktaş Istanbul",
+    "logo": "img/teams/besiktas-istanbul.svg"
+  },
+  {
+    "key": "TRA",
+    "name": "Trabzonspor",
+    "shortName": "Trabzonspor",
+    "mobileName": "Trabzon",
+    "country": "TUR",
+    "displayName": "Trabzonspor",
+    "logo": "img/teams/trabzonspor.svg"
+  },
+  {
+    "key": "CEL",
+    "name": "Celtic Glasgow",
+    "shortName": "Celtic",
+    "mobileName": "Celtic",
+    "country": "SCO",
+    "displayName": "Celtic Glasgow",
+    "logo": "img/teams/celtic-glasgow.svg"
+  },
+  {
+    "key": "RAN",
+    "name": "Glasgow Rangers",
+    "shortName": "Rangers",
+    "mobileName": "Rangers",
+    "country": "SCO",
+    "displayName": "Glasgow Rangers",
+    "logo": "img/teams/glasgow-rangers.svg"
+  },
+  {
+    "key": "AND",
+    "name": "RSC Anderlecht",
+    "shortName": "RSC Anderlecht",
+    "mobileName": "Anderlecht",
+    "country": "BEL",
+    "displayName": "RSC Anderlecht",
+    "logo": "img/teams/rsc-anderlecht.svg"
+  },
+  {
+    "key": "BRU",
+    "name": "Club Brügge",
+    "shortName": "Club Brügge",
+    "mobileName": "Brügge",
+    "country": "BEL",
+    "displayName": "Club Brügge",
+    "logo": "img/teams/club-bruegge.svg"
+  },
+  {
+    "key": "GEN",
+    "name": "KRC Genk",
+    "shortName": "KRC Genk",
+    "mobileName": "Genk",
+    "country": "BEL",
+    "displayName": "KRC Genk",
+    "logo": "img/teams/krc-genk.svg"
+  },
+  {
+    "key": "GNT",
+    "name": "KAA Gent",
+    "shortName": "KAA Gent",
+    "mobileName": "Gent",
+    "country": "BEL",
+    "displayName": "KAA Gent",
+    "logo": "img/teams/kaa-gent.svg"
+  },
+  {
+    "key": "OLYI",
+    "name": "Olympiakos Piräus",
+    "shortName": "Olympiakos",
+    "mobileName": "Olympiakos",
+    "country": "GRE",
+    "displayName": "Olympiakos Piräus",
+    "logo": "img/teams/olympiakos-piraeus.svg"
+  },
+  {
+    "key": "PAN",
+    "name": "Panathinaikos Athen",
+    "shortName": "Panathinaikos",
+    "mobileName": "Panathinaikos",
+    "country": "GRE",
+    "displayName": "Panathinaikos Athen",
+    "logo": "img/teams/panathinaikos-athen.svg"
+  },
+  {
+    "key": "AEK",
+    "name": "AEK Athen",
+    "shortName": "AEK Athen",
+    "mobileName": "AEK",
+    "country": "GRE",
+    "displayName": "AEK Athen",
+    "logo": "img/teams/aek-athen.svg"
+  },
+  {
+    "key": "PAO",
+    "name": "PAOK Saloniki",
+    "shortName": "PAOK Saloniki",
+    "mobileName": "PAOK",
+    "country": "GRE",
+    "displayName": "PAOK Saloniki",
+    "logo": "img/teams/paok-saloniki.svg"
+  },
+  {
+    "key": "ZEN",
+    "name": "Zenit St. Petersburg",
+    "shortName": "Zenit",
+    "mobileName": "Zenit",
+    "country": "RUS",
+    "displayName": "Zenit St. Petersburg",
+    "logo": "img/teams/zenit-st-petersburg.svg"
+  },
+  {
+    "key": "CSK",
+    "name": "ZSKA Moskau",
+    "shortName": "ZSKA Moskau",
+    "mobileName": "ZSKA",
+    "country": "RUS",
+    "displayName": "ZSKA Moskau",
+    "logo": "img/teams/zska-moskau.svg"
+  },
+  {
+    "key": "SPL",
+    "name": "Spartak Moskau",
+    "shortName": "Spartak Moskau",
+    "mobileName": "Spartak",
+    "country": "RUS",
+    "displayName": "Spartak Moskau",
+    "logo": "img/teams/spartak-moskau.svg"
+  },
+  {
+    "key": "LOM",
+    "name": "Lokomotive Moskau",
+    "shortName": "Lok Moskau",
+    "mobileName": "Lokomotive",
+    "country": "RUS",
+    "displayName": "Lokomotive Moskau",
+    "logo": "img/teams/lokomotive-moskau.svg"
+  },
+  {
+    "key": "KRA",
+    "name": "Krasnodar",
+    "shortName": "FK Krasnodar",
+    "mobileName": "Krasnodar",
+    "country": "RUS",
+    "displayName": "FK Krasnodar",
+    "logo": "img/teams/fk-krasnodar.svg"
+  },
+  {
+    "key": "SHA",
+    "name": "Schachtar Donezk",
+    "shortName": "Schachtar Donezk",
+    "mobileName": "Schachtar",
+    "country": "UKR",
+    "displayName": "Schachtar Donezk",
+    "logo": "img/teams/schachtar-donezk.svg"
+  },
+  {
+    "key": "DKY",
+    "name": "Dynamo Kiew",
+    "shortName": "Dynamo Kiew",
+    "mobileName": "Dynamo Kiew",
+    "country": "UKR",
+    "displayName": "Dynamo Kiew",
+    "logo": "img/teams/dynamo-kiew.svg"
+  },
+  {
+    "key": "DZA",
+    "name": "Dynamo Zagreb",
+    "shortName": "Dynamo Zagreb",
+    "mobileName": "D. Zagreb",
+    "country": "CRO",
+    "displayName": "Dynamo Zagreb",
+    "logo": "img/teams/dynamo-zagreb.svg"
+  },
+  {
+    "key": "RSB",
+    "name": "Roter Stern Belgrad",
+    "shortName": "Roter Stern",
+    "mobileName": "Roter Stern",
+    "country": "SRB",
+    "displayName": "Roter Stern Belgrad",
+    "logo": "img/teams/roter-stern-belgrad.svg"
+  },
+  {
+    "key": "PARS",
+    "name": "Partizan Belgrad",
+    "shortName": "Partizan Belgrad",
+    "mobileName": "Partizan",
+    "country": "SRB",
+    "displayName": "Partizan Belgrad",
+    "logo": "img/teams/partizan-belgrad.svg"
+  },
+  {
+    "key": "STE",
+    "name": "Steaua Bukarest",
+    "shortName": "Steaua Bukarest",
+    "mobileName": "Steaua",
+    "country": "ROU",
+    "displayName": "Steaua Bukarest",
+    "logo": "img/teams/steaua-bukarest.svg"
+  },
+  {
+    "key": "CLU",
+    "name": "CFR Cluj",
+    "shortName": "CFR Cluj",
+    "mobileName": "Cluj",
+    "country": "ROU",
+    "displayName": "CFR Cluj",
+    "logo": "img/teams/cfr-cluj.svg"
+  },
+  {
+    "key": "BAS",
+    "name": "FC Basel",
+    "shortName": "FC Basel",
+    "mobileName": "Basel",
+    "country": "SUI",
+    "displayName": "FC Basel",
+    "logo": "img/teams/fc-basel.svg"
+  },
+  {
+    "key": "YBB",
+    "name": "BSC Young Boys",
+    "shortName": "Young Boys",
+    "mobileName": "Young Boys",
+    "country": "SUI",
+    "displayName": "BSC Young Boys",
+    "logo": "img/teams/bsc-young-boys.svg"
+  },
+  {
+    "key": "ZUE",
+    "name": "FC Zürich",
+    "shortName": "FC Zürich",
+    "mobileName": "Zürich",
+    "country": "SUI",
+    "displayName": "FC Zürich",
+    "logo": "img/teams/fc-zuerich.svg"
+  },
+  {
+    "key": "LAU",
+    "name": "Lausanne-Sport",
+    "shortName": "Lausanne-Sport",
+    "mobileName": "Lausanne",
+    "country": "SUI",
+    "displayName": "Lausanne-Sport",
+    "logo": "img/teams/lausanne-sport.svg"
+  },
+  {
+    "key": "SLP",
+    "name": "Slavia Prag",
+    "shortName": "Slavia Prag",
+    "mobileName": "Slavia Prag",
+    "country": "CZE",
+    "displayName": "Slavia Prag",
+    "logo": "img/teams/slavia-prag.svg"
+  },
+  {
+    "key": "SPA",
+    "name": "Sparta Prag",
+    "shortName": "Sparta Prag",
+    "mobileName": "Sparta Prag",
+    "country": "CZE",
+    "displayName": "Sparta Prag",
+    "logo": "img/teams/sparta-prag.svg"
+  },
+  {
+    "key": "PLZ",
+    "name": "Viktoria Pilsen",
+    "shortName": "Viktoria Pilsen",
+    "mobileName": "Pilsen",
+    "country": "CZE",
+    "displayName": "Viktoria Pilsen",
+    "logo": "img/teams/viktoria-pilsen.svg"
+  },
+  {
+    "key": "RBS",
+    "name": "Red Bull Salzburg",
+    "shortName": "RB Salzburg",
+    "mobileName": "Salzburg",
+    "country": "AUT",
+    "displayName": "Red Bull Salzburg",
+    "logo": "img/teams/red-bull-salzburg.svg"
+  },
+  {
+    "key": "STG",
+    "name": "SK Sturm Graz",
+    "shortName": "Sturm Graz",
+    "mobileName": "Sturm Graz",
+    "country": "AUT",
+    "displayName": "SK Sturm Graz",
+    "logo": "img/teams/sk-sturm-graz.svg"
+  },
+  {
+    "key": "RAP",
+    "name": "Rapid Wien",
+    "shortName": "Rapid Wien",
+    "mobileName": "Rapid Wien",
+    "country": "AUT",
+    "displayName": "Rapid Wien",
+    "logo": "img/teams/rapid-wien.svg"
+  },
+  {
+    "key": "AUS",
+    "name": "FK Austria Wien",
+    "shortName": "Austria Wien",
+    "mobileName": "Austria Wien",
+    "country": "AUT",
+    "displayName": "FK Austria Wien",
+    "logo": "img/teams/fk-austria-wien.svg"
+  },
+  {
+    "key": "KOP",
+    "name": "FC Kopenhagen",
+    "shortName": "FC Kopenhagen",
+    "mobileName": "Kopenhagen",
+    "country": "DEN",
+    "displayName": "FC Kopenhagen",
+    "logo": "img/teams/fc-kopenhagen.svg"
+  },
+  {
+    "key": "MTA",
+    "name": "Maccabi Tel Aviv",
+    "shortName": "Maccabi Tel Aviv",
+    "mobileName": "Maccabi TA",
+    "country": "ISR",
+    "displayName": "Maccabi Tel Aviv",
+    "logo": "img/teams/maccabi-tel-aviv.svg"
+  },
+  {
+    "key": "HAP",
+    "name": "Hapoel Tel Aviv",
+    "shortName": "Hapoel Tel Aviv",
+    "mobileName": "Hapoel TA",
+    "country": "ISR",
+    "displayName": "Hapoel Tel Aviv",
+    "logo": "img/teams/hapoel-tel-aviv.svg"
+  },
+  {
+    "key": "ROSN",
+    "name": "Rosenborg Trondheim",
+    "shortName": "Rosenborg",
+    "mobileName": "Rosenborg",
+    "country": "NOR",
+    "displayName": "Rosenborg Trondheim",
+    "logo": "img/teams/rosenborg-trondheim.svg"
+  },
+  {
+    "key": "MOL",
+    "name": "Molde FK",
+    "shortName": "Molde FK",
+    "mobileName": "Molde",
+    "country": "NOR",
+    "displayName": "Molde FK",
+    "logo": "img/teams/molde-fk.svg"
+  },
+  {
+    "key": "AIK",
+    "name": "AIK Solna",
+    "shortName": "AIK Solna",
+    "mobileName": "AIK",
+    "country": "SWE",
+    "displayName": "AIK Solna",
+    "logo": "img/teams/aik-solna.svg"
+  },
+  {
+    "key": "MALM",
+    "name": "Malmö FF",
+    "shortName": "Malmö FF",
+    "mobileName": "Malmö",
+    "country": "SWE",
+    "displayName": "Malmö FF",
+    "logo": "img/teams/malmoe-ff.svg"
+  },
+  {
+    "key": "HJK",
+    "name": "HJK Helsinki",
+    "shortName": "HJK Helsinki",
+    "mobileName": "HJK",
+    "country": "FIN",
+    "displayName": "HJK Helsinki",
+    "logo": "img/teams/hjk-helsinki.svg"
+  },
 
-  {"_comment":"============================== NATIONALMANNSCHAFTEN UEFA ========================================================"},
-  {"key":"ALB","name":"Albanien","shortName":"Albanien","mobileName":"Albanien","country":"ALB","displayName":"Albanien","logo":"img/teams/albanien.svg"},
-  {"key":"AND","name":"Andorra","shortName":"Andorra","mobileName":"Andorra","country":"AND","displayName":"Andorra","logo":"img/teams/andorra.svg"},
-  {"key":"ARM","name":"Armenien","shortName":"Armenien","mobileName":"Armenien","country":"ARM","displayName":"Armenien","logo":"img/teams/armenien.svg"},
-  {"key":"AUT","name":"Österreich","shortName":"Österreich","mobileName":"Österreich","country":"AUT","displayName":"Österreich","logo":"img/teams/oesterreich.svg"},
-  {"key":"AZE","name":"Aserbaidschan","shortName":"Aserbaidschan","mobileName":"Aserbaidschan","country":"AZE","displayName":"Aserbaidschan","logo":"img/teams/aserbaidschan.svg"},
-  {"key":"BEL","name":"Belgien","shortName":"Belgien","mobileName":"Belgien","country":"BEL","displayName":"Belgien","logo":"img/teams/belgien.svg"},
-  {"key":"BIH","name":"Bosnien und Herzegowina","shortName":"Bosnien","mobileName":"Bosnien","country":"BIH","displayName":"Bosnien und Herzegowina","logo":"img/teams/bosnien.svg"},
-  {"key":"BUL","name":"Bulgarien","shortName":"Bulgarien","mobileName":"Bulgarien","country":"BUL","displayName":"Bulgarien","logo":"img/teams/bulgarien.svg"},
-  {"key":"CRO","name":"Kroatien","shortName":"Kroatien","mobileName":"Kroatien","country":"CRO","displayName":"Kroatien","logo":"img/teams/kroatien.svg"},
-  {"key":"CYP","name":"Zypern","shortName":"Zypern","mobileName":"Zypern","country":"CYP","displayName":"Zypern","logo":"img/teams/zypern.svg"},
-  {"key":"CZE","name":"Tschechien","shortName":"Tschechien","mobileName":"Tschechien","country":"CZE","displayName":"Tschechien","logo":"img/teams/tschechien.svg"},
-  {"key":"DEN","name":"Dänemark","shortName":"Dänemark","mobileName":"Dänemark","country":"DEN","displayName":"Dänemark","logo":"img/teams/daenemark.svg"},
-  {"key":"ENG","name":"England","shortName":"England","mobileName":"England","country":"ENG","displayName":"England","logo":"img/teams/england.svg"},
-  {"key":"ESP","name":"Spanien","shortName":"Spanien","mobileName":"Spanien","country":"ESP","displayName":"Spanien","logo":"img/teams/spanien.svg"},
-  {"key":"EST","name":"Estland","shortName":"Estland","mobileName":"Estland","country":"EST","displayName":"Estland","logo":"img/teams/estland.svg"},
-  {"key":"FIN","name":"Finnland","shortName":"Finnland","mobileName":"Finnland","country":"FIN","displayName":"Finnland","logo":"img/teams/finnland.svg"},
-  {"key":"FRA","name":"Frankreich","shortName":"Frankreich","mobileName":"Frankreich","country":"FRA","displayName":"Frankreich","logo":"img/teams/frankreich.svg"},
-  {"key":"GEO","name":"Georgien","shortName":"Georgien","mobileName":"Georgien","country":"GEO","displayName":"Georgien","logo":"img/teams/georgien.svg"},
-  {"key":"GER","name":"Deutschland","shortName":"Deutschland","mobileName":"Deutschland","country":"GER","displayName":"Deutschland","logo":"img/teams/deutschland.svg"},
-  {"key":"GIB","name":"Gibraltar","shortName":"Gibraltar","mobileName":"Gibraltar","country":"GIB","displayName":"Gibraltar","logo":"img/teams/gibraltar.svg"},
-  {"key":"GRE","name":"Griechenland","shortName":"Griechenland","mobileName":"Griechenland","country":"GRE","displayName":"Griechenland","logo":"img/teams/griechenland.svg"},
-  {"key":"HUN","name":"Ungarn","shortName":"Ungarn","mobileName":"Ungarn","country":"HUN","displayName":"Ungarn","logo":"img/teams/ungarn.svg"},
-  {"key":"IRL","name":"Irland","shortName":"Irland","mobileName":"Irland","country":"IRL","displayName":"Irland","logo":"img/teams/irland.svg"},
-  {"key":"ISL","name":"Island","shortName":"Island","mobileName":"Island","country":"ISL","displayName":"Island","logo":"img/teams/island.svg"},
-  {"key":"ISR","name":"Israel","shortName":"Israel","mobileName":"Israel","country":"ISR","displayName":"Israel","logo":"img/teams/israel.svg"},
-  {"key":"ITA","name":"Italien","shortName":"Italien","mobileName":"Italien","country":"ITA","displayName":"Italien","logo":"img/teams/italien.svg"},
-  {"key":"KAZ","name":"Kasachstan","shortName":"Kasachstan","mobileName":"Kasachstan","country":"KAZ","displayName":"Kasachstan","logo":"img/teams/kasachstan.svg"},
-  {"key":"LIE","name":"Liechtenstein","shortName":"Liechtenstein","mobileName":"Liechtenstein","country":"LIE","displayName":"Liechtenstein","logo":"img/teams/liechtenstein.svg"},
-  {"key":"LTU","name":"Litauen","shortName":"Litauen","mobileName":"Litauen","country":"LTU","displayName":"Litauen","logo":"img/teams/litauen.svg"},
-  {"key":"LUX","name":"Luxemburg","shortName":"Luxemburg","mobileName":"Luxemburg","country":"LUX","displayName":"Luxemburg","logo":"img/teams/luxemburg.svg"},
-  {"key":"LVA","name":"Lettland","shortName":"Lettland","mobileName":"Lettland","country":"LVA","displayName":"Lettland","logo":"img/teams/lettland.svg"},
-  {"key":"MDA","name":"Moldau","shortName":"Moldau","mobileName":"Moldau","country":"MDA","displayName":"Moldau","logo":"img/teams/moldau.svg"},
-  {"key":"MKD","name":"Nordmazedonien","shortName":"Nordmazedonien","mobileName":"Nordmazedonien","country":"MKD","displayName":"Nordmazedonien","logo":"img/teams/nordmazedonien.svg"},
-  {"key":"MLT","name":"Malta","shortName":"Malta","mobileName":"Malta","country":"MLT","displayName":"Malta","logo":"img/teams/malta.svg"},
-  {"key":"MNE","name":"Montenegro","shortName":"Montenegro","mobileName":"Montenegro","country":"MNE","displayName":"Montenegro","logo":"img/teams/montenegro.svg"},
-  {"key":"NED","name":"Niederlande","shortName":"Niederlande","mobileName":"Niederlande","country":"NED","displayName":"Niederlande","logo":"img/teams/niederlande.svg"},
-  {"key":"NOR","name":"Norwegen","shortName":"Norwegen","mobileName":"Norwegen","country":"NOR","displayName":"Norwegen","logo":"img/teams/norwegen.svg"},
-  {"key":"POL","name":"Polen","shortName":"Polen","mobileName":"Polen","country":"POL","displayName":"Polen","logo":"img/teams/polen.svg"},
-  {"key":"POR","name":"Portugal","shortName":"Portugal","mobileName":"Portugal","country":"POR","displayName":"Portugal","logo":"img/teams/portugal.svg"},
-  {"key":"ROU","name":"Rumänien","shortName":"Rumänien","mobileName":"Rumänien","country":"ROU","displayName":"Rumänien","logo":"img/teams/rumaenien.svg"},
-  {"key":"SCO","name":"Schottland","shortName":"Schottland","mobileName":"Schottland","country":"SCO","displayName":"Schottland","logo":"img/teams/schottland.svg"},
-  {"key":"SRB","name":"Serbien","shortName":"Serbien","mobileName":"Serbien","country":"SRB","displayName":"Serbien","logo":"img/teams/serbien.svg"},
-  {"key":"SVK","name":"Slowakei","shortName":"Slowakei","mobileName":"Slowakei","country":"SVK","displayName":"Slowakei","logo":"img/teams/slowakei.svg"},
-  {"key":"SVN","name":"Slowenien","shortName":"Slowenien","mobileName":"Slowenien","country":"SVN","displayName":"Slowenien","logo":"img/teams/slowenien.svg"},
-  {"key":"SUI","name":"Schweiz","shortName":"Schweiz","mobileName":"Schweiz","country":"SUI","displayName":"Schweiz","logo":"img/teams/schweiz.svg"},
-  {"key":"SWE","name":"Schweden","shortName":"Schweden","mobileName":"Schweden","country":"SWE","displayName":"Schweden","logo":"img/teams/schweden.svg"},
-  {"key":"TUR","name":"Türkei","shortName":"Türkei","mobileName":"Türkei","country":"TUR","displayName":"Türkei","logo":"img/teams/tuerkei.svg"},
-  {"key":"UKR","name":"Ukraine","shortName":"Ukraine","mobileName":"Ukraine","country":"UKR","displayName":"Ukraine","logo":"img/teams/ukraine.svg"},
-  {"key":"WAL","name":"Wales","shortName":"Wales","mobileName":"Wales","country":"WAL","displayName":"Wales","logo":"img/teams/wales.svg"},
+  {
+    "_comment": "============================== NATIONALMANNSCHAFTEN UEFA ========================================================"
+  },
+  {
+    "key": "ALB",
+    "name": "Albanien",
+    "shortName": "Albanien",
+    "mobileName": "Albanien",
+    "country": "ALB",
+    "displayName": "Albanien",
+    "logo": "img/teams/albanien.svg"
+  },
+  {
+    "key": "AND",
+    "name": "Andorra",
+    "shortName": "Andorra",
+    "mobileName": "Andorra",
+    "country": "AND",
+    "displayName": "Andorra",
+    "logo": "img/teams/andorra.svg"
+  },
+  {
+    "key": "ARM",
+    "name": "Armenien",
+    "shortName": "Armenien",
+    "mobileName": "Armenien",
+    "country": "ARM",
+    "displayName": "Armenien",
+    "logo": "img/teams/armenien.svg"
+  },
+  {
+    "key": "AUT",
+    "name": "Österreich",
+    "shortName": "Österreich",
+    "mobileName": "Österreich",
+    "country": "AUT",
+    "displayName": "Österreich",
+    "logo": "img/teams/oesterreich.svg"
+  },
+  {
+    "key": "AZE",
+    "name": "Aserbaidschan",
+    "shortName": "Aserbaidschan",
+    "mobileName": "Aserbaidschan",
+    "country": "AZE",
+    "displayName": "Aserbaidschan",
+    "logo": "img/teams/aserbaidschan.svg"
+  },
+  {
+    "key": "BEL",
+    "name": "Belgien",
+    "shortName": "Belgien",
+    "mobileName": "Belgien",
+    "country": "BEL",
+    "displayName": "Belgien",
+    "logo": "img/teams/belgien.svg"
+  },
+  {
+    "key": "BIH",
+    "name": "Bosnien und Herzegowina",
+    "shortName": "Bosnien",
+    "mobileName": "Bosnien",
+    "country": "BIH",
+    "displayName": "Bosnien und Herzegowina",
+    "logo": "img/teams/bosnien.svg"
+  },
+  {
+    "key": "BUL",
+    "name": "Bulgarien",
+    "shortName": "Bulgarien",
+    "mobileName": "Bulgarien",
+    "country": "BUL",
+    "displayName": "Bulgarien",
+    "logo": "img/teams/bulgarien.svg"
+  },
+  {
+    "key": "CRO",
+    "name": "Kroatien",
+    "shortName": "Kroatien",
+    "mobileName": "Kroatien",
+    "country": "CRO",
+    "displayName": "Kroatien",
+    "logo": "img/teams/kroatien.svg"
+  },
+  {
+    "key": "CYP",
+    "name": "Zypern",
+    "shortName": "Zypern",
+    "mobileName": "Zypern",
+    "country": "CYP",
+    "displayName": "Zypern",
+    "logo": "img/teams/zypern.svg"
+  },
+  {
+    "key": "CZE",
+    "name": "Tschechien",
+    "shortName": "Tschechien",
+    "mobileName": "Tschechien",
+    "country": "CZE",
+    "displayName": "Tschechien",
+    "logo": "img/teams/tschechien.svg"
+  },
+  {
+    "key": "DEN",
+    "name": "Dänemark",
+    "shortName": "Dänemark",
+    "mobileName": "Dänemark",
+    "country": "DEN",
+    "displayName": "Dänemark",
+    "logo": "img/teams/daenemark.svg"
+  },
+  {
+    "key": "ENG",
+    "name": "England",
+    "shortName": "England",
+    "mobileName": "England",
+    "country": "ENG",
+    "displayName": "England",
+    "logo": "img/teams/england.svg"
+  },
+  {
+    "key": "ESP",
+    "name": "Spanien",
+    "shortName": "Spanien",
+    "mobileName": "Spanien",
+    "country": "ESP",
+    "displayName": "Spanien",
+    "logo": "img/teams/spanien.svg"
+  },
+  {
+    "key": "EST",
+    "name": "Estland",
+    "shortName": "Estland",
+    "mobileName": "Estland",
+    "country": "EST",
+    "displayName": "Estland",
+    "logo": "img/teams/estland.svg"
+  },
+  {
+    "key": "FIN",
+    "name": "Finnland",
+    "shortName": "Finnland",
+    "mobileName": "Finnland",
+    "country": "FIN",
+    "displayName": "Finnland",
+    "logo": "img/teams/finnland.svg"
+  },
+  {
+    "key": "FRA",
+    "name": "Frankreich",
+    "shortName": "Frankreich",
+    "mobileName": "Frankreich",
+    "country": "FRA",
+    "displayName": "Frankreich",
+    "logo": "img/teams/frankreich.svg"
+  },
+  {
+    "key": "GEO",
+    "name": "Georgien",
+    "shortName": "Georgien",
+    "mobileName": "Georgien",
+    "country": "GEO",
+    "displayName": "Georgien",
+    "logo": "img/teams/georgien.svg"
+  },
+  {
+    "key": "GER",
+    "name": "Deutschland",
+    "shortName": "Deutschland",
+    "mobileName": "Deutschland",
+    "country": "GER",
+    "displayName": "Deutschland",
+    "logo": "img/teams/deutschland.svg"
+  },
+  {
+    "key": "GIB",
+    "name": "Gibraltar",
+    "shortName": "Gibraltar",
+    "mobileName": "Gibraltar",
+    "country": "GIB",
+    "displayName": "Gibraltar",
+    "logo": "img/teams/gibraltar.svg"
+  },
+  {
+    "key": "GRE",
+    "name": "Griechenland",
+    "shortName": "Griechenland",
+    "mobileName": "Griechenland",
+    "country": "GRE",
+    "displayName": "Griechenland",
+    "logo": "img/teams/griechenland.svg"
+  },
+  {
+    "key": "HUN",
+    "name": "Ungarn",
+    "shortName": "Ungarn",
+    "mobileName": "Ungarn",
+    "country": "HUN",
+    "displayName": "Ungarn",
+    "logo": "img/teams/ungarn.svg"
+  },
+  {
+    "key": "IRL",
+    "name": "Irland",
+    "shortName": "Irland",
+    "mobileName": "Irland",
+    "country": "IRL",
+    "displayName": "Irland",
+    "logo": "img/teams/irland.svg"
+  },
+  {
+    "key": "ISL",
+    "name": "Island",
+    "shortName": "Island",
+    "mobileName": "Island",
+    "country": "ISL",
+    "displayName": "Island",
+    "logo": "img/teams/island.svg"
+  },
+  {
+    "key": "ISR",
+    "name": "Israel",
+    "shortName": "Israel",
+    "mobileName": "Israel",
+    "country": "ISR",
+    "displayName": "Israel",
+    "logo": "img/teams/israel.svg"
+  },
+  {
+    "key": "ITA",
+    "name": "Italien",
+    "shortName": "Italien",
+    "mobileName": "Italien",
+    "country": "ITA",
+    "displayName": "Italien",
+    "logo": "img/teams/italien.svg"
+  },
+  {
+    "key": "KAZ",
+    "name": "Kasachstan",
+    "shortName": "Kasachstan",
+    "mobileName": "Kasachstan",
+    "country": "KAZ",
+    "displayName": "Kasachstan",
+    "logo": "img/teams/kasachstan.svg"
+  },
+  {
+    "key": "LIE",
+    "name": "Liechtenstein",
+    "shortName": "Liechtenstein",
+    "mobileName": "Liechtenstein",
+    "country": "LIE",
+    "displayName": "Liechtenstein",
+    "logo": "img/teams/liechtenstein.svg"
+  },
+  {
+    "key": "LTU",
+    "name": "Litauen",
+    "shortName": "Litauen",
+    "mobileName": "Litauen",
+    "country": "LTU",
+    "displayName": "Litauen",
+    "logo": "img/teams/litauen.svg"
+  },
+  {
+    "key": "LUX",
+    "name": "Luxemburg",
+    "shortName": "Luxemburg",
+    "mobileName": "Luxemburg",
+    "country": "LUX",
+    "displayName": "Luxemburg",
+    "logo": "img/teams/luxemburg.svg"
+  },
+  {
+    "key": "LVA",
+    "name": "Lettland",
+    "shortName": "Lettland",
+    "mobileName": "Lettland",
+    "country": "LVA",
+    "displayName": "Lettland",
+    "logo": "img/teams/lettland.svg"
+  },
+  {
+    "key": "MDA",
+    "name": "Moldau",
+    "shortName": "Moldau",
+    "mobileName": "Moldau",
+    "country": "MDA",
+    "displayName": "Moldau",
+    "logo": "img/teams/moldau.svg"
+  },
+  {
+    "key": "MKD",
+    "name": "Nordmazedonien",
+    "shortName": "Nordmazedonien",
+    "mobileName": "Nordmazedonien",
+    "country": "MKD",
+    "displayName": "Nordmazedonien",
+    "logo": "img/teams/nordmazedonien.svg"
+  },
+  {
+    "key": "MLT",
+    "name": "Malta",
+    "shortName": "Malta",
+    "mobileName": "Malta",
+    "country": "MLT",
+    "displayName": "Malta",
+    "logo": "img/teams/malta.svg"
+  },
+  {
+    "key": "MNE",
+    "name": "Montenegro",
+    "shortName": "Montenegro",
+    "mobileName": "Montenegro",
+    "country": "MNE",
+    "displayName": "Montenegro",
+    "logo": "img/teams/montenegro.svg"
+  },
+  {
+    "key": "NED",
+    "name": "Niederlande",
+    "shortName": "Niederlande",
+    "mobileName": "Niederlande",
+    "country": "NED",
+    "displayName": "Niederlande",
+    "logo": "img/teams/niederlande.svg"
+  },
+  {
+    "key": "NOR",
+    "name": "Norwegen",
+    "shortName": "Norwegen",
+    "mobileName": "Norwegen",
+    "country": "NOR",
+    "displayName": "Norwegen",
+    "logo": "img/teams/norwegen.svg"
+  },
+  {
+    "key": "POL",
+    "name": "Polen",
+    "shortName": "Polen",
+    "mobileName": "Polen",
+    "country": "POL",
+    "displayName": "Polen",
+    "logo": "img/teams/polen.svg"
+  },
+  {
+    "key": "POR",
+    "name": "Portugal",
+    "shortName": "Portugal",
+    "mobileName": "Portugal",
+    "country": "POR",
+    "displayName": "Portugal",
+    "logo": "img/teams/portugal.svg"
+  },
+  {
+    "key": "RUS",
+    "name": "Russland",
+    "shortName": "Russland",
+    "mobileName": "Russland",
+    "country": "RUS",
+    "displayName": "Russland",
+    "logo": "img/teams/russland.svg"
+  },
+  {
+    "key": "ROU",
+    "name": "Rumänien",
+    "shortName": "Rumänien",
+    "mobileName": "Rumänien",
+    "country": "ROU",
+    "displayName": "Rumänien",
+    "logo": "img/teams/rumaenien.svg"
+  },
+  {
+    "key": "SCO",
+    "name": "Schottland",
+    "shortName": "Schottland",
+    "mobileName": "Schottland",
+    "country": "SCO",
+    "displayName": "Schottland",
+    "logo": "img/teams/schottland.svg"
+  },
+  {
+    "key": "SRB",
+    "name": "Serbien",
+    "shortName": "Serbien",
+    "mobileName": "Serbien",
+    "country": "SRB",
+    "displayName": "Serbien",
+    "logo": "img/teams/serbien.svg"
+  },
+  {
+    "key": "SVK",
+    "name": "Slowakei",
+    "shortName": "Slowakei",
+    "mobileName": "Slowakei",
+    "country": "SVK",
+    "displayName": "Slowakei",
+    "logo": "img/teams/slowakei.svg"
+  },
+  {
+    "key": "SVN",
+    "name": "Slowenien",
+    "shortName": "Slowenien",
+    "mobileName": "Slowenien",
+    "country": "SVN",
+    "displayName": "Slowenien",
+    "logo": "img/teams/slowenien.svg"
+  },
+  {
+    "key": "SUI",
+    "name": "Schweiz",
+    "shortName": "Schweiz",
+    "mobileName": "Schweiz",
+    "country": "SUI",
+    "displayName": "Schweiz",
+    "logo": "img/teams/schweiz.svg"
+  },
+  {
+    "key": "SWE",
+    "name": "Schweden",
+    "shortName": "Schweden",
+    "mobileName": "Schweden",
+    "country": "SWE",
+    "displayName": "Schweden",
+    "logo": "img/teams/schweden.svg"
+  },
+  {
+    "key": "TUR",
+    "name": "Türkei",
+    "shortName": "Türkei",
+    "mobileName": "Türkei",
+    "country": "TUR",
+    "displayName": "Türkei",
+    "logo": "img/teams/tuerkei.svg"
+  },
+  {
+    "key": "UKR",
+    "name": "Ukraine",
+    "shortName": "Ukraine",
+    "mobileName": "Ukraine",
+    "country": "UKR",
+    "displayName": "Ukraine",
+    "logo": "img/teams/ukraine.svg"
+  },
+  {
+    "key": "WAL",
+    "name": "Wales",
+    "shortName": "Wales",
+    "mobileName": "Wales",
+    "country": "WAL",
+    "displayName": "Wales",
+    "logo": "img/teams/wales.svg"
+  },
 
-  {"_comment":"============================== NATIONALMANNSCHAFTEN WELT ========================================================"},
-{"key":"ARG","name":"Argentinien","shortName":"Argentinien","mobileName":"Argentinien","country":"ARG","displayName":"Argentinien","logo":"img/teams/argentinien.svg"},
-{"key":"AUS","name":"Australien","shortName":"Australien","mobileName":"Australien","country":"AUS","displayName":"Australien","logo":"img/teams/australien.svg"},
-{"key":"BRA","name":"Brasilien","shortName":"Brasilien","mobileName":"Brasilien","country":"BRA","displayName":"Brasilien","logo":"img/teams/brasilien.svg"},
-{"key":"CAN","name":"Kanada","shortName":"Kanada","mobileName":"Kanada","country":"CAN","displayName":"Kanada","logo":"img/teams/kanada.svg"},
-{"key":"CHI","name":"Chile","shortName":"Chile","mobileName":"Chile","country":"CHI","displayName":"Chile","logo":"img/teams/chile.svg"},
-{"key":"CMR","name":"Kamerun","shortName":"Kamerun","mobileName":"Kamerun","country":"CMR","displayName":"Kamerun","logo":"img/teams/kamerun.svg"},
-{"key":"COL","name":"Kolumbien","shortName":"Kolumbien","mobileName":"Kolumbien","country":"COL","displayName":"Kolumbien","logo":"img/teams/kolumbien.svg"},
-{"key":"CRC","name":"Costa Rica","shortName":"Costa Rica","mobileName":"Costa Rica","country":"CRC","displayName":"Costa Rica","logo":"img/teams/costa-rica.svg"},
-{"key":"CIV","name":"Elfenbeinküste","shortName":"Elfenbeinküste","mobileName":"Elfenbeinküste","country":"CIV","displayName":"Elfenbeinküste","logo":"img/teams/elfenbeinkueste.svg"},
-{"key":"ECU","name":"Ecuador","shortName":"Ecuador","mobileName":"Ecuador","country":"ECU","displayName":"Ecuador","logo":"img/teams/ecuador.svg"},
-{"key":"EGY","name":"Ägypten","shortName":"Ägypten","mobileName":"Ägypten","country":"EGY","displayName":"Ägypten","logo":"img/teams/aegypten.svg"},
-{"key":"GHA","name":"Ghana","shortName":"Ghana","mobileName":"Ghana","country":"GHA","displayName":"Ghana","logo":"img/teams/ghana.svg"},
-{"key":"IRN","name":"Iran","shortName":"Iran","mobileName":"Iran","country":"IRN","displayName":"Iran","logo":"img/teams/iran.svg"},
-{"key":"IRQ","name":"Irak","shortName":"Irak","mobileName":"Irak","country":"IRQ","displayName":"Irak","logo":"img/teams/irak.svg"},
-{"key":"JAM","name":"Jamaika","shortName":"Jamaika","mobileName":"Jamaika","country":"JAM","displayName":"Jamaika","logo":"img/teams/jamaika.svg"},
-{"key":"JPN","name":"Japan","shortName":"Japan","mobileName":"Japan","country":"JPN","displayName":"Japan","logo":"img/teams/japan.svg"},
-{"key":"KOR","name":"Südkorea","shortName":"Südkorea","mobileName":"Südkorea","country":"KOR","displayName":"Südkorea","logo":"img/teams/suedkorea.svg"},
-{"key":"MAR","name":"Marokko","shortName":"Marokko","mobileName":"Marokko","country":"MAR","displayName":"Marokko","logo":"img/teams/marokko.svg"},
-{"key":"MEX","name":"Mexiko","shortName":"Mexiko","mobileName":"Mexiko","country":"MEX","displayName":"Mexiko","logo":"img/teams/mexiko.svg"},
-{"key":"NGA","name":"Nigeria","shortName":"Nigeria","mobileName":"Nigeria","country":"NGA","displayName":"Nigeria","logo":"img/teams/nigeria.svg"},
-{"key":"NZL","name":"Neuseeland","shortName":"Neuseeland","mobileName":"Neuseeland","country":"NZL","displayName":"Neuseeland","logo":"img/teams/neuseeland.svg"},
-{"key":"PAR","name":"Paraguay","shortName":"Paraguay","mobileName":"Paraguay","country":"PAR","displayName":"Paraguay","logo":"img/teams/paraguay.svg"},
-{"key":"PER","name":"Peru","shortName":"Peru","mobileName":"Peru","country":"PER","displayName":"Peru","logo":"img/teams/peru.svg"},
-{"key":"QAT","name":"Katar","shortName":"Katar","mobileName":"Katar","country":"QAT","displayName":"Katar","logo":"img/teams/katar.svg"},
-{"key":"KSA","name":"Saudi-Arabien","shortName":"Saudi-Arabien","mobileName":"Saudi-Arabien","country":"KSA","displayName":"Saudi-Arabien","logo":"img/teams/saudi-arabien.svg"},
-{"key":"SEN","name":"Senegal","shortName":"Senegal","mobileName":"Senegal","country":"SEN","displayName":"Senegal","logo":"img/teams/senegal.svg"},
-{"key":"TUN","name":"Tunesien","shortName":"Tunesien","mobileName":"Tunesien","country":"TUN","displayName":"Tunesien","logo":"img/teams/tunesien.svg"},
-{"key":"URU","name":"Uruguay","shortName":"Uruguay","mobileName":"Uruguay","country":"URU","displayName":"Uruguay","logo":"img/teams/uruguay.svg"},
-{"key":"USA","name":"USA","shortName":"USA","mobileName":"USA","country":"USA","displayName":"USA","logo":"img/teams/usa.svg"},
-{"key":"VEN","name":"Venezuela","shortName":"Venezuela","mobileName":"Venezuela","country":"VEN","displayName":"Venezuela","logo":"img/teams/venezuela.svg"}
+  {
+    "_comment": "============================== NATIONALMANNSCHAFTEN WELT ========================================================"
+  },
+  {
+    "key": "ARG",
+    "name": "Argentinien",
+    "shortName": "Argentinien",
+    "mobileName": "Argentinien",
+    "country": "ARG",
+    "displayName": "Argentinien",
+    "logo": "img/teams/argentinien.svg"
+  },
+  {
+    "key": "AUS",
+    "name": "Australien",
+    "shortName": "Australien",
+    "mobileName": "Australien",
+    "country": "AUS",
+    "displayName": "Australien",
+    "logo": "img/teams/australien.svg"
+  },
+  {
+    "key": "BRA",
+    "name": "Brasilien",
+    "shortName": "Brasilien",
+    "mobileName": "Brasilien",
+    "country": "BRA",
+    "displayName": "Brasilien",
+    "logo": "img/teams/brasilien.svg"
+  },
+  {
+    "key": "CAN",
+    "name": "Kanada",
+    "shortName": "Kanada",
+    "mobileName": "Kanada",
+    "country": "CAN",
+    "displayName": "Kanada",
+    "logo": "img/teams/kanada.svg"
+  },
+  {
+    "key": "CHI",
+    "name": "Chile",
+    "shortName": "Chile",
+    "mobileName": "Chile",
+    "country": "CHI",
+    "displayName": "Chile",
+    "logo": "img/teams/chile.svg"
+  },
+  {
+    "key": "CMR",
+    "name": "Kamerun",
+    "shortName": "Kamerun",
+    "mobileName": "Kamerun",
+    "country": "CMR",
+    "displayName": "Kamerun",
+    "logo": "img/teams/kamerun.svg"
+  },
+  {
+    "key": "COL",
+    "name": "Kolumbien",
+    "shortName": "Kolumbien",
+    "mobileName": "Kolumbien",
+    "country": "COL",
+    "displayName": "Kolumbien",
+    "logo": "img/teams/kolumbien.svg"
+  },
+  {
+    "key": "CRC",
+    "name": "Costa Rica",
+    "shortName": "Costa Rica",
+    "mobileName": "Costa Rica",
+    "country": "CRC",
+    "displayName": "Costa Rica",
+    "logo": "img/teams/costa-rica.svg"
+  },
+  {
+    "key": "CIV",
+    "name": "Elfenbeinküste",
+    "shortName": "Elfenbeinküste",
+    "mobileName": "Elfenbeinküste",
+    "country": "CIV",
+    "displayName": "Elfenbeinküste",
+    "logo": "img/teams/elfenbeinkueste.svg"
+  },
+  {
+    "key": "ECU",
+    "name": "Ecuador",
+    "shortName": "Ecuador",
+    "mobileName": "Ecuador",
+    "country": "ECU",
+    "displayName": "Ecuador",
+    "logo": "img/teams/ecuador.svg"
+  },
+  {
+    "key": "EGY",
+    "name": "Ägypten",
+    "shortName": "Ägypten",
+    "mobileName": "Ägypten",
+    "country": "EGY",
+    "displayName": "Ägypten",
+    "logo": "img/teams/aegypten.svg"
+  },
+  {
+    "key": "GHA",
+    "name": "Ghana",
+    "shortName": "Ghana",
+    "mobileName": "Ghana",
+    "country": "GHA",
+    "displayName": "Ghana",
+    "logo": "img/teams/ghana.svg"
+  },
+  {
+    "key": "IRN",
+    "name": "Iran",
+    "shortName": "Iran",
+    "mobileName": "Iran",
+    "country": "IRN",
+    "displayName": "Iran",
+    "logo": "img/teams/iran.svg"
+  },
+  {
+    "key": "IRQ",
+    "name": "Irak",
+    "shortName": "Irak",
+    "mobileName": "Irak",
+    "country": "IRQ",
+    "displayName": "Irak",
+    "logo": "img/teams/irak.svg"
+  },
+  {
+    "key": "JAM",
+    "name": "Jamaika",
+    "shortName": "Jamaika",
+    "mobileName": "Jamaika",
+    "country": "JAM",
+    "displayName": "Jamaika",
+    "logo": "img/teams/jamaika.svg"
+  },
+  {
+    "key": "JPN",
+    "name": "Japan",
+    "shortName": "Japan",
+    "mobileName": "Japan",
+    "country": "JPN",
+    "displayName": "Japan",
+    "logo": "img/teams/japan.svg"
+  },
+  {
+    "key": "KOR",
+    "name": "Südkorea",
+    "shortName": "Südkorea",
+    "mobileName": "Südkorea",
+    "country": "KOR",
+    "displayName": "Südkorea",
+    "logo": "img/teams/suedkorea.svg"
+  },
+  {
+    "key": "MAR",
+    "name": "Marokko",
+    "shortName": "Marokko",
+    "mobileName": "Marokko",
+    "country": "MAR",
+    "displayName": "Marokko",
+    "logo": "img/teams/marokko.svg"
+  },
+  {
+    "key": "MEX",
+    "name": "Mexiko",
+    "shortName": "Mexiko",
+    "mobileName": "Mexiko",
+    "country": "MEX",
+    "displayName": "Mexiko",
+    "logo": "img/teams/mexiko.svg"
+  },
+  {
+    "key": "NGA",
+    "name": "Nigeria",
+    "shortName": "Nigeria",
+    "mobileName": "Nigeria",
+    "country": "NGA",
+    "displayName": "Nigeria",
+    "logo": "img/teams/nigeria.svg"
+  },
+  {
+    "key": "NZL",
+    "name": "Neuseeland",
+    "shortName": "Neuseeland",
+    "mobileName": "Neuseeland",
+    "country": "NZL",
+    "displayName": "Neuseeland",
+    "logo": "img/teams/neuseeland.svg"
+  },
+  {
+    "key": "PAR",
+    "name": "Paraguay",
+    "shortName": "Paraguay",
+    "mobileName": "Paraguay",
+    "country": "PAR",
+    "displayName": "Paraguay",
+    "logo": "img/teams/paraguay.svg"
+  },
+  {
+    "key": "PER",
+    "name": "Peru",
+    "shortName": "Peru",
+    "mobileName": "Peru",
+    "country": "PER",
+    "displayName": "Peru",
+    "logo": "img/teams/peru.svg"
+  },
+  {
+    "key": "QAT",
+    "name": "Katar",
+    "shortName": "Katar",
+    "mobileName": "Katar",
+    "country": "QAT",
+    "displayName": "Katar",
+    "logo": "img/teams/katar.svg"
+  },
+  {
+    "key": "KSA",
+    "name": "Saudi-Arabien",
+    "shortName": "Saudi-Arabien",
+    "mobileName": "Saudi-Arabien",
+    "country": "KSA",
+    "displayName": "Saudi-Arabien",
+    "logo": "img/teams/saudi-arabien.svg"
+  },
+  {
+    "key": "SEN",
+    "name": "Senegal",
+    "shortName": "Senegal",
+    "mobileName": "Senegal",
+    "country": "SEN",
+    "displayName": "Senegal",
+    "logo": "img/teams/senegal.svg"
+  },
+  {
+    "key": "TUN",
+    "name": "Tunesien",
+    "shortName": "Tunesien",
+    "mobileName": "Tunesien",
+    "country": "TUN",
+    "displayName": "Tunesien",
+    "logo": "img/teams/tunesien.svg"
+  },
+  {
+    "key": "URU",
+    "name": "Uruguay",
+    "shortName": "Uruguay",
+    "mobileName": "Uruguay",
+    "country": "URU",
+    "displayName": "Uruguay",
+    "logo": "img/teams/uruguay.svg"
+  },
+  {
+    "key": "USA",
+    "name": "USA",
+    "shortName": "USA",
+    "mobileName": "USA",
+    "country": "USA",
+    "displayName": "USA",
+    "logo": "img/teams/usa.svg"
+  },
+  {
+    "key": "VEN",
+    "name": "Venezuela",
+    "shortName": "Venezuela",
+    "mobileName": "Venezuela",
+    "country": "VEN",
+    "displayName": "Venezuela",
+    "logo": "img/teams/venezuela.svg"
+  }
 ]

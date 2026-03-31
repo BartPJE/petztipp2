@@ -1,5 +1,14 @@
 [
   {
+    "id": "tip-euro-2004",
+    "title": "Euro 2004 - Portugal",
+    "competition": "Europameisterschaft",
+    "compShort": "EM",
+    "season": "2004",
+    "start": "2004-06-12",
+    "end": "2004-07-04"
+  },
+  {
     "id": "tip-bundesliga-03-04",
     "title": "Bundesliga 2003/2004",
     "competition": "Bundesliga",

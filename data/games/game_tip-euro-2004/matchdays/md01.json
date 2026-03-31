@@ -1,0 +1,160 @@
+{
+  "id": "md01",
+  "label": "Spieltag 1",
+  "date": "12.06.2004 - 15.06.2004",
+  "no": 1,
+  "matches": [
+    {
+      "id": "md01-01",
+      "home": "Portugal",
+      "away": "Griechenland",
+      "result": "1:2",
+      "date": "12.06.2004",
+      "time": "17:00",
+      "homeTeam": "POR",
+      "awayTeam": "GRE"
+    },
+    {
+      "id": "md01-02",
+      "home": "Spanien",
+      "away": "Russland",
+      "result": "1:0",
+      "date": "12.06.2004",
+      "time": "19:45",
+      "homeTeam": "ESP",
+      "awayTeam": "RUS"
+    },
+    {
+      "id": "md01-03",
+      "home": "Schweiz",
+      "away": "Kroatien",
+      "result": "0:0",
+      "date": "13.06.2004",
+      "time": "17:00",
+      "homeTeam": "SUI",
+      "awayTeam": "CRO"
+    },
+    {
+      "id": "md01-04",
+      "home": "Frankreich",
+      "away": "England",
+      "result": "2:1",
+      "date": "13.06.2004",
+      "time": "19:45",
+      "homeTeam": "FRA",
+      "awayTeam": "ENG"
+    },
+    {
+      "id": "md01-05",
+      "home": "Dänemark",
+      "away": "Italien",
+      "result": "0:0",
+      "date": "14.06.2004",
+      "time": "17:00",
+      "homeTeam": "DEN",
+      "awayTeam": "ITA"
+    },
+    {
+      "id": "md01-06",
+      "home": "Schweden",
+      "away": "Bulgarien",
+      "result": "5:0",
+      "date": "14.06.2004",
+      "time": "19:45",
+      "homeTeam": "SWE",
+      "awayTeam": "BUL"
+    },
+    {
+      "id": "md01-07",
+      "home": "Tschechien",
+      "away": "Lettland",
+      "result": "2:1",
+      "date": "15.06.2004",
+      "time": "17:00",
+      "homeTeam": "CZE",
+      "awayTeam": "LVA"
+    },
+    {
+      "id": "md01-08",
+      "home": "Deutschland",
+      "away": "Niederlande",
+      "result": "1:1",
+      "date": "15.06.2004",
+      "time": "19:45",
+      "homeTeam": "GER",
+      "awayTeam": "NED"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "thomas",
+      "picks": {
+        "md01-01": "2:1",
+        "md01-02": "2:1",
+        "md01-03": "0:0",
+        "md01-04": "2:1",
+        "md01-05": "1:1",
+        "md01-06": "3:1",
+        "md01-07": "4:0",
+        "md01-08": "1:2"
+      },
+      "pickPoints": {
+        "md01-01": 0.0,
+        "md01-02": 3.0,
+        "md01-03": 4.0,
+        "md01-04": 4.0,
+        "md01-05": 2.0,
+        "md01-06": 2.0,
+        "md01-07": 2.0,
+        "md01-08": 0.0
+      },
+      "points": 17.0,
+      "bonus": 0.0,
+      "total": 17.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md01-01": "1:0",
+        "md01-02": "3:1",
+        "md01-03": "1:2",
+        "md01-04": "1:1",
+        "md01-05": "0:1",
+        "md01-06": "2:1",
+        "md01-07": "3:0",
+        "md01-08": "2:2"
+      },
+      "pickPoints": {
+        "md01-01": 0.0,
+        "md01-02": 2.0,
+        "md01-03": 0.0,
+        "md01-04": 0.0,
+        "md01-05": 0.0,
+        "md01-06": 2.0,
+        "md01-07": 2.0,
+        "md01-08": 2.0
+      },
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 8.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "thomas",
+      "points": 17.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 8.0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "md06",
+  "label": "Finale",
+  "date": "04.07.2004 - 04.07.2004",
+  "no": 6,
+  "matches": [
+    {
+      "id": "md06-01",
+      "home": "Portugal",
+      "away": "Griechenland",
+      "result": "0:1",
+      "date": "04.07.2004",
+      "time": "19:45",
+      "homeTeam": "POR",
+      "awayTeam": "GRE"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md06-01": "1:2"
+      },
+      "pickPoints": {
+        "md06-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 46.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "picks": {
+        "md06-01": "1:1"
+      },
+      "pickPoints": {
+        "md06-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 49.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "points": 0.0
+    }
+  ]
+}
