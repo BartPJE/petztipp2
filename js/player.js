@@ -971,7 +971,19 @@ function renderPerfectCompetitionTable(game, slug) {
     const label = teamDisplayName(r.team);
 
     return `
-      <tr class="row">
+      <tr
+        class="row"
+        data-rank="${r.rank}"
+        data-team="${escapeHtml(String(label).toLowerCase())}"
+        data-played="${r.played}"
+        data-wins="${r.wins}"
+        data-draws="${r.draws}"
+        data-losses="${r.losses}"
+        data-goalsfor="${r.goalsFor}"
+        data-goalsagainst="${r.goalsAgainst}"
+        data-goaldiff="${r.goalDiff}"
+        data-points="${r.points}"
+      >
         <td>${r.rank}</td>
         <td>
           <div class="person">
@@ -990,10 +1002,102 @@ function renderPerfectCompetitionTable(game, slug) {
     `;
   }).join("");
 
-  return renderTable(
-    htmlRows,
-    ["#", "Team", "Sp", "S", "U", "N", "Tore", "Diff", "Pkt"]
-  );
+  return `
+    <div class="tableWrap">
+      <table class="table" id="perfectCompetitionTable">
+        <thead>
+          <tr>
+            <th><button type="button" class="sort-btn" data-sort-key="rank" data-sort-type="number">#</button></th>
+            <th><button type="button" class="sort-btn" data-sort-key="team" data-sort-type="text">Team</button></th>
+            <th><button type="button" class="sort-btn" data-sort-key="played" data-sort-type="number">Sp</button></th>
+            <th><button type="button" class="sort-btn" data-sort-key="wins" data-sort-type="number">S</button></th>
+            <th><button type="button" class="sort-btn" data-sort-key="draws" data-sort-type="number">U</button></th>
+            <th><button type="button" class="sort-btn" data-sort-key="losses" data-sort-type="number">N</button></th>
+            <th><button type="button" class="sort-btn" data-sort-key="goalsfor" data-sort-type="number">Tore</button></th>
+            <th><button type="button" class="sort-btn" data-sort-key="goaldiff" data-sort-type="number">Diff</button></th>
+            <th><button type="button" class="sort-btn" data-sort-key="points" data-sort-type="number">Pkt</button></th>
+          </tr>
+        </thead>
+        <tbody>${htmlRows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function makePerfectCompetitionTableSortable(root) {
+  if (!root) return;
+
+  const table = root.querySelector("#perfectCompetitionTable");
+  if (!table) return;
+
+  const tbody = table.querySelector("tbody");
+  const buttons = table.querySelectorAll(".sort-btn");
+
+  let currentSort = { key: "rank", direction: "asc" };
+
+  const getValue = (row, key, type) => {
+    const raw = row.dataset[key] ?? "";
+    if (type === "number") return Number(raw) || 0;
+    return String(raw);
+  };
+
+  const renderSortIndicators = () => {
+    buttons.forEach(btn => {
+      const isActive = btn.dataset.sortKey === currentSort.key;
+      const baseLabel = btn.textContent.replace(/[↑↓]\s*$/, "").trim();
+      if (!isActive) {
+        btn.textContent = baseLabel;
+        return;
+      }
+
+      btn.textContent = `${baseLabel} ${currentSort.direction === "asc" ? "↑" : "↓"}`;
+    });
+  };
+
+  const sortRows = (key, type, direction) => {
+    const dir = direction === "desc" ? -1 : 1;
+
+    const sortedRows = [...tbody.querySelectorAll("tr")].sort((a, b) => {
+      const av = getValue(a, key, type);
+      const bv = getValue(b, key, type);
+
+      if (type === "text") {
+        const cmp = av.localeCompare(bv, "de");
+        if (cmp !== 0) return cmp * dir;
+      } else {
+        const cmp = av - bv;
+        if (cmp !== 0) return cmp * dir;
+      }
+
+      const fallback = Number(a.dataset.rank || 0) - Number(b.dataset.rank || 0);
+      return fallback;
+    });
+
+    tbody.innerHTML = "";
+    sortedRows.forEach((row, idx) => {
+      row.children[0].textContent = String(idx + 1);
+      tbody.appendChild(row);
+    });
+  };
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const key = btn.dataset.sortKey;
+      const type = btn.dataset.sortType || "number";
+      if (!key) return;
+
+      const nextDirection = currentSort.key === key && currentSort.direction === "asc"
+        ? "desc"
+        : "asc";
+
+      currentSort = { key, direction: nextDirection };
+      sortRows(key, type, nextDirection);
+      renderSortIndicators();
+    });
+  });
+
+  sortRows(currentSort.key, "number", currentSort.direction);
+  renderSortIndicators();
 }
 
 function initPerfectCompetitionSelector(slug) {
@@ -1021,6 +1125,7 @@ function initPerfectCompetitionSelector(slug) {
   const renderSelected = () => {
     const selectedGame = competitionGames.find(g => g.id === select.value) || competitionGames[0];
     target.innerHTML = renderPerfectCompetitionTable(selectedGame, slug);
+    makePerfectCompetitionTableSortable(target);
   };
 
   select.addEventListener("change", renderSelected);
