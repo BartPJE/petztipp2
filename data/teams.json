@@ -21,6 +21,123 @@
     "logo": "img/teams/fortuna-duesseldorf.svg"
   },
   {
+    "key": "EIB",
+    "name": "Eintracht Braunschweig",
+    "shortName": "Braunschweig",
+    "mobileName": "Braunschweig",
+    "country": "GER",
+    "displayName": "Eintracht Braunschweig",
+    "logo": "img/teams/eintracht-braunschweig.svg"
+  },
+  {
+    "key": "VIH",
+    "name": "SC Victoria Hamburg",
+    "shortName": "Victoria Hamburg",
+    "mobileName": "Victoria Hamburg",
+    "country": "GER",
+    "displayName": "SC Victoria Hamburg",
+    "logo": "img/teams/sc-victoria-hamburg.svg"
+  },
+  {
+    "key": "SJE",
+    "name": "SV Schott Jena",
+    "shortName": "Schott Jena",
+    "mobileName": "Schott Jena",
+    "country": "GER",
+    "displayName": "SV Schott Jena",
+    "logo": "img/teams/sv-schott-jena.svg"
+  },
+  {
+    "key": "WIE",
+    "name": "SC Wiedenbrück 2000",
+    "shortName": "Wiedenbrück",
+    "mobileName": "Wiedenbrück",
+    "country": "GER",
+    "displayName": "SC Wiedenbrück 2000",
+    "logo": "img/teams/sc-wiedenbrueck-2000.svg"
+  },
+  {
+    "key": "ORA",
+    "name": "FSV Optik Rathenow",
+    "shortName": "Optik Rathenow",
+    "mobileName": "Optik Rathenow",
+    "country": "GER",
+    "displayName": "FSV Optik Rathenow",
+    "logo": "img/teams/fsv-optik-rathenow.svg"
+  },
+  {
+    "key": "FSV",
+    "name": "FSV Frankfurt",
+    "shortName": "FSV Frankfurt",
+    "mobileName": "FSV Frankfurt",
+    "country": "GER",
+    "displayName": "FSV Frankfurt",
+    "logo": "img/teams/fsv-frankfurt.svg"
+  },
+  {
+    "key": "BFC",
+    "name": "BFC Dynamo",
+    "shortName": "BFC Dynamo",
+    "mobileName": "BFC Dynamo",
+    "country": "GER",
+    "displayName": "BFC Dynamo",
+    "logo": "img/teams/bfc-dynamo.svg"
+  },
+  {
+    "key": "NMU",
+    "name": "VfR Neumünster",
+    "shortName": "Neumünster",
+    "mobileName": "Neumünster",
+    "country": "GER",
+    "displayName": "VfR Neumünster",
+    "logo": "img/teams/vfr-neumuenster.svg"
+  },
+  {
+    "key": "SVS",
+    "name": "SV Sandhausen",
+    "shortName": "Sandhausen",
+    "mobileName": "Sandhausen",
+    "country": "GER",
+    "displayName": "SV Sandhausen",
+    "logo": "img/teams/sv-sandhausen.svg"
+  },
+  {
+    "key": "NTT",
+    "name": "FC Nöttingen",
+    "shortName": "Nöttingen",
+    "mobileName": "Nöttingen",
+    "country": "GER",
+    "displayName": "FC Nöttingen",
+    "logo": "img/teams/fc-noettingen.svg"
+  },
+  {
+    "key": "JRE",
+    "name": "SSV Jahn Regensburg",
+    "shortName": "Jahn Regensburg",
+    "mobileName": "Jahn Regensburg",
+    "country": "GER",
+    "displayName": "SSV Jahn Regensburg",
+    "logo": "img/teams/ssv-jahn-regensburg.svg"
+  },
+  {
+    "key": "PRM",
+    "name": "Preußen Münster",
+    "shortName": "Preußen Münster",
+    "mobileName": "Preußen Münster",
+    "country": "GER",
+    "displayName": "Preußen Münster",
+    "logo": "img/teams/preussen-muenster.svg"
+  },
+  {
+    "key": "BAM",
+    "name": "Sportfreunde Bamberg",
+    "shortName": "Bamberg",
+    "mobileName": "Bamberg",
+    "country": "GER",
+    "displayName": "Sportfreunde Bamberg",
+    "logo": "img/teams/sportfreunde-bamberg.svg"
+  },
+  {
     "key": "BVB",
     "name": "Borussia Dortmund",
     "shortName": "Bor. Dortmund",
@@ -48,6 +165,78 @@
     "logo": "img/teams/borussia-moenchengladbach.svg"
   },
   {
+    "key": "BAH",
+    "name": "Bahlinger SC",
+    "shortName": "Bahlinger SC",
+    "mobileName": "Bahlinger SC",
+    "country": "GER",
+    "displayName": "Bahlinger SC",
+    "logo": "img/teams/bahlinger-sc.svg"
+  },
+  {
+    "key": "ROH",
+    "name": "TSV 1860 Rosenheim",
+    "shortName": "Rosenheim",
+    "mobileName": "Rosenheim",
+    "country": "GER",
+    "displayName": "TSV 1860 Rosenheim",
+    "logo": "img/teams/tsv-1860-rosenheim.svg"
+  },
+  {
+    "key": "FCI",
+    "name": "FC Ingolstadt 04",
+    "shortName": "Ingolstadt",
+    "mobileName": "Ingolstadt",
+    "country": "GER",
+    "displayName": "FC Ingolstadt 04",
+    "logo": "img/teams/fc-ingolstadt-04.svg"
+  },
+  {
+    "key": "AUV",
+    "name": "SG Aumund-Vegesack",
+    "shortName": "Aumund-Vegesack",
+    "mobileName": "Aumund-Vegesack",
+    "country": "GER",
+    "displayName": "SG Aumund-Vegesack",
+    "logo": "img/teams/sg-aumund-vegesack.svg"
+  },
+  {
+    "key": "NUL",
+    "name": "Neckarsulmer Sport-Union",
+    "shortName": "Neckarsulm",
+    "mobileName": "Neckarsulm",
+    "country": "GER",
+    "displayName": "Neckarsulmer Sport-Union",
+    "logo": "img/teams/neckarsulmer-sport-union.svg"
+  },
+  {
+    "key": "LIP",
+    "name": "SV Lippstadt 08",
+    "shortName": "Lippstadt",
+    "mobileName": "Lippstadt",
+    "country": "GER",
+    "displayName": "SV Lippstadt 08",
+    "logo": "img/teams/sv-lippstadt-08.svg"
+  },
+  {
+    "key": "FOK",
+    "name": "SC Fortuna Köln",
+    "shortName": "Fortuna Köln",
+    "mobileName": "Fortuna Köln",
+    "country": "GER",
+    "displayName": "SC Fortuna Köln",
+    "logo": "img/teams/sc-fortuna-koeln.svg"
+  },
+  {
+    "key": "NST",
+    "name": "TSG Neustrelitz",
+    "shortName": "Neustrelitz",
+    "mobileName": "Neustrelitz",
+    "country": "GER",
+    "displayName": "TSG Neustrelitz",
+    "logo": "img/teams/tsg-neustrelitz.svg"
+  },
+  {
     "key": "WOB",
     "name": "VfL Wolfsburg",
     "shortName": "Wolfsburg",
@@ -55,6 +244,24 @@
     "country": "GER",
     "displayName": "VfL Wolfsburg",
     "logo": "img/teams/vfl-wolfsburg.svg"
+  },
+  {
+    "key": "OSN",
+    "name": "VfL Osnabrück",
+    "shortName": "Osnabrück",
+    "mobileName": "Osnabrück",
+    "country": "GER",
+    "displayName": "VfL Osnabrück",
+    "logo": "img/teams/vfl-osnabrueck.svg"
+  },
+  {
+    "key": "AUE",
+    "name": "FC Erzgebirge Aue",
+    "shortName": "Aue",
+    "mobileName": "Aue",
+    "country": "GER",
+    "displayName": "FC Erzgebirge Aue",
+    "logo": "img/teams/fc-erzgebirge-aue.svg"
   },
   {
     "key": "TSG",
@@ -100,6 +307,15 @@
     "country": "GER",
     "displayName": "FC Augsburg",
     "logo": "img/teams/fc-augsburg.svg"
+  },
+  {
+    "key": "ILL",
+    "name": "FV Illertissen",
+    "shortName": "Illertissen",
+    "mobileName": "Illertissen",
+    "country": "GER",
+    "displayName": "FV Illertissen",
+    "logo": "img/teams/fv-illertissen.svg"
   },
   {
     "key": "VFB",
@@ -174,6 +390,33 @@
     "logo": "img/teams/1-fc-union-berlin.svg"
   },
   {
+    "key": "FCM",
+    "name": "1. FC Magdeburg",
+    "shortName": "Magdeburg",
+    "mobileName": "Magdeburg",
+    "country": "GER",
+    "displayName": "1. FC Magdeburg",
+    "logo": "img/teams/1-fc-magdeburg.svg"
+  },
+  {
+    "key": "FCE",
+    "name": "FC Energie Cottbus",
+    "shortName": "Energie Cottbus",
+    "mobileName": "Cottbus",
+    "country": "GER",
+    "displayName": "FC Energie Cottbus",
+    "logo": "img/teams/fc-energie-cottbus.svg"
+  },
+  {
+    "key": "WIL",
+    "name": "SV Wilhelmshaven",
+    "shortName": "Wilhelmshaven",
+    "mobileName": "Wilhelmshaven",
+    "country": "GER",
+    "displayName": "SV Wilhelmshaven",
+    "logo": "img/teams/sv-wilhelmshaven.svg"
+  },
+  {
     "key": "BOC",
     "name": "VfL Bochum",
     "shortName": "VfL Bochum",
@@ -208,6 +451,24 @@
     "country": "GER",
     "displayName": "FC St. Pauli",
     "logo": "img/teams/fc-st-pauli.svg"
+  },
+  {
+    "key": "SCP",
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn",
+    "mobileName": "Paderborn",
+    "country": "GER",
+    "displayName": "SC Paderborn 07",
+    "logo": "img/teams/sc-paderborn-07.svg"
+  },
+  {
+    "key": "REH",
+    "name": "BSV Rehden",
+    "shortName": "BSV Rehden",
+    "mobileName": "Rehden",
+    "country": "GER",
+    "displayName": "BSV Rehden",
+    "logo": "img/teams/bsv-rehden.svg"
   },
   {
     "key": "DSC",
@@ -253,6 +514,42 @@
     "country": "GER",
     "displayName": "Alemannia Aachen",
     "logo": "img/teams/alemannia-aachen.svg"
+  },
+  {
+    "key": "AAL",
+    "name": "VfR Aalen",
+    "shortName": "VfR Aalen",
+    "mobileName": "Aalen",
+    "country": "GER",
+    "displayName": "VfR Aalen",
+    "logo": "img/teams/vfr-aalen.svg"
+  },
+  {
+    "key": "EIT",
+    "name": "Eintracht Trier",
+    "shortName": "Eintracht Trier",
+    "mobileName": "Trier",
+    "country": "GER",
+    "displayName": "Eintracht Trier",
+    "logo": "img/teams/eintracht-trier.svg"
+  },
+  {
+    "key": "PFE",
+    "name": "TSG Pfeddersheim",
+    "shortName": "TSG Pfeddersheim",
+    "mobileName": "Pfeddersheim",
+    "country": "GER",
+    "displayName": "TSG Pfeddersheim",
+    "logo": "img/teams/tsg-pfeddersheim.svg"
+  },
+  {
+    "key": "FCS",
+    "name": "1. FC Saarbrücken",
+    "shortName": "1. FC Saarbrücken",
+    "mobileName": "Saarbrücken",
+    "country": "GER",
+    "displayName": "1. FC Saarbrücken",
+    "logo": "img/teams/1-fc-saarbruecken.svg"
   },
   {
     "key": "MSV",
@@ -718,7 +1015,7 @@
     "logo": "img/teams/fc-porto.svg"
   },
   {
-    "key": "SCP",
+    "key": "SLI",
     "name": "Sporting CP",
     "shortName": "Sporting CP",
     "mobileName": "Sporting",
@@ -1930,14 +2227,5 @@
     "country": "USA",
     "displayName": "USA",
     "logo": "img/teams/usa.svg"
-  },
-  {
-    "key": "VEN",
-    "name": "Venezuela",
-    "shortName": "Venezuela",
-    "mobileName": "Venezuela",
-    "country": "VEN",
-    "displayName": "Venezuela",
-    "logo": "img/teams/venezuela.svg"
   }
 ]

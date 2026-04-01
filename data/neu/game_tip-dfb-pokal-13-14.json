@@ -23,7 +23,7 @@
           "id": "md01-02",
           "home": "1. FC Heidenheim",
           "away": "TSV 1860 München",
-          "homeCode": "HEID",
+          "homeCode": "HDH",
           "awayCode": "1860",
           "result": "4:5",
           "time": ""
@@ -41,8 +41,8 @@
           "id": "md01-04",
           "home": "Sportfreunde Baumberg",
           "away": "FC Ingolstadt 04",
-          "homeCode": "BBER",
-          "awayCode": "ING",
+          "homeCode": "BAM",
+          "awayCode": "FCI",
           "result": "1:4",
           "time": ""
         },
@@ -59,7 +59,7 @@
           "id": "md01-06",
           "home": "Neckarsulmer Sport-Union",
           "away": "1. FC Kaiserslautern",
-          "homeCode": "NECK",
+          "homeCode": "NUL",
           "awayCode": "FCK",
           "result": "0:7",
           "time": ""
@@ -68,7 +68,7 @@
           "id": "md01-07",
           "home": "SV Lippstadt 08",
           "away": "Bayer 04 Leverkusen",
-          "homeCode": "LIPP",
+          "homeCode": "LIP",
           "awayCode": "B04",
           "result": "1:6",
           "time": ""
@@ -86,7 +86,7 @@
           "id": "md01-09",
           "home": "TSG Neustrelitz",
           "away": "SC Freiburg",
-          "homeCode": "NSTR",
+          "homeCode": "NST",
           "awayCode": "SCF",
           "result": "0:2",
           "time": ""
@@ -95,7 +95,7 @@
           "id": "md01-10",
           "home": "1. FC Magdeburg",
           "away": "Energie Cottbus",
-          "homeCode": "MAGD",
+          "homeCode": "FCM",
           "awayCode": "FCE",
           "result": "0:1",
           "time": ""
@@ -104,7 +104,7 @@
           "id": "md01-11",
           "home": "SV Wilhelmshaven",
           "away": "Borussia Dortmund",
-          "homeCode": "WILH",
+          "homeCode": "WIL",
           "awayCode": "BVB",
           "result": "0:3",
           "time": ""
@@ -113,7 +113,7 @@
           "id": "md01-12",
           "home": "Bahlinger SC",
           "away": "VfL Bochum",
-          "homeCode": "BAHL",
+          "homeCode": "BAH",
           "awayCode": "BOC",
           "result": "1:3",
           "time": ""
@@ -131,7 +131,7 @@
           "id": "md01-14",
           "home": "Eintracht Trier",
           "away": "1. FC Köln",
-          "homeCode": "TRIE",
+          "homeCode": "EIT",
           "awayCode": "KOE",
           "result": "0:2",
           "time": ""
@@ -149,7 +149,7 @@
           "id": "md01-16",
           "home": "TSG Pfeddersheim",
           "away": "SpVgg Greuther Fürth",
-          "homeCode": "PFED",
+          "homeCode": "PFE",
           "awayCode": "SGF",
           "result": "0:2",
           "time": ""
@@ -158,7 +158,7 @@
           "id": "md01-17",
           "home": "1. FC Saarbrücken",
           "away": "SV Werder Bremen",
-          "homeCode": "SAAR",
+          "homeCode": "FCS",
           "awayCode": "SVW",
           "result": "3:1",
           "time": ""
@@ -177,7 +177,7 @@
           "home": "Arminia Bielefeld",
           "away": "Eintracht Braunschweig",
           "homeCode": "DSC",
-          "awayCode": "BTSV",
+          "awayCode": "EIB",
           "result": "2:1",
           "time": ""
         },
@@ -185,7 +185,7 @@
           "id": "md01-20",
           "home": "SC Victoria Hamburg",
           "away": "Hannover 96",
-          "homeCode": "VIHA",
+          "homeCode": "VIH",
           "awayCode": "H96",
           "result": "0:2",
           "time": ""
@@ -194,7 +194,7 @@
           "id": "md01-21",
           "home": "SV Schott Jena",
           "away": "Hamburger SV",
-          "homeCode": "SVJE",
+          "homeCode": "SJE",
           "awayCode": "HSV",
           "result": "0:4",
           "time": ""
@@ -203,7 +203,7 @@
           "id": "md01-22",
           "home": "SC Wiedenbrück 2000",
           "away": "Fortuna Düsseldorf",
-          "homeCode": "WIED",
+          "homeCode": "WIE",
           "awayCode": "F95",
           "result": "1:0",
           "time": ""
@@ -212,7 +212,7 @@
           "id": "md01-23",
           "home": "FSV Optik Rathenow",
           "away": "FSV Frankfurt",
-          "homeCode": "RATH",
+          "homeCode": "ORA",
           "awayCode": "FSV",
           "result": "1:3",
           "time": ""
@@ -230,7 +230,7 @@
           "id": "md01-25",
           "home": "VfR Neumünster",
           "away": "Hertha BSC",
-          "homeCode": "NEUM",
+          "homeCode": "NMU",
           "awayCode": "BSC",
           "result": "2:3",
           "time": ""
@@ -248,7 +248,7 @@
           "id": "md01-27",
           "home": "Preußen Münster",
           "away": "FC St. Pauli",
-          "homeCode": "MNS",
+          "homeCode": "PRM",
           "awayCode": "STP",
           "result": "1:0",
           "time": ""
@@ -257,7 +257,7 @@
           "id": "md01-28",
           "home": "SV Sandhausen",
           "away": "1. FC Nürnberg",
-          "homeCode": "SAND",
+          "homeCode": "SVS",
           "awayCode": "FCN",
           "result": "5:4",
           "time": ""
@@ -275,7 +275,7 @@
           "id": "md01-30",
           "home": "SSV Jahn Regensburg",
           "away": "1. FC Union Berlin",
-          "homeCode": "JREG",
+          "homeCode": "JRE",
           "awayCode": "FCU",
           "result": "1:2",
           "time": ""
@@ -293,7 +293,7 @@
           "id": "md01-32",
           "home": "BSV Rehden",
           "away": "FC Bayern München",
-          "homeCode": "REHD",
+          "homeCode": "REH",
           "awayCode": "FCB",
           "result": "0:5",
           "time": ""
@@ -654,7 +654,7 @@
           "id": "md02-01",
           "home": "Preußen Münster",
           "away": "FC Augsburg",
-          "homeCode": "MNS",
+          "homeCode": "PRM",
           "awayCode": "FCA",
           "result": "0:3",
           "time": ""
@@ -663,8 +663,8 @@
           "id": "md02-02",
           "home": "SC Wiedenbrück 2000",
           "away": "SV Sandhausen",
-          "homeCode": "WIED",
-          "awayCode": "SAND",
+          "homeCode": "WIE",
+          "awayCode": "SVS",
           "result": "1:3",
           "time": ""
         },
@@ -726,7 +726,7 @@
           "id": "md02-09",
           "home": "1. FC Saarbrücken",
           "away": "SC Paderborn 07",
-          "homeCode": "SAAR",
+          "homeCode": "FCS",
           "awayCode": "SCP",
           "result": "2:1",
           "time": ""
@@ -745,7 +745,7 @@
           "home": "FSV Mainz 05",
           "away": "FC Ingolstadt 04",
           "homeCode": "M05",
-          "awayCode": "ING",
+          "awayCode": "FCI",
           "result": "0:2",
           "time": ""
         },
@@ -1049,7 +1049,7 @@
           "id": "md03-04",
           "home": "1. FC Saarbrücken",
           "away": "Borussia Dortmund",
-          "homeCode": "SAAR",
+          "homeCode": "FCS",
           "awayCode": "BVB",
           "result": "0:2",
           "time": ""
@@ -1068,7 +1068,7 @@
           "home": "VfL Wolfsburg",
           "away": "Ing",
           "homeCode": "WOB",
-          "awayCode": "ING",
+          "awayCode": "FCI",
           "result": "2:1",
           "time": ""
         },
@@ -1077,7 +1077,7 @@
           "home": "Eintracht Frankfurt",
           "away": "SV Sandhausen",
           "homeCode": "SGE",
-          "awayCode": "SAND",
+          "awayCode": "SVS",
           "result": "4:2",
           "time": ""
         },
@@ -2053,10 +2053,7 @@
       },
       {
         "label": "Finale",
-        "result": [
-          "Borussia Dortmund",
-          "FC Bayern München"
-        ],
+        "result": ["Borussia Dortmund", "FC Bayern München"],
         "points": 4.0
       },
       {
@@ -2089,15 +2086,9 @@
         "player": "alois",
         "name": "Alois",
         "predictions": {
-          "Finale": [
-            "FC Bayern München"
-          ],
-          "Halbfinale": [
-            "Bayer 04 Leverkusen"
-          ],
-          "Viertelfinale": [
-            "VfL Wolfsburg"
-          ],
+          "Finale": ["FC Bayern München"],
+          "Halbfinale": ["Bayer 04 Leverkusen"],
+          "Viertelfinale": ["VfL Wolfsburg"],
           "Sieger": "FC Bayern München"
         }
       },
@@ -2105,15 +2096,9 @@
         "player": "peter",
         "name": "Peter",
         "predictions": {
-          "Finale": [
-            "FC Bayern München"
-          ],
-          "Halbfinale": [
-            "VfL Wolfsburg"
-          ],
-          "Viertelfinale": [
-            "VfL Wolfsburg"
-          ],
+          "Finale": ["FC Bayern München"],
+          "Halbfinale": ["VfL Wolfsburg"],
+          "Viertelfinale": ["VfL Wolfsburg"],
           "Sieger": "FC Bayern München"
         }
       },
@@ -2121,15 +2106,9 @@
         "player": "peterm",
         "name": "Peter M.",
         "predictions": {
-          "Finale": [
-            "FC Bayern München"
-          ],
-          "Halbfinale": [
-            "Bayer 04 Leverkusen"
-          ],
-          "Viertelfinale": [
-            "VfL Wolfsburg"
-          ],
+          "Finale": ["FC Bayern München"],
+          "Halbfinale": ["Bayer 04 Leverkusen"],
+          "Viertelfinale": ["VfL Wolfsburg"],
           "Sieger": "FC Bayern München"
         }
       },
@@ -2137,15 +2116,9 @@
         "player": "johannes",
         "name": "Johannes",
         "predictions": {
-          "Finale": [
-            "FC Bayern München"
-          ],
-          "Halbfinale": [
-            "Bayer 04 Leverkusen"
-          ],
-          "Viertelfinale": [
-            "SVW"
-          ],
+          "Finale": ["FC Bayern München"],
+          "Halbfinale": ["Bayer 04 Leverkusen"],
+          "Viertelfinale": ["SVW"],
           "Sieger": "FC Bayern München"
         }
       }

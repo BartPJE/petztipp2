@@ -8,8 +8,8 @@
       "id": "md05-01",
       "home": "Borussia Dortmund",
       "away": "VfL Wolfsburg",
-      "homeCode": "BVB",
-      "awayCode": "WOB",
+      "homeTeam": "BVB",
+      "awayTeam": "WOB",
       "result": "2:0",
       "time": ""
     },
@@ -17,8 +17,8 @@
       "id": "md05-02",
       "home": "FC Bayern München",
       "away": "1. FC Kaiserslautern",
-      "homeCode": "FCB",
-      "awayCode": "FCK",
+      "homeTeam": "FCB",
+      "awayTeam": "FCK",
       "result": "5:1",
       "time": ""
     }

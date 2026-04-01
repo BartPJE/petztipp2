@@ -12,11 +12,7 @@
       },
       {
         "label": "Plätze 16-18",
-        "result": [
-          "Braun2",
-          "BMH",
-          "FBL"
-        ],
+        "result": ["Braun2", "BMH", "FBL"],
         "points": 3.0
       },
       {
@@ -41,20 +37,14 @@
         "name": "Alois",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "SCF"
-          ],
+          "Plätze 16-18": ["SCF"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -73,20 +63,14 @@
         "name": "Daniel",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "RBL"
-          ],
+          "Plätze 16-18": ["RBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "FCI"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -105,20 +89,14 @@
         "name": "Huy",
         "predictions": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "FC Augsburg"
-          ],
+          "Plätze 16-18": ["FC Augsburg"],
           "Deutscher Meister": "Borussia Dortmund",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "Da98"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -137,20 +115,14 @@
         "name": "Johannes",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "SCF"
-          ],
+          "Plätze 16-18": ["SCF"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "TSG 1899 Hoffenheim"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -169,20 +141,14 @@
         "name": "Kathi",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "Eintracht Frankfurt"
-          ],
+          "Plätze 16-18": ["Eintracht Frankfurt"],
           "Deutscher Meister": "Eintracht Frankfurt",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -201,20 +167,14 @@
         "name": "Markus",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "SCF"
-          ],
+          "Plätze 16-18": ["SCF"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "Eintracht Frankfurt"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -233,20 +193,14 @@
         "name": "Pascal",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "SCF"
-          ],
+          "Plätze 16-18": ["SCF"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "RBL"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -265,20 +219,14 @@
         "name": "Peter",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "SVW"
-          ],
+          "Plätze 16-18": ["SVW"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -297,20 +245,14 @@
         "name": "Peter M.",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "DFCA"
-          ],
+          "Plätze 16-18": ["DFCA"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "Hamburger SV"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -329,20 +271,14 @@
         "name": "Roman",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "SVW"
-          ],
+          "Plätze 16-18": ["SVW"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "Da98"
         },
         "result": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Braun2",
-            "BMH",
-            "FBL"
-          ],
+          "Plätze 16-18": ["Braun2", "BMH", "FBL"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SV Werder Bremen"
@@ -17038,7 +16974,7 @@
           "home": "VfL Wolfsburg",
           "away": "Eintracht Braunschweig",
           "homeTeam": "WOB",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "1:0",
           "time": ""
         },

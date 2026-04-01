@@ -8,8 +8,8 @@
       "id": "md06-01",
       "home": "Borussia Dortmund",
       "away": "FC Bayern München",
-      "homeCode": "BVB",
-      "awayCode": "FCB",
+      "homeTeam": "BVB",
+      "awayTeam": "FCB",
       "result": "0:2",
       "time": ""
     }

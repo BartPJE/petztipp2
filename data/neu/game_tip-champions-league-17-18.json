@@ -718,7 +718,7 @@
           "home": "Olympiakos Piraeus (GRE)",
           "away": "Sporting CP (POR)",
           "homeCode": "OPG",
-          "awayCode": "SCP",
+          "awayCode": "SLI",
           "result": "1:2",
           "date": "12.09.2017",
           "time": "20:45"
@@ -737,7 +737,7 @@
           "id": "md03-10",
           "home": "Sporting CP (POR)",
           "away": "FC Barcelona (ESP)",
-          "homeCode": "SCP",
+          "homeCode": "SLI",
           "awayCode": "FBE",
           "result": "3:1",
           "date": "27.09.2017",
@@ -758,7 +758,7 @@
           "home": "Juventus (ITA)",
           "away": "Sporting CP (POR)",
           "homeCode": "JI",
-          "awayCode": "SCP",
+          "awayCode": "SLI",
           "result": "0:2",
           "date": "18.10.2017",
           "time": "20:45"
@@ -777,7 +777,7 @@
           "id": "md03-14",
           "home": "Sporting CP (POR)",
           "away": "Juventus (ITA)",
-          "homeCode": "SCP",
+          "homeCode": "SLI",
           "awayCode": "JI",
           "result": "3:0",
           "date": "31.10.2017",
@@ -962,7 +962,7 @@
           "id": "md04-01",
           "home": "Sporting CP (POR)",
           "away": "Olympiakos Piraeus (GRE)",
-          "homeCode": "SCP",
+          "homeCode": "SLI",
           "awayCode": "OPG",
           "result": "1:2",
           "date": "22.11.2017",
@@ -973,7 +973,7 @@
           "home": "FC Barcelona (ESP)",
           "away": "Sporting CP (POR)",
           "homeCode": "FBE",
-          "awayCode": "SCP",
+          "awayCode": "SLI",
           "result": "1:1",
           "date": "05.12.2017",
           "time": "20:45"
@@ -992,7 +992,7 @@
           "id": "md04-04",
           "home": "Liverpool FC (ENG)",
           "away": "Sevilla FC (ESP)",
-"awayTeam": "SEV",
+          "awayTeam": "SEV",
           "homeCode": "LFE",
           "awayCode": "SFE",
           "result": "5:0",
@@ -1033,7 +1033,7 @@
           "id": "md04-08",
           "home": "Spartak Moskva (RUS)",
           "away": "Sevilla FC (ESP)",
-"awayTeam": "SEV",
+          "awayTeam": "SEV",
           "homeCode": "SMR",
           "awayCode": "SFE",
           "result": "1:1",
@@ -1104,7 +1104,7 @@
           "id": "md04-15",
           "home": "NK Maribor (SVN)",
           "away": "Sevilla FC (ESP)",
-"awayTeam": "SEV",
+          "awayTeam": "SEV",
           "homeCode": "NMS",
           "awayCode": "SFE",
           "result": "3:1",
@@ -2337,7 +2337,7 @@
           "id": "md09-03",
           "home": "Manchester United (ENG)",
           "away": "Sevilla FC (ESP)",
-"awayTeam": "SEV",
+          "awayTeam": "SEV",
           "homeCode": "MUE",
           "awayCode": "SFE",
           "result": "4:1",
@@ -2811,7 +2811,7 @@
           "home": "Bayern München (GER)",
           "homeTeam": "FCB",
           "away": "Sevilla FC (ESP)",
-"awayTeam": "SEV",
+          "awayTeam": "SEV",
           "homeCode": "BMG",
           "awayCode": "SFE",
           "result": "3:1",
@@ -2963,9 +2963,7 @@
         "name": "Alois",
         "predictions": {
           "Torschütze": "Real Madrid (ESP)",
-          "Halbfinale": [
-            "Real Madrid (ESP)"
-          ],
+          "Halbfinale": ["Real Madrid (ESP)"],
           "Sieger": "Real Madrid (ESP)",
           "Sieger A": "Manchester United",
           "Sieger B": "FC Bayern München",
@@ -2982,9 +2980,7 @@
         "name": "Peter",
         "predictions": {
           "Torschütze": "Real Madrid (ESP)",
-          "Halbfinale": [
-            "Real Madrid (ESP)"
-          ],
+          "Halbfinale": ["Real Madrid (ESP)"],
           "Sieger": "FC Barcelona",
           "Sieger A": "Manchester United",
           "Sieger B": "Paris Saint-Germain",
@@ -3001,9 +2997,7 @@
         "name": "Johannes",
         "predictions": {
           "Torschütze": "Paris Saint-Germain",
-          "Halbfinale": [
-            "Paris Saint-Germain"
-          ],
+          "Halbfinale": ["Paris Saint-Germain"],
           "Sieger": "FC Bayern München",
           "Sieger A": "Manchester United",
           "Sieger B": "Paris Saint-Germain",

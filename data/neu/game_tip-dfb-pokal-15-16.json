@@ -12,10 +12,10 @@
       "matches": [
         {
           "id": "md01-01",
-          "home": "BFC",
-          "away": "FSV Mainz 05",
+          "home": "BFC Dynamo",
+          "away": "FSV Frankfurt",
           "homeCode": "BFC",
-          "awayCode": "M05",
+          "awayCode": "FSV",
           "result": "0:2",
           "time": ""
         },
@@ -42,7 +42,7 @@
           "home": "HalFC",
           "away": "Eintracht Braunschweig",
           "homeCode": "HALF",
-          "awayCode": "BTSV",
+          "awayCode": "EIB",
           "result": "0:1",
           "time": ""
         },
@@ -167,8 +167,8 @@
           "id": "md01-18",
           "home": "Bahl",
           "away": "Sand",
-          "homeCode": "BAHL",
-          "awayCode": "SAND",
+          "homeCode": "BAH",
+          "awayCode": "SVS",
           "result": "3:5",
           "time": ""
         },
@@ -204,7 +204,7 @@
           "home": "Uhach",
           "away": "Ing",
           "homeCode": "UHAC",
-          "awayCode": "ING",
+          "awayCode": "FCI",
           "result": "2:1",
           "time": ""
         },
@@ -659,7 +659,7 @@
           "id": "md02-11",
           "home": "Sand",
           "away": "Heide",
-          "homeCode": "SAND",
+          "homeCode": "SVS",
           "awayCode": "HEID",
           "result": "3:4",
           "time": ""
@@ -678,7 +678,7 @@
           "home": "Reut",
           "away": "Eintracht Braunschweig",
           "homeCode": "REUT",
-          "awayCode": "BTSV",
+          "awayCode": "EIB",
           "result": "0:4",
           "time": ""
         },
@@ -930,7 +930,7 @@
           "home": "VfB Stuttgart",
           "away": "Eintracht Braunschweig",
           "homeCode": "VFB",
-          "awayCode": "BTSV",
+          "awayCode": "EIB",
           "result": "3:2",
           "time": ""
         },
@@ -2186,9 +2186,7 @@
         "player": "johannes",
         "name": "Johannes",
         "predictions": {
-          "Halbfinale": [
-            "VfL Wolfsburg"
-          ],
+          "Halbfinale": ["VfL Wolfsburg"],
           "Sieger": "FC Bayern München"
         }
       },
@@ -2196,9 +2194,7 @@
         "player": "alois",
         "name": "Alois",
         "predictions": {
-          "Halbfinale": [
-            "VfL Wolfsburg"
-          ],
+          "Halbfinale": ["VfL Wolfsburg"],
           "Sieger": "FC Bayern München"
         }
       },
@@ -2206,9 +2202,7 @@
         "player": "peter",
         "name": "Peter",
         "predictions": {
-          "Halbfinale": [
-            "VfL Wolfsburg"
-          ],
+          "Halbfinale": ["VfL Wolfsburg"],
           "Sieger": "FC Bayern München"
         }
       }

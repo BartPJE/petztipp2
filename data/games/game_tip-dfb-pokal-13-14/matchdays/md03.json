@@ -8,8 +8,8 @@
       "id": "md03-01",
       "home": "1. FC Union Berlin",
       "away": "1. FC Kaiserslautern",
-      "homeCode": "FCU",
-      "awayCode": "FCK",
+      "homeTeam": "FCU",
+      "awayTeam": "FCK",
       "result": "0:3",
       "time": ""
     },
@@ -17,8 +17,8 @@
       "id": "md03-02",
       "home": "Hamburger SV",
       "away": "1. FC Köln",
-      "homeCode": "HSV",
-      "awayCode": "KOE",
+      "homeTeam": "HSV",
+      "awayTeam": "KOE",
       "result": "2:1",
       "time": ""
     },
@@ -26,8 +26,8 @@
       "id": "md03-03",
       "home": "FC Schalke 04",
       "away": "TSG 1899 Hoffenheim",
-      "homeCode": "S04",
-      "awayCode": "TSG",
+      "homeTeam": "S04",
+      "awayTeam": "TSG",
       "result": "1:3",
       "time": ""
     },
@@ -35,8 +35,8 @@
       "id": "md03-04",
       "home": "1. FC Saarbrücken",
       "away": "Borussia Dortmund",
-      "homeCode": "SAAR",
-      "awayCode": "BVB",
+      "homeTeam": "FCS",
+      "awayTeam": "BVB",
       "result": "0:2",
       "time": ""
     },
@@ -44,8 +44,8 @@
       "id": "md03-05",
       "home": "SC Freiburg",
       "away": "Bayer 04 Leverkusen",
-      "homeCode": "SCF",
-      "awayCode": "B04",
+      "homeTeam": "SCF",
+      "awayTeam": "B04",
       "result": "1:2",
       "time": ""
     },
@@ -53,8 +53,8 @@
       "id": "md03-06",
       "home": "VfL Wolfsburg",
       "away": "Ing",
-      "homeCode": "WOB",
-      "awayCode": "ING",
+      "homeTeam": "WOB",
+      "awayTeam": "FCI",
       "result": "2:1",
       "time": ""
     },
@@ -62,8 +62,8 @@
       "id": "md03-07",
       "home": "Eintracht Frankfurt",
       "away": "SV Sandhausen",
-      "homeCode": "SGE",
-      "awayCode": "SAND",
+      "homeTeam": "SGE",
+      "awayTeam": "SVS",
       "result": "4:2",
       "time": ""
     },
@@ -71,8 +71,8 @@
       "id": "md03-08",
       "home": "FC Augsburg",
       "away": "FAB",
-      "homeCode": "FCA",
-      "awayCode": "FAB",
+      "homeTeam": "FCA",
+      "awayTeam": "FAB",
       "result": "0:2",
       "time": ""
     }

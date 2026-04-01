@@ -12,11 +12,7 @@
       },
       {
         "label": "Plätze 16-18",
-        "result": [
-          "Eintracht Braunschweig",
-          "SpVgg Greuther Fürth",
-          "SVF"
-        ],
+        "result": ["Eintracht Braunschweig", "SpVgg Greuther Fürth", "SVF"],
         "points": 3.0
       },
       {
@@ -41,9 +37,7 @@
         "name": "Alois",
         "predictions": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Hertha BSC"
-          ],
+          "Plätze 16-18": ["Hertha BSC"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "Hertha BSC"
@@ -73,9 +67,7 @@
         "name": "Daniel",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "Eintracht Frankfurt"
-          ],
+          "Plätze 16-18": ["Eintracht Frankfurt"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
@@ -105,9 +97,7 @@
         "name": "Huy",
         "predictions": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "SCF"
-          ],
+          "Plätze 16-18": ["SCF"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
@@ -137,9 +127,7 @@
         "name": "Johannes",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "TSG 1899 Hoffenheim"
-          ],
+          "Plätze 16-18": ["TSG 1899 Hoffenheim"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
@@ -169,9 +157,7 @@
         "name": "Kathi",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "TSG 1899 Hoffenheim"
-          ],
+          "Plätze 16-18": ["TSG 1899 Hoffenheim"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
@@ -201,9 +187,7 @@
         "name": "Dominik",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "TSG 1899 Hoffenheim"
-          ],
+          "Plätze 16-18": ["TSG 1899 Hoffenheim"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
@@ -233,9 +217,7 @@
         "name": "Manu",
         "predictions": {
           "Torschütze": "FC Bayern München",
-          "Plätze 16-18": [
-            "Eintracht Frankfurt"
-          ],
+          "Plätze 16-18": ["Eintracht Frankfurt"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
@@ -265,9 +247,7 @@
         "name": "Markus",
         "predictions": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "Hertha BSC"
-          ],
+          "Plätze 16-18": ["Hertha BSC"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "Eintracht Frankfurt"
@@ -297,9 +277,7 @@
         "name": "Peter M.",
         "predictions": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "FC Bayern München"
-          ],
+          "Plätze 16-18": ["FC Bayern München"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "1. FC Nürnberg"
@@ -329,9 +307,7 @@
         "name": "Peter",
         "predictions": {
           "Torschütze": "Bayer 04 Leverkusen",
-          "Plätze 16-18": [
-            "SVW"
-          ],
+          "Plätze 16-18": ["SVW"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "SVW"
@@ -361,9 +337,7 @@
         "name": "Thomas",
         "predictions": {
           "Torschütze": "Borussia Dortmund",
-          "Plätze 16-18": [
-            "VfB"
-          ],
+          "Plätze 16-18": ["VfB"],
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München",
           "Erster Trainerwechsel": "VfL Wolfsburg"
@@ -461,7 +435,7 @@
           "id": "md01-07",
           "home": "Eintracht Braunschweig",
           "away": "SV Werder Bremen",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "SVW",
           "result": "0:1",
           "date": "10.08.2013",
@@ -1013,7 +987,7 @@
           "home": "Borussia Dortmund",
           "away": "Eintracht Braunschweig",
           "homeTeam": "BVB",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "2:1",
           "date": "18.08.2013",
           "time": "17:30"
@@ -1533,7 +1507,7 @@
           "id": "md03-08",
           "home": "Eintracht Braunschweig",
           "away": "Eintracht Frankfurt",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "SGE",
           "result": "0:2",
           "date": "25.08.2013",
@@ -2035,7 +2009,7 @@
           "home": "Hamburger SV",
           "away": "Eintracht Braunschweig",
           "homeTeam": "HSV",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "4:0",
           "date": "31.08.2013",
           "time": "15:30"
@@ -2605,7 +2579,7 @@
           "id": "md05-09",
           "home": "Eintracht Braunschweig",
           "away": "1. FC Nürnberg",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "FCN",
           "result": "1:1",
           "date": "15.09.2013",
@@ -3057,7 +3031,7 @@
           "home": "Borussia Mönchengladbach",
           "away": "Eintracht Braunschweig",
           "homeTeam": "BMG",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "4:1",
           "date": "20.09.2013",
           "time": "20:30"
@@ -3667,7 +3641,7 @@
           "id": "md07-09",
           "home": "Eintracht Braunschweig",
           "away": "VfB Stuttgart",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "VFB",
           "result": "0:4",
           "date": "29.09.2013",
@@ -4169,7 +4143,7 @@
           "home": "VfL Wolfsburg",
           "away": "Eintracht Braunschweig",
           "homeTeam": "WOB",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "0:2",
           "date": "05.10.2013",
           "time": "15:30"
@@ -4689,7 +4663,7 @@
           "id": "md09-05",
           "home": "Eintracht Braunschweig",
           "away": "FC Schalke 04",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "S04",
           "result": "2:3",
           "date": "19.10.2013",
@@ -5231,7 +5205,7 @@
           "home": "FSV Mainz 05",
           "away": "Eintracht Braunschweig",
           "homeTeam": "M05",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "2:0",
           "date": "26.10.2013",
           "time": "15:30"
@@ -5741,7 +5715,7 @@
           "id": "md11-04",
           "home": "Eintracht Braunschweig",
           "away": "Bayer 04 Leverkusen",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "B04",
           "result": "1:0",
           "date": "02.11.2013",
@@ -6243,7 +6217,7 @@
           "home": "Hannover 96",
           "away": "Eintracht Braunschweig",
           "homeTeam": "H96",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "0:0",
           "date": "08.11.2013",
           "time": "20:30"
@@ -6793,7 +6767,7 @@
           "id": "md13-03",
           "home": "Eintracht Braunschweig",
           "away": "SC Freiburg",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "SCF",
           "result": "0:1",
           "date": "23.11.2013",
@@ -7345,7 +7319,7 @@
           "home": "FC Bayern München",
           "away": "Eintracht Braunschweig",
           "homeTeam": "FCB",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "2:0",
           "date": "30.11.2013",
           "time": "15:30"
@@ -7915,7 +7889,7 @@
           "id": "md15-09",
           "home": "Eintracht Braunschweig",
           "away": "Hertha BSC",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "BSC",
           "result": "0:2",
           "date": "08.12.2013",
@@ -8377,7 +8351,7 @@
           "home": "FC Augsburg",
           "away": "Eintracht Braunschweig",
           "homeTeam": "FCA",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "4:1",
           "date": "14.12.2013",
           "time": "15:30"
@@ -8907,7 +8881,7 @@
           "id": "md17-02",
           "home": "Eintracht Braunschweig",
           "away": "TSG 1899 Hoffenheim",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "TSG",
           "result": "1:0",
           "date": "21.12.2013",
@@ -9499,7 +9473,7 @@
           "home": "SV Werder Bremen",
           "away": "Eintracht Braunschweig",
           "homeTeam": "SVW",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "0:0",
           "date": "26.01.2014",
           "time": "15:30"
@@ -9959,7 +9933,7 @@
           "id": "md19-01",
           "home": "Eintracht Braunschweig",
           "away": "Borussia Dortmund",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "BVB",
           "result": "1:2",
           "date": "31.01.2014",
@@ -10501,7 +10475,7 @@
           "home": "Eintracht Frankfurt",
           "away": "Eintracht Braunschweig",
           "homeTeam": "SGE",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "3:0",
           "date": "08.02.2014",
           "time": "15:30"
@@ -11031,7 +11005,7 @@
           "id": "md21-02",
           "home": "Eintracht Braunschweig",
           "away": "Hamburger SV",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "HSV",
           "result": "4:2",
           "date": "15.02.2014",
@@ -11573,7 +11547,7 @@
           "home": "1. FC Nürnberg",
           "away": "Eintracht Braunschweig",
           "homeTeam": "FCN",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "2:1",
           "date": "22.02.2014",
           "time": "15:30"
@@ -12133,7 +12107,7 @@
           "id": "md23-06",
           "home": "Eintracht Braunschweig",
           "away": "Borussia Mönchengladbach",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "BMG",
           "result": "1:1",
           "date": "01.03.2014",
@@ -12625,7 +12599,7 @@
           "home": "VfB Stuttgart",
           "away": "Eintracht Braunschweig",
           "homeTeam": "VFB",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "2:2",
           "date": "08.03.2014",
           "time": "15:30"
@@ -13195,7 +13169,7 @@
           "id": "md25-06",
           "home": "Eintracht Braunschweig",
           "away": "VfL Wolfsburg",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "WOB",
           "result": "1:1",
           "date": "15.03.2014",
@@ -13727,7 +13701,7 @@
           "home": "FC Schalke 04",
           "away": "Eintracht Braunschweig",
           "homeTeam": "S04",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "3:1",
           "date": "22.03.2014",
           "time": "15:30"
@@ -14207,7 +14181,7 @@
           "id": "md27-01",
           "home": "Eintracht Braunschweig",
           "away": "FSV Mainz 05",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "M05",
           "result": "3:1",
           "date": "25.03.2014",
@@ -14769,7 +14743,7 @@
           "home": "Bayer 04 Leverkusen",
           "away": "Eintracht Braunschweig",
           "homeTeam": "B04",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "1:1",
           "date": "29.03.2014",
           "time": "15:30"
@@ -15339,7 +15313,7 @@
           "id": "md29-08",
           "home": "Eintracht Braunschweig",
           "away": "Hannover 96",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "H96",
           "result": "3:0",
           "date": "06.04.2014",
@@ -15821,7 +15795,7 @@
           "home": "SC Freiburg",
           "away": "Eintracht Braunschweig",
           "homeTeam": "SCF",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "2:0",
           "date": "12.04.2014",
           "time": "15:30"
@@ -16381,7 +16355,7 @@
           "id": "md31-06",
           "home": "Eintracht Braunschweig",
           "away": "FC Bayern München",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "FCB",
           "result": "0:2",
           "date": "19.04.2014",
@@ -16883,7 +16857,7 @@
           "home": "Hertha BSC",
           "away": "Eintracht Braunschweig",
           "homeTeam": "BSC",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "2:0",
           "date": "26.04.2014",
           "time": "15:30"
@@ -17443,7 +17417,7 @@
           "id": "md33-06",
           "home": "Eintracht Braunschweig",
           "away": "FC Augsburg",
-          "homeTeam": "BTSV",
+          "homeTeam": "EIB",
           "awayTeam": "FCA",
           "result": "0:1",
           "date": "03.05.2014",
@@ -17985,7 +17959,7 @@
           "home": "TSG 1899 Hoffenheim",
           "away": "Eintracht Braunschweig",
           "homeTeam": "TSG",
-          "awayTeam": "BTSV",
+          "awayTeam": "EIB",
           "result": "3:1",
           "date": "10.05.2014",
           "time": "15:30"

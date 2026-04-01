@@ -8,8 +8,8 @@
       "id": "md04-01",
       "home": "Eintracht Frankfurt",
       "away": "Borussia Dortmund",
-      "homeCode": "SGE",
-      "awayCode": "BVB",
+      "homeTeam": "SGE",
+      "awayTeam": "BVB",
       "result": "0:1",
       "time": ""
     },
@@ -17,8 +17,8 @@
       "id": "md04-02",
       "home": "TSG 1899 Hoffenheim",
       "away": "VfL Wolfsburg",
-      "homeCode": "TSG",
-      "awayCode": "WOB",
+      "homeTeam": "TSG",
+      "awayTeam": "WOB",
       "result": "2:3",
       "time": ""
     },
@@ -26,8 +26,8 @@
       "id": "md04-03",
       "home": "Bayer 04 Leverkusen",
       "away": "1. FC Kaiserslautern",
-      "homeCode": "B04",
-      "awayCode": "FCK",
+      "homeTeam": "B04",
+      "awayTeam": "FCK",
       "result": "0:1",
       "time": ""
     },
@@ -35,8 +35,8 @@
       "id": "md04-04",
       "home": "Hamburger SV",
       "away": "FC Bayern München",
-      "homeCode": "HSV",
-      "awayCode": "FCB",
+      "homeTeam": "HSV",
+      "awayTeam": "FCB",
       "result": "0:5",
       "time": ""
     }
