@@ -1,0 +1,16 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SSV Jahn Regensburg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M100 12 L168 34 L160 118 Q156 152 100 188 Q44 152 40 118 L32 34 Z" fill="#c91f25" stroke="#ffffff" stroke-width="4" />
+    <g opacity=".12"><path d="M100 28 L154 46 L148 112 Q144 138 100 170 Q56 138 52 112 L46 46 Z" fill="#ffffff" /></g>
+    <path d="M100 28 L154 46 L148 112 Q144 138 100 170 Q56 138 52 112 L46 46 Z" fill="none" opacity=".9" stroke="#ffffff" stroke-width="7" />
+  </g>
+  <text x="100" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#ffffff" letter-spacing=".7">SSV JAHN</text>
+  <text x="100" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#ffffff" letter-spacing=".6">REGENSBURG</text>
+  <path d="M74 80 H126 V96 H106 V132 H94 V96 H74 Z" fill="#ffffff"/>
+  <text x="100" y="152" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#ffffff" letter-spacing="1.5">SSV</text>
+</svg>

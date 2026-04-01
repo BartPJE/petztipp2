@@ -1,0 +1,16 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sportfreunde Bamberg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M100 14 L174 100 L100 186 L26 100 Z" fill="#1f4ea3" stroke="#ffffff" stroke-width="4" />
+    <g opacity=".12"><path d="M100 32 L156 100 L100 168 L44 100 Z" fill="#f0c419" /></g>
+    <path d="M100 40 L150 100 L100 160 L50 100 Z" fill="none" stroke="#f0c419" stroke-width="7" opacity=".9"/>
+  </g>
+  <text x="100" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#ffffff" letter-spacing=".7">SPORTFREUNDE</text>
+  <text x="100" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#ffffff" letter-spacing=".6">BAMBERG</text>
+  <circle cx="100" cy="100" r="34" fill="none" stroke="#f0c419" stroke-width="6"/>
+  <text x="100" y="152" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#ffffff" letter-spacing="1.5">SFB</text>
+</svg>
