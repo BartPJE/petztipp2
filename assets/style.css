@@ -413,6 +413,21 @@ small,
   font-weight: 700;
 }
 
+.table .sort-btn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.table .sort-btn:hover {
+  color: var(--text);
+}
+
 .row:hover td {
   background: rgba(255,255,255,0.02);
 }
