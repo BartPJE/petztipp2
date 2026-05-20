@@ -1,0 +1,89 @@
+{
+  "id": "tip-dfb-pokal-15-16",
+  "title": "DFB Pokal 2015/2016",
+  "competition": "DFB Pokal",
+  "season": "2015/2016",
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "07.08.2015 - 10.08.2015",
+      "no": 1,
+      "file": "data/games/game_tip-dfb-pokal-15-16/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "27.10.2015 - 28.10.2015",
+      "no": 2,
+      "file": "data/games/game_tip-dfb-pokal-15-16/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "15.12.2015 - 16.12.2015",
+      "no": 3,
+      "file": "data/games/game_tip-dfb-pokal-15-16/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "09.02.2016 - 10.02.2016",
+      "no": 4,
+      "file": "data/games/game_tip-dfb-pokal-15-16/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "19.04.2016 - 20.04.2016",
+      "no": 5,
+      "file": "data/games/game_tip-dfb-pokal-15-16/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "21.05.2016 - 21.05.2016",
+      "no": 6,
+      "file": "data/games/game_tip-dfb-pokal-15-16/matchdays/md06.json"
+    }
+  ],
+  "bonusTips": {
+    "picks": [
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Halbfinale": "Wolf",
+          "Sieger": "FCB",
+          "None": 12
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Halbfinale": "Wolf",
+          "Sieger": "FCB",
+          "None": 12
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Halbfinale": "Wolf",
+          "Sieger": "FCB",
+          "None": 12
+        }
+      },
+      {
+        "player": "richtig",
+        "name": "RICHTIG",
+        "predictions": {
+          "Halbfinale": "SVW",
+          "Sieger": "FCB"
+        }
+      }
+    ]
+  }
+}

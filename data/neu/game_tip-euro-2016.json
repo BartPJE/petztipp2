@@ -14,8 +14,8 @@
           "id": "md01-01",
           "home": "Frankreich",
           "away": "Rumänien",
-          "homeCode": "FRA",
-          "awayCode": "ROM",
+          "homeTeam": "FRA",
+          "awayTeam": "ROM",
           "result": "2:1",
           "date": "10.06.2016"
         },
@@ -23,8 +23,8 @@
           "id": "md01-02",
           "home": "Albanien",
           "away": "Schweiz",
-          "homeCode": "ALB",
-          "awayCode": "SUI",
+          "homeTeam": "ALB",
+          "awayTeam": "SUI",
           "result": "0:1",
           "date": "11.06.2016"
         },
@@ -32,8 +32,8 @@
           "id": "md01-03",
           "home": "Wales",
           "away": "Slowakei",
-          "homeCode": "WAL",
-          "awayCode": "SVK",
+          "homeTeam": "WAL",
+          "awayTeam": "SVK",
           "result": "2:1",
           "date": "11.06.2016"
         },
@@ -41,8 +41,8 @@
           "id": "md01-04",
           "home": "England",
           "away": "Russland",
-          "homeCode": "ENG",
-          "awayCode": "RUS",
+          "homeTeam": "ENG",
+          "awayTeam": "RUS",
           "result": "1:1",
           "date": "11.06.2016"
         },
@@ -50,8 +50,8 @@
           "id": "md01-05",
           "home": "Türkei",
           "away": "Kroatien",
-          "homeCode": "TUR",
-          "awayCode": "CRO",
+          "homeTeam": "TUR",
+          "awayTeam": "CRO",
           "result": "0:1",
           "date": "12.06.2016"
         },
@@ -59,8 +59,8 @@
           "id": "md01-06",
           "home": "Polen",
           "away": "Nordirland",
-          "homeCode": "POL",
-          "awayCode": "NIR",
+          "homeTeam": "POL",
+          "awayTeam": "NIR",
           "result": "1:0",
           "date": "12.06.2016"
         },
@@ -68,8 +68,8 @@
           "id": "md01-07",
           "home": "Deutschland",
           "away": "Ukraine",
-          "homeCode": "GER",
-          "awayCode": "UKR",
+          "homeTeam": "GER",
+          "awayTeam": "UKR",
           "result": "2:0",
           "date": "12.06.2016"
         },
@@ -77,16 +77,16 @@
           "id": "md01-08",
           "home": "Erg72",
           "away": "Erg73",
-          "homeCode": "ERG7",
-          "awayCode": "ERG7",
+          "homeTeam": "ERG7",
+          "awayTeam": "ERG7",
           "result": null
         },
         {
           "id": "md01-09",
           "home": "Erg82",
           "away": "Erg83",
-          "homeCode": "ERG8",
-          "awayCode": "ERG8",
+          "homeTeam": "ERG8",
+          "awayTeam": "ERG8",
           "result": null
         }
       ],
@@ -534,8 +534,8 @@
           "id": "md02-01",
           "home": "Spanien",
           "away": "Tschechien",
-          "homeCode": "ESP",
-          "awayCode": "CZE",
+          "homeTeam": "ESP",
+          "awayTeam": "CZE",
           "result": "1:0",
           "date": "13.06.2016"
         },
@@ -543,8 +543,8 @@
           "id": "md02-02",
           "home": "Irland",
           "away": "Schweden",
-          "homeCode": "IRL",
-          "awayCode": "SWE",
+          "homeTeam": "IRL",
+          "awayTeam": "SWE",
           "result": "1:1",
           "date": "13.06.2016"
         },
@@ -552,8 +552,8 @@
           "id": "md02-03",
           "home": "Belgien",
           "away": "Italien",
-          "homeCode": "BEL",
-          "awayCode": "ITA",
+          "homeTeam": "BEL",
+          "awayTeam": "ITA",
           "result": "0:2",
           "date": "13.06.2016"
         },
@@ -561,8 +561,8 @@
           "id": "md02-04",
           "home": "Österreich",
           "away": "Ungarn",
-          "homeCode": "AUT",
-          "awayCode": "HUN",
+          "homeTeam": "AUT",
+          "awayTeam": "HUN",
           "result": "0:2",
           "date": "14.06.2016"
         },
@@ -570,8 +570,8 @@
           "id": "md02-05",
           "home": "Portugal",
           "away": "Island",
-          "homeCode": "POR",
-          "awayCode": "ISL",
+          "homeTeam": "POR",
+          "awayTeam": "ISL",
           "result": "1:1",
           "date": "14.06.2016"
         },
@@ -579,8 +579,8 @@
           "id": "md02-06",
           "home": "Russland",
           "away": "Slowakei",
-          "homeCode": "RUS",
-          "awayCode": "SVK",
+          "homeTeam": "RUS",
+          "awayTeam": "SVK",
           "result": "1:2",
           "date": "15.06.2016"
         },
@@ -588,8 +588,8 @@
           "id": "md02-07",
           "home": "Rumänien",
           "away": "Schweiz",
-          "homeCode": "ROM",
-          "awayCode": "SUI",
+          "homeTeam": "ROM",
+          "awayTeam": "SUI",
           "result": "1:1",
           "date": "15.06.2016"
         },
@@ -597,8 +597,8 @@
           "id": "md02-08",
           "home": "Frankreich",
           "away": "Albanien",
-          "homeCode": "FRA",
-          "awayCode": "ALB",
+          "homeTeam": "FRA",
+          "awayTeam": "ALB",
           "result": "2:0",
           "date": "15.06.2016"
         },
@@ -606,8 +606,8 @@
           "id": "md02-09",
           "home": "Erg82",
           "away": "Erg83",
-          "homeCode": "ERG8",
-          "awayCode": "ERG8",
+          "homeTeam": "ERG8",
+          "awayTeam": "ERG8",
           "result": null
         }
       ],
@@ -1055,8 +1055,8 @@
           "id": "md03-01",
           "home": "England",
           "away": "Wales",
-          "homeCode": "ENG",
-          "awayCode": "WAL",
+          "homeTeam": "ENG",
+          "awayTeam": "WAL",
           "result": "2:1",
           "date": "16.06.2016"
         },
@@ -1064,8 +1064,8 @@
           "id": "md03-02",
           "home": "Ukraine",
           "away": "Nordirland",
-          "homeCode": "UKR",
-          "awayCode": "NIR",
+          "homeTeam": "UKR",
+          "awayTeam": "NIR",
           "result": "0:2",
           "date": "16.06.2016"
         },
@@ -1073,8 +1073,8 @@
           "id": "md03-03",
           "home": "Deutschland",
           "away": "Polen",
-          "homeCode": "GER",
-          "awayCode": "POL",
+          "homeTeam": "GER",
+          "awayTeam": "POL",
           "result": "0:0",
           "date": "16.06.2016"
         },
@@ -1082,8 +1082,8 @@
           "id": "md03-04",
           "home": "Italien",
           "away": "Schweden",
-          "homeCode": "ITA",
-          "awayCode": "SWE",
+          "homeTeam": "ITA",
+          "awayTeam": "SWE",
           "result": "1:0",
           "date": "17.06.2016"
         },
@@ -1091,8 +1091,8 @@
           "id": "md03-05",
           "home": "Tschechien",
           "away": "Kroatien",
-          "homeCode": "CZE",
-          "awayCode": "CRO",
+          "homeTeam": "CZE",
+          "awayTeam": "CRO",
           "result": "2:2",
           "date": "17.06.2016"
         },
@@ -1100,8 +1100,8 @@
           "id": "md03-06",
           "home": "Spanien",
           "away": "Türkei",
-          "homeCode": "ESP",
-          "awayCode": "TUR",
+          "homeTeam": "ESP",
+          "awayTeam": "TUR",
           "result": "3:0",
           "date": "17.06.2016"
         },
@@ -1109,24 +1109,24 @@
           "id": "md03-07",
           "home": "Erg62",
           "away": "Erg63",
-          "homeCode": "ERG6",
-          "awayCode": "ERG6",
+          "homeTeam": "ERG6",
+          "awayTeam": "ERG6",
           "result": null
         },
         {
           "id": "md03-08",
           "home": "Erg72",
           "away": "Erg73",
-          "homeCode": "ERG7",
-          "awayCode": "ERG7",
+          "homeTeam": "ERG7",
+          "awayTeam": "ERG7",
           "result": null
         },
         {
           "id": "md03-09",
           "home": "Erg82",
           "away": "Erg83",
-          "homeCode": "ERG8",
-          "awayCode": "ERG8",
+          "homeTeam": "ERG8",
+          "awayTeam": "ERG8",
           "result": null
         }
       ],
@@ -1574,8 +1574,8 @@
           "id": "md04-01",
           "home": "Belgien",
           "away": "Irland",
-          "homeCode": "BEL",
-          "awayCode": "IRL",
+          "homeTeam": "BEL",
+          "awayTeam": "IRL",
           "result": "3:0",
           "date": "18.06.2016"
         },
@@ -1583,8 +1583,8 @@
           "id": "md04-02",
           "home": "Island",
           "away": "Ungarn",
-          "homeCode": "ISL",
-          "awayCode": "HUN",
+          "homeTeam": "ISL",
+          "awayTeam": "HUN",
           "result": "1:1",
           "date": "18.06.2016"
         },
@@ -1592,8 +1592,8 @@
           "id": "md04-03",
           "home": "Portugal",
           "away": "Österreich",
-          "homeCode": "POR",
-          "awayCode": "AUT",
+          "homeTeam": "POR",
+          "awayTeam": "AUT",
           "result": "0:0",
           "date": "18.06.2016"
         },
@@ -1601,8 +1601,8 @@
           "id": "md04-04",
           "home": "Schweiz",
           "away": "Frankreich",
-          "homeCode": "SUI",
-          "awayCode": "FRA",
+          "homeTeam": "SUI",
+          "awayTeam": "FRA",
           "result": "0:0",
           "date": "19.06.2016"
         },
@@ -1610,8 +1610,8 @@
           "id": "md04-05",
           "home": "Rumänien",
           "away": "Albanien",
-          "homeCode": "ROM",
-          "awayCode": "ALB",
+          "homeTeam": "ROM",
+          "awayTeam": "ALB",
           "result": "0:1",
           "date": "19.06.2016"
         },
@@ -1619,8 +1619,8 @@
           "id": "md04-06",
           "home": "Slowakei",
           "away": "England",
-          "homeCode": "SVK",
-          "awayCode": "ENG",
+          "homeTeam": "SVK",
+          "awayTeam": "ENG",
           "result": "0:0",
           "date": "20.06.2016"
         },
@@ -1628,8 +1628,8 @@
           "id": "md04-07",
           "home": "Russland",
           "away": "Wales",
-          "homeCode": "RUS",
-          "awayCode": "WAL",
+          "homeTeam": "RUS",
+          "awayTeam": "WAL",
           "result": "0:3",
           "date": "20.06.2016"
         },
@@ -1637,16 +1637,16 @@
           "id": "md04-08",
           "home": "Erg72",
           "away": "Erg73",
-          "homeCode": "ERG7",
-          "awayCode": "ERG7",
+          "homeTeam": "ERG7",
+          "awayTeam": "ERG7",
           "result": null
         },
         {
           "id": "md04-09",
           "home": "Erg82",
           "away": "Erg83",
-          "homeCode": "ERG8",
-          "awayCode": "ERG8",
+          "homeTeam": "ERG8",
+          "awayTeam": "ERG8",
           "result": null
         }
       ],
@@ -2094,8 +2094,8 @@
           "id": "md05-01",
           "home": "Ukraine",
           "away": "Polen",
-          "homeCode": "UKR",
-          "awayCode": "POL",
+          "homeTeam": "UKR",
+          "awayTeam": "POL",
           "result": "0:1",
           "date": "21.06.2016"
         },
@@ -2103,8 +2103,8 @@
           "id": "md05-02",
           "home": "Nordirland",
           "away": "Deutschland",
-          "homeCode": "NIR",
-          "awayCode": "GER",
+          "homeTeam": "NIR",
+          "awayTeam": "GER",
           "result": "0:1",
           "date": "21.06.2016"
         },
@@ -2112,8 +2112,8 @@
           "id": "md05-03",
           "home": "Kroatien",
           "away": "Spanien",
-          "homeCode": "CRO",
-          "awayCode": "ESP",
+          "homeTeam": "CRO",
+          "awayTeam": "ESP",
           "result": "2:1",
           "date": "21.06.2016"
         },
@@ -2121,8 +2121,8 @@
           "id": "md05-04",
           "home": "Tschechien",
           "away": "Türkei",
-          "homeCode": "CZE",
-          "awayCode": "TUR",
+          "homeTeam": "CZE",
+          "awayTeam": "TUR",
           "result": "0:2",
           "date": "21.06.2016"
         },
@@ -2130,8 +2130,8 @@
           "id": "md05-05",
           "home": "Ungarn",
           "away": "Portugal",
-          "homeCode": "HUN",
-          "awayCode": "POR",
+          "homeTeam": "HUN",
+          "awayTeam": "POR",
           "result": "3:3",
           "date": "22.06.2016"
         },
@@ -2139,8 +2139,8 @@
           "id": "md05-06",
           "home": "Island",
           "away": "Österreich",
-          "homeCode": "ISL",
-          "awayCode": "AUT",
+          "homeTeam": "ISL",
+          "awayTeam": "AUT",
           "result": "2:1",
           "date": "22.06.2016"
         },
@@ -2148,8 +2148,8 @@
           "id": "md05-07",
           "home": "Italien",
           "away": "Irland",
-          "homeCode": "ITA",
-          "awayCode": "IRL",
+          "homeTeam": "ITA",
+          "awayTeam": "IRL",
           "result": "0:1",
           "date": "22.06.2016"
         },
@@ -2157,8 +2157,8 @@
           "id": "md05-08",
           "home": "Schweden",
           "away": "Belgien",
-          "homeCode": "SWE",
-          "awayCode": "BEL",
+          "homeTeam": "SWE",
+          "awayTeam": "BEL",
           "result": "0:1",
           "date": "22.06.2016"
         },
@@ -2166,8 +2166,8 @@
           "id": "md05-09",
           "home": "Erg82",
           "away": "Erg83",
-          "homeCode": "ERG8",
-          "awayCode": "ERG8",
+          "homeTeam": "ERG8",
+          "awayTeam": "ERG8",
           "result": null
         }
       ],
@@ -2615,8 +2615,8 @@
           "id": "md06-01",
           "home": "Schweiz",
           "away": "Polen",
-          "homeCode": "SUI",
-          "awayCode": "POL",
+          "homeTeam": "SUI",
+          "awayTeam": "POL",
           "result": "5:6",
           "date": "25.06.2016"
         },
@@ -2624,8 +2624,8 @@
           "id": "md06-02",
           "home": "Wales",
           "away": "Nordirland",
-          "homeCode": "WAL",
-          "awayCode": "NIR",
+          "homeTeam": "WAL",
+          "awayTeam": "NIR",
           "result": "1:0",
           "date": "25.06.2016"
         },
@@ -2633,8 +2633,8 @@
           "id": "md06-03",
           "home": "Kroatien",
           "away": "Portugal",
-          "homeCode": "CRO",
-          "awayCode": "POR",
+          "homeTeam": "CRO",
+          "awayTeam": "POR",
           "result": "0:1",
           "date": "25.06.2016"
         },
@@ -2642,8 +2642,8 @@
           "id": "md06-04",
           "home": "Frankreich",
           "away": "Irland",
-          "homeCode": "FRA",
-          "awayCode": "IRL",
+          "homeTeam": "FRA",
+          "awayTeam": "IRL",
           "result": "2:1",
           "date": "26.06.2016"
         },
@@ -2651,8 +2651,8 @@
           "id": "md06-05",
           "home": "Deutschland",
           "away": "Slowakei",
-          "homeCode": "GER",
-          "awayCode": "SVK",
+          "homeTeam": "GER",
+          "awayTeam": "SVK",
           "result": "3:0",
           "date": "26.06.2016"
         },
@@ -2660,8 +2660,8 @@
           "id": "md06-06",
           "home": "Ungarn",
           "away": "Belgien",
-          "homeCode": "HUN",
-          "awayCode": "BEL",
+          "homeTeam": "HUN",
+          "awayTeam": "BEL",
           "result": "0:4",
           "date": "26.06.2016"
         },
@@ -2669,8 +2669,8 @@
           "id": "md06-07",
           "home": "Italien",
           "away": "Spanien",
-          "homeCode": "ITA",
-          "awayCode": "ESP",
+          "homeTeam": "ITA",
+          "awayTeam": "ESP",
           "result": "2:0",
           "date": "27.06.2016"
         },
@@ -2678,8 +2678,8 @@
           "id": "md06-08",
           "home": "England",
           "away": "Island",
-          "homeCode": "ENG",
-          "awayCode": "ISL",
+          "homeTeam": "ENG",
+          "awayTeam": "ISL",
           "result": "1:2",
           "date": "27.06.2016"
         },
@@ -2687,8 +2687,8 @@
           "id": "md06-09",
           "home": "Erg82",
           "away": "Erg83",
-          "homeCode": "ERG8",
-          "awayCode": "ERG8",
+          "homeTeam": "ERG8",
+          "awayTeam": "ERG8",
           "result": null
         }
       ],
@@ -3136,8 +3136,8 @@
           "id": "md07-01",
           "home": "Polen",
           "away": "Portugal",
-          "homeCode": "POL",
-          "awayCode": "POR",
+          "homeTeam": "POL",
+          "awayTeam": "POR",
           "result": "4:6",
           "date": "30.06.2016"
         },
@@ -3145,8 +3145,8 @@
           "id": "md07-02",
           "home": "Wales",
           "away": "Belgien",
-          "homeCode": "WAL",
-          "awayCode": "BEL",
+          "homeTeam": "WAL",
+          "awayTeam": "BEL",
           "result": "3:1",
           "date": "01.07.2016"
         },
@@ -3154,8 +3154,8 @@
           "id": "md07-03",
           "home": "Deutschland",
           "away": "Italien",
-          "homeCode": "GER",
-          "awayCode": "ITA",
+          "homeTeam": "GER",
+          "awayTeam": "ITA",
           "result": "7:6",
           "date": "02.07.2016"
         },
@@ -3163,8 +3163,8 @@
           "id": "md07-04",
           "home": "Frankreich",
           "away": "Island",
-          "homeCode": "FRA",
-          "awayCode": "ISL",
+          "homeTeam": "FRA",
+          "awayTeam": "ISL",
           "result": "5:2",
           "date": "03.07.2016"
         },
@@ -3172,40 +3172,40 @@
           "id": "md07-05",
           "home": "Erg42",
           "away": "Erg43",
-          "homeCode": "ERG4",
-          "awayCode": "ERG4",
+          "homeTeam": "ERG4",
+          "awayTeam": "ERG4",
           "result": null
         },
         {
           "id": "md07-06",
           "home": "Erg52",
           "away": "Erg53",
-          "homeCode": "ERG5",
-          "awayCode": "ERG5",
+          "homeTeam": "ERG5",
+          "awayTeam": "ERG5",
           "result": null
         },
         {
           "id": "md07-07",
           "home": "Erg62",
           "away": "Erg63",
-          "homeCode": "ERG6",
-          "awayCode": "ERG6",
+          "homeTeam": "ERG6",
+          "awayTeam": "ERG6",
           "result": null
         },
         {
           "id": "md07-08",
           "home": "Erg72",
           "away": "Erg73",
-          "homeCode": "ERG7",
-          "awayCode": "ERG7",
+          "homeTeam": "ERG7",
+          "awayTeam": "ERG7",
           "result": null
         },
         {
           "id": "md07-09",
           "home": "Erg82",
           "away": "Erg83",
-          "homeCode": "ERG8",
-          "awayCode": "ERG8",
+          "homeTeam": "ERG8",
+          "awayTeam": "ERG8",
           "result": null
         }
       ],
@@ -3653,8 +3653,8 @@
           "id": "md08-01",
           "home": "Portugal",
           "away": "Wales",
-          "homeCode": "POR",
-          "awayCode": "WAL",
+          "homeTeam": "POR",
+          "awayTeam": "WAL",
           "result": "2:0",
           "date": "06.07.2016"
         },
@@ -3662,8 +3662,8 @@
           "id": "md08-02",
           "home": "Deutschland",
           "away": "Frankreich",
-          "homeCode": "GER",
-          "awayCode": "FRA",
+          "homeTeam": "GER",
+          "awayTeam": "FRA",
           "result": "0:2",
           "date": "07.07.2016"
         },
@@ -3671,56 +3671,56 @@
           "id": "md08-03",
           "home": "Erg22",
           "away": "Erg23",
-          "homeCode": "ERG2",
-          "awayCode": "ERG2",
+          "homeTeam": "ERG2",
+          "awayTeam": "ERG2",
           "result": null
         },
         {
           "id": "md08-04",
           "home": "Erg32",
           "away": "Erg33",
-          "homeCode": "ERG3",
-          "awayCode": "ERG3",
+          "homeTeam": "ERG3",
+          "awayTeam": "ERG3",
           "result": null
         },
         {
           "id": "md08-05",
           "home": "Erg42",
           "away": "Erg43",
-          "homeCode": "ERG4",
-          "awayCode": "ERG4",
+          "homeTeam": "ERG4",
+          "awayTeam": "ERG4",
           "result": null
         },
         {
           "id": "md08-06",
           "home": "Erg52",
           "away": "Erg53",
-          "homeCode": "ERG5",
-          "awayCode": "ERG5",
+          "homeTeam": "ERG5",
+          "awayTeam": "ERG5",
           "result": null
         },
         {
           "id": "md08-07",
           "home": "Erg62",
           "away": "Erg63",
-          "homeCode": "ERG6",
-          "awayCode": "ERG6",
+          "homeTeam": "ERG6",
+          "awayTeam": "ERG6",
           "result": null
         },
         {
           "id": "md08-08",
           "home": "Erg72",
           "away": "Erg73",
-          "homeCode": "ERG7",
-          "awayCode": "ERG7",
+          "homeTeam": "ERG7",
+          "awayTeam": "ERG7",
           "result": null
         },
         {
           "id": "md08-09",
           "home": "Erg82",
           "away": "Erg83",
-          "homeCode": "ERG8",
-          "awayCode": "ERG8",
+          "homeTeam": "ERG8",
+          "awayTeam": "ERG8",
           "result": null
         }
       ],
@@ -4168,8 +4168,8 @@
           "id": "md09-01",
           "home": "Portugal",
           "away": "Frankreich",
-          "homeCode": "POR",
-          "awayCode": "FRA",
+          "homeTeam": "POR",
+          "awayTeam": "FRA",
           "result": "1:0",
           "date": "10.07.2016"
         },
@@ -4177,64 +4177,64 @@
           "id": "md09-02",
           "home": "Spalte3",
           "away": "Spalte4",
-          "homeCode": "SPAL",
-          "awayCode": "SPAL",
+          "homeTeam": "SPAL",
+          "awayTeam": "SPAL",
           "result": null
         },
         {
           "id": "md09-03",
           "home": "Erg22",
           "away": "Erg23",
-          "homeCode": "ERG2",
-          "awayCode": "ERG2",
+          "homeTeam": "ERG2",
+          "awayTeam": "ERG2",
           "result": null
         },
         {
           "id": "md09-04",
           "home": "Erg32",
           "away": "Erg33",
-          "homeCode": "ERG3",
-          "awayCode": "ERG3",
+          "homeTeam": "ERG3",
+          "awayTeam": "ERG3",
           "result": null
         },
         {
           "id": "md09-05",
           "home": "Erg42",
           "away": "Erg43",
-          "homeCode": "ERG4",
-          "awayCode": "ERG4",
+          "homeTeam": "ERG4",
+          "awayTeam": "ERG4",
           "result": null
         },
         {
           "id": "md09-06",
           "home": "Erg52",
           "away": "Erg53",
-          "homeCode": "ERG5",
-          "awayCode": "ERG5",
+          "homeTeam": "ERG5",
+          "awayTeam": "ERG5",
           "result": null
         },
         {
           "id": "md09-07",
           "home": "Erg62",
           "away": "Erg63",
-          "homeCode": "ERG6",
-          "awayCode": "ERG6",
+          "homeTeam": "ERG6",
+          "awayTeam": "ERG6",
           "result": null
         },
         {
           "id": "md09-08",
           "home": "Erg72",
           "away": "Erg73",
-          "homeCode": "ERG7",
-          "awayCode": "ERG7",
+          "homeTeam": "ERG7",
+          "awayTeam": "ERG7",
           "result": null
         },
         {
           "id": "md09-09",
           "home": "Erg82",
           "away": "Erg83",
-          "homeCode": "ERG8",
-          "awayCode": "ERG8",
+          "homeTeam": "ERG8",
+          "awayTeam": "ERG8",
           "result": null
         }
       ],
@@ -4681,7 +4681,7 @@
         "name": "Basti",
         "predictions": {
           "Torschütze": "ESP",
-          "Halbfinale": ["GER","ITA","POR","SWE"],
+          "Halbfinale": ["GER", "ITA", "POR", "SWE"],
           "Gruppe A": "FRA",
           "Gruppe B": "ENG",
           "Gruppe C": "GER",
@@ -4696,7 +4696,7 @@
         "name": "Johannes",
         "predictions": {
           "Torschütze": "GER",
-          "Halbfinale": ["GER","FRA","ITA","ESP"],
+          "Halbfinale": ["GER", "FRA", "ITA", "ESP"],
           "Gruppe A": "FRA",
           "Gruppe B": "ENG",
           "Gruppe C": "GER",
@@ -4711,7 +4711,7 @@
         "name": "Daniel",
         "predictions": {
           "Torschütze": "SWE",
-          "Halbfinale": ["GER","FRA","ITA","SWE"],
+          "Halbfinale": ["GER", "FRA", "ITA", "SWE"],
           "Gruppe A": "FRA",
           "Gruppe B": "RUS",
           "Gruppe C": "GER",
@@ -4726,7 +4726,7 @@
         "name": "Peter",
         "predictions": {
           "Torschütze": "GER",
-          "Halbfinale": ["GER","FRA","ENG","ESP"],
+          "Halbfinale": ["GER", "FRA", "ENG", "ESP"],
           "Gruppe A": "FRA",
           "Gruppe B": "ENG",
           "Gruppe C": "GER",
@@ -4741,7 +4741,7 @@
         "name": "Roman",
         "predictions": {
           "Torschütze": "ENG",
-          "Halbfinale": ["GER","FRA","ENG","ESP"],
+          "Halbfinale": ["GER", "FRA", "ENG", "ESP"],
           "Gruppe A": "FRA",
           "Gruppe B": "ENG",
           "Gruppe C": "GER",
@@ -4756,7 +4756,7 @@
         "name": "Alois",
         "predictions": {
           "Torschütze": "GER",
-          "Halbfinale": ["GER","FRA","ENG","ESP"],
+          "Halbfinale": ["GER", "FRA", "ENG", "ESP"],
           "Gruppe A": "FRA",
           "Gruppe B": "ENG",
           "Gruppe C": "GER",
@@ -4771,7 +4771,7 @@
         "name": "Markus",
         "predictions": {
           "Torschütze": "GER",
-          "Halbfinale": ["GER","FRA","BEL","ESP"],
+          "Halbfinale": ["GER", "FRA", "BEL", "ESP"],
           "Gruppe A": "FRA",
           "Gruppe B": "ENG",
           "Gruppe C": "GER",
@@ -4786,7 +4786,7 @@
         "name": "Peter M.",
         "predictions": {
           "Torschütze": "GER",
-          "Halbfinale": ["GER","FRA","ENG","ESP"],
+          "Halbfinale": ["GER", "FRA", "ENG", "ESP"],
           "Gruppe A": "FRA",
           "Gruppe B": "ENG",
           "Gruppe C": "GER",
@@ -4801,7 +4801,7 @@
         "name": "Andy",
         "predictions": {
           "Torschütze": "GER",
-          "Halbfinale": ["GER","FRA","BEL","ESP"],
+          "Halbfinale": ["GER", "FRA", "BEL", "ESP"],
           "Gruppe A": "FRA",
           "Gruppe B": "ENG",
           "Gruppe C": "GER",
@@ -4816,7 +4816,7 @@
         "name": "Huy",
         "predictions": {
           "Torschütze": "GER",
-          "Halbfinale": ["GER","FRA","POL","AUT"],
+          "Halbfinale": ["GER", "FRA", "POL", "AUT"],
           "Gruppe A": "FRA",
           "Gruppe B": "ENG",
           "Gruppe C": "GER",
@@ -4831,7 +4831,7 @@
         "name": "Franzi",
         "predictions": {
           "Torschütze": "POR",
-          "Halbfinale": ["GER","FRA","PRO","CRO"],
+          "Halbfinale": ["GER", "FRA", "PRO", "CRO"],
           "Gruppe A": null,
           "Gruppe B": null,
           "Gruppe C": null,
@@ -4846,12 +4846,7 @@
         "name": "Ergebnis",
         "predictions": {
           "Torschütze": "FRA",
-          "Halbfinale": [
-            "GER",
-            "FRA",
-            "POR",
-            "WAL"
-          ],
+          "Halbfinale": ["GER", "FRA", "POR", "WAL"],
           "Gruppe A": "FRA",
           "Gruppe B": "WAL",
           "Gruppe C": "GER",

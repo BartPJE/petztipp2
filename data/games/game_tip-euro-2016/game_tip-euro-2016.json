@@ -1,0 +1,271 @@
+{
+  "id": "tip-euro-2016",
+  "title": "Euro 2016 - Frankreich",
+  "competition": "Europameisterschaft",
+  "season": "2016",
+  "bonusTips": {
+    "questions": [],
+    "picks": [
+      {
+        "player": "basti",
+        "name": "Basti",
+        "predictions": {
+          "Torschütze": "ESP",
+          "Halbfinale": ["GER", "ITA", "POR", "SWE"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "ENG",
+          "Gruppe C": "GER",
+          "Gruppe D": "TUR",
+          "Gruppe E": "ITA",
+          "Gruppe F": "POR",
+          "Europameister": "GER"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschütze": "GER",
+          "Halbfinale": ["GER", "FRA", "ITA", "ESP"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "ENG",
+          "Gruppe C": "GER",
+          "Gruppe D": "ESP",
+          "Gruppe E": "ITA",
+          "Gruppe F": "POR",
+          "Europameister": "GER"
+        }
+      },
+      {
+        "player": "daniel",
+        "name": "Daniel",
+        "predictions": {
+          "Torschütze": "SWE",
+          "Halbfinale": ["GER", "FRA", "ITA", "SWE"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "RUS",
+          "Gruppe C": "GER",
+          "Gruppe D": "ESP",
+          "Gruppe E": "SWE",
+          "Gruppe F": "POR",
+          "Europameister": "SWE"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschütze": "GER",
+          "Halbfinale": ["GER", "FRA", "ENG", "ESP"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "ENG",
+          "Gruppe C": "GER",
+          "Gruppe D": "ESP",
+          "Gruppe E": "ITA",
+          "Gruppe F": "AUT",
+          "Europameister": "GER"
+        }
+      },
+      {
+        "player": "roman",
+        "name": "Roman",
+        "predictions": {
+          "Torschütze": "ENG",
+          "Halbfinale": ["GER", "FRA", "ENG", "ESP"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "ENG",
+          "Gruppe C": "GER",
+          "Gruppe D": "ESP",
+          "Gruppe E": "BEL",
+          "Gruppe F": "POR",
+          "Europameister": "GER"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Torschütze": "GER",
+          "Halbfinale": ["GER", "FRA", "ENG", "ESP"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "ENG",
+          "Gruppe C": "GER",
+          "Gruppe D": "ESP",
+          "Gruppe E": "BEL",
+          "Gruppe F": "POR",
+          "Europameister": "FRA"
+        }
+      },
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Torschütze": "GER",
+          "Halbfinale": ["GER", "FRA", "BEL", "ESP"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "ENG",
+          "Gruppe C": "GER",
+          "Gruppe D": "ESP",
+          "Gruppe E": "BEL",
+          "Gruppe F": "POR",
+          "Europameister": "GER"
+        }
+      },
+      {
+        "player": "peterm",
+        "name": "Peter M.",
+        "predictions": {
+          "Torschütze": "GER",
+          "Halbfinale": ["GER", "FRA", "ENG", "ESP"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "ENG",
+          "Gruppe C": "GER",
+          "Gruppe D": "ESP",
+          "Gruppe E": "BEL",
+          "Gruppe F": "AUT",
+          "Europameister": "FRA"
+        }
+      },
+      {
+        "player": "andy",
+        "name": "Andy",
+        "predictions": {
+          "Torschütze": "GER",
+          "Halbfinale": ["GER", "FRA", "BEL", "ESP"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "ENG",
+          "Gruppe C": "GER",
+          "Gruppe D": "ESP",
+          "Gruppe E": "BEL",
+          "Gruppe F": "POR",
+          "Europameister": "GER"
+        }
+      },
+      {
+        "player": "huy",
+        "name": "Huy",
+        "predictions": {
+          "Torschütze": "GER",
+          "Halbfinale": ["GER", "FRA", "POL", "AUT"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "ENG",
+          "Gruppe C": "GER",
+          "Gruppe D": "CZE",
+          "Gruppe E": "BEL",
+          "Gruppe F": "AUT",
+          "Europameister": "GER"
+        }
+      },
+      {
+        "player": "franzi",
+        "name": "Franzi",
+        "predictions": {
+          "Torschütze": "POR",
+          "Halbfinale": ["GER", "FRA", "POR", "CRO"],
+          "Gruppe A": null,
+          "Gruppe B": null,
+          "Gruppe C": null,
+          "Gruppe D": null,
+          "Gruppe E": null,
+          "Gruppe F": null,
+          "Europameister": null
+        }
+      },
+      {
+        "player": "result",
+        "name": "Ergebnis",
+        "predictions": {
+          "Torschütze": "FRA",
+          "Halbfinale": ["GER", "FRA", "POR", "WAL"],
+          "Gruppe A": "FRA",
+          "Gruppe B": "WAL",
+          "Gruppe C": "GER",
+          "Gruppe D": "CRO",
+          "Gruppe E": "ITA",
+          "Gruppe F": "HUN",
+          "Europameister": "POR"
+        }
+      },
+      {
+        "player": "points",
+        "name": "Punkte",
+        "predictions": {
+          "Torschütze": "3",
+          "Halbfinale": "3",
+          "Gruppe A": "3",
+          "Gruppe B": "3",
+          "Gruppe C": "3",
+          "Gruppe D": "3",
+          "Gruppe E": "3",
+          "Gruppe F": "3",
+          "Europameister": "3"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "10.06.2016 - 12.06.2016",
+      "no": 1,
+      "file": "data/games/game_tip-euro-2016/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "13.06.2016 - 15.06.2016",
+      "no": 2,
+      "file": "data/games/game_tip-euro-2016/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "16.06.2016 - 17.06.2016",
+      "no": 3,
+      "file": "data/games/game_tip-euro-2016/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "18.06.2016 - 20.06.2016",
+      "no": 4,
+      "file": "data/games/game_tip-euro-2016/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "21.06.2016 - 22.06.2016",
+      "no": 5,
+      "file": "data/games/game_tip-euro-2016/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "25.06.2016 - 27.06.2016",
+      "no": 6,
+      "file": "data/games/game_tip-euro-2016/matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "30.06.2016 - 03.07.2016",
+      "no": 7,
+      "file": "data/games/game_tip-euro-2016/matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "06.07.2016 - 07.07.2016",
+      "no": 8,
+      "file": "data/games/game_tip-euro-2016/matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "10.07.2016 - 10.07.2016",
+      "no": 9,
+      "file": "data/games/game_tip-euro-2016/matchdays/md09.json"
+    }
+  ]
+}

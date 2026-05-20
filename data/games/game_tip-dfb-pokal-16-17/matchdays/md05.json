@@ -1,0 +1,105 @@
+{
+  "id": "md05",
+  "label": "Spieltag 5",
+  "date": "",
+  "no": 5,
+  "matches": [
+    {
+      "id": "md05-01",
+      "home": "Borussia Mönchengladbach",
+      "away": "Eintracht Frankfurt",
+      "homeTeam": "BMG",
+      "awayTeam": "SGE",
+      "result": "7:8",
+      "time": ""
+    },
+    {
+      "id": "md05-02",
+      "home": "FC Bayern München",
+      "away": "Borussia Dortmund",
+      "homeTeam": "FCB",
+      "awayTeam": "BVB",
+      "result": "2:3",
+      "time": ""
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md05-01": "1:0",
+        "md05-02": "1:0"
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 133.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.8333333333333335
+    },
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md05-01": "2:1",
+        "md05-02": "3:1"
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 122.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.3333333333333333
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md05-01": "2:1",
+        "md05-02": "2:1"
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 133.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.8333333333333333
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 133.0,
+      "dayWinsTotal": 2.8333333333333335
+    },
+    {
+      "rank": 3,
+      "player": "alois",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 122.0,
+      "dayWinsTotal": 1.3333333333333333
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 133.0,
+      "dayWinsTotal": 0.8333333333333333
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "md10",
+  "label": "Spieltag 10",
+  "date": "15.04.2015",
+  "no": 10,
+  "matches": [
+    {
+      "id": "md10-01",
+      "home": "FCB",
+      "away": "FCP",
+      "homeTeam": "FCB",
+      "awayTeam": "FCP",
+      "result": "6:1",
+      "date": "15.04.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md10-02",
+      "home": "FC Barcelona (ESP)",
+      "away": "Paris Saint-Germain (FRA)",
+      "homeTeam": "BAR",
+      "awayTeam": "PSG",
+      "result": "2:0",
+      "date": "21.04.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md10-03",
+      "home": "Erg22",
+      "away": "Erg23",
+      "homeTeam": "RMA",
+      "awayTeam": "ATM",
+      "result": "1:0",
+      "date": "21.04.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md10-04",
+      "home": "Erg32",
+      "away": "Erg33",
+      "homeTeam": "MON",
+      "awayTeam": "JUV",
+      "result": "0:0",
+      "date": "22.04.2015",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 3,
+      "player": "peter",
+      "picks": {
+        "md10-01": "3:0",
+        "md10-02": "2:1",
+        "md10-03": "2:1",
+        "md10-04": "0:1"
+      },
+      "pickPoints": {
+        "md10-01": 2.0,
+        "md10-02": 2.0,
+        "md10-03": 3.0,
+        "md10-04": 0.0
+      },
+      "points": 7.0,
+      "bonus": 9.0,
+      "total": 204.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md10-01": "2:0",
+        "md10-02": "2:0",
+        "md10-03": "1:0",
+        "md10-04": "0:1"
+      },
+      "pickPoints": {
+        "md10-01": 2.0,
+        "md10-02": 4.0,
+        "md10-03": 4.0,
+        "md10-04": 0.0
+      },
+      "points": 10.0,
+      "bonus": 9.0,
+      "total": 196.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 3,
+      "player": "alois",
+      "picks": {
+        "md10-01": "2:1",
+        "md10-02": "2:1",
+        "md10-03": "2:1",
+        "md10-04": "1:2"
+      },
+      "pickPoints": {
+        "md10-01": 2.0,
+        "md10-02": 2.0,
+        "md10-03": 3.0,
+        "md10-04": 0.0
+      },
+      "points": 7.0,
+      "bonus": 9.0,
+      "total": 198.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "picks": {
+        "md10-01": "2:1",
+        "md10-02": "3:1",
+        "md10-03": "1:1",
+        "md10-04": "1:1"
+      },
+      "pickPoints": {
+        "md10-01": 2.0,
+        "md10-02": 3.0,
+        "md10-03": 0.0,
+        "md10-04": 3.0
+      },
+      "points": 8.0,
+      "bonus": 9.0,
+      "total": 195.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 7.0,
+      "bonus": 9.0,
+      "total": 204.0,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 10.0,
+      "bonus": 9.0,
+      "total": 196.0,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 2,
+      "player": "alois",
+      "points": 7.0,
+      "bonus": 9.0,
+      "total": 198.0,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 4,
+      "player": "thomas",
+      "points": 8.0,
+      "bonus": 9.0,
+      "total": 195.0,
+      "dayWinsTotal": 1.0
+    }
+  ]
+}

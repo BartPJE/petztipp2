@@ -1,0 +1,331 @@
+{
+  "id": "md02",
+  "label": "Spieltag 2",
+  "date": "30.09.2015",
+  "no": 2,
+  "matches": [
+    {
+      "id": "md02-01",
+      "home": "BATE Borisov",
+      "away": "AS Rom",
+      "homeTeam": "BAT",
+      "awayTeam": "ROM",
+      "result": "3:2",
+      "date": "30.09.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-02",
+      "home": "FC Barcelona",
+      "away": "Bayer 04 Leverkusen",
+      "homeTeam": "BAR",
+      "awayTeam": "B04",
+      "result": "2:1",
+      "date": "21.10.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-03",
+      "home": "FC Bayern München",
+      "away": "Dinamo Zagreb",
+      "homeTeam": "FCB",
+      "awayTeam": "DZA",
+      "result": "5:0",
+      "date": "21.10.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-04",
+      "home": "FC Arsenal",
+      "away": "Olympiakos Piräus",
+      "homeTeam": "ARS",
+      "awayTeam": "PIR",
+      "result": "2:3",
+      "date": "03.11.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-05",
+      "home": "Maccabi Tel Aviv",
+      "away": "Dynamo Kiew",
+      "homeTeam": "MTA",
+      "awayTeam": "DKY",
+      "result": "0:2",
+      "date": "03.11.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-06",
+      "home": "FC Porto",
+      "away": "FC Chelsea",
+      "homeTeam": "FCP",
+      "awayTeam": "CHE",
+      "result": "2:1",
+      "date": "25.11.2015",
+      "time": "18:00"
+    },
+    {
+      "id": "md02-07",
+      "home": "Zenit St. Petersburg",
+      "away": "Servette Genf",
+      "homeTeam": "ZEN",
+      "awayTeam": "GEN",
+      "result": "2:1",
+      "date": "25.11.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-08",
+      "home": "Olympique Lyon",
+      "away": "FC Valencia",
+      "homeTeam": "OLY",
+      "awayTeam": "VCF",
+      "result": "0:1",
+      "date": "08.12.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-09",
+      "home": "Asta",
+      "away": "Gala",
+      "homeTeam": "AST",
+      "awayTeam": "GAL",
+      "result": "2:2",
+      "date": "08.12.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-10",
+      "home": "Schachtar Donezk",
+      "away": "Paris Saint-Germain",
+      "homeTeam": "SHA",
+      "awayTeam": "PSG",
+      "result": "0:3",
+      "date": "15.09.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-11",
+      "home": "MaFF",
+      "away": "Real Madrid",
+      "homeTeam": "MALM",
+      "awayTeam": "RMA",
+      "result": "0:2",
+      "date": "15.09.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-12",
+      "home": "ZSKA Moskau",
+      "away": "PSV Eindhoven",
+      "homeTeam": "CSK",
+      "awayTeam": "PSV",
+      "result": "3:2",
+      "date": "30.09.2015",
+      "time": "18:00"
+    },
+    {
+      "id": "md02-13",
+      "home": "Manchester United",
+      "away": "VfL Wolfsburg",
+      "homeTeam": "MUN",
+      "awayTeam": "WOB",
+      "result": "2:1",
+      "date": "30.09.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-14",
+      "home": "Atlético Madrid",
+      "away": "Benfica Lissabon",
+      "homeTeam": "ATM",
+      "awayTeam": "BEN",
+      "result": "1:2",
+      "date": "21.10.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-15",
+      "home": "Borussia Mönchengladbach",
+      "away": "Manchester City",
+      "homeTeam": "BMG",
+      "awayTeam": "MCI",
+      "result": "1:2",
+      "date": "21.10.2015",
+      "time": "20:45"
+    },
+    {
+      "id": "md02-16",
+      "home": "Juventus Turin",
+      "away": "FC Sevilla",
+      "homeTeam": "JUV",
+      "awayTeam": "SEV",
+      "result": "2:0",
+      "date": "03.11.2015",
+      "time": "16:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md02-01": "0:2",
+        "md02-02": "3:0",
+        "md02-03": "3:0",
+        "md02-04": "2:1",
+        "md02-05": "0:2",
+        "md02-06": "1:2",
+        "md02-07": "2:1",
+        "md02-08": "2:1",
+        "md02-09": "1:2",
+        "md02-10": "0:2",
+        "md02-11": "0:5",
+        "md02-12": "2:1",
+        "md02-13": "2:1",
+        "md02-14": "2:1",
+        "md02-15": "0:3",
+        "md02-16": "2:1"
+      },
+      "pickPoints": {
+        "md02-01": 0.0,
+        "md02-02": 2.0,
+        "md02-03": 2.0,
+        "md02-04": 0.0,
+        "md02-05": 4.0,
+        "md02-06": 0.0,
+        "md02-07": 4.0,
+        "md02-08": 0.0,
+        "md02-09": 0.0,
+        "md02-10": 2.0,
+        "md02-11": 2.0,
+        "md02-12": 3.0,
+        "md02-13": 4.0,
+        "md02-14": 0.0,
+        "md02-15": 2.0,
+        "md02-16": 2.0
+      },
+      "points": 27.0,
+      "bonus": 0.0,
+      "total": 51.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md02-01": "1:2",
+        "md02-02": "2:1",
+        "md02-03": "2:1",
+        "md02-04": "2:1",
+        "md02-05": "1:2",
+        "md02-06": "1:2",
+        "md02-07": "2:1",
+        "md02-08": "1:2",
+        "md02-09": "1:2",
+        "md02-10": "1:2",
+        "md02-11": "0:2",
+        "md02-12": "1:2",
+        "md02-13": "2:1",
+        "md02-14": "2:1",
+        "md02-15": "0:2",
+        "md02-16": "2:1"
+      },
+      "pickPoints": {
+        "md02-01": 0.0,
+        "md02-02": 4.0,
+        "md02-03": 2.0,
+        "md02-04": 0.0,
+        "md02-05": 2.0,
+        "md02-06": 0.0,
+        "md02-07": 4.0,
+        "md02-08": 3.0,
+        "md02-09": 0.0,
+        "md02-10": 2.0,
+        "md02-11": 4.0,
+        "md02-12": 0.0,
+        "md02-13": 4.0,
+        "md02-14": 0.0,
+        "md02-15": 2.0,
+        "md02-16": 2.0
+      },
+      "points": 29.0,
+      "bonus": 0.0,
+      "total": 50.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "picks": {
+        "md02-01": "1:1",
+        "md02-02": "2:0",
+        "md02-03": "2:0",
+        "md02-04": "2:0",
+        "md02-05": "1:2",
+        "md02-06": "1:2",
+        "md02-07": "1:0",
+        "md02-08": "1:1",
+        "md02-09": "0:1",
+        "md02-10": "0:0",
+        "md02-11": "0:3",
+        "md02-12": "1:1",
+        "md02-13": "2:0",
+        "md02-14": "2:1",
+        "md02-15": "0:1",
+        "md02-16": "1:0"
+      },
+      "pickPoints": {
+        "md02-01": 0.0,
+        "md02-02": 2.0,
+        "md02-03": 2.0,
+        "md02-04": 0.0,
+        "md02-05": 2.0,
+        "md02-06": 0.0,
+        "md02-07": 3.0,
+        "md02-08": 0.0,
+        "md02-09": 0.0,
+        "md02-10": 0.0,
+        "md02-11": 2.0,
+        "md02-12": 0.0,
+        "md02-13": 2.0,
+        "md02-14": 0.0,
+        "md02-15": 3.0,
+        "md02-16": 2.0
+      },
+      "points": 18.0,
+      "bonus": 0.0,
+      "total": 46.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 27.0,
+      "bonus": 0.0,
+      "total": 51.0,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 2,
+      "player": "alois",
+      "points": 29.0,
+      "bonus": 0.0,
+      "total": 50.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 18.0,
+      "bonus": 0.0,
+      "total": 46.0,
+      "dayWinsTotal": 1.0
+    }
+  ]
+}

@@ -21,6 +21,78 @@
     "logo": "img/teams/fortuna-duesseldorf.svg"
   },
   {
+    "key": "DOF",
+    "name": "SF Dorfmerkingen",
+    "shortName": "Dorfmerkingen",
+    "mobileName": "Dorfmerkingen",
+    "country": "GER",
+    "displayName": "SF Dorfmerkingen",
+    "logo": "img/teams/sf-dorfmerkingen.svg"
+  },
+  {
+    "key": "ERN",
+    "name": "TuS Erndtebrück",
+    "shortName": "Erndtebrück",
+    "mobileName": "Erndtebrück",
+    "country": "GER",
+    "displayName": "TuS Erndtebrück",
+    "logo": "img/teams/tus-erndtebrueck.svg"
+  },
+  {
+    "key": "LEH",
+    "name": "Leher TS",
+    "shortName": "Leher TS",
+    "mobileName": "Leher TS",
+    "country": "GER",
+    "displayName": "Leher TS",
+    "logo": "img/teams/leher-ts.svg"
+  },
+  {
+    "key": "HAL",
+    "name": "Hallescher FC",
+    "shortName": "Hallescher FC",
+    "mobileName": "Hallescher FC",
+    "country": "GER",
+    "displayName": "Hallescher FC",
+    "logo": "img/teams/hallescher-fc.svg"
+  },
+  {
+    "key": "GEH",
+    "name": "Germania Halberstadt",
+    "shortName": "Germania Halberstadt",
+    "mobileName": "Germania Halberstadt",
+    "country": "GER",
+    "displayName": "Germania Halberstadt",
+    "logo": "img/teams/germania-halberstadt.svg"
+  },
+  {
+    "key": "LOT",
+    "name": "Sportfreunde Lotte",
+    "shortName": "Lotte",
+    "mobileName": "Lotte",
+    "country": "GER",
+    "displayName": "Sportfreunde Lotte",
+    "logo": "img/teams/sportfreunde-lotte.svg"
+  },
+  {
+    "key": "EGE",
+    "name": "1. FC Germania Egestorf/Langreder",
+    "shortName": "Germania Egestorf/Langreder",
+    "mobileName": "Germania Egestorf/Langreder",
+    "country": "GER",
+    "displayName": "1. FC Germania Egestorf/Langreder",
+    "logo": "img/teams/1-fc-germania-egestorf-langreder.svg"
+  },
+  {
+    "key": "MEP",
+    "name": "SV Meppen",
+    "shortName": "Meppen",
+    "mobileName": "Meppen",
+    "country": "GER",
+    "displayName": "SV Meppen",
+    "logo": "img/teams/sv-meppen.svg"
+  },
+  {
     "key": "EIB",
     "name": "Eintracht Braunschweig",
     "shortName": "Braunschweig",
@@ -102,6 +174,15 @@
     "logo": "img/teams/sv-sandhausen.svg"
   },
   {
+    "key": "HAU",
+    "name": "SC Hauenstein",
+    "shortName": "Hauenstein",
+    "mobileName": "Hauenstein",
+    "country": "GER",
+    "displayName": "SC Hauenstein",
+    "logo": "img/teams/sc-hauenstein.svg"
+  },
+  {
     "key": "NTT",
     "name": "FC Nöttingen",
     "shortName": "Nöttingen",
@@ -127,6 +208,15 @@
     "country": "GER",
     "displayName": "Preußen Münster",
     "logo": "img/teams/preussen-muenster.svg"
+  },
+  {
+    "key": "BFP",
+    "name": "BFC Preußen",
+    "shortName": "BFC Preußen",
+    "mobileName": "BFC Preußen",
+    "country": "GER",
+    "displayName": "BFC Preußen",
+    "logo": "img/teams/bfc-preussen.svg"
   },
   {
     "key": "BAM",
@@ -172,6 +262,15 @@
     "country": "GER",
     "displayName": "Bahlinger SC",
     "logo": "img/teams/bahlinger-sc.svg"
+  },
+  {
+    "key": "ENO",
+    "name": "Eintracht Norderstedt",
+    "shortName": "Eintracht Norderstedt",
+    "mobileName": "Eintracht Norderstedt",
+    "country": "GER",
+    "displayName": "Eintracht Norderstedt",
+    "logo": "img/teams/eintracht-norderstedt.svg"
   },
   {
     "key": "ROH",
@@ -444,6 +543,42 @@
     "logo": "img/teams/spvgg-greuther-fuerth.svg"
   },
   {
+    "key": "RAV",
+    "name": "FV Ravensburg",
+    "shortName": "Ravensburg",
+    "mobileName": "Ravensburg",
+    "country": "GER",
+    "displayName": "FV Ravensburg",
+    "logo": "img/teams/fv-ravensburg.svg"
+  },
+  {
+    "key": "KOB",
+    "name": "TuS Koblenz",
+    "shortName": "Koblenz",
+    "mobileName": "Koblenz",
+    "country": "GER",
+    "displayName": "TuS Koblenz",
+    "logo": "img/teams/tus-koblenz.svg"
+  },
+  {
+    "key": "FVI",
+    "name": "FV 08 Villingen",
+    "shortName": "Villingen",
+    "mobileName": "Villingen",
+    "country": "GER",
+    "displayName": "FV 08 Villingen",
+    "logo": "img/teams/fv-08-villingen.svg"
+  },
+  {
+    "key": "REU",
+    "name": "SSV Reutlingen 05",
+    "shortName": "Reutlingen",
+    "mobileName": "Reutlingen",
+    "country": "GER",
+    "displayName": "SSV Reutlingen 05",
+    "logo": "img/teams/ssv-reutlingen-05.svg"
+  },
+  {
     "key": "STP",
     "name": "FC St. Pauli",
     "shortName": "FC St. Pauli",
@@ -480,6 +615,51 @@
     "logo": "img/teams/dsc-arminia-bielefeld.svg"
   },
   {
+    "key": "ELV",
+    "name": "SV Elversberg",
+    "shortName": "Elversberg",
+    "mobileName": "Elversberg",
+    "country": "GER",
+    "displayName": "SV Elversberg",
+    "logo": "img/teams/sv-elversberg.svg"
+  },
+  {
+    "key": "BUH",
+    "name": "HSV Barmbeck-Uhlenhorst",
+    "shortName": "Barmbeck-Uhlenhorst",
+    "mobileName": "Barmbeck-Uhlenhorst",
+    "country": "GER",
+    "displayName": "HSV Barmbeck-Uhlenhorst",
+    "logo": "img/teams/hsv-barmbeck-uhlenhorst.svg"
+  },
+  {
+    "key": "BAB",
+    "name": "SV Babelsberg 03",
+    "shortName": "Babelsberg",
+    "mobileName": "Babelsberg",
+    "country": "GER",
+    "displayName": "SV Babelsberg 03",
+    "logo": "img/teams/sv-babelsberg-03.svg"
+  },
+  {
+    "key": "SAL",
+    "name": "FSV Salmrohr",
+    "shortName": "FSV Salmrohr",
+    "mobileName": "FSV Salmrohr",
+    "country": "GER",
+    "displayName": "FSV Salmrohr",
+    "logo": "img/teams/fsv-salmrohr.svg"
+  },
+  {
+    "key": "PIM",
+    "name": "FK Pirmasens",
+    "shortName": "FK Pirmasens",
+    "mobileName": "FK Pirmasens",
+    "country": "GER",
+    "displayName": "FK Pirmasens",
+    "logo": "img/teams/fk-pirmasens.svg"
+  },
+  {
     "key": "FCN",
     "name": "1. FC Nürnberg",
     "shortName": "1. FC Nürnberg",
@@ -496,6 +676,69 @@
     "country": "GER",
     "displayName": "Karlsruher SC",
     "logo": "img/teams/karlsruher-sc.svg"
+  },
+  {
+    "key": "UHA",
+    "name": "SpVgg Unterhaching",
+    "shortName": "Unterhaching",
+    "mobileName": "Unterhaching",
+    "country": "GER",
+    "displayName": "SpVgg Unterhaching",
+    "logo": "img/teams/spvgg-unterhaching.svg"
+  },
+  {
+    "key": "LUB",
+    "name": "VfB Lübeck",
+    "shortName": "VfB Lübeck",
+    "mobileName": "Lübeck",
+    "country": "GER",
+    "displayName": "VfB Lübeck",
+    "logo": "img/teams/vfb-luebeck.svg"
+  },
+  {
+    "key": "LUN",
+    "name": "Lüneburger SK Hansa",
+    "shortName": "Lüneburger SK Hansa",
+    "mobileName": "Lüneburg",
+    "country": "GER",
+    "displayName": "Lüneburger SK Hansa",
+    "logo": "img/teams/lueneburger-sk-hansa.svg"
+  },
+  {
+    "key": "ERF",
+    "name": "Rot-Weiß Erfurt",
+    "shortName": "Rot-Weiß Erfurt",
+    "mobileName": "Erfurt",
+    "country": "GER",
+    "displayName": "Rot-Weiß Erfurt",
+    "logo": "img/teams/rot-weiss-erfurt.svg"
+  },
+  {
+    "key": "RWE",
+    "name": "Rot-Weiss Essen",
+    "shortName": "Rot-Weiss Essen",
+    "mobileName": "Essen",
+    "country": "GER",
+    "displayName": "Rot-Weiss Essen",
+    "logo": "img/teams/rot-weiss-essen.svg"
+  },
+  {
+    "key": "KAS",
+    "name": "KSV Hessen Kassel",
+    "shortName": "KSV Hessen Kassel",
+    "mobileName": "Kassel",
+    "country": "GER",
+    "displayName": "KSV Hessen Kassel",
+    "logo": "img/teams/ksv-hessen-kassel.svg"
+  },
+  {
+    "key": "ASS",
+    "name": "SV Drochtersen/Assel",
+    "shortName": "Drochtersen/Assel",
+    "mobileName": "Drochtersen/Assel",
+    "country": "GER",
+    "displayName": "SV Drochtersen/Assel",
+    "logo": "img/teams/sv-drochtersen-assel.svg"
   },
   {
     "key": "D98",
@@ -534,6 +777,15 @@
     "logo": "img/teams/eintracht-trier.svg"
   },
   {
+    "key": "RIA",
+    "name": "FC Rielasingen-Arlen",
+    "shortName": "FC Rielasingen-Arlen",
+    "mobileName": "Rielasingen-Arlen",
+    "country": "GER",
+    "displayName": "FC Rielasingen-Arlen",
+    "logo": "img/teams/fc-rielasingen-arlen.svg"
+  },
+  {
     "key": "PFE",
     "name": "TSG Pfeddersheim",
     "shortName": "TSG Pfeddersheim",
@@ -541,6 +793,15 @@
     "country": "GER",
     "displayName": "TSG Pfeddersheim",
     "logo": "img/teams/tsg-pfeddersheim.svg"
+  },
+  {
+    "key": "EIC",
+    "name": "SV Eichede",
+    "shortName": "Eichede",
+    "mobileName": "Eichede",
+    "country": "GER",
+    "displayName": "SV Eichede",
+    "logo": "img/teams/sv-eichede.svg"
   },
   {
     "key": "FCS",
@@ -615,6 +876,96 @@
     "logo": "img/teams/tsv-muenchen-1860.svg"
   },
   {
+    "key": "CFC",
+    "name": "Chemnitzer FC",
+    "shortName": "Chemnitzer FC",
+    "mobileName": "Chemnitz",
+    "country": "GER",
+    "displayName": "Chemnitzer FC",
+    "logo": "img/teams/chemnitzer-fc.svg"
+  },
+  {
+    "key": "AWA",
+    "name": "SV Alemannia Waldalgesheim",
+    "shortName": "SV Alemannia Waldalgesheim",
+    "mobileName": "Waldalgesheim",
+    "country": "GER",
+    "displayName": "SV Alemannia Waldalgesheim",
+    "logo": "img/teams/sv-alemannia-waldalgesheim.svg"
+  },
+  {
+    "key": "ZWI",
+    "name": "FSV Zwickau",
+    "shortName": "FSV Zwickau",
+    "mobileName": "Zwickau",
+    "country": "GER",
+    "displayName": "FSV Zwickau",
+    "logo": "img/teams/fsv-zwickau.svg"
+  },
+  {
+    "key": "SGW",
+    "name": "SG Wattenscheid 09",
+    "shortName": "SG Wattenscheid 09",
+    "mobileName": "Wattenscheid",
+    "country": "GER",
+    "displayName": "SG Wattenscheid 09",
+    "logo": "img/teams/sg-wattenscheid-09.svg"
+  },
+  {
+    "key": "BON",
+    "name": "Bonner SC",
+    "shortName": "Bonner SC",
+    "mobileName": "Bonn",
+    "country": "GER",
+    "displayName": "Bonner SC",
+    "logo": "img/teams/bonner-sc.svg"
+  },
+  {
+    "key": "SKI",
+    "name": "Stuttgarter Kickers",
+    "shortName": "Stuttgarter Kickers",
+    "mobileName": "Stuttgarter Kickers",
+    "country": "GER",
+    "displayName": "Stuttgarter Kickers",
+    "logo": "img/teams/stuttgarter-kickers.svg"
+  },
+  {
+    "key": "HOM",
+    "name": "FC 08 Homburg",
+    "shortName": "FC 08 Homburg",
+    "mobileName": "Homburg",
+    "country": "GER",
+    "displayName": "FC 08 Homburg",
+    "logo": "img/teams/fc-08-homburg.svg"
+  },
+  {
+    "key": "VIK",
+    "name": "FC Viktoria Köln",
+    "shortName": "FC Viktoria Köln",
+    "mobileName": "Viktoria Köln",
+    "country": "GER",
+    "displayName": "FC Viktoria Köln",
+    "logo": "img/teams/fc-viktoria-koeln.svg"
+  },
+  {
+    "key": "ASW",
+    "name": "FC Astoria Walldorf",
+    "shortName": "FC Astoria Walldorf",
+    "mobileName": "Walldorf",
+    "country": "GER",
+    "displayName": "FC Astoria Walldorf",
+    "logo": "img/teams/fc-astoria-walldorf.svg"
+  },
+  {
+    "key": "BSV",
+    "name": "Bremer SV",
+    "shortName": "Bremer SV",
+    "mobileName": "Bremer SV",
+    "country": "GER",
+    "displayName": "Bremer SV",
+    "logo": "img/teams/bremer-sv.svg"
+  },
+  {
     "key": "KIE",
     "name": "Holstein Kiel",
     "shortName": "Holstein Kiel",
@@ -622,6 +973,132 @@
     "country": "GER",
     "displayName": "Holstein Kiel",
     "logo": "img/teams/holstein-kiel.svg"
+  },
+  {
+    "key": "WDK",
+    "name": "SV Waldkirch",
+    "shortName": "SV Waldkirch",
+    "mobileName": "Waldkirch",
+    "country": "GER",
+    "displayName": "SV Waldkirch",
+    "logo": "img/teams/sv-waldkirch.svg"
+  },
+  {
+    "key": "FTB",
+    "name": "FT Braunschweig",
+    "shortName": "FT Braunschweig",
+    "mobileName": "FT Braunschweig",
+    "country": "GER",
+    "displayName": "FT Braunschweig",
+    "logo": "img/teams/ft-braunschweig.svg"
+  },
+  {
+    "key": "S05",
+    "name": "1. FC Schweinfurt 05",
+    "shortName": "1. FC Schweinfurt 05",
+    "mobileName": "Schweinfurt 05",
+    "country": "GER",
+    "displayName": "1. FC Schweinfurt 05",
+    "logo": "img/teams/1-fc-schweinfurt-05.svg"
+  },
+  {
+    "key": "MOR",
+    "name": "SV Morlautern",
+    "shortName": "SV Morlautern",
+    "mobileName": "Morlautern",
+    "country": "GER",
+    "displayName": "SV Morlautern",
+    "logo": "img/teams/sv-morlautern.svg"
+  },
+  {
+    "key": "SWW",
+    "name": "SV Wehen Wiesbaden",
+    "shortName": "SV Wehen Wiesbaden",
+    "mobileName": "Wehen Wiesbaden",
+    "country": "GER",
+    "displayName": "SV Wehen Wiesbaden",
+    "logo": "img/teams/sv-wehen-wiesbaden.svg"
+  },
+  {
+    "key": "VIB",
+    "name": "Viktoria 1899 Berlin",
+    "shortName": "Viktoria Berlin",
+    "mobileName": "Viktoria Berlin",
+    "country": "GER",
+    "displayName": "Viktoria 1899 Berlin",
+    "logo": "img/teams/viktoria-1899-berlin.svg"
+  },
+  {
+    "key": "SSI",
+    "name": "Sportfreunde Siegen",
+    "shortName": "Sportfreunde Siegen",
+    "mobileName": "Sportfreunde Siegen",
+    "country": "GER",
+    "displayName": "Sportfreunde Siegen",
+    "logo": "img/teams/sportfreunde-siegen.svg"
+  },
+  {
+    "key": "PAL",
+    "name": "USC Paloma Hamburg",
+    "shortName": "USC Paloma Hamburg",
+    "mobileName": "Paloma Hamburg",
+    "country": "GER",
+    "displayName": "USC Paloma Hamburg",
+    "logo": "img/teams/usc-paloma-hamburg.svg"
+  },
+  {
+    "key": "SWR",
+    "name": "BSV Schwarz-Weiß Rehden",
+    "shortName": "BSV Schwarz-Weiß Rehden",
+    "mobileName": "Schwarz-Weiß Rehden",
+    "country": "GER",
+    "displayName": "BSV Schwarz-Weiß Rehden",
+    "logo": "img/teams/bsv-schwarz-weiss-rehden.svg"
+  },
+  {
+    "key": "NBB",
+    "name": "1. FC Neubrandenburg",
+    "shortName": "1. FC Neubrandenburg",
+    "mobileName": "Neubrandenburg",
+    "country": "GER",
+    "displayName": "1. FC Neubrandenburg",
+    "logo": "img/teams/1-fc-neubrandenburg.svg"
+  },
+  {
+    "key": "WUR",
+    "name": "Würzburger Kickers",
+    "shortName": "Würzburger Kickers",
+    "mobileName": "Würzburger Kickers",
+    "country": "GER",
+    "displayName": "Würzburger Kickers",
+    "logo": "img/teams/wurzburger-kickers.svg"
+  },
+  {
+    "key": "CZJ",
+    "name": "FC Carl Zeiss Jena",
+    "shortName": "FC Carl Zeiss Jena",
+    "mobileName": "Carl Zeiss Jena",
+    "country": "GER",
+    "displayName": "FC Carl Zeiss Jena",
+    "logo": "img/teams/fc-carl-zeiss-jena.svg"
+  },
+  {
+    "key": "OFF",
+    "name": "Kickers Offenbach",
+    "shortName": "Kickers Offenbach",
+    "mobileName": "Kickers Offenbach",
+    "country": "GER",
+    "displayName": "Kickers Offenbach",
+    "logo": "img/teams/kickers-offenbach.svg"
+  },
+  {
+    "key": "DDR",
+    "name": "Dynamo Dresden",
+    "shortName": "Dynamo Dresden",
+    "mobileName": "Dynamo Dresden",
+    "country": "GER",
+    "displayName": "Dynamo Dresden",
+    "logo": "img/teams/dynamo-dresden.svg"
   },
 
   {
@@ -635,6 +1112,24 @@
     "country": "ESP",
     "displayName": "Real Madrid",
     "logo": "img/teams/real-madrid.svg"
+  },
+  {
+    "key": "LUR",
+    "name": "Ludogorez Rasgrad",
+    "shortName": "Ludogorez",
+    "mobileName": "Ludogorez",
+    "country": "BUL",
+    "displayName": "Ludogorez Rasgrad",
+    "logo": "img/teams/ludogorez-rasgrad.svg"
+  },
+  {
+    "key": "APO",
+    "name": "APOEL Nikosia",
+    "shortName": "APOEL",
+    "mobileName": "APOEL",
+    "country": "CYP",
+    "displayName": "APOEL Nikosia",
+    "logo": "img/teams/apoel-nikosia.svg"
   },
   {
     "key": "BAR",
@@ -664,6 +1159,15 @@
     "logo": "img/teams/valencia-cf.svg"
   },
   {
+    "key": "RSO",
+    "name": "Real Sociedad",
+    "shortName": "Real Sociedad",
+    "mobileName": "Real Sociedad",
+    "country": "ESP",
+    "displayName": "Real Sociedad",
+    "logo": "img/teams/real-sociedad.svg"
+  },
+  {
     "key": "VIL",
     "name": "Villarreal CF",
     "shortName": "Villarreal CF",
@@ -679,7 +1183,7 @@
     "mobileName": "Sevilla",
     "country": "ESP",
     "displayName": "Sevilla FC",
-    "logo": "img/teams/sevilla-fc.svg"
+    "logo": "img/teams/fc-sevilla.svg"
   },
   {
     "key": "DEP",
@@ -907,7 +1411,7 @@
     "logo": "img/teams/olympique-lyon.svg"
   },
   {
-    "key": "MAR",
+    "key": "OMA",
     "name": "Olympique Marseille",
     "shortName": "Olympique Marseille",
     "mobileName": "Marseille",
@@ -923,6 +1427,24 @@
     "country": "FRA",
     "displayName": "AS Monaco",
     "logo": "img/teams/as-monaco.svg"
+  },
+  {
+    "key": "NKM",
+    "name": "NK Maribor",
+    "shortName": "NK Maribor",
+    "mobileName": "Maribor",
+    "country": "SVN",
+    "displayName": "NK Maribor",
+    "logo": "img/teams/nk-maribor.svg"
+  },
+  {
+    "key": "BIL",
+    "name": "Athletic Bilbao",
+    "shortName": "Bilbao",
+    "mobileName": "Bilbao",
+    "country": "ESP",
+    "displayName": "Athletic Bilbao",
+    "logo": "img/teams/athletic-bilbao.svg"
   },
   {
     "key": "LIL",
@@ -1022,6 +1544,15 @@
     "country": "POR",
     "displayName": "Sporting CP",
     "logo": "img/teams/sporting-cp.svg"
+  },
+  {
+    "key": "ROV",
+    "name": "FK Rostov",
+    "shortName": "FK Rostov",
+    "mobileName": "Rostov",
+    "country": "RUS",
+    "displayName": "FK Rostov",
+    "logo": "img/teams/fk-rostov.svg"
   },
   {
     "key": "BOA",
@@ -1222,6 +1753,15 @@
     "logo": "img/teams/fk-krasnodar.svg"
   },
   {
+    "key": "LWA",
+    "name": "Legia Warschau",
+    "shortName": "Legia Warschau",
+    "mobileName": "Legia Warschau",
+    "country": "POL",
+    "displayName": "Legia Warschau",
+    "logo": "img/teams/legia-warschau.svg"
+  },
+  {
     "key": "SHA",
     "name": "Schachtar Donezk",
     "shortName": "Schachtar Donezk",
@@ -1375,7 +1915,7 @@
     "logo": "img/teams/rapid-wien.svg"
   },
   {
-    "key": "AUS",
+    "key": "FAW",
     "name": "FK Austria Wien",
     "shortName": "Austria Wien",
     "mobileName": "Austria Wien",
@@ -1391,6 +1931,15 @@
     "country": "DEN",
     "displayName": "FC Kopenhagen",
     "logo": "img/teams/fc-kopenhagen.svg"
+  },
+  {
+    "key": "AST",
+    "name": "FK Astana",
+    "shortName": "FK Astana",
+    "mobileName": "Astana",
+    "country": "KAZ",
+    "displayName": "FK Astana",
+    "logo": "img/teams/fk-astana.svg"
   },
   {
     "key": "MTA",
@@ -1827,6 +2376,15 @@
     "country": "NOR",
     "displayName": "Norwegen",
     "logo": "img/teams/norwegen.svg"
+  },
+  {
+    "key": "NIR",
+    "name": "Nordirland",
+    "shortName": "Nordirland",
+    "mobileName": "Nordirland",
+    "country": "NIR",
+    "displayName": "Nordirland",
+    "logo": "img/teams/nordirland.svg"
   },
   {
     "key": "POL",

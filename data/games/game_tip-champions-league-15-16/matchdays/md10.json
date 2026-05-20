@@ -1,0 +1,139 @@
+{
+  "id": "md10",
+  "label": "Spieltag 10",
+  "date": "06.04.2016",
+  "no": 10,
+  "matches": [
+    {
+      "id": "md10-01",
+      "home": "Real Madrid",
+      "away": "VfL Wolfsburg",
+      "homeTeam": "RMA",
+      "awayTeam": "WOB",
+      "result": "3:0",
+      "date": "06.04.2016",
+      "time": "20:45"
+    },
+    {
+      "id": "md10-02",
+      "home": "Manchester City",
+      "away": "Paris Saint-Germain",
+      "homeTeam": "MCI",
+      "awayTeam": "PSG",
+      "result": "1:0",
+      "date": "12.04.2016",
+      "time": "20:45"
+    },
+    {
+      "id": "md10-03",
+      "home": "Atlético Madrid",
+      "away": "FC Barcelona",
+      "homeTeam": "ATM",
+      "awayTeam": "BAR",
+      "result": "2:0",
+      "date": "12.04.2016",
+      "time": "20:45"
+    },
+    {
+      "id": "md10-04",
+      "home": "Benfica Lissabon",
+      "away": "FC Bayern München",
+      "homeTeam": "BEN",
+      "awayTeam": "FCB",
+      "result": "2:2",
+      "date": "13.04.2016",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 3,
+      "player": "peter",
+      "picks": {
+        "md10-01": "3:1",
+        "md10-02": "1:1",
+        "md10-03": "1:1",
+        "md10-04": "0:3"
+      },
+      "pickPoints": {
+        "md10-01": 2.0,
+        "md10-02": 0.0,
+        "md10-03": 0.0,
+        "md10-04": 0.0
+      },
+      "points": 2.0,
+      "bonus": 9.0,
+      "total": 213.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "alois",
+      "picks": {
+        "md10-01": "3:0",
+        "md10-02": "2:1",
+        "md10-03": "1:2",
+        "md10-04": "1:2"
+      },
+      "pickPoints": {
+        "md10-01": 4.0,
+        "md10-02": 3.0,
+        "md10-03": 0.0,
+        "md10-04": 0.0
+      },
+      "points": 7.0,
+      "bonus": 6.0,
+      "total": 204.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md10-01": "3:0",
+        "md10-02": "1:0",
+        "md10-03": "1:2",
+        "md10-04": "1:2"
+      },
+      "pickPoints": {
+        "md10-01": 4.0,
+        "md10-02": 4.0,
+        "md10-03": 0.0,
+        "md10-04": 0.0
+      },
+      "points": 8.0,
+      "bonus": 6.0,
+      "total": 192.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 2.0,
+      "bonus": 9.0,
+      "total": 213.0,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "alois",
+      "points": 7.0,
+      "bonus": 6.0,
+      "total": 204.0,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 8.0,
+      "bonus": 6.0,
+      "total": 192.0,
+      "dayWinsTotal": 5.0
+    }
+  ]
+}

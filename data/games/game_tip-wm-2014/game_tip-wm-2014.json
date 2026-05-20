@@ -1,0 +1,349 @@
+{
+  "id": "tip-wm-2014",
+  "title": "World Cup 2014 - Brazil",
+  "competition": "Weltmeisterschaft",
+  "season": "2014",
+  "bonusTips": {
+    "questions": [],
+    "picks": [
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Torschütze": "GER",
+          "Halbfinale": ["ITA", "BRA", "GER", "NED"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "NED",
+          "Gruppe C": "COL",
+          "Gruppe D": "ITA",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "RUS",
+          "Vizeweltmeister": "BRA",
+          "Weltmeister": "GER"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Torschütze": "ARG",
+          "Halbfinale": ["ARG", "BRA", "GER", "ESP"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "ESP",
+          "Gruppe C": "COL",
+          "Gruppe D": "ITA",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "BEL",
+          "Vizeweltmeister": "ARG",
+          "Weltmeister": "BRA"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschütze": "ARG",
+          "Halbfinale": ["ARG", "BRA", "GER", "ESP"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "ESP",
+          "Gruppe C": "COL",
+          "Gruppe D": "ITA",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "BEL",
+          "Vizeweltmeister": "ARG",
+          "Weltmeister": "BRA"
+        }
+      },
+      {
+        "player": "basti",
+        "name": "Basti",
+        "predictions": {
+          "Torschütze": "BRA",
+          "Halbfinale": ["ARG", "BRA", "GER", "ESP"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "ESP",
+          "Gruppe C": "GRE",
+          "Gruppe D": "ITA",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "BEL",
+          "Vizeweltmeister": "BRA",
+          "Weltmeister": "GER"
+        }
+      },
+      {
+        "player": "dominik",
+        "name": "Dominik",
+        "predictions": {
+          "Torschütze": "BRA",
+          "Halbfinale": ["BEL", "BRA", "GER", "NED"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "NED",
+          "Gruppe C": "JPN",
+          "Gruppe D": "ENG",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "BEL",
+          "Vizeweltmeister": "BEL",
+          "Weltmeister": "BRA"
+        }
+      },
+      {
+        "player": "bernhard",
+        "name": "Bernhard",
+        "predictions": {
+          "Torschütze": "NED",
+          "Halbfinale": ["ARG", "FRA", "GER", "NED"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "NED",
+          "Gruppe C": "JPN",
+          "Gruppe D": "ITA",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "KOR",
+          "Vizeweltmeister": "BRA",
+          "Weltmeister": "ITA"
+        }
+      },
+      {
+        "player": "thomas",
+        "name": "Thomas",
+        "predictions": {
+          "Torschütze": "FRA",
+          "Halbfinale": ["ARG", "BRA", "GER", "ESP"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "ESP",
+          "Gruppe C": "JPN",
+          "Gruppe D": "ITA",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "BEL",
+          "Vizeweltmeister": "BRA",
+          "Weltmeister": "ESP"
+        }
+      },
+      {
+        "player": "daniel",
+        "name": "Daniel",
+        "predictions": {
+          "Torschütze": "BRA",
+          "Halbfinale": ["ITA", "BRA", "POR", "NED"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "NED",
+          "Gruppe C": "COL",
+          "Gruppe D": "ITA",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "POR",
+          "Gruppe H": "RUS",
+          "Vizeweltmeister": "POR",
+          "Weltmeister": "NED"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschütze": "BRA",
+          "Halbfinale": ["BEL", "BRA", "GER", "ESP"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "ESP",
+          "Gruppe C": "COL",
+          "Gruppe D": "URU",
+          "Gruppe E": "SUI",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "BEL",
+          "Vizeweltmeister": "ESP",
+          "Weltmeister": "BRA"
+        }
+      },
+      {
+        "player": "huy",
+        "name": "Huy",
+        "predictions": {
+          "Torschütze": "GER",
+          "Halbfinale": ["GHA", "BRA", "GER", "JPN"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "ESP",
+          "Gruppe C": "JPN",
+          "Gruppe D": "URU",
+          "Gruppe E": "SUI",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "RUS",
+          "Vizeweltmeister": "BRA",
+          "Weltmeister": "GER"
+        }
+      },
+      {
+        "player": "melli",
+        "name": "Melli",
+        "predictions": {
+          "Torschütze": "ESP",
+          "Halbfinale": ["ENG", "ESP", "GER", "USA"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "ESP",
+          "Gruppe C": "JPN",
+          "Gruppe D": "ENG",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "KOR",
+          "Vizeweltmeister": "ESP",
+          "Weltmeister": "GER"
+        }
+      },
+      {
+        "player": "manu",
+        "name": "Manu",
+        "predictions": {
+          "Torschütze": "BRA",
+          "Halbfinale": ["ITA", "BRA", "GER", "ESP"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "ESP",
+          "Gruppe C": "JPN",
+          "Gruppe D": "ITA",
+          "Gruppe E": "SUI",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "BEL",
+          "Vizeweltmeister": "ESP",
+          "Weltmeister": "BRA"
+        }
+      },
+      {
+        "player": "franzi",
+        "name": "Franzi",
+        "predictions": {
+          "Torschütze": "GER"
+        }
+      },
+      {
+        "player": "result",
+        "name": "Ergebnis",
+        "predictions": {
+          "Torschütze": "COL",
+          "Halbfinale": ["ARG", "BRA", "GER", "NED"],
+          "Gruppe A": "BRA",
+          "Gruppe B": "NED",
+          "Gruppe C": "COL",
+          "Gruppe D": "CRC",
+          "Gruppe E": "FRA",
+          "Gruppe F": "ARG",
+          "Gruppe G": "GER",
+          "Gruppe H": "BEL",
+          "Vizeweltmeister": "ARG",
+          "Weltmeister": "GER"
+        }
+      },
+      {
+        "player": "points",
+        "name": "Punkt",
+        "predictions": {
+          "Torschütze": "3",
+          "Halbfinale": "3",
+          "Gruppe A": "3",
+          "Gruppe B": "3",
+          "Gruppe C": "3",
+          "Gruppe D": "3",
+          "Gruppe E": "3",
+          "Gruppe F": "3",
+          "Gruppe G": "3",
+          "Gruppe H": "3",
+          "Vizeweltmeister": "3",
+          "Weltmeister": "3"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "12.06.2014 - 14.06.2014",
+      "no": 1,
+      "file": "data/games/game_tip-wm-2014/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "16.06.2014 - 19.06.2014",
+      "no": 2,
+      "file": "data/games/game_tip-wm-2014/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "20.06.2014 - 23.06.2014",
+      "no": 3,
+      "file": "data/games/game_tip-wm-2014/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "24.06.2014 - 27.06.2014",
+      "no": 4,
+      "file": "data/games/game_tip-wm-2014/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "30.06.2014 - 01.07.2014",
+      "no": 5,
+      "file": "data/games/game_tip-wm-2014/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "04.07.2014 - 04.07.2014",
+      "no": 6,
+      "file": "data/games/game_tip-wm-2014/matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "07.07.2014 - 11.07.2014",
+      "no": 7,
+      "file": "data/games/game_tip-wm-2014/matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "12.07.2014 - 12.07.2014",
+      "no": 8,
+      "file": "data/games/game_tip-wm-2014/matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "13.07.2014 - 13.07.2014",
+      "no": 9,
+      "file": "data/games/game_tip-wm-2014/matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "14.07.2014 - 14.07.2014",
+      "no": 10,
+      "file": "data/games/game_tip-wm-2014/matchdays/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "15.07.2014 - 15.07.2014",
+      "no": 11,
+      "file": "data/games/game_tip-wm-2014/matchdays/md11.json"
+    }
+  ]
+}

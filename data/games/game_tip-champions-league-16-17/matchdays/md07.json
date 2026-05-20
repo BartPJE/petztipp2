@@ -1,0 +1,203 @@
+{
+  "id": "md07",
+  "label": "Spieltag 7",
+  "date": "07.12.2016",
+  "no": 7,
+  "matches": [
+    {
+      "id": "md07-01",
+      "home": "Olympique Lyonnais (FRA)",
+      "away": "Sevilla FC (ESP)",
+      "homeTeam": "BEN",
+      "awayTeam": "BVB",
+      "result": "1:0",
+      "date": "07.12.2016",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-02",
+      "home": "SL Benfica (POR)",
+      "away": "Borussia Dortmund (GER)",
+      "homeTeam": "PSG",
+      "awayTeam": "BAR",
+      "result": "4:0",
+      "date": "14.02.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-03",
+      "home": "Erg22",
+      "away": "Erg23",
+      "homeTeam": "RMA",
+      "awayTeam": "NAP",
+      "result": "3:1",
+      "date": "14.02.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-04",
+      "home": "Erg32",
+      "away": "Erg33",
+      "homeTeam": "FCB",
+      "awayTeam": "ARS",
+      "result": "5:1",
+      "date": "15.02.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-05",
+      "home": "Erg42",
+      "away": "Erg43",
+      "homeTeam": "MCI",
+      "awayTeam": "MON",
+      "result": "5:3",
+      "date": "15.02.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-06",
+      "home": "Erg52",
+      "away": "Erg53",
+      "homeTeam": "B04",
+      "awayTeam": "ATM",
+      "result": "2:4",
+      "date": "21.02.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-07",
+      "home": "Erg62",
+      "away": "Erg63",
+      "homeTeam": "FCP",
+      "awayTeam": "JUV",
+      "result": "0:2",
+      "date": "21.02.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-08",
+      "home": "Erg72",
+      "away": "Erg73",
+      "homeTeam": "SEV",
+      "awayTeam": "LEI",
+      "result": "2:1",
+      "date": "22.02.2017",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md07-01": "1:2",
+        "md07-02": "1:2",
+        "md07-03": "3:1",
+        "md07-04": "2:0",
+        "md07-05": "2:0",
+        "md07-06": "1:1",
+        "md07-07": "0:1",
+        "md07-08": "2:1"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 4.0,
+        "md07-04": 2.0,
+        "md07-05": 3.0,
+        "md07-06": 0.0,
+        "md07-07": 2.0,
+        "md07-08": 4.0
+      },
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 153.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 3,
+      "player": "alois",
+      "picks": {
+        "md07-01": "1:2",
+        "md07-02": "1:2",
+        "md07-03": "2:1",
+        "md07-04": "2:1",
+        "md07-05": "2:1",
+        "md07-06": "1:2",
+        "md07-07": "1:2",
+        "md07-08": "2:1"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 0.0,
+        "md07-03": 2.0,
+        "md07-04": 2.0,
+        "md07-05": 2.0,
+        "md07-06": 2.0,
+        "md07-07": 2.0,
+        "md07-08": 4.0
+      },
+      "points": 14.0,
+      "bonus": 0.0,
+      "total": 138.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md07-01": "1:0",
+        "md07-02": "0:2",
+        "md07-03": "2:0",
+        "md07-04": "2:0",
+        "md07-05": "2:0",
+        "md07-06": "0:3",
+        "md07-07": "0:1",
+        "md07-08": "1:0"
+      },
+      "pickPoints": {
+        "md07-01": 4.0,
+        "md07-02": 0.0,
+        "md07-03": 3.0,
+        "md07-04": 2.0,
+        "md07-05": 3.0,
+        "md07-06": 2.0,
+        "md07-07": 2.0,
+        "md07-08": 3.0
+      },
+      "points": 19.0,
+      "bonus": 0.0,
+      "total": 173.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 153.0,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 3,
+      "player": "alois",
+      "points": 14.0,
+      "bonus": 0.0,
+      "total": 138.0,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 19.0,
+      "bonus": 0.0,
+      "total": 173.0,
+      "dayWinsTotal": 4.5
+    }
+  ]
+}

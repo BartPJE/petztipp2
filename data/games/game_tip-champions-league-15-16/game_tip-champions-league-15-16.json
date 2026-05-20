@@ -1,0 +1,248 @@
+{
+  "id": "tip-champions-league-15-16",
+  "title": "Champions League 2015/2016",
+  "competition": "Champions League",
+  "season": "2015/2016",
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "16.09.2015",
+      "no": 1,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "01.10.2015",
+      "no": 2,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "04.11.2015",
+      "no": 3,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "09.12.2015",
+      "no": 4,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "30.09.2015",
+      "no": 5,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "05.11.2015",
+      "no": 6,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "10.12.2015",
+      "no": 7,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "25.02.2016",
+      "no": 8,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "18.03.2016",
+      "no": 9,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "15.04.2016",
+      "no": 10,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "22.04.2016",
+      "no": 11,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "06.05.2016",
+      "no": 12,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "13.05.2016",
+      "no": 13,
+      "file": "data/games/game_tip-champions-league-15-16/matchdays/md13.json"
+    }
+  ],
+  "bonusTips": {
+    "questions": [
+      {
+        "label": "Torschütze",
+        "result": "Real Madrid",
+        "points": 3.0
+      },
+      {
+        "label": "Halbfinale",
+        "result": [
+          "Man City",
+          "Atlético Madrid",
+          "Real Madrid",
+          "FC Bayern München"
+        ],
+        "points": 3.0
+      },
+      {
+        "label": "Sieger",
+        "result": "Real Madrid",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger A",
+        "result": "Real Madrid",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger B",
+        "result": "VfL Wolfsburg",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger C",
+        "result": "Atl",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger D",
+        "result": "Man City",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger E",
+        "result": "FC Barcelona",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger F",
+        "result": "FC Bayern München",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger G",
+        "result": "Chelsea",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger H",
+        "result": "Zpet",
+        "points": 3.0
+      }
+    ],
+    "picks": [
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschütze": "BAR",
+          "Halbfinale": ["BAR", "FCB", "MCI", "RMA"],
+          "Sieger": "FCB",
+          "Sieger A": "RMA",
+          "Sieger B": "WOB",
+          "Sieger C": "ATM",
+          "Sieger D": "MCI",
+          "Sieger E": "BAR",
+          "Sieger F": "FCB",
+          "Sieger G": "CHE",
+          "Sieger H": "VCF"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Torschütze": "BAR",
+          "Halbfinale": ["RMA", "BAR", "FCB", "CHE"],
+          "Sieger": "BAR",
+          "Sieger A": "RMA",
+          "Sieger B": "MUN",
+          "Sieger C": "ATM",
+          "Sieger D": "MCI",
+          "Sieger E": "BAR",
+          "Sieger F": "FCB",
+          "Sieger G": "CHE",
+          "Sieger H": "VCF"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschütze": "BAR",
+          "Halbfinale": ["RMA", "BAR", "FCB", "JUV"],
+          "Sieger": "BAR",
+          "Sieger A": "RMA",
+          "Sieger B": "MUN",
+          "Sieger C": "ATM",
+          "Sieger D": "JUV",
+          "Sieger E": "BAR",
+          "Sieger F": "FCB",
+          "Sieger G": "CHE",
+          "Sieger H": "VCF"
+        }
+      },
+      {
+        "player": "result",
+        "predictions": {
+          "Torschütze": ["RMA"],
+          "Halbfinale": ["FCB", "ATM", "MCI", "RMA"],
+          "Sieger": "RMA",
+          "Sieger A": "RMA",
+          "Sieger B": "WOB",
+          "Sieger C": "ATM",
+          "Sieger D": "MCI",
+          "Sieger E": "BAR",
+          "Sieger F": "FCB",
+          "Sieger G": "CHE",
+          "Sieger H": "ZEN"
+        }
+      },
+      {
+        "player": "points",
+        "predictions": {
+          "Torschütze": 3,
+          "Halbfinale": 3,
+          "Sieger": 3,
+          "Sieger A": 3,
+          "Sieger B": 3,
+          "Sieger C": 3,
+          "Sieger D": 3,
+          "Sieger E": 3,
+          "Sieger F": 3,
+          "Sieger G": 3,
+          "Sieger H": 3
+        }
+      }
+    ]
+  }
+}

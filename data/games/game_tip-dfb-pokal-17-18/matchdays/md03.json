@@ -1,0 +1,195 @@
+{
+  "id": "md03",
+  "label": "Spieltag 3",
+  "date": "",
+  "no": 3,
+  "matches": [
+    {
+      "id": "md03-01",
+      "home": "Team",
+      "away": "Team2",
+      "homeTeam": "SCP",
+      "awayTeam": "FCI",
+      "result": "1:0",
+      "time": ""
+    },
+    {
+      "id": "md03-02",
+      "home": "Team3",
+      "away": "Team4",
+      "homeTeam": "M05",
+      "awayTeam": "VFB",
+      "result": "3:1",
+      "time": ""
+    },
+    {
+      "id": "md03-03",
+      "home": "Team5",
+      "away": "Team6",
+      "homeTeam": "S04",
+      "awayTeam": "KOE",
+      "result": "1:0",
+      "time": ""
+    },
+    {
+      "id": "md03-04",
+      "home": "Team7",
+      "away": "Team8",
+      "homeTeam": "FCN",
+      "awayTeam": "WOB",
+      "result": "0:2",
+      "time": ""
+    },
+    {
+      "id": "md03-05",
+      "home": "Team9",
+      "away": "Team10",
+      "homeTeam": "SVW",
+      "awayTeam": "SCF",
+      "result": "3:2",
+      "time": ""
+    },
+    {
+      "id": "md03-06",
+      "home": "Team11",
+      "away": "Team12",
+      "homeTeam": "BMG",
+      "awayTeam": "B04",
+      "result": "0:1",
+      "time": ""
+    },
+    {
+      "id": "md03-07",
+      "home": "Team13",
+      "away": "Team14",
+      "homeTeam": "HDH",
+      "awayTeam": "SGE",
+      "result": "1:2",
+      "time": ""
+    },
+    {
+      "id": "md03-08",
+      "home": "Team15",
+      "away": "Team16",
+      "homeTeam": "FCB",
+      "awayTeam": "BVB",
+      "result": "2:1",
+      "time": ""
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md03-01": "2:1",
+        "md03-02": "2:1",
+        "md03-03": "2:0",
+        "md03-04": "1:2",
+        "md03-05": "2:1",
+        "md03-06": "1:2",
+        "md03-07": "1:2",
+        "md03-08": "2:0"
+      },
+      "pickPoints": {
+        "md03-01": 3.0,
+        "md03-02": 2.0,
+        "md03-03": 2.0,
+        "md03-04": 2.0,
+        "md03-05": 3.0,
+        "md03-06": 3.0,
+        "md03-07": 4.0,
+        "md03-08": 2.0
+      },
+      "points": 21.0,
+      "bonus": 0.0,
+      "total": 115.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "picks": {
+        "md03-01": "0:2",
+        "md03-02": "1:2",
+        "md03-03": "3:1",
+        "md03-04": "1:2",
+        "md03-05": "2:1",
+        "md03-06": "2:3",
+        "md03-07": "0:3",
+        "md03-08": "3:1"
+      },
+      "pickPoints": {
+        "md03-01": 0.0,
+        "md03-02": 0.0,
+        "md03-03": 2.0,
+        "md03-04": 2.0,
+        "md03-05": 3.0,
+        "md03-06": 3.0,
+        "md03-07": 2.0,
+        "md03-08": 2.0
+      },
+      "points": 14.0,
+      "bonus": 0.0,
+      "total": 108.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md03-01": "0:1",
+        "md03-02": "0:1",
+        "md03-03": "2:0",
+        "md03-04": "0:1",
+        "md03-05": "1:0",
+        "md03-06": "0:1",
+        "md03-07": "0:1",
+        "md03-08": "1:0"
+      },
+      "pickPoints": {
+        "md03-01": 0.0,
+        "md03-02": 0.0,
+        "md03-03": 2.0,
+        "md03-04": 2.0,
+        "md03-05": 3.0,
+        "md03-06": 4.0,
+        "md03-07": 3.0,
+        "md03-08": 3.0
+      },
+      "points": 17.0,
+      "bonus": 0.0,
+      "total": 110.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 21.0,
+      "bonus": 0.0,
+      "total": 115.0,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "points": 14.0,
+      "bonus": 0.0,
+      "total": 108.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 17.0,
+      "bonus": 0.0,
+      "total": 110.0,
+      "dayWinsTotal": 0.5
+    }
+  ]
+}

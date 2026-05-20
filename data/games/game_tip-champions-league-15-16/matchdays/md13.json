@@ -1,0 +1,91 @@
+{
+  "id": "md13",
+  "label": "Spieltag 13",
+  "date": "04.05.2016",
+  "no": 13,
+  "matches": [
+    {
+      "id": "md13-01",
+      "home": "Real Madrid",
+      "away": "Atlético Madrid",
+      "homeTeam": "RMA",
+      "awayTeam": "ATM",
+      "result": "6:4",
+      "date": "04.05.2016",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md13-01": "2:1"
+      },
+      "pickPoints": {
+        "md13-01": 2.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 223.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md13-01": "2:1"
+      },
+      "pickPoints": {
+        "md13-01": 2.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 216.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "picks": {
+        "md13-01": "0:1"
+      },
+      "pickPoints": {
+        "md13-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 198.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 223.0,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "alois",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 216.0,
+      "dayWinsTotal": 5.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 198.0,
+      "dayWinsTotal": 5.0
+    }
+  ]
+}

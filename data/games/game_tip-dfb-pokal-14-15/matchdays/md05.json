@@ -1,0 +1,189 @@
+{
+  "id": "md05",
+  "label": "Spieltag 5",
+  "date": "",
+  "no": 5,
+  "matches": [
+    {
+      "id": "md05-01",
+      "home": "FC Bayern München",
+      "away": "Borussia Dortmund",
+      "homeTeam": "FCB",
+      "awayTeam": "BVB",
+      "result": "1:3",
+      "time": ""
+    },
+    {
+      "id": "md05-02",
+      "home": "Arminia Bielefeld",
+      "away": "VfL Wolfsburg",
+      "homeTeam": "DSC",
+      "awayTeam": "WOB",
+      "result": "0:4",
+      "time": ""
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md05-01": "2:1",
+        "md05-02": "0:3",
+        "md05-03": null,
+        "md05-04": null,
+        "md05-05": null,
+        "md05-06": null,
+        "md05-07": null,
+        "md05-08": null,
+        "md05-09": null,
+        "md05-10": null,
+        "md05-11": null,
+        "md05-12": null,
+        "md05-13": null,
+        "md05-14": null,
+        "md05-15": null,
+        "md05-16": null
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 2.0,
+        "md05-03": 0.0,
+        "md05-04": 0.0,
+        "md05-05": 0.0,
+        "md05-06": 0.0,
+        "md05-07": 0.0,
+        "md05-08": 0.0,
+        "md05-09": 0.0,
+        "md05-10": 0.0,
+        "md05-11": 0.0,
+        "md05-12": 0.0,
+        "md05-13": 0.0,
+        "md05-14": 0.0,
+        "md05-15": 0.0,
+        "md05-16": 0.0
+      },
+      "points": 2.0,
+      "bonus": 4.0,
+      "total": 158.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.666666666666667
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md05-01": "2:1",
+        "md05-02": "0:2",
+        "md05-03": null,
+        "md05-04": null,
+        "md05-05": null,
+        "md05-06": null,
+        "md05-07": null,
+        "md05-08": null,
+        "md05-09": null,
+        "md05-10": null,
+        "md05-11": null,
+        "md05-12": null,
+        "md05-13": null,
+        "md05-14": null,
+        "md05-15": null,
+        "md05-16": null
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 2.0,
+        "md05-03": 0.0,
+        "md05-04": 0.0,
+        "md05-05": 0.0,
+        "md05-06": 0.0,
+        "md05-07": 0.0,
+        "md05-08": 0.0,
+        "md05-09": 0.0,
+        "md05-10": 0.0,
+        "md05-11": 0.0,
+        "md05-12": 0.0,
+        "md05-13": 0.0,
+        "md05-14": 0.0,
+        "md05-15": 0.0,
+        "md05-16": 0.0
+      },
+      "points": 2.0,
+      "bonus": 4.0,
+      "total": 129.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.6666666666666666
+    },
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md05-01": "2:1",
+        "md05-02": "1:2",
+        "md05-03": null,
+        "md05-04": null,
+        "md05-05": null,
+        "md05-06": null,
+        "md05-07": null,
+        "md05-08": null,
+        "md05-09": null,
+        "md05-10": null,
+        "md05-11": null,
+        "md05-12": null,
+        "md05-13": null,
+        "md05-14": null,
+        "md05-15": null,
+        "md05-16": null
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 2.0,
+        "md05-03": 0.0,
+        "md05-04": 0.0,
+        "md05-05": 0.0,
+        "md05-06": 0.0,
+        "md05-07": 0.0,
+        "md05-08": 0.0,
+        "md05-09": 0.0,
+        "md05-10": 0.0,
+        "md05-11": 0.0,
+        "md05-12": 0.0,
+        "md05-13": 0.0,
+        "md05-14": 0.0,
+        "md05-15": 0.0,
+        "md05-16": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 54.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.6666666666666666
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 2.0,
+      "bonus": 4.0,
+      "total": 158.0,
+      "dayWinsTotal": 3.666666666666667
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 2.0,
+      "bonus": 4.0,
+      "total": 129.0,
+      "dayWinsTotal": 0.6666666666666666
+    },
+    {
+      "rank": 3,
+      "player": "alois",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 54.0,
+      "dayWinsTotal": 0.6666666666666666
+    }
+  ]
+}

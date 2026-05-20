@@ -1,0 +1,107 @@
+{
+  "id": "md11",
+  "label": "Spieltag 11",
+  "date": "19.04.2017",
+  "no": 11,
+  "matches": [
+    {
+      "id": "md11-01",
+      "home": "AS Monaco (FRA)",
+      "away": "Borussia Dortmund (GER)",
+      "homeTeam": "RMA",
+      "awayTeam": "ATM",
+      "result": "3:0",
+      "date": "19.04.2017",
+      "time": "20:50"
+    },
+    {
+      "id": "md11-02",
+      "home": "Real Madrid (ESP)",
+      "away": "Atlético Madrid (ESP)",
+      "homeTeam": "MON",
+      "awayTeam": "JUV",
+      "result": "0:2",
+      "date": "02.05.2017",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 3,
+      "player": "peter",
+      "picks": {
+        "md11-01": "2:1",
+        "md11-02": "3:2"
+      },
+      "pickPoints": {
+        "md11-01": 2.0,
+        "md11-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 174.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md11-01": "2:1",
+        "md11-02": "1:2"
+      },
+      "pickPoints": {
+        "md11-01": 2.0,
+        "md11-02": 2.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 167.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md11-01": "1:0",
+        "md11-02": "0:1"
+      },
+      "pickPoints": {
+        "md11-01": 2.0,
+        "md11-02": 2.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 198.0,
+      "dayWin": true,
+      "dayWinsTotal": 6.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 174.0,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 3,
+      "player": "alois",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 167.0,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 198.0,
+      "dayWinsTotal": 6.0
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "md05",
+  "label": "Spieltag 5",
+  "date": "",
+  "no": 5,
+  "matches": [
+    {
+      "id": "md05-01",
+      "home": "Team",
+      "away": "Team2",
+      "homeTeam": "B04",
+      "awayTeam": "FCB",
+      "result": "2:6",
+      "time": ""
+    },
+    {
+      "id": "md05-02",
+      "home": "Team3",
+      "away": "Team4",
+      "homeTeam": "S04",
+      "awayTeam": "SGE",
+      "result": "0:1",
+      "time": ""
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md05-01": "0:2",
+        "md05-02": "2:1"
+      },
+      "pickPoints": {
+        "md05-01": 2.0,
+        "md05-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 135.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.3333333333333335
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md05-01": "0:2",
+        "md05-02": "2:1"
+      },
+      "pickPoints": {
+        "md05-01": 2.0,
+        "md05-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 127.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.3333333333333333
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md05-01": "1:2",
+        "md05-02": "2:0"
+      },
+      "pickPoints": {
+        "md05-01": 2.0,
+        "md05-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 126.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.3333333333333333
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 135.0,
+      "dayWinsTotal": 2.3333333333333335
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 127.0,
+      "dayWinsTotal": 1.3333333333333333
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 126.0,
+      "dayWinsTotal": 1.3333333333333333
+    }
+  ]
+}

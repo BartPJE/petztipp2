@@ -1463,8 +1463,20 @@ function renderBonusTab() {
   };
 
   const displayKeys = rawKeys.flatMap((key) => {
+    if (key === "Finale") return ["Finale1", "Finale2"];
     if (key === "Halbfinale")
       return ["Halbfinale1", "Halbfinale2", "Halbfinale3", "Halbfinale4"];
+    if (key === "Viertelfinale")
+      return [
+        "Viertelfinale1",
+        "Viertelfinale2",
+        "Viertelfinale3",
+        "Viertelfinale4",
+        "Viertelfinale5",
+        "Viertelfinale6",
+        "Viertelfinale7",
+        "Viertelfinale8",
+      ];
     if (key === "Plätze 16-18") return ["Platz16", "Platz17", "Platz18"];
     if (key === "Absteiger") return ["Absteiger1", "Absteiger2", "Absteiger3"];
     return [key];
@@ -1482,6 +1494,56 @@ function renderBonusTab() {
     <div class="bonusMatrix bonusMatrixResults">
       ${displayKeys
         .map((displayKey) => {
+          if (displayKey.startsWith("Viertelfinale")) {
+            const idx = Number(displayKey.replace("Viertelfinale", "")) - 1;
+            const vals = normalizeBonusValue(resultFor("Viertelfinale"));
+            const val = vals[idx] ?? "—";
+            const pts = pointsFor("Viertelfinale");
+            const isDecided =
+              String(val).trim() !== "" &&
+              String(val).trim() !== "-" &&
+              String(val).trim() !== "—";
+
+            return `
+            <div class="bonusCell bonusResultCell">
+              <div class="bonusCellLabel">
+                Viertelfinale${idx + 1}
+                <span class="small" style="opacity:.7">(${pts}P)</span>
+              </div>
+              <div class="bonusCellValue bonusAnswers">
+                <span class="bonusAnswer ${isDecided ? "bonusAnswerHit" : ""}">
+                  ${escapeHtml(resolveTeamLabel(val))}
+                </span>
+              </div>
+            </div>
+          `;
+          }
+
+          if (displayKey.startsWith("Finale")) {
+            const idx = Number(displayKey.replace("Finale", "")) - 1;
+            const vals = normalizeBonusValue(resultFor("Finale"));
+            const val = vals[idx] ?? "—";
+            const pts = pointsFor("Finale");
+            const isDecided =
+              String(val).trim() !== "" &&
+              String(val).trim() !== "-" &&
+              String(val).trim() !== "—";
+
+            return `
+            <div class="bonusCell bonusResultCell">
+              <div class="bonusCellLabel">
+                Finale${idx + 1}
+                <span class="small" style="opacity:.7">(${pts}P)</span>
+              </div>
+              <div class="bonusCellValue bonusAnswers">
+                <span class="bonusAnswer ${isDecided ? "bonusAnswerHit" : ""}">
+                  ${escapeHtml(resolveTeamLabel(val))}
+                </span>
+              </div>
+            </div>
+          `;
+          }
+
           if (displayKey.startsWith("Halbfinale")) {
             const idx = Number(displayKey.replace("Halbfinale", "")) - 1;
             const vals = normalizeBonusValue(resultFor("Halbfinale"));
@@ -1620,6 +1682,56 @@ function renderBonusTab() {
             .flatMap((key) => {
               const pts = pointsFor(key);
 
+              if (key === "Viertelfinale") {
+                const playerVals = normalizeBonusValue(preds[key]);
+                const resultVals = normalizeBonusValue(
+                  resultFor("Viertelfinale"),
+                );
+                const resultSet = new Set(
+                  resultVals.map((x) => normalizeBonusCompareValue(x)),
+                );
+                const isDecided = hasDecidedBonusResult(
+                  resultFor("Viertelfinale"),
+                );
+                return Array.from({ length: 8 }).map((_, i) => {
+                  const val = playerVals[i] ?? "—";
+                  const normalizedVal = normalizeBonusCompareValue(val);
+
+                  const isHit =
+                    normalizedVal !== "" &&
+                    normalizedVal !== "—" &&
+                    resultSet.has(normalizedVal);
+
+                  if (isHit) bonusPoints += pts;
+
+                  const cellClass = isHit
+                    ? "bonusHit"
+                    : isDecided
+                      ? "bonusMiss"
+                      : "";
+                  const answerClass = isHit
+                    ? "bonusAnswerHit"
+                    : isDecided
+                      ? "bonusAnswerMiss"
+                      : "";
+
+                  return `
+                  <div class="bonusCell ${cellClass}">
+                    <div class="bonusCellLabel">
+                      Viertelfinale${i + 1}
+                      <span class="small" style="opacity:.7">(${pts}P)</span>
+                    </div>
+                    <div class="bonusCellValue bonusAnswers">
+                      <span class="bonusAnswer ${answerClass}">
+                        ${typeof getTeamLogo === "function" && val && val !== "—" ? `<img src="${escapeHtml(getTeamLogo(val) || "")}" class="teamLogoSmall">` : ""}
+                        ${escapeHtml(resolveTeamLabel(val))}
+                      </span>
+                    </div>
+                  </div>
+                `;
+                });
+              }
+
               if (key === "Halbfinale") {
                 const playerVals = normalizeBonusValue(preds[key]);
                 const resultVals = normalizeBonusValue(resultFor("Halbfinale"));
@@ -1629,7 +1741,9 @@ function renderBonusTab() {
                 const isDecided = hasDecidedBonusResult(
                   resultFor("Halbfinale"),
                 );
-                return Array.from({ length: 4 }).map((_, i) => {
+                return Array.from({
+                  length: 4,
+                }).map((_, i) => {
                   const val = playerVals[i] ?? "—";
                   const normalizedVal = normalizeBonusCompareValue(val);
 
@@ -1655,6 +1769,52 @@ function renderBonusTab() {
                   <div class="bonusCell ${cellClass}">
                     <div class="bonusCellLabel">
                       Halbfinale${i + 1}
+                      <span class="small" style="opacity:.7">(${pts}P)</span>
+                    </div>
+                    <div class="bonusCellValue bonusAnswers">
+                      <span class="bonusAnswer ${answerClass}">
+                        ${typeof getTeamLogo === "function" && val && val !== "—" ? `<img src="${escapeHtml(getTeamLogo(val) || "")}" class="teamLogoSmall">` : ""}
+                        ${escapeHtml(resolveTeamLabel(val))}
+                      </span>
+                    </div>
+                  </div>
+                `;
+                });
+              }
+
+              if (key === "Finale") {
+                const playerVals = normalizeBonusValue(preds[key]);
+                const resultVals = normalizeBonusValue(resultFor("Finale"));
+                const resultSet = new Set(
+                  resultVals.map((x) => normalizeBonusCompareValue(x)),
+                );
+                const isDecided = hasDecidedBonusResult(resultFor("Finale"));
+                return Array.from({ length: 2 }).map((_, i) => {
+                  const val = playerVals[i] ?? "—";
+                  const normalizedVal = normalizeBonusCompareValue(val);
+
+                  const isHit =
+                    normalizedVal !== "" &&
+                    normalizedVal !== "—" &&
+                    resultSet.has(normalizedVal);
+
+                  if (isHit) bonusPoints += pts;
+
+                  const cellClass = isHit
+                    ? "bonusHit"
+                    : isDecided
+                      ? "bonusMiss"
+                      : "";
+                  const answerClass = isHit
+                    ? "bonusAnswerHit"
+                    : isDecided
+                      ? "bonusAnswerMiss"
+                      : "";
+
+                  return `
+                  <div class="bonusCell ${cellClass}">
+                    <div class="bonusCellLabel">
+                      Finale${i + 1}
                       <span class="small" style="opacity:.7">(${pts}P)</span>
                     </div>
                     <div class="bonusCellValue bonusAnswers">

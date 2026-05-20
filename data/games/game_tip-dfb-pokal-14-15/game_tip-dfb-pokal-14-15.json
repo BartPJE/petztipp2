@@ -1,0 +1,124 @@
+{
+  "id": "tip-dfb-pokal-14-15",
+  "title": "DFB Pokal 2014/2015",
+  "competition": "DFB Pokal",
+  "season": "2014/2015",
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "",
+      "no": 1,
+      "file": "data/games/game_tip-dfb-pokal-14-15/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "",
+      "no": 2,
+      "file": "data/games/game_tip-dfb-pokal-14-15/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "",
+      "no": 3,
+      "file": "data/games/game_tip-dfb-pokal-14-15/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "",
+      "no": 4,
+      "file": "data/games/game_tip-dfb-pokal-14-15/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "",
+      "no": 5,
+      "file": "data/games/game_tip-dfb-pokal-14-15/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "",
+      "no": 6,
+      "file": "data/games/game_tip-dfb-pokal-14-15/matchdays/md06.json"
+    }
+  ],
+  "bonusTips": {
+    "picks": [
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Finale": ["FCB", "BVB"],
+          "Halbfinale": ["S04", "FCB", "BVB", "WOB"],
+          "Viertelfinale": [
+            "S04",
+            "RBL",
+            "B04",
+            "BMG",
+            "FCB",
+            "SCF",
+            "WOB",
+            "BVB"
+          ],
+          "Sieger": "FCB"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Finale": ["FCB", "BVB"],
+          "Halbfinale": ["B04", "FCB", "BVB", "S04"],
+          "Viertelfinale": [
+            "S04",
+            "HSV",
+            "B04",
+            "BMG",
+            "FCB",
+            "VFB",
+            "WOB",
+            "BVB"
+          ],
+          "Sieger": "FCB"
+        }
+      },
+      {
+        "player": "result",
+        "predictions": {
+          "Finale": ["WOB", "BVB"],
+          "Halbfinale": ["WOB", "FCB", "BVB", "DSC"],
+          "Viertelfinale": [
+            "TSG",
+            "DSC",
+            "B04",
+            "BMG",
+            "FCB",
+            "SCF",
+            "WOB",
+            "BVB"
+          ],
+          "Sieger": "WOB"
+        }
+      },
+      {
+        "player": "points",
+        "predictions": {
+          "Finale": 3,
+          "Halbfinale": 3,
+          "Viertelfinale": 3,
+          "Sieger": 3
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {}
+      }
+    ]
+  }
+}

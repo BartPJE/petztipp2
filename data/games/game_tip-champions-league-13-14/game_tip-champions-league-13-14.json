@@ -1,0 +1,262 @@
+{
+  "id": "tip-champions-league-13-14",
+  "title": "Champions League 2013/2014",
+  "competition": "Champions League",
+  "season": "2013/2014",
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "17.09.2013",
+      "no": 1,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "02.10.2013",
+      "no": 2,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "05.11.2013",
+      "no": 3,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "10.12.2013",
+      "no": 4,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "01.10.2013",
+      "no": 5,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "06.11.2013",
+      "no": 6,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "11.12.2013",
+      "no": 7,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "26.02.2014",
+      "no": 8,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "19.03.2014",
+      "no": 9,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "02.04.2014",
+      "no": 10,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Spieltag 11",
+      "date": "09.04.2014",
+      "no": 11,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Spieltag 12",
+      "date": "23.04.2014",
+      "no": 12,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Spieltag 13",
+      "date": "30.04.2014",
+      "no": 13,
+      "file": "data/games/game_tip-champions-league-13-14/matchdays/md13.json"
+    }
+  ],
+  "bonusTips": {
+    "questions": [
+      {
+        "label": "Torschütze",
+        "result": "Real Madrid",
+        "points": 3.0
+      },
+      {
+        "label": "Halbfinale",
+        "result": [
+          "Atlético Madrid",
+          "Real Madrid",
+          "FC Chelsea",
+          "FC Bayern München"
+        ],
+        "points": 3.0
+      },
+      {
+        "label": "Sieger",
+        "result": "Real Madrid",
+        "points": 5.0
+      },
+      {
+        "label": "Sieger A",
+        "result": "Manchester United",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger B",
+        "result": "Real Madrid",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger C",
+        "result": "Paris Saint-Germain",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger D",
+        "result": "FC Bayern München",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger E",
+        "result": "Chelsea",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger F",
+        "result": "Borussia Dortmund",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger G",
+        "result": "Atl",
+        "points": 3.0
+      },
+      {
+        "label": "Sieger H",
+        "result": "FC Barcelona",
+        "points": 3.0
+      }
+    ],
+    "picks": [
+      {
+        "player": "result",
+        "predictions": {
+          "Torschütze": "RMA",
+          "Halbfinale": ["RMA", "FCB", "ATM", "CHE"],
+          "Sieger": "RMA",
+          "Sieger A": "MUN",
+          "Sieger B": "RMA",
+          "Sieger C": "PSG",
+          "Sieger D": "FCB",
+          "Sieger E": "CHE",
+          "Sieger F": "BVB",
+          "Sieger G": "FCP",
+          "Sieger H": "BAR"
+        }
+      },
+      {
+        "player": "points",
+        "predictions": {
+          "Torschütze": 3,
+          "Halbfinale": 3,
+          "Sieger": 5,
+          "Sieger A": 3,
+          "Sieger B": 3,
+          "Sieger C": 3,
+          "Sieger D": 3,
+          "Sieger E": 3,
+          "Sieger F": 3,
+          "Sieger G": 3,
+          "Sieger H": 3
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {}
+      },
+      {
+        "player": "thomas",
+        "name": "Thomas",
+        "predictions": {
+          "Torschütze": "BAR",
+          "Halbfinale": ["RMA", "BVB", "FCB", "BAR"],
+          "Sieger": "BAR",
+          "Sieger A": "MUN",
+          "Sieger B": "RMA",
+          "Sieger C": "PSG",
+          "Sieger D": "FCB",
+          "Sieger E": "CHE",
+          "Sieger F": "BVB",
+          "Sieger G": "FCP",
+          "Sieger H": "BAR"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Torschütze": "BAR",
+          "Halbfinale": ["RMA", "CHE", "FCB", "BAR"],
+          "Sieger": "FCB",
+          "Sieger A": "MUN",
+          "Sieger B": "RMA",
+          "Sieger C": "PSG",
+          "Sieger D": "FCB",
+          "Sieger E": "CHE",
+          "Sieger F": "ARS",
+          "Sieger G": "FCP",
+          "Sieger H": "BAR"
+        }
+      },
+      {
+        "player": "peterm",
+        "name": "Peter M.",
+        "predictions": {
+          "Torschütze": "BAR",
+          "Halbfinale": ["RMA", "MUN", "FCB", "BAR"],
+          "Sieger": "FCB"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Torschütze": "RMA",
+          "Halbfinale": ["RMA", "FCB", "BVB", "BAR"],
+          "Sieger": "FCB",
+          "Sieger A": "MUN",
+          "Sieger B": "RMA",
+          "Sieger C": "PSG",
+          "Sieger D": "FCB",
+          "Sieger E": "CHE",
+          "Sieger F": "BVB",
+          "Sieger G": "FCP",
+          "Sieger H": "BAR"
+        }
+      }
+    ]
+  }
+}

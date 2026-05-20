@@ -1,0 +1,91 @@
+{
+  "id": "md13",
+  "label": "Spieltag 13",
+  "date": "10.05.2017",
+  "no": 13,
+  "matches": [
+    {
+      "id": "md13-01",
+      "home": "Juventus Turin",
+      "away": "Real Madrid",
+      "homeTeam": "JUV",
+      "awayTeam": "RMA",
+      "result": "1:4",
+      "date": "10.05.2017",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md13-01": null
+      },
+      "pickPoints": {
+        "md13-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 3.0,
+      "total": 185.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.5
+    },
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md13-01": null
+      },
+      "pickPoints": {
+        "md13-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 171.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md13-01": null
+      },
+      "pickPoints": {
+        "md13-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 201.0,
+      "dayWin": false,
+      "dayWinsTotal": 6.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 0.0,
+      "bonus": 3.0,
+      "total": 185.0,
+      "dayWinsTotal": 3.5
+    },
+    {
+      "rank": 3,
+      "player": "alois",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 171.0,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 201.0,
+      "dayWinsTotal": 6.0
+    }
+  ]
+}

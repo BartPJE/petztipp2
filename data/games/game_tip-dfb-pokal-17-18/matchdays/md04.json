@@ -1,0 +1,135 @@
+{
+  "id": "md04",
+  "label": "Spieltag 4",
+  "date": "",
+  "no": 4,
+  "matches": [
+    {
+      "id": "md04-01",
+      "home": "Team",
+      "away": "Team2",
+      "homeTeam": "SCP",
+      "awayTeam": "FCB",
+      "result": "0:6",
+      "time": ""
+    },
+    {
+      "id": "md04-02",
+      "home": "Team3",
+      "away": "Team4",
+      "homeTeam": "B04",
+      "awayTeam": "SVW",
+      "result": "4:2",
+      "time": ""
+    },
+    {
+      "id": "md04-03",
+      "home": "Team5",
+      "away": "Team6",
+      "homeTeam": "SGE",
+      "awayTeam": "M05",
+      "result": "3:0",
+      "time": ""
+    },
+    {
+      "id": "md04-04",
+      "home": "Team7",
+      "away": "Team8",
+      "homeTeam": "S04",
+      "awayTeam": "WOB",
+      "result": "1:0",
+      "time": ""
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md04-01": "0:4",
+        "md04-02": "2:0",
+        "md04-03": "2:1",
+        "md04-04": "2:1"
+      },
+      "pickPoints": {
+        "md04-01": 2.0,
+        "md04-02": 3.0,
+        "md04-03": 2.0,
+        "md04-04": 3.0
+      },
+      "points": 10.0,
+      "bonus": 8.0,
+      "total": 133.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "picks": {
+        "md04-01": "0:5",
+        "md04-02": "3:1",
+        "md04-03": "2:1",
+        "md04-04": "2:0"
+      },
+      "pickPoints": {
+        "md04-01": 2.0,
+        "md04-02": 3.0,
+        "md04-03": 2.0,
+        "md04-04": 2.0
+      },
+      "points": 9.0,
+      "bonus": 8.0,
+      "total": 125.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md04-01": "0:3",
+        "md04-02": "2:0",
+        "md04-03": "2:0",
+        "md04-04": "2:1"
+      },
+      "pickPoints": {
+        "md04-01": 2.0,
+        "md04-02": 3.0,
+        "md04-03": 2.0,
+        "md04-04": 3.0
+      },
+      "points": 10.0,
+      "bonus": 4.0,
+      "total": 124.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 10.0,
+      "bonus": 8.0,
+      "total": 133.0,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 9.0,
+      "bonus": 8.0,
+      "total": 125.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 10.0,
+      "bonus": 4.0,
+      "total": 124.0,
+      "dayWinsTotal": 1.0
+    }
+  ]
+}

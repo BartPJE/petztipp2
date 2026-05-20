@@ -1,0 +1,92 @@
+{
+  "id": "tip-dfb-pokal-17-18",
+  "title": "DFB Pokal 2017/2018",
+  "competition": "DFB Pokal",
+  "season": "2017/2018",
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "",
+      "no": 1,
+      "file": "data/games/game_tip-dfb-pokal-17-18/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "",
+      "no": 2,
+      "file": "data/games/game_tip-dfb-pokal-17-18/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "",
+      "no": 3,
+      "file": "data/games/game_tip-dfb-pokal-17-18/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "",
+      "no": 4,
+      "file": "data/games/game_tip-dfb-pokal-17-18/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "",
+      "no": 5,
+      "file": "data/games/game_tip-dfb-pokal-17-18/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "",
+      "no": 6,
+      "file": "data/games/game_tip-dfb-pokal-17-18/matchdays/md06.json"
+    }
+  ],
+  "bonusTips": {
+    "picks": [
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Halbfinale": ["BMG", "BVB", "FCB", "RBL"],
+          "Sieger": "FCB"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Halbfinale": ["S04", "BVB", "FCB", "RBL"],
+          "Sieger": "FCB"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Halbfinale": ["KOE", "BVB", "FCB", "S04"],
+          "Sieger": "FCB"
+        }
+      },
+      {
+        "player": "result",
+        "predictions": {
+          "Halbfinale": ["B04", "S04", "FCB", "SGE"],
+          "Sieger": "SGE"
+        }
+      },
+      {
+        "player": "points",
+        "predictions": {
+          "Halbfinale": 4,
+          "Sieger": 4
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "md12",
+  "label": "Spieltag 12",
+  "date": "27.04.2016",
+  "no": 12,
+  "matches": [
+    {
+      "id": "md12-01",
+      "home": "FC Bayern München",
+      "away": "Atlético Madrid",
+      "homeTeam": "FCB",
+      "awayTeam": "ATM",
+      "result": "2:1",
+      "date": "27.04.2016",
+      "time": "20:45"
+    },
+    {
+      "id": "md12-02",
+      "home": "Real Madrid",
+      "away": "Manchester City",
+      "homeTeam": "RMA",
+      "awayTeam": "MCI",
+      "result": "1:0",
+      "date": "03.05.2016",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 3,
+      "player": "peter",
+      "picks": {
+        "md12-01": "3:0",
+        "md12-02": "2:1"
+      },
+      "pickPoints": {
+        "md12-01": 2.0,
+        "md12-02": 3.0
+      },
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 221.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md12-01": "2:1",
+        "md12-02": "2:1"
+      },
+      "pickPoints": {
+        "md12-01": 4.0,
+        "md12-02": 3.0
+      },
+      "points": 7.0,
+      "bonus": 0.0,
+      "total": 214.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md12-01": "2:0",
+        "md12-02": "1:0"
+      },
+      "pickPoints": {
+        "md12-01": 2.0,
+        "md12-02": 4.0
+      },
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 198.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 221.0,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 2,
+      "player": "alois",
+      "points": 7.0,
+      "bonus": 0.0,
+      "total": 214.0,
+      "dayWinsTotal": 4.5
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 198.0,
+      "dayWinsTotal": 5.0
+    }
+  ]
+}

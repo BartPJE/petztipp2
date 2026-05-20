@@ -30,7 +30,7 @@
       "away": "Bayer 04 Leverkusen",
       "homeTeam": "HDH",
       "awayTeam": "B04",
-      "result": "3:3",
+      "result": "0:3",
       "date": "21.03.2026",
       "time": "15:30"
     },
@@ -62,7 +62,7 @@
       "awayTeam": "HSV",
       "result": "3:2",
       "date": "21.03.2026",
-      "time": "18:30"
+      "time": "15:30"
     },
     {
       "id": "md27-07",
@@ -71,8 +71,8 @@
       "homeTeam": "M05",
       "awayTeam": "SGE",
       "result": "2:1",
-      "date": "22.03.2026",
-      "time": "15:30"
+      "date": "21.03.2026",
+      "time": "18:30"
     },
     {
       "id": "md27-08",
@@ -82,7 +82,7 @@
       "awayTeam": "SCF",
       "result": "1:2",
       "date": "22.03.2026",
-      "time": "17:30"
+      "time": "15:30"
     },
     {
       "id": "md27-09",
@@ -90,9 +90,9 @@
       "away": "VfB Stuttgart",
       "homeTeam": "FCA",
       "awayTeam": "VFB",
-      "result": "2:5",
+      "result": "1:2",
       "date": "22.03.2026",
-      "time": "19:30"
+      "time": "17:30"
     }
   ],
   "tips": [
@@ -113,17 +113,17 @@
       "pickPoints": {
         "md27-01": 2.0,
         "md27-02": 2.0,
-        "md27-03": 0.0,
+        "md27-03": 2.0,
         "md27-04": 0.0,
         "md27-05": 0.0,
         "md27-06": 2.0,
         "md27-07": 0.0,
         "md27-08": 4.0,
-        "md27-09": 2.0
+        "md27-09": 4.0
       },
       "points": 12.0,
-      "bonus": 3.0,
-      "total": 363.0,
+      "bonus": 0.0,
+      "total": 375.0,
       "dayWin": false,
       "dayWinsTotal": 1.5
     },
@@ -144,17 +144,17 @@
       "pickPoints": {
         "md27-01": 2.0,
         "md27-02": 2.0,
-        "md27-03": 0.0,
+        "md27-03": 2.0,
         "md27-04": 0.0,
         "md27-05": 0.0,
         "md27-06": 3.0,
         "md27-07": 0.0,
         "md27-08": 0.0,
-        "md27-09": 2.0
+        "md27-09": 4.0
       },
       "points": 9.0,
-      "bonus": 3.0,
-      "total": 358.0,
+      "bonus": 0.0,
+      "total": 370.0,
       "dayWin": false,
       "dayWinsTotal": 4.0
     },
@@ -175,17 +175,17 @@
       "pickPoints": {
         "md27-01": 2.0,
         "md27-02": 2.0,
-        "md27-03": 0.0,
+        "md27-03": 2.0,
         "md27-04": 0.0,
         "md27-05": 0.0,
         "md27-06": 2.0,
         "md27-07": 4.0,
         "md27-08": 0.0,
-        "md27-09": 2.0
+        "md27-09": 4.0
       },
       "points": 12.0,
-      "bonus": 3.0,
-      "total": 358.0,
+      "bonus": 0.0,
+      "total": 370.0,
       "dayWin": false,
       "dayWinsTotal": 2.0
     },
@@ -206,17 +206,17 @@
       "pickPoints": {
         "md27-01": 0.0,
         "md27-02": 2.0,
-        "md27-03": 0.0,
+        "md27-03": 2.0,
         "md27-04": 0.0,
         "md27-05": 0.0,
         "md27-06": 2.0,
         "md27-07": 0.0,
         "md27-08": 2.0,
-        "md27-09": 2.0
+        "md27-09": 4.0
       },
       "points": 8.0,
-      "bonus": 3.0,
-      "total": 347.0,
+      "bonus": 0.0,
+      "total": 356.0,
       "dayWin": false,
       "dayWinsTotal": 5.0
     },
@@ -237,17 +237,17 @@
       "pickPoints": {
         "md27-01": 0.0,
         "md27-02": 2.0,
-        "md27-03": 0.0,
+        "md27-03": 2.0,
         "md27-04": 0.0,
         "md27-05": 3.0,
         "md27-06": 3.0,
         "md27-07": 0.0,
         "md27-08": 4.0,
-        "md27-09": 2.0
+        "md27-09": 4.0
       },
       "points": 14.0,
       "bonus": 0.0,
-      "total": 341.0,
+      "total": 353.0,
       "dayWin": false,
       "dayWinsTotal": 1.0
     },
@@ -268,7 +268,7 @@
       "pickPoints": {
         "md27-01": 0.0,
         "md27-02": 2.0,
-        "md27-03": 0.0,
+        "md27-03": 2.0,
         "md27-04": 3.0,
         "md27-05": 0.0,
         "md27-06": 3.0,
@@ -277,8 +277,8 @@
         "md27-09": 0.0
       },
       "points": 11.0,
-      "bonus": 3.0,
-      "total": 340.0,
+      "bonus": 0.0,
+      "total": 349.0,
       "dayWin": false,
       "dayWinsTotal": 4.0
     },
@@ -299,17 +299,17 @@
       "pickPoints": {
         "md27-01": 2.0,
         "md27-02": 2.0,
-        "md27-03": 0.0,
+        "md27-03": 2.0,
         "md27-04": 3.0,
         "md27-05": 0.0,
         "md27-06": 2.0,
         "md27-07": 0.0,
         "md27-08": 4.0,
-        "md27-09": 2.0
+        "md27-09": 4.0
       },
       "points": 15.0,
-      "bonus": 3.0,
-      "total": 337.0,
+      "bonus": 0.0,
+      "total": 349.0,
       "dayWin": true,
       "dayWinsTotal": 3.0
     },
@@ -318,7 +318,7 @@
       "player": "roman",
       "picks": {
         "md27-01": "2:1",
-        "md27-02": "2:0",
+        "md27-02": "2:1",
         "md27-03": "0:2",
         "md27-04": "2:1",
         "md27-05": "2:1",
@@ -330,19 +330,19 @@
       "pickPoints": {
         "md27-01": 2.0,
         "md27-02": 2.0,
-        "md27-03": 0.0,
+        "md27-03": 2.0,
         "md27-04": 0.0,
         "md27-05": 0.0,
         "md27-06": 3.0,
         "md27-07": 0.0,
         "md27-08": 4.0,
-        "md27-09": 2.0
+        "md27-09": 4.0
       },
       "points": 13.0,
-      "bonus": 3.0,
-      "total": 334.0,
+      "bonus": 0.0,
+      "total": 343.0,
       "dayWin": false,
-      "dayWinsTotal": 0.0
+      "dayWinsTotal": 1.0
     },
     {
       "rank": 9,
@@ -361,7 +361,7 @@
       "pickPoints": {
         "md27-01": 0.0,
         "md27-02": 2.0,
-        "md27-03": 0.0,
+        "md27-03": 2.0,
         "md27-04": 0.0,
         "md27-05": 0.0,
         "md27-06": 2.0,
@@ -370,10 +370,122 @@
         "md27-09": 2.0
       },
       "points": 6.0,
-      "bonus": 3.0,
-      "total": 327.0,
+      "bonus": 0.0,
+      "total": 339.0,
       "dayWin": false,
       "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 10,
+      "player": "michih",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 177.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 11,
+      "player": "markus",
+      "picks": {},
+      "pickPoints": {},
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 157.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 375.0,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 2,
+      "player": "hubi",
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 370.0,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 3,
+      "player": "alois",
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 370.0,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 4,
+      "player": "huy",
+      "points": 8.0,
+      "bonus": 0.0,
+      "total": 356.0,
+      "dayWinsTotal": 5.0
+    },
+    {
+      "rank": 5,
+      "player": "bene",
+      "points": 14.0,
+      "bonus": 0.0,
+      "total": 353.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 6,
+      "player": "johannes",
+      "points": 11.0,
+      "bonus": 0.0,
+      "total": 349.0,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 7,
+      "player": "peterm",
+      "points": 15.0,
+      "bonus": 0.0,
+      "total": 349.0,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 8,
+      "player": "roman",
+      "points": 13.0,
+      "bonus": 0.0,
+      "total": 343.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 9,
+      "player": "flok",
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 339.0,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 10,
+      "player": "michih",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 177.0,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 11,
+      "player": "markus",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 157.0,
+      "dayWinsTotal": 2.0
     }
   ]
 }

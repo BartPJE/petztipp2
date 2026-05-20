@@ -14,8 +14,8 @@
           "id": "md01-01",
           "home": "Türkei",
           "away": "Italien",
-          "homeCode": "TUR",
-          "awayCode": "ITA",
+          "homeTeam": "TUR",
+          "awayTeam": "ITA",
           "result": "0:3",
           "date": "11.06.2021"
         },
@@ -23,8 +23,8 @@
           "id": "md01-02",
           "home": "Wales",
           "away": "Schweiz",
-          "homeCode": "WAL",
-          "awayCode": "SUI",
+          "homeTeam": "WAL",
+          "awayTeam": "SUI",
           "result": "1:1",
           "date": "12.06.2021"
         },
@@ -32,8 +32,8 @@
           "id": "md01-03",
           "home": "Dänemark",
           "away": "Finnland",
-          "homeCode": "DEN",
-          "awayCode": "FIN",
+          "homeTeam": "DEN",
+          "awayTeam": "FIN",
           "result": "0:1",
           "date": "12.06.2021"
         },
@@ -41,8 +41,8 @@
           "id": "md01-04",
           "home": "Belgien",
           "away": "Russland",
-          "homeCode": "BEL",
-          "awayCode": "RUS",
+          "homeTeam": "BEL",
+          "awayTeam": "RUS",
           "result": "3:0",
           "date": "12.06.2021"
         },
@@ -50,8 +50,8 @@
           "id": "md01-05",
           "home": "England",
           "away": "Kroatien",
-          "homeCode": "ENG",
-          "awayCode": "CRO",
+          "homeTeam": "ENG",
+          "awayTeam": "CRO",
           "result": "1:0",
           "date": "13.06.2021"
         },
@@ -59,8 +59,8 @@
           "id": "md01-06",
           "home": "Österreich",
           "away": "Nordmazedonien",
-          "homeCode": "AUT",
-          "awayCode": "MKD",
+          "homeTeam": "AUT",
+          "awayTeam": "MKD",
           "result": "3:1",
           "date": "13.06.2021"
         },
@@ -68,8 +68,8 @@
           "id": "md01-07",
           "home": "Niederlande",
           "away": "Ukraine",
-          "homeCode": "NED",
-          "awayCode": "UKR",
+          "homeTeam": "NED",
+          "awayTeam": "UKR",
           "result": "3:2",
           "date": "13.06.2021"
         }
@@ -719,8 +719,8 @@
           "id": "md02-01",
           "home": "Schottland",
           "away": "Tschechien",
-          "homeCode": "SCO",
-          "awayCode": "CZE",
+          "homeTeam": "SCO",
+          "awayTeam": "CZE",
           "result": "0:2",
           "date": "14.06.2021"
         },
@@ -728,8 +728,8 @@
           "id": "md02-02",
           "home": "Polen",
           "away": "Slowakei",
-          "homeCode": "POL",
-          "awayCode": "SVK",
+          "homeTeam": "POL",
+          "awayTeam": "SVK",
           "result": "1:2",
           "date": "14.06.2021"
         },
@@ -737,8 +737,8 @@
           "id": "md02-03",
           "home": "Spanien",
           "away": "Schweden",
-          "homeCode": "ESP",
-          "awayCode": "SWE",
+          "homeTeam": "ESP",
+          "awayTeam": "SWE",
           "result": "0:0",
           "date": "14.06.2021"
         },
@@ -746,8 +746,8 @@
           "id": "md02-04",
           "home": "Ungarn",
           "away": "Portugal",
-          "homeCode": "HUN",
-          "awayCode": "POR",
+          "homeTeam": "HUN",
+          "awayTeam": "POR",
           "result": "0:3",
           "date": "15.06.2021"
         },
@@ -755,8 +755,8 @@
           "id": "md02-05",
           "home": "Frankreich",
           "away": "Deutschland",
-          "homeCode": "FRA",
-          "awayCode": "GER",
+          "homeTeam": "FRA",
+          "awayTeam": "GER",
           "result": "1:0",
           "date": "15.06.2021"
         }
@@ -1334,8 +1334,8 @@
           "id": "md03-01",
           "home": "Finnland",
           "away": "Russland",
-          "homeCode": "FIN",
-          "awayCode": "RUS",
+          "homeTeam": "FIN",
+          "awayTeam": "RUS",
           "result": "0:1",
           "date": "16.06.2021"
         },
@@ -1343,8 +1343,8 @@
           "id": "md03-02",
           "home": "Türkei",
           "away": "Wales",
-          "homeCode": "TUR",
-          "awayCode": "WAL",
+          "homeTeam": "TUR",
+          "awayTeam": "WAL",
           "result": "0:2",
           "date": "16.06.2021"
         },
@@ -1352,8 +1352,8 @@
           "id": "md03-03",
           "home": "Italien",
           "away": "Schweiz",
-          "homeCode": "ITA",
-          "awayCode": "SUI",
+          "homeTeam": "ITA",
+          "awayTeam": "SUI",
           "result": "3:0",
           "date": "16.06.2021"
         },
@@ -1361,8 +1361,8 @@
           "id": "md03-04",
           "home": "Ukraine",
           "away": "Nordmazedonien",
-          "homeCode": "UKR",
-          "awayCode": "MKD",
+          "homeTeam": "UKR",
+          "awayTeam": "MKD",
           "result": "2:1",
           "date": "17.06.2021"
         },
@@ -1370,8 +1370,8 @@
           "id": "md03-05",
           "home": "Dänemark",
           "away": "Belgien",
-          "homeCode": "DEN",
-          "awayCode": "BEL",
+          "homeTeam": "DEN",
+          "awayTeam": "BEL",
           "result": "1:2",
           "date": "17.06.2021"
         },
@@ -1379,8 +1379,8 @@
           "id": "md03-06",
           "home": "Niederlande",
           "away": "Österreich",
-          "homeCode": "NED",
-          "awayCode": "AUT",
+          "homeTeam": "NED",
+          "awayTeam": "AUT",
           "result": "2:0",
           "date": "17.06.2021"
         }
@@ -1994,8 +1994,8 @@
           "id": "md04-01",
           "home": "Schweden",
           "away": "Slowakei",
-          "homeCode": "SWE",
-          "awayCode": "SVK",
+          "homeTeam": "SWE",
+          "awayTeam": "SVK",
           "result": "1:0",
           "date": "18.06.2021"
         },
@@ -2003,8 +2003,8 @@
           "id": "md04-02",
           "home": "Kroatien",
           "away": "Tschechien",
-          "homeCode": "CRO",
-          "awayCode": "CZE",
+          "homeTeam": "CRO",
+          "awayTeam": "CZE",
           "result": "1:1",
           "date": "18.06.2021"
         },
@@ -2012,8 +2012,8 @@
           "id": "md04-03",
           "home": "England",
           "away": "Schottland",
-          "homeCode": "ENG",
-          "awayCode": "SCO",
+          "homeTeam": "ENG",
+          "awayTeam": "SCO",
           "result": "0:0",
           "date": "18.06.2021"
         },
@@ -2021,8 +2021,8 @@
           "id": "md04-04",
           "home": "Ungarn",
           "away": "Frankreich",
-          "homeCode": "HUN",
-          "awayCode": "FRA",
+          "homeTeam": "HUN",
+          "awayTeam": "FRA",
           "result": "1:1",
           "date": "19.06.2021"
         },
@@ -2030,8 +2030,8 @@
           "id": "md04-05",
           "home": "Portugal",
           "away": "Deutschland",
-          "homeCode": "POR",
-          "awayCode": "GER",
+          "homeTeam": "POR",
+          "awayTeam": "GER",
           "result": "2:4",
           "date": "19.06.2021"
         },
@@ -2039,8 +2039,8 @@
           "id": "md04-06",
           "home": "Spanien",
           "away": "Polen",
-          "homeCode": "ESP",
-          "awayCode": "POL",
+          "homeTeam": "ESP",
+          "awayTeam": "POL",
           "result": "1:1",
           "date": "19.06.2021"
         }
@@ -2654,8 +2654,8 @@
           "id": "md05-01",
           "home": "Italien",
           "away": "Wales",
-          "homeCode": "ITA",
-          "awayCode": "WAL",
+          "homeTeam": "ITA",
+          "awayTeam": "WAL",
           "result": "1:0",
           "date": "20.06.2021"
         },
@@ -2663,8 +2663,8 @@
           "id": "md05-02",
           "home": "Schweiz",
           "away": "Türkei",
-          "homeCode": "SUI",
-          "awayCode": "TUR",
+          "homeTeam": "SUI",
+          "awayTeam": "TUR",
           "result": "3:1",
           "date": "20.06.2021"
         },
@@ -2672,8 +2672,8 @@
           "id": "md05-03",
           "home": "Ukraine",
           "away": "Österreich",
-          "homeCode": "UKR",
-          "awayCode": "AUT",
+          "homeTeam": "UKR",
+          "awayTeam": "AUT",
           "result": "0:1",
           "date": "21.06.2021"
         },
@@ -2681,8 +2681,8 @@
           "id": "md05-04",
           "home": "Nordmazedonien",
           "away": "Niederlande",
-          "homeCode": "MKD",
-          "awayCode": "NED",
+          "homeTeam": "MKD",
+          "awayTeam": "NED",
           "result": "0:3",
           "date": "21.06.2021"
         },
@@ -2690,8 +2690,8 @@
           "id": "md05-05",
           "home": "Russland",
           "away": "Dänemark",
-          "homeCode": "RUS",
-          "awayCode": "DEN",
+          "homeTeam": "RUS",
+          "awayTeam": "DEN",
           "result": "1:4",
           "date": "21.06.2021"
         },
@@ -2699,8 +2699,8 @@
           "id": "md05-06",
           "home": "Finnland",
           "away": "Belgien",
-          "homeCode": "FIN",
-          "awayCode": "BEL",
+          "homeTeam": "FIN",
+          "awayTeam": "BEL",
           "result": "0:2",
           "date": "21.06.2021"
         }
@@ -3314,8 +3314,8 @@
           "id": "md06-01",
           "home": "Kroatien",
           "away": "Schottland",
-          "homeCode": "CRO",
-          "awayCode": "SCO",
+          "homeTeam": "CRO",
+          "awayTeam": "SCO",
           "result": "3:1",
           "date": "22.06.2021"
         },
@@ -3323,8 +3323,8 @@
           "id": "md06-02",
           "home": "Tschechien",
           "away": "England",
-          "homeCode": "CZE",
-          "awayCode": "ENG",
+          "homeTeam": "CZE",
+          "awayTeam": "ENG",
           "result": "0:1",
           "date": "22.06.2021"
         },
@@ -3332,8 +3332,8 @@
           "id": "md06-03",
           "home": "Slowakei",
           "away": "Spanien",
-          "homeCode": "SVK",
-          "awayCode": "ESP",
+          "homeTeam": "SVK",
+          "awayTeam": "ESP",
           "result": "0:5",
           "date": "23.06.2021"
         },
@@ -3341,8 +3341,8 @@
           "id": "md06-04",
           "home": "Schweden",
           "away": "Polen",
-          "homeCode": "SWE",
-          "awayCode": "POL",
+          "homeTeam": "SWE",
+          "awayTeam": "POL",
           "result": "3:2",
           "date": "23.06.2021"
         },
@@ -3350,8 +3350,8 @@
           "id": "md06-05",
           "home": "Portugal",
           "away": "Frankreich",
-          "homeCode": "POR",
-          "awayCode": "FRA",
+          "homeTeam": "POR",
+          "awayTeam": "FRA",
           "result": "2:2",
           "date": "23.06.2021"
         },
@@ -3359,8 +3359,8 @@
           "id": "md06-06",
           "home": "Deutschland",
           "away": "Ungarn",
-          "homeCode": "GER",
-          "awayCode": "HUN",
+          "homeTeam": "GER",
+          "awayTeam": "HUN",
           "result": "2:2",
           "date": "23.06.2021"
         }
@@ -3974,8 +3974,8 @@
           "id": "md07-01",
           "home": "Wales",
           "away": "Dänemark",
-          "homeCode": "WAL",
-          "awayCode": "DEN",
+          "homeTeam": "WAL",
+          "awayTeam": "DEN",
           "result": "0:4",
           "date": "26.06.2021"
         },
@@ -3983,8 +3983,8 @@
           "id": "md07-02",
           "home": "Italien",
           "away": "Österreich",
-          "homeCode": "ITA",
-          "awayCode": "AUT",
+          "homeTeam": "ITA",
+          "awayTeam": "AUT",
           "result": "2:1",
           "date": "26.06.2021"
         },
@@ -3992,8 +3992,8 @@
           "id": "md07-03",
           "home": "Niederlande",
           "away": "Tschechien",
-          "homeCode": "NED",
-          "awayCode": "CZE",
+          "homeTeam": "NED",
+          "awayTeam": "CZE",
           "result": "0:2",
           "date": "27.06.2021"
         },
@@ -4001,8 +4001,8 @@
           "id": "md07-04",
           "home": "Belgien",
           "away": "Portugal",
-          "homeCode": "BEL",
-          "awayCode": "POR",
+          "homeTeam": "BEL",
+          "awayTeam": "POR",
           "result": "1:0",
           "date": "27.06.2021"
         },
@@ -4010,8 +4010,8 @@
           "id": "md07-05",
           "home": "Kroatien",
           "away": "Spanien",
-          "homeCode": "CRO",
-          "awayCode": "ESP",
+          "homeTeam": "CRO",
+          "awayTeam": "ESP",
           "result": "3:5",
           "date": "28.06.2021"
         },
@@ -4019,8 +4019,8 @@
           "id": "md07-06",
           "home": "Frankreich",
           "away": "Schweiz",
-          "homeCode": "FRA",
-          "awayCode": "SUI",
+          "homeTeam": "FRA",
+          "awayTeam": "SUI",
           "result": "7:8",
           "date": "28.06.2021"
         },
@@ -4028,8 +4028,8 @@
           "id": "md07-07",
           "home": "England",
           "away": "Deutschland",
-          "homeCode": "ENG",
-          "awayCode": "GER",
+          "homeTeam": "ENG",
+          "awayTeam": "GER",
           "result": "2:0",
           "date": "29.06.2021"
         },
@@ -4037,8 +4037,8 @@
           "id": "md07-08",
           "home": "Schweden",
           "away": "Ukraine",
-          "homeCode": "SWE",
-          "awayCode": "UKR",
+          "homeTeam": "SWE",
+          "awayTeam": "UKR",
           "result": "1:2",
           "date": "29.06.2021"
         }
@@ -4724,8 +4724,8 @@
           "id": "md08-01",
           "home": "Schweiz",
           "away": "Spanien",
-          "homeCode": "SUI",
-          "awayCode": "ESP",
+          "homeTeam": "SUI",
+          "awayTeam": "ESP",
           "result": "2:4",
           "date": "02.07.2021"
         },
@@ -4733,8 +4733,8 @@
           "id": "md08-02",
           "home": "Belgien",
           "away": "Italien",
-          "homeCode": "BEL",
-          "awayCode": "ITA",
+          "homeTeam": "BEL",
+          "awayTeam": "ITA",
           "result": "1:2",
           "date": "02.07.2021"
         },
@@ -4742,8 +4742,8 @@
           "id": "md08-03",
           "home": "Tschechien",
           "away": "Dänemark",
-          "homeCode": "CZE",
-          "awayCode": "DEN",
+          "homeTeam": "CZE",
+          "awayTeam": "DEN",
           "result": "1:2",
           "date": "03.07.2021"
         },
@@ -4751,8 +4751,8 @@
           "id": "md08-04",
           "home": "Ukraine",
           "away": "England",
-          "homeCode": "UKR",
-          "awayCode": "ENG",
+          "homeTeam": "UKR",
+          "awayTeam": "ENG",
           "result": "0:4",
           "date": "03.07.2021"
         }
@@ -5294,8 +5294,8 @@
           "id": "md09-01",
           "home": "Italien",
           "away": "Spanien",
-          "homeCode": "ITA",
-          "awayCode": "ESP",
+          "homeTeam": "ITA",
+          "awayTeam": "ESP",
           "result": "5:3",
           "date": "06.07.2021"
         },
@@ -5303,8 +5303,8 @@
           "id": "md09-02",
           "home": "England",
           "away": "Dänemark",
-          "homeCode": "ENG",
-          "awayCode": "DEN",
+          "homeTeam": "ENG",
+          "awayTeam": "DEN",
           "result": "2:1",
           "date": "07.07.2021"
         }
@@ -5774,8 +5774,8 @@
           "id": "md10-01",
           "home": "Italien",
           "away": "England",
-          "homeCode": "ITA",
-          "awayCode": "ENG",
+          "homeTeam": "ITA",
+          "awayTeam": "ENG",
           "result": "4:3",
           "date": "11.07.2021"
         }
@@ -6209,12 +6209,7 @@
         "predictions": {
           "Europameister": "Deutschland",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Deutschland",
-            "England",
-            "Frankreich",
-            "Spanien"
-          ],
+          "Halbfinale": ["Deutschland", "England", "Frankreich", "Spanien"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6229,12 +6224,7 @@
         "predictions": {
           "Europameister": "Frankreich",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Belgien",
-            "England",
-            "Frankreich",
-            "Spanien"
-          ],
+          "Halbfinale": ["Belgien", "England", "Frankreich", "Spanien"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6249,12 +6239,7 @@
         "predictions": {
           "Europameister": "Frankreich",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Belgien",
-            "England",
-            "Frankreich",
-            "Portugal"
-          ],
+          "Halbfinale": ["Belgien", "England", "Frankreich", "Portugal"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6269,12 +6254,7 @@
         "predictions": {
           "Europameister": "Frankreich",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Deutschland",
-            "England",
-            "Frankreich",
-            "Spanien"
-          ],
+          "Halbfinale": ["Deutschland", "England", "Frankreich", "Spanien"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6289,12 +6269,7 @@
         "predictions": {
           "Europameister": "Deutschland",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Dänemark",
-            "Belgien",
-            "Deutschland",
-            "Niederlande"
-          ],
+          "Halbfinale": ["Dänemark", "Belgien", "Deutschland", "Niederlande"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6309,12 +6284,7 @@
         "predictions": {
           "Europameister": "Frankreich",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Belgien",
-            "England",
-            "Deutschland",
-            "Frankreich"
-          ],
+          "Halbfinale": ["Belgien", "England", "Deutschland", "Frankreich"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6329,12 +6299,7 @@
         "predictions": {
           "Europameister": "Frankreich",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Belgien",
-            "Deutschland",
-            "Frankreich",
-            "Niederlande"
-          ],
+          "Halbfinale": ["Belgien", "Deutschland", "Frankreich", "Niederlande"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6349,12 +6314,7 @@
         "predictions": {
           "Europameister": "Frankreich",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Deutschland",
-            "England",
-            "Italien",
-            "Frankreich"
-          ],
+          "Halbfinale": ["Deutschland", "England", "Italien", "Frankreich"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Österreich",
@@ -6369,12 +6329,7 @@
         "predictions": {
           "Europameister": "Frankreich",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Deutschland",
-            "Frankreich",
-            "Italien",
-            "Portugal"
-          ],
+          "Halbfinale": ["Deutschland", "Frankreich", "Italien", "Portugal"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6389,12 +6344,7 @@
         "predictions": {
           "Europameister": "Belgien",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Belgien",
-            "England",
-            "Frankreich",
-            "Spanien"
-          ],
+          "Halbfinale": ["Belgien", "England", "Frankreich", "Spanien"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Österreich",
@@ -6409,12 +6359,7 @@
         "predictions": {
           "Europameister": "Deutschland",
           "Torschützenkönig": "Deutschland",
-          "Halbfinale": [
-            "Deutschland",
-            "England",
-            "Frankreich",
-            "Spanien"
-          ],
+          "Halbfinale": ["Deutschland", "England", "Frankreich", "Spanien"],
           "Gruppe A": "Schweiz",
           "Gruppe B": "Dänemark",
           "Gruppe C": "Niederlande",
@@ -6429,12 +6374,7 @@
         "predictions": {
           "Europameister": "Deutschland",
           "Torschützenkönig": "Niederlande",
-          "Halbfinale": [
-            "Deutschland",
-            "England",
-            "Italien",
-            "Niederlande"
-          ],
+          "Halbfinale": ["Deutschland", "England", "Italien", "Niederlande"],
           "Gruppe A": "Italien",
           "Gruppe B": "Dänemark",
           "Gruppe C": "Niederlande",
@@ -6449,12 +6389,7 @@
         "predictions": {
           "Europameister": "Kroatien",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Belgien",
-            "England",
-            "Deutschland",
-            "Frankreich"
-          ],
+          "Halbfinale": ["Belgien", "England", "Deutschland", "Frankreich"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6469,12 +6404,7 @@
         "predictions": {
           "Europameister": "Frankreich",
           "Torschützenkönig": "Frankreich",
-          "Halbfinale": [
-            "Belgien",
-            "Deutschland",
-            "Frankreich",
-            "Kroatien"
-          ],
+          "Halbfinale": ["Belgien", "Deutschland", "Frankreich", "Kroatien"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6489,12 +6419,7 @@
         "predictions": {
           "Europameister": "Deutschland",
           "Torschützenkönig": "Spanien",
-          "Halbfinale": [
-            "Deutschland",
-            "Frankreich",
-            "Italien",
-            "Spanien"
-          ],
+          "Halbfinale": ["Deutschland", "Frankreich", "Italien", "Spanien"],
           "Gruppe A": "Italien",
           "Gruppe B": "Russland",
           "Gruppe C": "Niederlande",
@@ -6509,12 +6434,7 @@
         "predictions": {
           "Europameister": "Niederlande",
           "Torschützenkönig": "Spanien",
-          "Halbfinale": [
-            "Belgien",
-            "Deutschland",
-            "Niederlande",
-            "Portugal"
-          ],
+          "Halbfinale": ["Belgien", "Deutschland", "Niederlande", "Portugal"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6529,12 +6449,7 @@
         "predictions": {
           "Europameister": "Deutschland",
           "Torschützenkönig": "England",
-          "Halbfinale": [
-            "Belgien",
-            "England",
-            "Deutschland",
-            "Frankreich"
-          ],
+          "Halbfinale": ["Belgien", "England", "Deutschland", "Frankreich"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6549,12 +6464,7 @@
         "predictions": {
           "Europameister": "Deutschland",
           "Torschützenkönig": "Deutschland",
-          "Halbfinale": [
-            "Belgien",
-            "England",
-            "Deutschland",
-            "Frankreich"
-          ],
+          "Halbfinale": ["Belgien", "England", "Deutschland", "Frankreich"],
           "Gruppe A": "Italien",
           "Gruppe B": "Belgien",
           "Gruppe C": "Niederlande",
@@ -6567,37 +6477,15 @@
         "player": "result",
         "name": "Ergebnis",
         "predictions": {
-          "Europameister": [
-            "Italien"
-          ],
-          "Torschützenkönig": [
-            "Portugal",
-            "Tschechien"
-          ],
-          "Halbfinale": [
-            "Spanien",
-            "Italien",
-            "Dänemark",
-            "England"
-          ],
-          "Gruppe A": [
-            "Italien"
-          ],
-          "Gruppe B": [
-            "Belgien"
-          ],
-          "Gruppe C": [
-            "Niederlande"
-          ],
-          "Gruppe D": [
-            "England"
-          ],
-          "Gruppe E": [
-            "Schweden"
-          ],
-          "Gruppe F": [
-            "Frankreich"
-          ]
+          "Europameister": ["Italien"],
+          "Torschützenkönig": ["Portugal", "Tschechien"],
+          "Halbfinale": ["Spanien", "Italien", "Dänemark", "England"],
+          "Gruppe A": ["Italien"],
+          "Gruppe B": ["Belgien"],
+          "Gruppe C": ["Niederlande"],
+          "Gruppe D": ["England"],
+          "Gruppe E": ["Schweden"],
+          "Gruppe F": ["Frankreich"]
         }
       },
       {

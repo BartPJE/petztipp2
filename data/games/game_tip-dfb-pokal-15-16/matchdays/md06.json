@@ -1,0 +1,91 @@
+{
+  "id": "md06",
+  "label": "Spieltag 6",
+  "date": "21.05.2016 - 21.05.2016",
+  "no": 6,
+  "matches": [
+    {
+      "id": "md06-01",
+      "home": "FCB",
+      "away": "BVB",
+      "homeTeam": "FCB",
+      "awayTeam": "BVB",
+      "result": "4:3",
+      "date": "21.05.2016",
+      "time": "20:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md06-01": "2:1"
+      },
+      "pickPoints": {
+        "md06-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 4.0,
+      "total": 135.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md06-01": "2:1"
+      },
+      "pickPoints": {
+        "md06-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 4.0,
+      "total": 130.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md06-01": "3:1"
+      },
+      "pickPoints": {
+        "md06-01": 2.0
+      },
+      "points": 2.0,
+      "bonus": 4.0,
+      "total": 122.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 3.0,
+      "bonus": 4.0,
+      "total": 130.0,
+      "dayWinsTotal": 3.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 3.0,
+      "bonus": 4.0,
+      "total": 135.0,
+      "dayWinsTotal": 2.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 2.0,
+      "bonus": 4.0,
+      "total": 122.0,
+      "dayWinsTotal": 0.0
+    }
+  ]
+}

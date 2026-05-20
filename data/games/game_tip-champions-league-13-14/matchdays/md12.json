@@ -1,0 +1,157 @@
+{
+  "id": "md12",
+  "label": "Spieltag 12",
+  "date": "23.04.2014",
+  "no": 12,
+  "matches": [
+    {
+      "id": "md12-01",
+      "home": "FC Bayern München",
+      "away": "Real Madrid",
+      "homeTeam": "FCB",
+      "awayTeam": "RMA",
+      "result": "0:4",
+      "date": "23.04.2014",
+      "time": "20:45"
+    },
+    {
+      "id": "md12-02",
+      "home": "FC Chelsea",
+      "away": "Atlético Madrid",
+      "homeTeam": "CHE",
+      "awayTeam": "ATM",
+      "result": "1:3",
+      "date": "29.04.2014",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 2,
+      "player": "alois",
+      "picks": {
+        "md12-01": "2:1",
+        "md12-02": "0:1"
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 2.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 226.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.75
+    },
+    {
+      "rank": 2,
+      "player": "thomas",
+      "picks": {
+        "md12-01": "2:2",
+        "md12-02": "0:1"
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 2.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 226.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.25
+    },
+    {
+      "rank": 4,
+      "player": "peter",
+      "picks": {
+        "md12-01": "3:1",
+        "md12-02": "2:1"
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 208.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.75
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md12-01": "2:0",
+        "md12-02": "0:2"
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 164.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.25
+    },
+    {
+      "rank": 4,
+      "player": "peterm",
+      "picks": {
+        "md12-01": null,
+        "md12-02": null
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 6.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 226.0,
+      "dayWinsTotal": 2.75
+    },
+    {
+      "rank": 1,
+      "player": "thomas",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 226.0,
+      "dayWinsTotal": 3.25
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 208.0,
+      "dayWinsTotal": 1.75
+    },
+    {
+      "rank": 4,
+      "player": "johannes",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 164.0,
+      "dayWinsTotal": 4.25
+    },
+    {
+      "rank": 5,
+      "player": "peterm",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 6.0,
+      "dayWinsTotal": 0.0
+    }
+  ]
+}
