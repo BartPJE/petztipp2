@@ -1942,6 +1942,15 @@
     "logo": "img/teams/fk-astana.svg"
   },
   {
+    "key": "QAR",
+    "name": "Qarabağ Ağdam",
+    "shortName": "Qarabağ",
+    "mobileName": "Qarabağ",
+    "country": "AZE",
+    "displayName": "Qarabağ Ağdam",
+    "logo": "img/teams/qarabag-agdam.svg"
+  },
+  {
     "key": "MTA",
     "name": "Maccabi Tel Aviv",
     "shortName": "Maccabi Tel Aviv",

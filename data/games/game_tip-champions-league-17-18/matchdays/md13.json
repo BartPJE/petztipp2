@@ -1,0 +1,91 @@
+{
+  "id": "md13",
+  "label": "Spieltag 13",
+  "date": "11.04.2018",
+  "no": 13,
+  "matches": [
+    {
+      "id": "md13-01",
+      "home": "Bayern München (GER)",
+      "away": "Sevilla FC (ESP)",
+      "homeTeam": "RMA",
+      "awayTeam": "LIV",
+      "result": "3:1",
+      "date": "11.04.2018",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 3,
+      "player": "alois",
+      "picks": {
+        "md13-01": "2:1"
+      },
+      "pickPoints": {
+        "md13-01": 2.0
+      },
+      "points": 2.0,
+      "bonus": 6.0,
+      "total": 199.0,
+      "dayWin": false,
+      "dayWinsTotal": 7.666666666666666
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md13-01": "3:1"
+      },
+      "pickPoints": {
+        "md13-01": 4.0
+      },
+      "points": 4.0,
+      "bonus": 3.0,
+      "total": 181.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.1666666666666665
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md13-01": "2:0"
+      },
+      "pickPoints": {
+        "md13-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 169.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.1666666666666665
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 2.0,
+      "bonus": 6.0,
+      "total": 199.0,
+      "dayWinsTotal": 7.666666666666666
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 4.0,
+      "bonus": 3.0,
+      "total": 181.0,
+      "dayWinsTotal": 3.1666666666666665
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 169.0,
+      "dayWinsTotal": 2.1666666666666665
+    }
+  ]
+}

@@ -1,23 +1,5 @@
 [
   {
-    "id": "tip-bundesliga-17-18",
-    "title": "Bundesliga 2017/2018",
-    "competition": "Bundesliga",
-    "compShort": "BL",
-    "season": "2017/2018",
-    "start": "2017-08-18",
-    "end": "2018-05-12"
-  },
-  {
-    "id": "tip-champions-league-17-18",
-    "title": "Champions League 2017/2018",
-    "competition": "Champions League",
-    "compShort": "CL",
-    "season": "2017/2018",
-    "start": "2017-09-12",
-    "end": "2018-05-26"
-  },
-  {
     "id": "tip-wm-2018",
     "title": "World Cup 2018 - Russia",
     "competition": "Weltmeisterschaft",

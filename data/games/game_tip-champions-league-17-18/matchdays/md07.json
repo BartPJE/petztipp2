@@ -1,0 +1,203 @@
+{
+  "id": "md07",
+  "label": "Spieltag 7",
+  "date": "01.11.2017",
+  "no": 7,
+  "matches": [
+    {
+      "id": "md07-01",
+      "home": "Tottenham Hotspur (ENG)",
+      "away": "Real Madrid (ESP)",
+      "homeTeam": "JUV",
+      "awayTeam": "TOT",
+      "result": "2:2",
+      "date": "01.11.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-02",
+      "home": "Borussia Dortmund (GER)",
+      "away": "APOEL Nikosia (CYP)",
+      "homeTeam": "BAS",
+      "awayTeam": "MCI",
+      "result": "0:4",
+      "date": "01.11.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-03",
+      "home": "Borussia Dortmund (GER)",
+      "away": "Tottenham Hotspur (ENG)",
+      "homeTeam": "RMA",
+      "awayTeam": "PSG",
+      "result": "3:1",
+      "date": "21.11.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-04",
+      "home": "APOEL Nikosia (CYP)",
+      "away": "Real Madrid (ESP)",
+      "homeTeam": "BAS",
+      "awayTeam": "MCI",
+      "result": "0:5",
+      "date": "21.11.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-05",
+      "home": "Real Madrid (ESP)",
+      "away": "Borussia Dortmund (GER)",
+      "homeTeam": "CHE",
+      "awayTeam": "BAR",
+      "result": "1:1",
+      "date": "06.12.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-06",
+      "home": "Tottenham Hotspur (ENG)",
+      "away": "APOEL Nikosia (CYP)",
+      "homeTeam": "FCB",
+      "awayTeam": "BES",
+      "result": "5:0",
+      "date": "06.12.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-07",
+      "home": "Juventus (ITA)",
+      "away": "Tottenham Hotspur (ENG)",
+      "homeTeam": "SEV",
+      "awayTeam": "MUN",
+      "result": "0:0",
+      "date": "13.02.2018",
+      "time": "20:45"
+    },
+    {
+      "id": "md07-08",
+      "home": "FC Basel 1893 (SUI)",
+      "away": "Manchester City (ENG)",
+      "homeTeam": "SHA",
+      "awayTeam": "ROM",
+      "result": "2:1",
+      "date": "13.02.2018",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md07-01": "2:1",
+        "md07-02": "0:2",
+        "md07-03": "2:1",
+        "md07-04": "1:2",
+        "md07-05": "1:2",
+        "md07-06": "2:0",
+        "md07-07": "1:2",
+        "md07-08": "2:1"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 2.0,
+        "md07-03": 2.0,
+        "md07-04": 2.0,
+        "md07-05": 0.0,
+        "md07-06": 2.0,
+        "md07-07": 0.0,
+        "md07-08": 4.0
+      },
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 164.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md07-01": "1:0",
+        "md07-02": "0:3",
+        "md07-03": "2:1",
+        "md07-04": "1:1",
+        "md07-05": "1:2",
+        "md07-06": "3:0",
+        "md07-07": "1:1",
+        "md07-08": "1:2"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 2.0,
+        "md07-03": 2.0,
+        "md07-04": 0.0,
+        "md07-05": 0.0,
+        "md07-06": 2.0,
+        "md07-07": 3.0,
+        "md07-08": 0.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 151.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "picks": {
+        "md07-01": "2:0",
+        "md07-02": "0:1",
+        "md07-03": "1:1",
+        "md07-04": "1:1",
+        "md07-05": "0:2",
+        "md07-06": "2:0",
+        "md07-07": "0:1",
+        "md07-08": "0:1"
+      },
+      "pickPoints": {
+        "md07-01": 0.0,
+        "md07-02": 2.0,
+        "md07-03": 0.0,
+        "md07-04": 0.0,
+        "md07-05": 0.0,
+        "md07-06": 2.0,
+        "md07-07": 0.0,
+        "md07-08": 0.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 144.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 164.0,
+      "dayWinsTotal": 5.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 151.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 144.0,
+      "dayWinsTotal": 1.0
+    }
+  ]
+}

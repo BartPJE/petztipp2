@@ -1,0 +1,107 @@
+{
+  "id": "md11",
+  "label": "Spieltag 11",
+  "date": "04.04.2018",
+  "no": 11,
+  "matches": [
+    {
+      "id": "md11-01",
+      "home": "FC Barcelona (ESP)",
+      "away": "AS Roma (ITA)",
+      "homeTeam": "LIV",
+      "awayTeam": "ROM",
+      "result": "5:2",
+      "date": "04.04.2018",
+      "time": "20:45"
+    },
+    {
+      "id": "md11-02",
+      "home": "Liverpool FC (ENG)",
+      "away": "Manchester City (ENG)",
+      "homeTeam": "FCB",
+      "awayTeam": "RMA",
+      "result": "1:2",
+      "date": "04.04.2018",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md11-01": "2:0",
+        "md11-02": "2:1"
+      },
+      "pickPoints": {
+        "md11-01": 2.0,
+        "md11-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 189.0,
+      "dayWin": true,
+      "dayWinsTotal": 6.666666666666666
+    },
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md11-01": "2:0",
+        "md11-02": "3:1"
+      },
+      "pickPoints": {
+        "md11-01": 2.0,
+        "md11-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 174.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.1666666666666665
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md11-01": "2:0",
+        "md11-02": "1:1"
+      },
+      "pickPoints": {
+        "md11-01": 2.0,
+        "md11-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 166.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.1666666666666665
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 189.0,
+      "dayWinsTotal": 6.666666666666666
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 174.0,
+      "dayWinsTotal": 2.1666666666666665
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 166.0,
+      "dayWinsTotal": 2.1666666666666665
+    }
+  ]
+}

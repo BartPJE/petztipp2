@@ -1,0 +1,331 @@
+{
+  "id": "md05",
+  "label": "Spieltag 5",
+  "date": "13.09.2017",
+  "no": 5,
+  "matches": [
+    {
+      "id": "md05-01",
+      "home": "Shakhtar Donetsk (UKR)",
+      "away": "SSC Napoli (ITA)",
+      "homeTeam": "BES",
+      "awayTeam": "POR",
+      "result": "1:1",
+      "date": "13.09.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-02",
+      "home": "Feyenoord (NED)",
+      "away": "Manchester City (ENG)",
+      "homeTeam": "SMO",
+      "awayTeam": "NKM",
+      "result": "1:1",
+      "date": "13.09.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-03",
+      "home": "Manchester City (ENG)",
+      "away": "Shakhtar Donetsk (UKR)",
+      "homeTeam": "MON",
+      "awayTeam": "RBL",
+      "result": "1:4",
+      "date": "26.09.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-04",
+      "home": "SSC Napoli (ITA)",
+      "away": "Feyenoord (NED)",
+      "homeTeam": "MCI",
+      "awayTeam": "FEY",
+      "result": "1:0",
+      "date": "26.09.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-05",
+      "home": "Manchester City (ENG)",
+      "away": "SSC Napoli (ITA)",
+      "homeTeam": "APO",
+      "awayTeam": "RMA",
+      "result": "0:6",
+      "date": "17.10.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-06",
+      "home": "Feyenoord (NED)",
+      "away": "Shakhtar Donetsk (UKR)",
+      "homeTeam": "SEV",
+      "awayTeam": "LIV",
+      "result": "3:3",
+      "date": "17.10.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-07",
+      "home": "SSC Napoli (ITA)",
+      "away": "Manchester City (ENG)",
+      "homeTeam": "BVB",
+      "awayTeam": "TOT",
+      "result": "1:2",
+      "date": "01.11.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-08",
+      "home": "Shakhtar Donetsk (UKR)",
+      "away": "Feyenoord (NED)",
+      "homeTeam": "NAP",
+      "awayTeam": "SHA",
+      "result": "3:0",
+      "date": "01.11.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-09",
+      "home": "SSC Napoli (ITA)",
+      "away": "Shakhtar Donetsk (UKR)",
+      "homeTeam": "QAR",
+      "awayTeam": "CHE",
+      "result": "0:4",
+      "date": "21.11.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-10",
+      "home": "Manchester City (ENG)",
+      "away": "Feyenoord (NED)",
+      "homeTeam": "CSK",
+      "awayTeam": "BEN",
+      "result": "2:0",
+      "date": "21.11.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-11",
+      "home": "Shakhtar Donetsk (UKR)",
+      "away": "Manchester City (ENG)",
+      "homeTeam": "BAS",
+      "awayTeam": "MUN",
+      "result": "1:0",
+      "date": "06.12.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-12",
+      "home": "Feyenoord (NED)",
+      "away": "SSC Napoli (ITA)",
+      "homeTeam": "SLI",
+      "awayTeam": "PIR",
+      "result": "3:1",
+      "date": "06.12.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-13",
+      "home": "FC Porto (POR)",
+      "away": "Beşiktaş (TUR)",
+      "homeTeam": "RSC",
+      "awayTeam": "FCB",
+      "result": "1:2",
+      "date": "13.09.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-14",
+      "home": "RB Leipzig (GER)",
+      "away": "AS Monaco (FRA)",
+      "homeTeam": "PSG",
+      "awayTeam": "CEL",
+      "result": "7:1",
+      "date": "13.09.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-15",
+      "home": "AS Monaco (FRA)",
+      "away": "FC Porto (POR)",
+      "homeTeam": "JUV",
+      "awayTeam": "BAR",
+      "result": "0:0",
+      "date": "26.09.2017",
+      "time": "20:45"
+    },
+    {
+      "id": "md05-15",
+      "home": "AS Monaco (FRA)",
+      "away": "FC Porto (POR)",
+      "homeTeam": "ATM",
+      "awayTeam": "ROM",
+      "result": "2:0",
+      "date": "26.09.2017",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md05-01": "1:2",
+        "md05-02": "2:1",
+        "md05-03": "2:1",
+        "md05-04": "2:1",
+        "md05-05": "0:2",
+        "md05-06": "1:2",
+        "md05-07": "1:2",
+        "md05-08": "2:1",
+        "md05-09": "0:2",
+        "md05-10": "1:2",
+        "md05-11": "1:2",
+        "md05-12": "2:1",
+        "md05-13": "1:2",
+        "md05-14": "2:0",
+        "md05-15": "1:2",
+        "md05-16": "2:1"
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 0.0,
+        "md05-03": 0.0,
+        "md05-04": 3.0,
+        "md05-05": 2.0,
+        "md05-06": 0.0,
+        "md05-07": 4.0,
+        "md05-08": 2.0,
+        "md05-09": 2.0,
+        "md05-10": 0.0,
+        "md05-11": 0.0,
+        "md05-12": 2.0,
+        "md05-13": 4.0,
+        "md05-14": 2.0,
+        "md05-15": 0.0,
+        "md05-16": 2.0
+      },
+      "points": 23.0,
+      "bonus": 6.0,
+      "total": 118.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md05-01": "2:1",
+        "md05-02": "2:0",
+        "md05-03": "1:1",
+        "md05-04": "3:0",
+        "md05-05": "0:3",
+        "md05-06": "1:3",
+        "md05-07": "2:1",
+        "md05-08": "2:1",
+        "md05-09": "1:3",
+        "md05-10": "2:0",
+        "md05-11": "1:2",
+        "md05-12": "2:1",
+        "md05-13": "0:4",
+        "md05-14": "5:1",
+        "md05-15": "1:3",
+        "md05-16": "2:1"
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 0.0,
+        "md05-03": 0.0,
+        "md05-04": 2.0,
+        "md05-05": 2.0,
+        "md05-06": 0.0,
+        "md05-07": 0.0,
+        "md05-08": 2.0,
+        "md05-09": 2.0,
+        "md05-10": 4.0,
+        "md05-11": 0.0,
+        "md05-12": 2.0,
+        "md05-13": 2.0,
+        "md05-14": 2.0,
+        "md05-15": 0.0,
+        "md05-16": 2.0
+      },
+      "points": 20.0,
+      "bonus": 6.0,
+      "total": 115.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md05-01": "1:0",
+        "md05-02": "2:0",
+        "md05-03": "1:1",
+        "md05-04": "2:0",
+        "md05-05": "0:3",
+        "md05-06": "1:1",
+        "md05-07": "1:1",
+        "md05-08": "1:1",
+        "md05-09": "0:3",
+        "md05-10": "1:1",
+        "md05-11": "0:2",
+        "md05-12": "1:0",
+        "md05-13": "0:2",
+        "md05-14": "3:0",
+        "md05-15": "1:1",
+        "md05-16": "1:0"
+      },
+      "pickPoints": {
+        "md05-01": 0.0,
+        "md05-02": 0.0,
+        "md05-03": 0.0,
+        "md05-04": 2.0,
+        "md05-05": 2.0,
+        "md05-06": 3.0,
+        "md05-07": 0.0,
+        "md05-08": 0.0,
+        "md05-09": 2.0,
+        "md05-10": 0.0,
+        "md05-11": 0.0,
+        "md05-12": 2.0,
+        "md05-13": 2.0,
+        "md05-14": 2.0,
+        "md05-15": 3.0,
+        "md05-16": 2.0
+      },
+      "points": 20.0,
+      "bonus": 9.0,
+      "total": 112.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 23.0,
+      "bonus": 6.0,
+      "total": 118.0,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 20.0,
+      "bonus": 6.0,
+      "total": 115.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 20.0,
+      "bonus": 9.0,
+      "total": 112.0,
+      "dayWinsTotal": 1.0
+    }
+  ]
+}

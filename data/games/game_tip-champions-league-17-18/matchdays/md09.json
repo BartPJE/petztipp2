@@ -1,0 +1,139 @@
+{
+  "id": "md09",
+  "label": "Spieltag 9",
+  "date": "07.03.2018",
+  "no": 9,
+  "matches": [
+    {
+      "id": "md09-01",
+      "home": "Tottenham Hotspur (ENG)",
+      "away": "Juventus (ITA)",
+      "homeTeam": "SEV",
+      "awayTeam": "FCB",
+      "result": "1:2",
+      "date": "07.03.2018",
+      "time": "20:45"
+    },
+    {
+      "id": "md09-02",
+      "home": "Manchester City (ENG)",
+      "away": "FC Basel 1893 (SUI)",
+      "homeTeam": "JUV",
+      "awayTeam": "RMA",
+      "result": "0:3",
+      "date": "07.03.2018",
+      "time": "20:45"
+    },
+    {
+      "id": "md09-03",
+      "home": "Manchester United (ENG)",
+      "away": "Sevilla FC (ESP)",
+      "homeTeam": "BAR",
+      "awayTeam": "ROM",
+      "result": "4:1",
+      "date": "13.03.2018",
+      "time": "20:45"
+    },
+    {
+      "id": "md09-04",
+      "home": "AS Roma (ITA)",
+      "away": "Shakhtar Donetsk (UKR)",
+      "homeTeam": "LIV",
+      "awayTeam": "MCI",
+      "result": "3:0",
+      "date": "13.03.2018",
+      "time": "20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "picks": {
+        "md09-01": "1:2",
+        "md09-02": "1:2",
+        "md09-03": "3:0",
+        "md09-04": "1:2"
+      },
+      "pickPoints": {
+        "md09-01": 4.0,
+        "md09-02": 2.0,
+        "md09-03": 3.0,
+        "md09-04": 0.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 181.0,
+      "dayWin": true,
+      "dayWinsTotal": 6.0
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "picks": {
+        "md09-01": "0:2",
+        "md09-02": "1:1",
+        "md09-03": "2:0",
+        "md09-04": "1:1"
+      },
+      "pickPoints": {
+        "md09-01": 2.0,
+        "md09-02": 0.0,
+        "md09-03": 2.0,
+        "md09-04": 0.0
+      },
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 166.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md09-01": "0:2",
+        "md09-02": "2:1",
+        "md09-03": "2:0",
+        "md09-04": "1:0"
+      },
+      "pickPoints": {
+        "md09-01": 2.0,
+        "md09-02": 0.0,
+        "md09-03": 2.0,
+        "md09-04": 2.0
+      },
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 161.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "alois",
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 181.0,
+      "dayWinsTotal": 6.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 4.0,
+      "bonus": 0.0,
+      "total": 166.0,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 3,
+      "player": "johannes",
+      "points": 6.0,
+      "bonus": 0.0,
+      "total": 161.0,
+      "dayWinsTotal": 1.5
+    }
+  ]
+}
