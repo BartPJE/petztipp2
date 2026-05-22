@@ -1,0 +1,154 @@
+{
+  "id": "md03",
+  "label": "Achtelfinale",
+  "date": "02.12.2025 - 03.12.2025",
+  "no": 3,
+  "matches": [
+    {
+      "id": "md03-01",
+      "home": "Hertha BSC",
+      "away": "1. FC Kaiserslautern",
+      "homeTeam": "BSC",
+      "awayTeam": "FCK",
+      "result": "6:1",
+      "time": "02.12.25 18:00"
+    },
+    {
+      "id": "md03-02",
+      "home": "Borussia Mönchengladbach",
+      "away": "FC St. Pauli",
+      "homeTeam": "BMG",
+      "awayTeam": "STP",
+      "result": "1:2",
+      "time": "02.12.25 18:00"
+    },
+    {
+      "id": "md03-03",
+      "home": "RB Leipzig",
+      "away": "1. FC Magdeburg",
+      "homeTeam": "RBL",
+      "awayTeam": "FCM",
+      "result": "3:1",
+      "time": "02.12.25 21:00"
+    },
+    {
+      "id": "md03-04",
+      "home": "Borussia Dortmund",
+      "away": "Bayer 04 Leverkusen",
+      "homeTeam": "BVB",
+      "awayTeam": "B04",
+      "result": "0:1",
+      "time": "02.12.25 21:00"
+    },
+    {
+      "id": "md03-05",
+      "home": "SC Freiburg",
+      "away": "SV Darmstadt 98",
+      "homeTeam": "SCF",
+      "awayTeam": "D98",
+      "result": "2:0",
+      "time": "03.12.25 18:00"
+    },
+    {
+      "id": "md03-06",
+      "home": "VfL Bochum",
+      "away": "VfB Stuttgart",
+      "homeTeam": "BOC",
+      "awayTeam": "VFB",
+      "result": "0:2",
+      "time": "03.12.25 18:00"
+    },
+    {
+      "id": "md03-07",
+      "home": "Hamburger SV",
+      "away": "Holstein Kiel",
+      "homeTeam": "HSV",
+      "awayTeam": "KIE",
+      "result": "3:5 n.E.",
+      "time": "03.12.25 20:45"
+    },
+    {
+      "id": "md03-08",
+      "home": "1. FC Union Berlin",
+      "away": "FC Bayern München",
+      "homeTeam": "FCU",
+      "awayTeam": "FCB",
+      "result": "2:3",
+      "time": "03.12.25 20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md03-01": "2:1",
+        "md03-02": "2:0",
+        "md03-03": "4:1",
+        "md03-04": "2:0",
+        "md03-05": "2:1",
+        "md03-06": "0:2",
+        "md03-07": "2:1",
+        "md03-08": "0:2"
+      },
+      "pickPoints": {
+        "md03-01": 2.0,
+        "md03-02": 0.0,
+        "md03-03": 2.0,
+        "md03-04": 0.0,
+        "md03-05": 2.0,
+        "md03-06": 4.0,
+        "md03-07": 0.0,
+        "md03-08": 2.0
+      },
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 112.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md03-03": "2:0",
+        "md03-04": "2:0",
+        "md03-05": "3:0",
+        "md03-06": "0:3",
+        "md03-07": "3:0",
+        "md03-08": "0:4"
+      },
+      "pickPoints": {
+        "md03-03": 3.0,
+        "md03-04": 0.0,
+        "md03-05": 2.0,
+        "md03-06": 2.0,
+        "md03-07": 0.0,
+        "md03-08": 2.0
+      },
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 40.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 12.0,
+      "bonus": 0.0,
+      "total": 112.0,
+      "dayWinsTotal": 3.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 9.0,
+      "bonus": 0.0,
+      "total": 40.0,
+      "dayWinsTotal": 0.0
+    }
+  ]
+}

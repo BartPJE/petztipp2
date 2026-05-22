@@ -1,0 +1,383 @@
+{
+  "id": "tip-euro-2021",
+  "title": "Euro 2020 - Europa",
+  "competition": "Europameisterschaft",
+  "season": "2021",
+  "bonusTips": {
+    "questions": [],
+    "picks": [
+      {
+        "player": "markus",
+        "name": "Markus",
+        "predictions": {
+          "Europameister": "GER",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["GER", "ENG", "FRA", "ESP"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Europameister": "FRA",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["BEL", "ENG", "FRA", "ESP"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "hubi",
+        "name": "Hubi",
+        "predictions": {
+          "Europameister": "FRA",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["BEL", "ENG", "FRA", "POR"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "thomas",
+        "name": "Thomas",
+        "predictions": {
+          "Europameister": "FRA",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["GER", "ENG", "FRA", "ESP"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "juergen",
+        "name": "juergen",
+        "predictions": {
+          "Europameister": "GER",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["DEN", "BEL", "GER", "NED"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "POL",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "alois",
+        "name": "Alois",
+        "predictions": {
+          "Europameister": "FRA",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["BEL", "ENG", "GER", "FRA"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "GER"
+        }
+      },
+      {
+        "player": "flok",
+        "name": "flok",
+        "predictions": {
+          "Europameister": "FRA",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["BEL", "GER", "FRA", "NED"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "peterm",
+        "name": "peterm",
+        "predictions": {
+          "Europameister": "FRA",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["GER", "ENG", "ITA", "FRA"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "AUT",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Europameister": "FRA",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["GER", "FRA", "ITA", "POR"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "POL",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "stefan",
+        "name": "stefan",
+        "predictions": {
+          "Europameister": "BEL",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["BEL", "ENG", "FRA", "ESP"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "AUT",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "bene",
+        "name": "bene",
+        "predictions": {
+          "Europameister": "GER",
+          "Torschützenkönig": "GER",
+          "Halbfinale": ["GER", "ENG", "FRA", "ESP"],
+          "Gruppe A": "SUI",
+          "Gruppe B": "DEN",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "GER"
+        }
+      },
+      {
+        "player": "basti",
+        "name": "Basti",
+        "predictions": {
+          "Europameister": "GER",
+          "Torschützenkönig": "NED",
+          "Halbfinale": ["GER", "ENG", "ITA", "NED"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "DEN",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "GER"
+        }
+      },
+      {
+        "player": "manug",
+        "name": "manug",
+        "predictions": {
+          "Europameister": "CRO",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["BEL", "ENG", "GER", "FRA"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "CRO",
+          "Gruppe E": "ESP",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "daniel",
+        "name": "daniel",
+        "predictions": {
+          "Europameister": "FRA",
+          "Torschützenkönig": "FRA",
+          "Halbfinale": ["BEL", "GER", "FRA", "CRO"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "CRO",
+          "Gruppe E": "ESP",
+          "Gruppe F": "FRA"
+        }
+      },
+      {
+        "player": "sabine",
+        "name": "sabine",
+        "predictions": {
+          "Europameister": "GER",
+          "Torschützenkönig": "ESP",
+          "Halbfinale": ["GER", "FRA", "ITA", "ESP"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "RUS",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "GER"
+        }
+      },
+      {
+        "player": "franzi",
+        "name": "franzi",
+        "predictions": {
+          "Europameister": "NED",
+          "Torschützenkönig": "ESP",
+          "Halbfinale": ["BEL", "GER", "NED", "POR"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "CRO",
+          "Gruppe E": "ESP",
+          "Gruppe F": "POR"
+        }
+      },
+      {
+        "player": "roman",
+        "name": "roman",
+        "predictions": {
+          "Europameister": "GER",
+          "Torschützenkönig": "ENG",
+          "Halbfinale": ["BEL", "ENG", "GER", "FRA"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "GER"
+        }
+      },
+      {
+        "player": "huy",
+        "name": "huy",
+        "predictions": {
+          "Europameister": "GER",
+          "Torschützenkönig": "GER",
+          "Halbfinale": ["BEL", "ENG", "GER", "FRA"],
+          "Gruppe A": "ITA",
+          "Gruppe B": "BEL",
+          "Gruppe C": "NED",
+          "Gruppe D": "ENG",
+          "Gruppe E": "ESP",
+          "Gruppe F": "GER"
+        }
+      },
+      {
+        "player": "result",
+        "name": "Ergebnis",
+        "predictions": {
+          "Europameister": ["ITA"],
+          "Torschützenkönig": ["POR", "CZE"],
+          "Halbfinale": ["ESP", "ITA", "DEN", "ENG"],
+          "Gruppe A": ["ITA"],
+          "Gruppe B": ["BEL"],
+          "Gruppe C": ["NED"],
+          "Gruppe D": ["ENG"],
+          "Gruppe E": ["SWE"],
+          "Gruppe F": ["FRA"]
+        }
+      },
+      {
+        "player": "points",
+        "name": "Punkte",
+        "predictions": {
+          "Europameister": "3",
+          "Torschützenkönig": "3",
+          "Halbfinale": "3",
+          "Gruppe A": "3",
+          "Gruppe B": "3",
+          "Gruppe C": "3",
+          "Gruppe D": "3",
+          "Gruppe E": "3",
+          "Gruppe F": "3"
+        }
+      }
+    ]
+  },
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "Spieltag 1",
+      "date": "10.06.2021 - 12.06.2021",
+      "no": 1,
+      "file": "data/games/game_tip-euro-2021/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "Spieltag 2",
+      "date": "13.06.2021 - 15.06.2021",
+      "no": 2,
+      "file": "data/games/game_tip-euro-2021/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Spieltag 3",
+      "date": "16.06.2021 - 17.06.2021",
+      "no": 3,
+      "file": "data/games/game_tip-euro-2021/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Spieltag 4",
+      "date": "18.06.2021 - 20.06.2021",
+      "no": 4,
+      "file": "data/games/game_tip-euro-2021/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Spieltag 5",
+      "date": "21.06.2021 - 22.06.2021",
+      "no": 5,
+      "file": "data/games/game_tip-euro-2021/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Spieltag 6",
+      "date": "25.06.2021 - 27.06.2021",
+      "no": 6,
+      "file": "data/games/game_tip-euro-2021/matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "Spieltag 7",
+      "date": "30.06.2021 - 03.07.2021",
+      "no": 7,
+      "file": "data/games/game_tip-euro-2021/matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "Spieltag 8",
+      "date": "06.07.2021 - 07.07.2021",
+      "no": 8,
+      "file": "data/games/game_tip-euro-2021/matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Spieltag 9",
+      "date": "10.07.2021 - 10.07.2021",
+      "no": 9,
+      "file": "data/games/game_tip-euro-2021/matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Spieltag 10",
+      "date": "11.07.2021 - 11.07.2021",
+      "no": 10,
+      "file": "data/games/game_tip-euro-2021/matchdays/md10.json"
+    }
+  ]
+}

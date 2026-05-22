@@ -1,0 +1,158 @@
+{
+  "id": "md11",
+  "label": "Achtelfinale Hin",
+  "date": "10.03.2026 - 11.03.2026",
+  "no": 11,
+  "matches": [
+    {
+      "id": "md11-01",
+      "home": "Galatasaray Istanbul",
+      "away": "FC Liverpool",
+      "homeTeam": "GAL",
+      "awayTeam": "LIV",
+      "result": "1:0",
+      "time": "10.03.26 18:45"
+    },
+    {
+      "id": "md11-02",
+      "home": "Atletico Madrid",
+      "away": "Tottenham Hotspur",
+      "homeTeam": "ATM",
+      "awayTeam": "TOT",
+      "result": "5:2",
+      "time": "10.03.26 21:00"
+    },
+    {
+      "id": "md11-03",
+      "home": "Atalanta Bergamo",
+      "away": "FC Bayern München",
+      "homeTeam": "ATT",
+      "awayTeam": "FCB",
+      "result": "1:6",
+      "time": "10.03.26 21:00"
+    },
+    {
+      "id": "md11-04",
+      "home": "Newcastle United",
+      "away": "FC Barcelona",
+      "homeTeam": "NEW",
+      "awayTeam": "BAR",
+      "result": "1:1",
+      "time": "10.03.26 21:00"
+    },
+    {
+      "id": "md11-05",
+      "home": "Bayer 04 Leverkusen",
+      "away": "FC Arsenal",
+      "homeTeam": "B04",
+      "awayTeam": "ARS",
+      "result": "1:1",
+      "time": "11.03.26 18:45"
+    },
+    {
+      "id": "md11-06",
+      "home": "FK Bodø/Glimt",
+      "away": "Sporting Lissabon",
+      "homeTeam": "GLI",
+      "awayTeam": "SCP",
+      "result": "3:0",
+      "time": "11.03.26 21:00"
+    },
+    {
+      "id": "md11-07",
+      "home": "Real Madrid",
+      "away": "Manchester City",
+      "homeTeam": "RMA",
+      "awayTeam": "MCI",
+      "result": "3:0",
+      "time": "11.03.26 21:00"
+    },
+    {
+      "id": "md11-08",
+      "home": "Paris St. Germain",
+      "away": "FC Chelsea",
+      "homeTeam": "PSG",
+      "awayTeam": "CHE",
+      "result": "5:2",
+      "time": "11.03.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md11-01": "1:2",
+        "md11-02": "2:1",
+        "md11-03": "0:3",
+        "md11-04": "1:2",
+        "md11-05": "1:2",
+        "md11-06": "2:0",
+        "md11-07": "2:1",
+        "md11-08": "2:0"
+      },
+      "pickPoints": {
+        "md11-01": 0.0,
+        "md11-02": 0.0,
+        "md11-03": 0.0,
+        "md11-04": 0.0,
+        "md11-05": 0.0,
+        "md11-06": 0.0,
+        "md11-07": 0.0,
+        "md11-08": 0.0
+      },
+      "points": 10.0,
+      "bonus": 4.0,
+      "total": 243.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md11-01": "0:2",
+        "md11-02": "2:0",
+        "md11-03": "0:2",
+        "md11-04": "0:1",
+        "md11-05": "0:2",
+        "md11-06": "1:1",
+        "md11-07": "1:1",
+        "md11-08": "2:1"
+      },
+      "pickPoints": {
+        "md11-01": 0.0,
+        "md11-02": 0.0,
+        "md11-03": 0.0,
+        "md11-04": 0.0,
+        "md11-05": 0.0,
+        "md11-06": 0.0,
+        "md11-07": 0.0,
+        "md11-08": 0.0
+      },
+      "points": 6.0,
+      "bonus": 4.0,
+      "total": 220.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 10.0,
+      "bonus": 4.0,
+      "total": 243.0,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 6.0,
+      "bonus": 4.0,
+      "total": 220.0,
+      "dayWinsTotal": 3.5
+    }
+  ]
+}

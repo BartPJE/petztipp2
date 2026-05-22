@@ -1,0 +1,67 @@
+{
+  "id": "md17",
+  "label": "Finale",
+  "date": "30.05.2026 - 30.05.2026",
+  "no": 17,
+  "matches": [
+    {
+      "id": "md17-01",
+      "home": "Paris St. Germain",
+      "away": "FC Arsenal",
+      "homeTeam": "PSG",
+      "awayTeam": "ARS",
+      "result": "-:-",
+      "time": "30.05.26 18:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md17-01": null
+      },
+      "pickPoints": {
+        "md17-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 4.0,
+      "total": 270.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md17-01": null
+      },
+      "pickPoints": {
+        "md17-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 4.0,
+      "total": 249.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 0.0,
+      "bonus": 4.0,
+      "total": 270.0,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 0.0,
+      "bonus": 4.0,
+      "total": 249.0,
+      "dayWinsTotal": 3.5
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "md13",
+  "label": "Viertelfinale Hin",
+  "date": "07.04.2026 - 08.04.2026",
+  "no": 13,
+  "matches": [
+    {
+      "id": "md13-01",
+      "home": "Real Madrid",
+      "away": "FC Bayern München",
+      "homeTeam": "RMA",
+      "awayTeam": "FCB",
+      "result": "1:2",
+      "time": "07.04.26 21:00"
+    },
+    {
+      "id": "md13-02",
+      "home": "Sporting Lissabon",
+      "away": "FC Arsenal",
+      "homeTeam": "SCP",
+      "awayTeam": "ARS",
+      "result": "0:1",
+      "time": "07.04.26 21:00"
+    },
+    {
+      "id": "md13-03",
+      "home": "Paris St. Germain",
+      "away": "FC Liverpool",
+      "homeTeam": "PSG",
+      "awayTeam": "LIV",
+      "result": "2:0",
+      "time": "08.04.26 21:00"
+    },
+    {
+      "id": "md13-04",
+      "home": "FC Barcelona",
+      "away": "Atletico Madrid",
+      "homeTeam": "BAR",
+      "awayTeam": "ATM",
+      "result": "0:2",
+      "time": "08.04.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md13-01": "1:2",
+        "md13-02": "0:3",
+        "md13-03": "1:0",
+        "md13-04": "2:1"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 0.0,
+        "md13-04": 0.0
+      },
+      "points": 8.0,
+      "bonus": 4.0,
+      "total": 261.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md13-01": "1:1",
+        "md13-02": "0:1",
+        "md13-03": "1:0",
+        "md13-04": "2:0"
+      },
+      "pickPoints": {
+        "md13-01": 0.0,
+        "md13-02": 0.0,
+        "md13-03": 0.0,
+        "md13-04": 0.0
+      },
+      "points": 6.0,
+      "bonus": 4.0,
+      "total": 238.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 8.0,
+      "bonus": 4.0,
+      "total": 261.0,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 6.0,
+      "bonus": 4.0,
+      "total": 238.0,
+      "dayWinsTotal": 3.5
+    }
+  ]
+}

@@ -7,11 +7,7 @@
     "questions": [
       {
         "label": "Plätze 16-18",
-        "result": [
-          "1. FC Nürnberg",
-          "Hannover 96",
-          "VfB Stuttgart"
-        ],
+        "result": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
         "points": 3.0
       },
       {
@@ -35,21 +31,13 @@
         "player": "peter",
         "name": "Peter",
         "predictions": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "SC Freiburg"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "SC Freiburg"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -76,11 +64,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -107,11 +91,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -138,11 +118,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -169,11 +145,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -208,11 +180,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -247,11 +215,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -278,11 +242,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -309,11 +269,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -340,11 +296,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -361,21 +313,13 @@
         "player": "bene",
         "name": "bene",
         "predictions": {
-          "Plätze 16-18": [
-            "Eintracht Frankfurt",
-            "Hannover 96",
-            "SC Freiburg"
-          ],
+          "Plätze 16-18": ["Eintracht Frankfurt", "Hannover 96", "SC Freiburg"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "VfB Stuttgart",
           "Herbstmeister": "Bayer 04 Leverkusen"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -402,11 +346,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -433,11 +373,7 @@
           "Herbstmeister": "FC Bayern München"
         },
         "result": {
-          "Plätze 16-18": [
-            "1. FC Nürnberg",
-            "Hannover 96",
-            "VfB Stuttgart"
-          ],
+          "Plätze 16-18": ["1. FC Nürnberg", "Hannover 96", "VfB Stuttgart"],
           "Torschütze": "FC Bayern München",
           "Deutscher Meister": "FC Bayern München",
           "Herbstmeister": "Borussia Dortmund"
@@ -513,7 +449,7 @@
           "id": "md01-06",
           "home": "Fortuna Düsseldorf",
           "away": "FC Augsburg",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "FCA",
           "result": "1:2",
           "date": "25.08.2018",
@@ -1143,7 +1079,7 @@
           "home": "RB Leipzig",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "RBL",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "1:1",
           "date": "02.09.2018",
           "time": "15:30"
@@ -1760,7 +1696,7 @@
           "id": "md03-05",
           "home": "Fortuna Düsseldorf",
           "away": "TSG 1899 Hoffenheim",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "TSG",
           "result": "3:2",
           "date": "15.09.2018",
@@ -2408,7 +2344,7 @@
           "home": "VfB Stuttgart",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "VFB",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "0:0",
           "date": "21.09.2018",
           "time": "20:30"
@@ -3134,7 +3070,7 @@
           "id": "md05-05",
           "home": "Fortuna Düsseldorf",
           "away": "Bayer 04 Leverkusen",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "B04",
           "result": "1:2",
           "date": "26.09.2018",
@@ -3832,7 +3768,7 @@
           "home": "1. FC Nürnberg",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "FCN",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "3:0",
           "date": "29.09.2018",
           "time": "15:30"
@@ -4508,7 +4444,7 @@
           "id": "md07-05",
           "home": "Fortuna Düsseldorf",
           "away": "FC Schalke 04",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "S04",
           "result": "3:1",
           "date": "06.10.2018",
@@ -5156,7 +5092,7 @@
           "home": "Eintracht Frankfurt",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "SGE",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "7:1",
           "date": "19.10.2018",
           "time": "20:30"
@@ -5882,7 +5818,7 @@
           "id": "md09-05",
           "home": "Fortuna Düsseldorf",
           "away": "VfL Wolfsburg",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "WOB",
           "result": "2:2",
           "date": "27.10.2018",
@@ -6600,7 +6536,7 @@
           "home": "Borussia Mönchengladbach",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "BMG",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "3:0",
           "date": "04.11.2018",
           "time": "15:30"
@@ -7256,7 +7192,7 @@
           "id": "md11-05",
           "home": "Fortuna Düsseldorf",
           "away": "Hertha BSC",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "BSC",
           "result": "0:2",
           "date": "10.11.2018",
@@ -7914,7 +7850,7 @@
           "home": "Bayern München",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "FCB",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "1:2",
           "date": "24.11.2018",
           "time": "15:30"
@@ -8590,7 +8526,7 @@
           "id": "md13-01",
           "home": "Fortuna Düsseldorf",
           "away": "1. FSV Mainz 05",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "M05",
           "result": "0:1",
           "date": "30.11.2018",
@@ -9278,7 +9214,7 @@
           "home": "SV Werder Bremen",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "SVW",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "3:1",
           "date": "07.12.2018",
           "time": "20:30"
@@ -10014,7 +9950,7 @@
           "id": "md15-06",
           "home": "Fortuna Düsseldorf",
           "away": "SC Freiburg",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "SCF",
           "result": "0:0",
           "date": "15.12.2018",
@@ -10681,7 +10617,7 @@
           "id": "md16-04",
           "home": "Fortuna Düsseldorf",
           "away": "Borussia Dortmund",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "BVB",
           "result": "2:2",
           "date": "18.12.2018",
@@ -11379,7 +11315,7 @@
           "home": "Hannover 96",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "H96",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "0:1",
           "date": "22.12.2018",
           "time": "15:30"
@@ -12076,7 +12012,7 @@
           "home": "FC Augsburg",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "FCA",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "1:2",
           "date": "19.01.2019",
           "time": "15:30"
@@ -12792,7 +12728,7 @@
           "id": "md19-09",
           "home": "Fortuna Düsseldorf",
           "away": "RB Leipzig",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "RBL",
           "result": "0:4",
           "date": "27.01.2019",
@@ -13440,7 +13376,7 @@
           "home": "TSG 1899 Hoffenheim",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "TSG",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "1:1",
           "date": "02.02.2019",
           "time": "15:30"
@@ -14166,7 +14102,7 @@
           "id": "md21-09",
           "home": "Fortuna Düsseldorf",
           "away": "VfB Stuttgart",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "VFB",
           "result": "3:0",
           "date": "10.02.2019",
@@ -14844,7 +14780,7 @@
           "home": "Bayer 04 Leverkusen",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "B04",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "2:0",
           "date": "17.02.2019",
           "time": "18:00"
@@ -15510,7 +15446,7 @@
           "id": "md23-06",
           "home": "Fortuna Düsseldorf",
           "away": "1. FC Nürnberg",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "FCN",
           "result": "2:1",
           "date": "23.02.2019",
@@ -16198,7 +16134,7 @@
           "home": "FC Schalke 04",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "S04",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "0:1",
           "date": "02.03.2019",
           "time": "15:30"
@@ -16914,7 +16850,7 @@
           "id": "md25-09",
           "home": "Fortuna Düsseldorf",
           "away": "Eintracht Frankfurt",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "SGE",
           "result": "0:3",
           "date": "11.03.2019",
@@ -17562,7 +17498,7 @@
           "home": "VfL Wolfsburg",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "WOB",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "0:1",
           "date": "16.03.2019",
           "time": "15:30"
@@ -18228,7 +18164,7 @@
           "id": "md27-03",
           "home": "Fortuna Düsseldorf",
           "away": "Borussia Mönchengladbach",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "BMG",
           "result": "3:0",
           "date": "30.03.2019",
@@ -18936,7 +18872,7 @@
           "home": "Hertha BSC",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "BSC",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "2:4",
           "date": "06.04.2019",
           "time": "15:30"
@@ -19652,7 +19588,7 @@
           "id": "md29-08",
           "home": "Fortuna Düsseldorf",
           "away": "Bayern München",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "FCB",
           "result": "1:4",
           "date": "14.04.2019",
@@ -20290,7 +20226,7 @@
           "home": "1. FSV Mainz 05",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "M05",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "1:0",
           "date": "20.04.2019",
           "time": "15:30"
@@ -20986,7 +20922,7 @@
           "id": "md31-04",
           "home": "Fortuna Düsseldorf",
           "away": "SV Werder Bremen",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "SVW",
           "result": "4:1",
           "date": "27.04.2019",
@@ -21714,7 +21650,7 @@
           "home": "SC Freiburg",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "SCF",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "1:1",
           "date": "05.05.2019",
           "time": "15:30"
@@ -22401,7 +22337,7 @@
           "home": "Borussia Dortmund",
           "away": "Fortuna Düsseldorf",
           "homeTeam": "BVB",
-          "awayTeam": "FD",
+          "awayTeam": "F95",
           "result": "0:1",
           "date": "11.05.2019",
           "time": "15:30"
@@ -23087,7 +23023,7 @@
           "id": "md34-08",
           "home": "Fortuna Düsseldorf",
           "away": "Hannover 96",
-          "homeTeam": "FD",
+          "homeTeam": "F95",
           "awayTeam": "H96",
           "result": "1:5",
           "date": "18.05.2019",

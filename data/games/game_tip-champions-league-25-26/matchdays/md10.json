@@ -1,0 +1,158 @@
+{
+  "id": "md10",
+  "label": "Zwischenrunde Rück",
+  "date": "24.02.2026 - 25.02.2026",
+  "no": 10,
+  "matches": [
+    {
+      "id": "md10-01",
+      "home": "Atletico Madrid",
+      "away": "FC Brügge",
+      "homeTeam": "ATM",
+      "awayTeam": "BRU",
+      "result": "4:1",
+      "time": "24.02.26 18:45"
+    },
+    {
+      "id": "md10-02",
+      "home": "Newcastle United",
+      "away": "Qarabag",
+      "homeTeam": "NEW",
+      "awayTeam": "QAR",
+      "result": "3:2",
+      "time": "24.02.26 21:00"
+    },
+    {
+      "id": "md10-03",
+      "home": "Inter Mailand",
+      "away": "FK Bodø/Glimt",
+      "homeTeam": "INT",
+      "awayTeam": "GLI",
+      "result": "1:2",
+      "time": "24.02.26 21:00"
+    },
+    {
+      "id": "md10-04",
+      "home": "Bayer 04 Leverkusen",
+      "away": "Olympiakos Piräus",
+      "homeTeam": "B04",
+      "awayTeam": "PIR",
+      "result": "0:0",
+      "time": "24.02.26 21:00"
+    },
+    {
+      "id": "md10-05",
+      "home": "Atalanta Bergamo",
+      "away": "Borussia Dortmund",
+      "homeTeam": "ATT",
+      "awayTeam": "BVB",
+      "result": "4:1",
+      "time": "25.02.26 18:45"
+    },
+    {
+      "id": "md10-06",
+      "home": "Juventus Turin",
+      "away": "Galatasaray Istanbul",
+      "homeTeam": "JUV",
+      "awayTeam": "GAL",
+      "result": "3:2 n.V.",
+      "time": "25.02.26 21:00"
+    },
+    {
+      "id": "md10-07",
+      "home": "Paris St. Germain",
+      "away": "AS Monaco",
+      "homeTeam": "PSG",
+      "awayTeam": "AMO",
+      "result": "2:2",
+      "time": "25.02.26 21:00"
+    },
+    {
+      "id": "md10-08",
+      "home": "Real Madrid",
+      "away": "Benfica Lissabon",
+      "homeTeam": "RMA",
+      "awayTeam": "SLB",
+      "result": "2:1",
+      "time": "25.02.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md10-01": "2:0",
+        "md10-02": "4:0",
+        "md10-03": "2:1",
+        "md10-04": "2:0",
+        "md10-05": "1:1",
+        "md10-06": "2:1",
+        "md10-07": "2:0",
+        "md10-08": "3:1"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 0.0,
+        "md10-03": 0.0,
+        "md10-04": 0.0,
+        "md10-05": 0.0,
+        "md10-06": 0.0,
+        "md10-07": 0.0,
+        "md10-08": 0.0
+      },
+      "points": 9.0,
+      "bonus": 4.0,
+      "total": 233.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md10-01": "3:1",
+        "md10-02": "3:0",
+        "md10-03": "3:0",
+        "md10-04": "2:0",
+        "md10-05": "2:1",
+        "md10-06": "2:0",
+        "md10-07": "2:0",
+        "md10-08": "2:0"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 0.0,
+        "md10-03": 0.0,
+        "md10-04": 0.0,
+        "md10-05": 0.0,
+        "md10-06": 0.0,
+        "md10-07": 0.0,
+        "md10-08": 0.0
+      },
+      "points": 10.0,
+      "bonus": 4.0,
+      "total": 214.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 9.0,
+      "bonus": 4.0,
+      "total": 233.0,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 10.0,
+      "bonus": 4.0,
+      "total": 214.0,
+      "dayWinsTotal": 3.5
+    }
+  ]
+}

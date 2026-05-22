@@ -1,0 +1,288 @@
+{
+  "id": "md08",
+  "label": "8. Spieltag",
+  "date": "28.01.2026 - 28.01.2026",
+  "no": 8,
+  "matches": [
+    {
+      "id": "md08-01",
+      "home": "FC Arsenal",
+      "away": "Kairat Almaty",
+      "homeTeam": "ARS",
+      "awayTeam": "KAI",
+      "result": "3:2",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-02",
+      "home": "FC Barcelona",
+      "away": "FC Kopenhagen",
+      "homeTeam": "BAR",
+      "awayTeam": "KOP",
+      "result": "4:1",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-03",
+      "home": "SSC Neapel",
+      "away": "FC Chelsea",
+      "homeTeam": "NAP",
+      "awayTeam": "CHE",
+      "result": "2:3",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-04",
+      "home": "Royale Union Saint-Gilloise",
+      "away": "Atalanta Bergamo",
+      "homeTeam": "USG",
+      "awayTeam": "ATT",
+      "result": "1:0",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-05",
+      "home": "Manchester City",
+      "away": "Galatasaray Istanbul",
+      "homeTeam": "MCI",
+      "awayTeam": "GAL",
+      "result": "2:0",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-06",
+      "home": "AS Monaco",
+      "away": "Juventus Turin",
+      "homeTeam": "AMO",
+      "awayTeam": "JUV",
+      "result": "0:0",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-07",
+      "home": "Pafos FC",
+      "away": "Slavia Prag",
+      "homeTeam": "PAF",
+      "awayTeam": "SLA",
+      "result": "4:1",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-08",
+      "home": "Bayer 04 Leverkusen",
+      "away": "FC Villarreal",
+      "homeTeam": "B04",
+      "awayTeam": "VIL",
+      "result": "3:0",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-09",
+      "home": "FC Liverpool",
+      "away": "Qarabag",
+      "homeTeam": "LIV",
+      "awayTeam": "QAR",
+      "result": "6:0",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-10",
+      "home": "Borussia Dortmund",
+      "away": "Inter Mailand",
+      "homeTeam": "BVB",
+      "awayTeam": "INT",
+      "result": "0:2",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-11",
+      "home": "Benfica Lissabon",
+      "away": "Real Madrid",
+      "homeTeam": "SLB",
+      "awayTeam": "RMA",
+      "result": "4:2",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-12",
+      "home": "Athletic Bilbao",
+      "away": "Sporting Lissabon",
+      "homeTeam": "ATH",
+      "awayTeam": "SCP",
+      "result": "2:3",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-13",
+      "home": "PSV Eindhoven",
+      "away": "FC Bayern München",
+      "homeTeam": "PSV",
+      "awayTeam": "FCB",
+      "result": "1:2",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-14",
+      "home": "Paris St. Germain",
+      "away": "Newcastle United",
+      "homeTeam": "PSG",
+      "awayTeam": "NEW",
+      "result": "1:1",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-15",
+      "home": "FC Brügge",
+      "away": "Olympique Marseille",
+      "homeTeam": "BRU",
+      "awayTeam": "OLM",
+      "result": "3:0",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-16",
+      "home": "Eintracht Frankfurt",
+      "away": "Tottenham Hotspur",
+      "homeTeam": "SGE",
+      "awayTeam": "TOT",
+      "result": "0:2",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-17",
+      "home": "Atletico Madrid",
+      "away": "FK Bodø/Glimt",
+      "homeTeam": "ATM",
+      "awayTeam": "GLI",
+      "result": "1:2",
+      "time": "28.01.26 21:00"
+    },
+    {
+      "id": "md08-18",
+      "home": "Ajax Amsterdam",
+      "away": "Olympiakos Piräus",
+      "homeTeam": "AJA",
+      "awayTeam": "PIR",
+      "result": "1:2",
+      "time": "28.01.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md08-01": "5:1",
+        "md08-02": "3:0",
+        "md08-03": "1:2",
+        "md08-04": "0:2",
+        "md08-05": "3:1",
+        "md08-06": "1:2",
+        "md08-07": "2:3",
+        "md08-08": "2:1",
+        "md08-09": "5:2",
+        "md08-10": "1:2",
+        "md08-11": "0:2",
+        "md08-12": "2:2",
+        "md08-13": "0:2",
+        "md08-14": "3:1",
+        "md08-15": "1:1",
+        "md08-16": "0:3",
+        "md08-17": "2:1",
+        "md08-18": "2:0"
+      },
+      "pickPoints": {
+        "md08-01": 1.0,
+        "md08-02": 3.0,
+        "md08-03": 3.0,
+        "md08-04": 0.0,
+        "md08-05": 3.0,
+        "md08-06": 0.0,
+        "md08-07": 0.0,
+        "md08-08": 2.0,
+        "md08-09": 2.0,
+        "md08-10": 0.0,
+        "md08-11": 0.0,
+        "md08-12": 0.0,
+        "md08-13": 2.0,
+        "md08-14": 1.0,
+        "md08-15": 0.0,
+        "md08-16": 2.0,
+        "md08-17": 1.0,
+        "md08-18": 0.0
+      },
+      "points": 21.0,
+      "bonus": 4.0,
+      "total": 211.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md08-01": "3:0",
+        "md08-02": "3:0",
+        "md08-03": "1:2",
+        "md08-04": "1:1",
+        "md08-05": "2:0",
+        "md08-06": "1:1",
+        "md08-07": "1:1",
+        "md08-08": "1:0",
+        "md08-09": "3:0",
+        "md08-10": "1:1",
+        "md08-11": "0:2",
+        "md08-12": "1:1",
+        "md08-13": "0:1",
+        "md08-14": "2:0",
+        "md08-15": "1:1",
+        "md08-16": "0:1",
+        "md08-17": "2:0",
+        "md08-18": "1:1"
+      },
+      "pickPoints": {
+        "md08-01": 2.0,
+        "md08-02": 3.0,
+        "md08-03": 3.0,
+        "md08-04": 1.0,
+        "md08-05": 4.0,
+        "md08-06": 1.0,
+        "md08-07": 1.0,
+        "md08-08": 2.0,
+        "md08-09": 2.0,
+        "md08-10": 1.0,
+        "md08-11": 0.0,
+        "md08-12": 1.0,
+        "md08-13": 3.0,
+        "md08-14": 0.0,
+        "md08-15": 1.0,
+        "md08-16": 2.0,
+        "md08-17": 0.0,
+        "md08-18": 1.0
+      },
+      "points": 23.0,
+      "bonus": 4.0,
+      "total": 196.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 21.0,
+      "bonus": 4.0,
+      "total": 211.0,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 23.0,
+      "bonus": 4.0,
+      "total": 196.0,
+      "dayWinsTotal": 3.5
+    }
+  ]
+}

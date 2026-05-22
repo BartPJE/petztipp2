@@ -1,0 +1,67 @@
+{
+  "id": "md06",
+  "label": "Finale",
+  "date": "23.05.2026 - 23.05.2026",
+  "no": 6,
+  "matches": [
+    {
+      "id": "md06-01",
+      "home": "FC Bayern München",
+      "away": "VfB Stuttgart",
+      "homeTeam": "FCB",
+      "awayTeam": "VFB",
+      "result": "-:-",
+      "time": "23.05.26 20:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md06-01": null
+      },
+      "pickPoints": {
+        "md06-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 12.0,
+      "total": 140.0,
+      "dayWin": false,
+      "dayWinsTotal": 4.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md06-01": null
+      },
+      "pickPoints": {
+        "md06-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 59.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 0.0,
+      "bonus": 12.0,
+      "total": 140.0,
+      "dayWinsTotal": 5.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 59.0,
+      "dayWinsTotal": 1.0
+    }
+  ]
+}

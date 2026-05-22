@@ -1,0 +1,180 @@
+{
+  "id": "tip-champions-league-25-26",
+  "title": "Champions League 2025/2026",
+  "competition": "Champions League",
+  "season": "2025/2026",
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "1. Spieltag",
+      "date": "16.09.2025 - 18.09.2025",
+      "no": 1,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "2. Spieltag",
+      "date": "30.09.2025 - 01.10.2025",
+      "no": 2,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "3. Spieltag",
+      "date": "21.10.2025 - 22.10.2025",
+      "no": 3,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "4. Spieltag",
+      "date": "04.11.2025 - 05.11.2025",
+      "no": 4,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "5. Spieltag",
+      "date": "25.11.2025 - 26.11.2025",
+      "no": 5,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "6. Spieltag",
+      "date": "09.12.2025 - 10.12.2025",
+      "no": 6,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md06.json"
+    },
+    {
+      "id": "md07",
+      "label": "7. Spieltag",
+      "date": "20.01.2026 - 21.01.2026",
+      "no": 7,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md07.json"
+    },
+    {
+      "id": "md08",
+      "label": "8. Spieltag",
+      "date": "28.01.2026 - 28.01.2026",
+      "no": 8,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md08.json"
+    },
+    {
+      "id": "md09",
+      "label": "Zwischenrunde Hin",
+      "date": "17.02.2026 - 18.02.2026",
+      "no": 9,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md09.json"
+    },
+    {
+      "id": "md10",
+      "label": "Zwischenrunde Rück",
+      "date": "24.02.2026 - 25.02.2026",
+      "no": 10,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md10.json"
+    },
+    {
+      "id": "md11",
+      "label": "Achtelfinale Hin",
+      "date": "10.03.2026 - 11.03.2026",
+      "no": 11,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md11.json"
+    },
+    {
+      "id": "md12",
+      "label": "Achtelfinale Rück",
+      "date": "17.03.2026 - 18.03.2026",
+      "no": 12,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md12.json"
+    },
+    {
+      "id": "md13",
+      "label": "Viertelfinale Hin",
+      "date": "07.04.2026 - 08.04.2026",
+      "no": 13,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md13.json"
+    },
+    {
+      "id": "md14",
+      "label": "Viertelfinale Rück",
+      "date": "14.04.2026 - 15.04.2026",
+      "no": 14,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md14.json"
+    },
+    {
+      "id": "md15",
+      "label": "Halbfinale Hin",
+      "date": "28.04.2026 - 29.04.2026",
+      "no": 15,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md15.json"
+    },
+    {
+      "id": "md16",
+      "label": "Halbfinale Rück",
+      "date": "05.05.2026 - 06.05.2026",
+      "no": 16,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md16.json"
+    },
+    {
+      "id": "md17",
+      "label": "Finale",
+      "date": "30.05.2026 - 30.05.2026",
+      "no": 17,
+      "file": "data/games/game_tip-champions-league-25-26/matchdays/md17.json"
+    }
+  ],
+  "bonusTips": {
+    "picks": [
+      {
+        "player": "peter",
+        "name": "Petz",
+        "predictions": {
+          "Torschützenkönig": "RMA",
+          "Halbfinale": [
+            "LIV",
+            "MCI",
+            "FCB",
+            "RMA"
+          ],
+          "Sieger": "LIV"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {
+          "Torschützenkönig": "RMA",
+          "Halbfinale": [
+            "BAR",
+            "LIV",
+            "FCB",
+            "RMA"
+          ],
+          "Sieger": "RMA"
+        }
+      },
+      {
+        "player": "result",
+        "predictions": {
+          "Torschützenkönig": "---",
+          "Halbfinale": [
+            "Atletico Madrid",
+            "FC Arsenal",
+            "FC Bayern München",
+            "Paris St. Germain"
+          ],
+          "Sieger": "---"
+        }
+      },
+      {
+        "player": "points",
+        "predictions": {
+          "Torschützenkönig": 4,
+          "Halbfinale": 4,
+          "Sieger": 4
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "md15",
+  "label": "Halbfinale Hin",
+  "date": "28.04.2026 - 29.04.2026",
+  "no": 15,
+  "matches": [
+    {
+      "id": "md15-01",
+      "home": "Paris St. Germain",
+      "away": "FC Bayern München",
+      "homeTeam": "PSG",
+      "awayTeam": "FCB",
+      "result": "5:4",
+      "time": "28.04.26 21:00"
+    },
+    {
+      "id": "md15-02",
+      "home": "Atletico Madrid",
+      "away": "FC Arsenal",
+      "homeTeam": "ATM",
+      "awayTeam": "ARS",
+      "result": "1:1",
+      "time": "29.04.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md15-01": "2:2",
+        "md15-02": "2:1"
+      },
+      "pickPoints": {
+        "md15-01": 0.0,
+        "md15-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 4.0,
+      "total": 267.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md15-01": "1:1",
+        "md15-02": "1:1"
+      },
+      "pickPoints": {
+        "md15-01": 0.0,
+        "md15-02": 0.0
+      },
+      "points": 4.0,
+      "bonus": 4.0,
+      "total": 247.0,
+      "dayWin": true,
+      "dayWinsTotal": 3.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 0.0,
+      "bonus": 4.0,
+      "total": 267.0,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 4.0,
+      "bonus": 4.0,
+      "total": 247.0,
+      "dayWinsTotal": 3.5
+    }
+  ]
+}

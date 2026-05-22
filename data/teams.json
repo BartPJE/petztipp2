@@ -21,6 +21,33 @@
     "logo": "img/teams/fortuna-duesseldorf.svg"
   },
   {
+    "key": "SOG",
+    "name": "SG Sonnenhof Großaspach",
+    "shortName": "Sonnenhof Großaspach",
+    "mobileName": "Sonnenhof Großaspach",
+    "country": "GER",
+    "displayName": "SG Sonnenhof Großaspach",
+    "logo": "img/teams/sg-sonnenhof-grossaspach.svg"
+  },
+  {
+    "key": "FCG",
+    "name": "FC Gütersloh",
+    "shortName": "FC Gütersloh",
+    "mobileName": "Gütersloh",
+    "country": "GER",
+    "displayName": "FC Gütersloh",
+    "logo": "img/teams/fc-guetersloh.svg"
+  },
+  {
+    "key": "LOH",
+    "name": "Blau-Weiß Lohne",
+    "shortName": "Lohne",
+    "mobileName": "Lohne",
+    "country": "GER",
+    "displayName": "Blau-Weiß Lohne",
+    "logo": "img/teams/blau-weiss-lohne.svg"
+  },
+  {
     "key": "DOF",
     "name": "SF Dorfmerkingen",
     "shortName": "Dorfmerkingen",
@@ -381,6 +408,15 @@
     "logo": "img/teams/rb-leipzig.svg"
   },
   {
+    "key": "LOK",
+    "name": "1. FC Lokomotive Leipzig",
+    "shortName": "Lokomotive Leipzig",
+    "mobileName": "Lokomotive Leipzig",
+    "country": "GER",
+    "displayName": "1. FC Lokomotive Leipzig",
+    "logo": "img/teams/1-fc-lokomotive-leipzig.svg"
+  },
+  {
     "key": "SGE",
     "name": "Eintracht Frankfurt",
     "shortName": "Frankfurt",
@@ -417,6 +453,24 @@
     "logo": "img/teams/fv-illertissen.svg"
   },
   {
+    "key": "FVE",
+    "name": "FV Engers 07",
+    "shortName": "Engers 07",
+    "mobileName": "Engers 07",
+    "country": "GER",
+    "displayName": "FV Engers 07",
+    "logo": "img/teams/fv-engers-07.svg"
+  },
+  {
+    "key": "RSV",
+    "name": "RSV Eintracht 1949",
+    "shortName": "RSV Eintracht 1949",
+    "mobileName": "RSV Eintracht 1949",
+    "country": "GER",
+    "displayName": "RSV Eintracht 1949",
+    "logo": "img/teams/rsv-eintracht-1949.svg"
+  },
+  {
     "key": "VFB",
     "name": "VfB Stuttgart",
     "shortName": "Stuttgart",
@@ -426,6 +480,15 @@
     "logo": "img/teams/vfb-stuttgart.svg"
   },
   {
+    "key": "SVA",
+    "name": "SV Atlas Delmenhorst",
+    "shortName": "Atlas Delmenhorst",
+    "mobileName": "Delmenhorst",
+    "country": "GER",
+    "displayName": "SV Atlas Delmenhorst",
+    "logo": "img/teams/sv-atlas-delmenhorst.svg"
+  },
+  {
     "key": "SVW",
     "name": "Werder Bremen",
     "shortName": "Werder Bremen",
@@ -433,6 +496,15 @@
     "country": "GER",
     "displayName": "Werder Bremen",
     "logo": "img/teams/werder-bremen.svg"
+  },
+  {
+    "key": "ZFC",
+    "name": "ZFC Meuselwitz",
+    "shortName": "Meuselwitz",
+    "mobileName": "Meuselwitz",
+    "country": "GER",
+    "displayName": "ZFC Meuselwitz",
+    "logo": "img/teams/zfc-meuselwitz.svg"
   },
   {
     "key": "HSV",
@@ -658,6 +730,15 @@
     "country": "GER",
     "displayName": "FK Pirmasens",
     "logo": "img/teams/fk-pirmasens.svg"
+  },
+  {
+    "key": "SVH",
+    "name": "SV Hemelingen",
+    "shortName": "SV Hemelingen",
+    "mobileName": "Hemelingen",
+    "country": "GER",
+    "displayName": "SV Hemelingen",
+    "logo": "img/teams/sv-hemelingen.svg"
   },
   {
     "key": "FCN",
@@ -1654,6 +1735,33 @@
     "logo": "img/teams/club-bruegge.svg"
   },
   {
+    "key": "BRG",
+    "name": "FC Brügge",
+    "shortName": "FC Brügge",
+    "mobileName": "FC Brügge",
+    "country": "BEL",
+    "displayName": "FC Brügge",
+    "logo": "img/teams/fc-bruegge.svg"
+  },
+  {
+    "key": "KAI",
+    "name": "Kairat Almaty",
+    "shortName": "Kairat",
+    "mobileName": "Kairat",
+    "country": "KAZ",
+    "displayName": "Kairat Almaty",
+    "logo": "img/teams/kairat-almaty.svg"
+  },
+  {
+    "key": "USG",
+    "name": "Royale Union Saint-Gilloise",
+    "shortName": "Union SG",
+    "mobileName": "Union SG",
+    "country": "BEL",
+    "displayName": "Royale Union Saint-Gilloise",
+    "logo": "img/teams/royale-union-saint-gilloise.svg"
+  },
+  {
     "key": "GEN",
     "name": "KRC Genk",
     "shortName": "KRC Genk",
@@ -1688,6 +1796,15 @@
     "country": "GRE",
     "displayName": "Panathinaikos Athen",
     "logo": "img/teams/panathinaikos-athen.svg"
+  },
+  {
+    "key": "PAF",
+    "name": "Pafos FC",
+    "shortName": "Pafos",
+    "mobileName": "Pafos",
+    "country": "CYP",
+    "displayName": "Pafos FC",
+    "logo": "img/teams/pafos-fc.svg"
   },
   {
     "key": "AEK",
@@ -1868,6 +1985,15 @@
     "country": "CZE",
     "displayName": "Slavia Prag",
     "logo": "img/teams/slavia-prag.svg"
+  },
+  {
+    "key": "GLI",
+    "name": "FK Bodø/Glimt",
+    "shortName": "Bodø/Glimt",
+    "mobileName": "Bodø/Glimt",
+    "country": "NOR",
+    "displayName": "FK Bodø/Glimt",
+    "logo": "img/teams/fk-bodo-glimt.svg"
   },
   {
     "key": "SPA",

@@ -1,0 +1,436 @@
+{
+  "id": "md10",
+  "label": "Spieltag 10",
+  "date": "11.07.2021 - 11.07.2021",
+  "no": 10,
+  "matches": [
+    {
+      "id": "md10-01",
+      "home": "Italien",
+      "away": "England",
+      "result": "4:3",
+      "date": "11.07.2021",
+      "time": "21:00",
+      "homeTeam": "ITA",
+      "awayTeam": "ENG"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "markus",
+      "picks": {
+        "md10-01": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 110.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0909090909090908
+    },
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md10-01": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 108.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.09090909090909091
+    },
+    {
+      "rank": 13,
+      "player": "hubi",
+      "picks": {
+        "md10-01": "1:2"
+      },
+      "pickPoints": {
+        "md10-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 104.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 1,
+      "player": "thomas",
+      "picks": {
+        "md10-01": "1:0"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 104.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.34090909090909094
+    },
+    {
+      "rank": 1,
+      "player": "juergen",
+      "picks": {
+        "md10-01": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 103.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.9242424242424242
+    },
+    {
+      "rank": 13,
+      "player": "alois",
+      "picks": {
+        "md10-01": "0:1"
+      },
+      "pickPoints": {
+        "md10-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 102.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.75
+    },
+    {
+      "rank": 1,
+      "player": "flok",
+      "picks": {
+        "md10-01": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 97.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0909090909090908
+    },
+    {
+      "rank": 1,
+      "player": "peterm",
+      "picks": {
+        "md10-01": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 95.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.4242424242424242
+    },
+    {
+      "rank": 12,
+      "player": "peter",
+      "picks": {
+        "md10-01": "3:1"
+      },
+      "pickPoints": {
+        "md10-01": 2.0
+      },
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 93.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 1,
+      "player": "stefan",
+      "picks": {
+        "md10-01": "3:2"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 92.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.4242424242424242
+    },
+    {
+      "rank": 13,
+      "player": "bene",
+      "picks": {
+        "md10-01": "1:2"
+      },
+      "pickPoints": {
+        "md10-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 92.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.25
+    },
+    {
+      "rank": 1,
+      "player": "basti",
+      "picks": {
+        "md10-01": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 85.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.5909090909090908
+    },
+    {
+      "rank": 13,
+      "player": "manug",
+      "picks": {
+        "md10-01": "2:3"
+      },
+      "pickPoints": {
+        "md10-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 84.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.3333333333333333
+    },
+    {
+      "rank": 13,
+      "player": "daniel",
+      "picks": {
+        "md10-01": "1:2"
+      },
+      "pickPoints": {
+        "md10-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 81.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5833333333333333
+    },
+    {
+      "rank": 1,
+      "player": "sabine",
+      "picks": {
+        "md10-01": "3:2"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 80.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.5909090909090909
+    },
+    {
+      "rank": 1,
+      "player": "franzi",
+      "picks": {
+        "md10-01": "3:2"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 80.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.4242424242424242
+    },
+    {
+      "rank": 13,
+      "player": "roman",
+      "picks": {
+        "md10-01": "1:2"
+      },
+      "pickPoints": {
+        "md10-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 76.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 1,
+      "player": "huy",
+      "picks": {
+        "md10-01": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 3.0
+      },
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 73.0,
+      "dayWin": true,
+      "dayWinsTotal": 0.09090909090909091
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "markus",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 110.0,
+      "dayWinsTotal": 1.0909090909090908
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 108.0,
+      "dayWinsTotal": 0.09090909090909091
+    },
+    {
+      "rank": 3,
+      "player": "hubi",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 104.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 3,
+      "player": "thomas",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 104.0,
+      "dayWinsTotal": 0.34090909090909094
+    },
+    {
+      "rank": 5,
+      "player": "juergen",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 103.0,
+      "dayWinsTotal": 0.9242424242424242
+    },
+    {
+      "rank": 6,
+      "player": "alois",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 102.0,
+      "dayWinsTotal": 0.75
+    },
+    {
+      "rank": 7,
+      "player": "flok",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 97.0,
+      "dayWinsTotal": 1.0909090909090908
+    },
+    {
+      "rank": 8,
+      "player": "peterm",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 95.0,
+      "dayWinsTotal": 0.4242424242424242
+    },
+    {
+      "rank": 9,
+      "player": "peter",
+      "points": 2.0,
+      "bonus": 0.0,
+      "total": 93.0,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 10,
+      "player": "stefan",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 92.0,
+      "dayWinsTotal": 0.4242424242424242
+    },
+    {
+      "rank": 10,
+      "player": "bene",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 92.0,
+      "dayWinsTotal": 0.25
+    },
+    {
+      "rank": 12,
+      "player": "basti",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 85.0,
+      "dayWinsTotal": 1.5909090909090908
+    },
+    {
+      "rank": 13,
+      "player": "manug",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 84.0,
+      "dayWinsTotal": 0.3333333333333333
+    },
+    {
+      "rank": 14,
+      "player": "daniel",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 81.0,
+      "dayWinsTotal": 0.5833333333333333
+    },
+    {
+      "rank": 15,
+      "player": "sabine",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 80.0,
+      "dayWinsTotal": 0.5909090909090909
+    },
+    {
+      "rank": 15,
+      "player": "franzi",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 80.0,
+      "dayWinsTotal": 0.4242424242424242
+    },
+    {
+      "rank": 17,
+      "player": "roman",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 76.0,
+      "dayWinsTotal": 0.0
+    },
+    {
+      "rank": 18,
+      "player": "huy",
+      "points": 3.0,
+      "bonus": 0.0,
+      "total": 73.0,
+      "dayWinsTotal": 0.09090909090909091
+    }
+  ]
+}

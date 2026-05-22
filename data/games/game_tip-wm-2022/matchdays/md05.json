@@ -1,0 +1,232 @@
+{
+  "id": "md05",
+  "label": "Spieltag 5",
+  "date": "29.11.2022 - 30.11.2022",
+  "no": 5,
+  "matches": [
+    {
+      "id": "md05-01",
+      "home": "Niederlande",
+      "away": "Katar",
+      "homeTeam": "NED",
+      "awayTeam": "QAT",
+      "result": "2:0",
+      "date": "29.11.2022"
+    },
+    {
+      "id": "md05-02",
+      "home": "Ecuador",
+      "away": "Senegal",
+      "homeTeam": "ECU",
+      "awayTeam": "SEN",
+      "result": "1:2",
+      "date": "29.11.2022"
+    },
+    {
+      "id": "md05-03",
+      "home": "Iran",
+      "away": "USA",
+      "homeTeam": "IRN",
+      "awayTeam": "USA",
+      "result": "0:1",
+      "date": "29.11.2022"
+    },
+    {
+      "id": "md05-04",
+      "home": "Wales",
+      "away": "England",
+      "homeTeam": "WAL",
+      "awayTeam": "ENG",
+      "result": "0:3",
+      "date": "29.11.2022"
+    },
+    {
+      "id": "md05-05",
+      "home": "Australien",
+      "away": "Dänemark",
+      "homeTeam": "AUS",
+      "awayTeam": "DEN",
+      "result": "1:0",
+      "date": "30.11.2022"
+    },
+    {
+      "id": "md05-06",
+      "home": "Tunesien",
+      "away": "Frankreich",
+      "homeTeam": "TUN",
+      "awayTeam": "FRA",
+      "result": "1:0",
+      "date": "30.11.2022"
+    },
+    {
+      "id": "md05-07",
+      "home": "Polen",
+      "away": "Argentinien",
+      "homeTeam": "POL",
+      "awayTeam": "ARG",
+      "result": "0:2",
+      "date": "30.11.2022"
+    },
+    {
+      "id": "md05-08",
+      "home": "Saudi-Arabien",
+      "away": "Mexiko",
+      "homeTeam": "KSA",
+      "awayTeam": "MEX",
+      "result": "1:2",
+      "date": "30.11.2022"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 2,
+      "player": "andy",
+      "picks": {
+        "md05-01": "2:0",
+        "md05-02": "1:1",
+        "md05-03": "0:1",
+        "md05-04": "1:2",
+        "md05-05": "1:2",
+        "md05-06": "0:3",
+        "md05-07": "1:2",
+        "md05-08": "0:2"
+      },
+      "pickPoints": {
+        "md05-01": 4.0,
+        "md05-02": 0.0,
+        "md05-03": 4.0,
+        "md05-04": 2.0,
+        "md05-05": 0.0,
+        "md05-06": 0.0,
+        "md05-07": 2.0,
+        "md05-08": 2.0
+      },
+      "points": 14.0,
+      "bonus": 9.0,
+      "total": 84.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md05-01": "3:0",
+        "md05-02": "1:1",
+        "md05-03": "0:1",
+        "md05-04": "0:2",
+        "md05-05": "0:2",
+        "md05-06": "0:2",
+        "md05-07": "0:2",
+        "md05-08": "0:2"
+      },
+      "pickPoints": {
+        "md05-01": 2.0,
+        "md05-02": 0.0,
+        "md05-03": 4.0,
+        "md05-04": 2.0,
+        "md05-05": 0.0,
+        "md05-06": 0.0,
+        "md05-07": 4.0,
+        "md05-08": 2.0
+      },
+      "points": 14.0,
+      "bonus": 9.0,
+      "total": 79.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 4,
+      "player": "peter",
+      "picks": {
+        "md05-01": "4:1",
+        "md05-02": "2:1",
+        "md05-03": "0:2",
+        "md05-04": "1:3",
+        "md05-05": "1:2",
+        "md05-06": "0:3",
+        "md05-07": "1:2",
+        "md05-08": "1:2"
+      },
+      "pickPoints": {
+        "md05-01": 2.0,
+        "md05-02": 0.0,
+        "md05-03": 2.0,
+        "md05-04": 2.0,
+        "md05-05": 0.0,
+        "md05-06": 0.0,
+        "md05-07": 2.0,
+        "md05-08": 4.0
+      },
+      "points": 12.0,
+      "bonus": 9.0,
+      "total": 76.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 1,
+      "player": "hubi",
+      "picks": {
+        "md05-01": "3:0",
+        "md05-02": "2:1",
+        "md05-03": "1:2",
+        "md05-04": "0:2",
+        "md05-05": "1:2",
+        "md05-06": "0:2",
+        "md05-07": "0:2",
+        "md05-08": "1:2"
+      },
+      "pickPoints": {
+        "md05-01": 2.0,
+        "md05-02": 0.0,
+        "md05-03": 3.0,
+        "md05-04": 2.0,
+        "md05-05": 0.0,
+        "md05-06": 0.0,
+        "md05-07": 4.0,
+        "md05-08": 4.0
+      },
+      "points": 15.0,
+      "bonus": 9.0,
+      "total": 73.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "andy",
+      "points": 14.0,
+      "bonus": 9.0,
+      "total": 84.0,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 14.0,
+      "bonus": 9.0,
+      "total": 79.0,
+      "dayWinsTotal": 1.5
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "points": 12.0,
+      "bonus": 9.0,
+      "total": 76.0,
+      "dayWinsTotal": 0.5
+    },
+    {
+      "rank": 4,
+      "player": "hubi",
+      "points": 15.0,
+      "bonus": 9.0,
+      "total": 73.0,
+      "dayWinsTotal": 1.0
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "tip-dfb-pokal-25-26",
+  "title": "DFB Pokal 2025/2026",
+  "competition": "DFB Pokal",
+  "season": "2025/2026",
+  "matchdays": [
+    {
+      "id": "md01",
+      "label": "1. Runde",
+      "date": "15.08.2025 - 27.08.2025",
+      "no": 1,
+      "file": "data/games/game_tip-dfb-pokal-25-26/matchdays/md01.json"
+    },
+    {
+      "id": "md02",
+      "label": "2. Runde",
+      "date": "28.10.2025 - 29.10.2025",
+      "no": 2,
+      "file": "data/games/game_tip-dfb-pokal-25-26/matchdays/md02.json"
+    },
+    {
+      "id": "md03",
+      "label": "Achtelfinale",
+      "date": "02.12.2025 - 03.12.2025",
+      "no": 3,
+      "file": "data/games/game_tip-dfb-pokal-25-26/matchdays/md03.json"
+    },
+    {
+      "id": "md04",
+      "label": "Viertelfinale",
+      "date": "03.02.2026 - 11.02.2026",
+      "no": 4,
+      "file": "data/games/game_tip-dfb-pokal-25-26/matchdays/md04.json"
+    },
+    {
+      "id": "md05",
+      "label": "Halbfinale",
+      "date": "22.04.2026 - 23.04.2026",
+      "no": 5,
+      "file": "data/games/game_tip-dfb-pokal-25-26/matchdays/md05.json"
+    },
+    {
+      "id": "md06",
+      "label": "Finale",
+      "date": "23.05.2026 - 23.05.2026",
+      "no": 6,
+      "file": "data/games/game_tip-dfb-pokal-25-26/matchdays/md06.json"
+    }
+  ],
+  "bonusTips": {
+    "picks": [
+      {
+        "player": "peter",
+        "name": "Peter",
+        "predictions": {
+          "Halbfinale": ["BVB", "FCB", "SCF", "VFB"],
+          "Sieger": "FCB"
+        }
+      },
+      {
+        "player": "johannes",
+        "name": "Johannes",
+        "predictions": {}
+      },
+      {
+        "player": "result",
+        "predictions": {
+          "Halbfinale": ["FCB", "B04", "SCF", "VFB"],
+          "Sieger": null
+        }
+      },
+      {
+        "player": "points",
+        "predictions": {
+          "Halbfinale": 3,
+          "Sieger": 3
+        }
+      }
+    ]
+  }
+}

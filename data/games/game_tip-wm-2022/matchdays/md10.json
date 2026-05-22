@@ -1,0 +1,130 @@
+{
+  "id": "md10",
+  "label": "Finale",
+  "date": "17.12.2022 - 18.12.2022",
+  "no": 10,
+  "matches": [
+    {
+      "id": "md10-01",
+      "home": "Kroatien",
+      "away": "Marokko",
+      "homeTeam": "CRO",
+      "awayTeam": "MAR",
+      "result": "2:1",
+      "date": "17.12.2022"
+    },
+    {
+      "id": "md10-02",
+      "home": "Argentinien",
+      "away": "Frankreich",
+      "homeTeam": "ARG",
+      "awayTeam": "FRA",
+      "result": "7:5",
+      "date": "18.12.2022"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "andy",
+      "picks": {
+        "md10-01": "2:1",
+        "md10-02": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 4.0,
+        "md10-02": 2.0
+      },
+      "points": 6.0,
+      "bonus": 3.0,
+      "total": 133.0,
+      "dayWin": true,
+      "dayWinsTotal": 4.333333333333334
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md10-01": "1:0",
+        "md10-02": "2:1"
+      },
+      "pickPoints": {
+        "md10-01": 3.0,
+        "md10-02": 2.0
+      },
+      "points": 5.0,
+      "bonus": 3.0,
+      "total": 124.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.8333333333333333
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "picks": {
+        "md10-01": "1:2",
+        "md10-02": "1:2"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 119.0,
+      "dayWin": false,
+      "dayWinsTotal": 2.3333333333333335
+    },
+    {
+      "rank": 3,
+      "player": "hubi",
+      "picks": {
+        "md10-01": "0:2",
+        "md10-02": "0:2"
+      },
+      "pickPoints": {
+        "md10-01": 0.0,
+        "md10-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 112.0,
+      "dayWin": false,
+      "dayWinsTotal": 1.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "andy",
+      "points": 6.0,
+      "bonus": 3.0,
+      "total": 133.0,
+      "dayWinsTotal": 4.333333333333334
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 5.0,
+      "bonus": 3.0,
+      "total": 124.0,
+      "dayWinsTotal": 1.8333333333333333
+    },
+    {
+      "rank": 3,
+      "player": "peter",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 119.0,
+      "dayWinsTotal": 2.3333333333333335
+    },
+    {
+      "rank": 4,
+      "player": "hubi",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 112.0,
+      "dayWinsTotal": 1.5
+    }
+  ]
+}

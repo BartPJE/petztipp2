@@ -1,0 +1,80 @@
+{
+  "id": "md16",
+  "label": "Halbfinale Rück",
+  "date": "05.05.2026 - 06.05.2026",
+  "no": 16,
+  "matches": [
+    {
+      "id": "md16-01",
+      "home": "FC Arsenal",
+      "away": "Atletico Madrid",
+      "homeTeam": "ARS",
+      "awayTeam": "ATM",
+      "result": "1:0",
+      "time": "05.05.26 21:00"
+    },
+    {
+      "id": "md16-02",
+      "home": "FC Bayern München",
+      "away": "Paris St. Germain",
+      "homeTeam": "FCB",
+      "awayTeam": "PSG",
+      "result": "1:1",
+      "time": "06.05.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md16-01": "2:1",
+        "md16-02": "2:0"
+      },
+      "pickPoints": {
+        "md16-01": 0.0,
+        "md16-02": 0.0
+      },
+      "points": 3.0,
+      "bonus": 4.0,
+      "total": 270.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md16-01": "2:0",
+        "md16-02": "2:1"
+      },
+      "pickPoints": {
+        "md16-01": 0.0,
+        "md16-02": 0.0
+      },
+      "points": 2.0,
+      "bonus": 4.0,
+      "total": 249.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 3.0,
+      "bonus": 4.0,
+      "total": 270.0,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 2.0,
+      "bonus": 4.0,
+      "total": 249.0,
+      "dayWinsTotal": 3.5
+    }
+  ]
+}

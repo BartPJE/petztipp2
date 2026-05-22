@@ -1,0 +1,106 @@
+{
+  "id": "md04",
+  "label": "Viertelfinale",
+  "date": "03.02.2026 - 11.02.2026",
+  "no": 4,
+  "matches": [
+    {
+      "id": "md04-01",
+      "home": "Bayer 04 Leverkusen",
+      "away": "FC St. Pauli",
+      "homeTeam": "B04",
+      "awayTeam": "STP",
+      "result": "3:0",
+      "time": "03.02.26 20:45"
+    },
+    {
+      "id": "md04-02",
+      "home": "Holstein Kiel",
+      "away": "VfB Stuttgart",
+      "homeTeam": "KIE",
+      "awayTeam": "VFB",
+      "result": "0:3",
+      "time": "04.02.26 20:45"
+    },
+    {
+      "id": "md04-03",
+      "home": "Hertha BSC",
+      "away": "SC Freiburg",
+      "homeTeam": "BSC",
+      "awayTeam": "SCF",
+      "result": "5:6 n.E.",
+      "time": "10.02.26 20:45"
+    },
+    {
+      "id": "md04-04",
+      "home": "FC Bayern München",
+      "away": "RB Leipzig",
+      "homeTeam": "FCB",
+      "awayTeam": "RBL",
+      "result": "2:0",
+      "time": "11.02.26 20:45"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md04-01": "3:0",
+        "md04-02": "0:2",
+        "md04-03": "1:2",
+        "md04-04": "2:0"
+      },
+      "pickPoints": {
+        "md04-01": 4.0,
+        "md04-02": 0.0,
+        "md04-03": 3.0,
+        "md04-04": 4.0
+      },
+      "points": 13.0,
+      "bonus": 0.0,
+      "total": 53.0,
+      "dayWin": true,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md04-01": "3:1",
+        "md04-02": "0:2",
+        "md04-03": "1:2",
+        "md04-04": "4:3"
+      },
+      "pickPoints": {
+        "md04-01": 2.0,
+        "md04-02": 2.0,
+        "md04-03": 3.0,
+        "md04-04": 2.0
+      },
+      "points": 9.0,
+      "bonus": 12.0,
+      "total": 133.0,
+      "dayWin": false,
+      "dayWinsTotal": 3.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 13.0,
+      "bonus": 0.0,
+      "total": 53.0,
+      "dayWinsTotal": 1.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 9.0,
+      "bonus": 12.0,
+      "total": 133.0,
+      "dayWinsTotal": 3.0
+    }
+  ]
+}
