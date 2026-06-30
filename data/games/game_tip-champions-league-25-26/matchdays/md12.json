@@ -63,7 +63,7 @@
       "home": "FC Bayern München",
       "away": "Atalanta Bergamo",
       "homeTeam": "FCB",
-      "awayTeam": "ATT",
+      "awayTeam": "ATA",
       "result": "4:1",
       "time": "18.03.26 21:00"
     },
@@ -92,20 +92,20 @@
         "md12-08": "2:0"
       },
       "pickPoints": {
-        "md12-01": 0.0,
+        "md12-01": 2.0,
         "md12-02": 0.0,
         "md12-03": 0.0,
-        "md12-04": 0.0,
-        "md12-05": 0.0,
+        "md12-04": 2.0,
+        "md12-05": 2.0,
         "md12-06": 0.0,
-        "md12-07": 0.0,
-        "md12-08": 0.0
+        "md12-07": 2.0,
+        "md12-08": 2.0
       },
       "points": 10.0,
-      "bonus": 4.0,
-      "total": 253.0,
+      "bonus": 0.0,
+      "total": 249.0,
       "dayWin": false,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 7.0
     },
     {
       "rank": 2,
@@ -121,20 +121,20 @@
         "md12-08": "2:0"
       },
       "pickPoints": {
-        "md12-01": 0.0,
+        "md12-01": 2.0,
         "md12-02": 0.0,
         "md12-03": 0.0,
-        "md12-04": 0.0,
-        "md12-05": 0.0,
+        "md12-04": 4.0,
+        "md12-05": 2.0,
         "md12-06": 0.0,
-        "md12-07": 0.0,
-        "md12-08": 0.0
+        "md12-07": 2.0,
+        "md12-08": 2.0
       },
       "points": 12.0,
-      "bonus": 4.0,
-      "total": 232.0,
+      "bonus": 0.0,
+      "total": 228.0,
       "dayWin": true,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 5.0
     }
   ],
   "table": [
@@ -142,17 +142,17 @@
       "rank": 1,
       "player": "peter",
       "points": 10.0,
-      "bonus": 4.0,
-      "total": 253.0,
-      "dayWinsTotal": 5.5
+      "bonus": 0.0,
+      "total": 249.0,
+      "dayWinsTotal": 7.0
     },
     {
       "rank": 2,
       "player": "johannes",
       "points": 12.0,
-      "bonus": 4.0,
-      "total": 232.0,
-      "dayWinsTotal": 3.5
+      "bonus": 0.0,
+      "total": 228.0,
+      "dayWinsTotal": 5.0
     }
   ]
 }

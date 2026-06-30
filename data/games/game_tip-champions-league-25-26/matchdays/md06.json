@@ -26,7 +26,7 @@
       "id": "md06-03",
       "home": "AS Monaco",
       "away": "Galatasaray Istanbul",
-      "homeTeam": "AMO",
+      "homeTeam": "MON",
       "awayTeam": "GAL",
       "result": "1:0",
       "time": "09.12.25 21:00"
@@ -53,7 +53,7 @@
       "id": "md06-06",
       "home": "Atalanta Bergamo",
       "away": "FC Chelsea",
-      "homeTeam": "ATT",
+      "homeTeam": "ATA",
       "awayTeam": "CHE",
       "result": "2:1",
       "time": "09.12.25 21:00"
@@ -63,7 +63,7 @@
       "home": "Tottenham Hotspur",
       "away": "Slavia Prag",
       "homeTeam": "TOT",
-      "awayTeam": "SLA",
+      "awayTeam": "SLP",
       "result": "3:0",
       "time": "09.12.25 21:00"
     },
@@ -72,7 +72,7 @@
       "home": "Royale Union Saint-Gilloise",
       "away": "Olympique Marseille",
       "homeTeam": "USG",
-      "awayTeam": "OLM",
+      "awayTeam": "OMA",
       "result": "2:3",
       "time": "09.12.25 21:00"
     },
@@ -99,7 +99,7 @@
       "home": "Qarabag",
       "away": "Ajax Amsterdam",
       "homeTeam": "QAR",
-      "awayTeam": "AJA",
+      "awayTeam": "AJX",
       "result": "2:4",
       "time": "10.12.25 18:45"
     },
@@ -107,7 +107,7 @@
       "id": "md06-12",
       "home": "Athletic Bilbao",
       "away": "Paris St. Germain",
-      "homeTeam": "ATH",
+      "homeTeam": "BIL",
       "awayTeam": "PSG",
       "result": "0:0",
       "time": "10.12.25 21:00"
@@ -134,7 +134,7 @@
       "id": "md06-15",
       "home": "FC Brügge",
       "away": "FC Arsenal",
-      "homeTeam": "BRU",
+      "homeTeam": "BRG",
       "awayTeam": "ARS",
       "result": "0:3",
       "time": "10.12.25 21:00"
@@ -161,7 +161,7 @@
       "id": "md06-18",
       "home": "Benfica Lissabon",
       "away": "SSC Neapel",
-      "homeTeam": "SLB",
+      "homeTeam": "BEN",
       "awayTeam": "NAP",
       "result": "2:0",
       "time": "10.12.25 21:00"
@@ -212,10 +212,10 @@
         "md06-18": 2.0
       },
       "points": 23.0,
-      "bonus": 4.0,
-      "total": 170.0,
+      "bonus": 0.0,
+      "total": 166.0,
       "dayWin": false,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 5.0
     },
     {
       "rank": 1,
@@ -261,10 +261,10 @@
         "md06-18": 1.0
       },
       "points": 24.0,
-      "bonus": 4.0,
-      "total": 151.0,
+      "bonus": 0.0,
+      "total": 147.0,
       "dayWin": true,
-      "dayWinsTotal": 1.5
+      "dayWinsTotal": 1.0
     }
   ],
   "table": [
@@ -272,17 +272,17 @@
       "rank": 2,
       "player": "peter",
       "points": 23.0,
-      "bonus": 4.0,
-      "total": 170.0,
-      "dayWinsTotal": 5.5
+      "bonus": 0.0,
+      "total": 166.0,
+      "dayWinsTotal": 5.0
     },
     {
       "rank": 1,
       "player": "johannes",
       "points": 24.0,
-      "bonus": 4.0,
-      "total": 151.0,
-      "dayWinsTotal": 1.5
+      "bonus": 0.0,
+      "total": 147.0,
+      "dayWinsTotal": 1.0
     }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "id": "md17",
+  "label": "Finale",
+  "date": "20.05.2026 - 20.05.2026",
+  "no": 17,
+  "matches": [
+    {
+      "id": "md17-01",
+      "home": "SC Freiburg",
+      "away": "Aston Villa",
+      "homeTeam": "SCF",
+      "awayTeam": "AVA",
+      "result": "0:3",
+      "time": "20.05.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md17-01": "0:3"
+      },
+      "pickPoints": {
+        "md17-01": 0.0
+      },
+      "points": 4.0,
+      "bonus": 4.0,
+      "total": 271.0,
+      "dayWin": true,
+      "dayWinsTotal": 12.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md17-01": "5:4"
+      },
+      "pickPoints": {
+        "md17-01": 0.0
+      },
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 248.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 4.0,
+      "bonus": 4.0,
+      "total": 271.0,
+      "dayWinsTotal": 12.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 0.0,
+      "bonus": 0.0,
+      "total": 248.0,
+      "dayWinsTotal": 5.5
+    }
+  ]
+}

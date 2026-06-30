@@ -1,0 +1,80 @@
+{
+  "id": "md15",
+  "label": "Halbfinale Hin",
+  "date": "30.04.2026 - 30.04.2026",
+  "no": 15,
+  "matches": [
+    {
+      "id": "md15-01",
+      "home": "Nottingham Forest",
+      "away": "Aston Villa",
+      "homeTeam": "NTG",
+      "awayTeam": "AVA",
+      "result": "1:0",
+      "time": "30.04.26 21:00"
+    },
+    {
+      "id": "md15-02",
+      "home": "Sporting Braga",
+      "away": "SC Freiburg",
+      "homeTeam": "SCB",
+      "awayTeam": "SCF",
+      "result": "2:1",
+      "time": "30.04.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md15-01": "2:1",
+        "md15-02": "2:1"
+      },
+      "pickPoints": {
+        "md15-01": 0.0,
+        "md15-02": 0.0
+      },
+      "points": 7.0,
+      "bonus": 0.0,
+      "total": 243.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md15-01": "1:1",
+        "md15-02": "1:1"
+      },
+      "pickPoints": {
+        "md15-01": 0.0,
+        "md15-02": 0.0
+      },
+      "points": 0.0,
+      "bonus": 4.0,
+      "total": 263.0,
+      "dayWin": false,
+      "dayWinsTotal": 12.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 7.0,
+      "bonus": 0.0,
+      "total": 243.0,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 0.0,
+      "bonus": 4.0,
+      "total": 263.0,
+      "dayWinsTotal": 12.5
+    }
+  ]
+}

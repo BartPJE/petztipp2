@@ -25,10 +25,10 @@
         "md17-01": 0.0
       },
       "points": 0.0,
-      "bonus": 4.0,
+      "bonus": 0.0,
       "total": 270.0,
       "dayWin": true,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 10.0
     },
     {
       "rank": 2,
@@ -40,10 +40,10 @@
         "md17-01": 0.0
       },
       "points": 0.0,
-      "bonus": 4.0,
+      "bonus": 0.0,
       "total": 249.0,
       "dayWin": false,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 6.0
     }
   ],
   "table": [
@@ -51,17 +51,17 @@
       "rank": 1,
       "player": "peter",
       "points": 0.0,
-      "bonus": 4.0,
+      "bonus": 0.0,
       "total": 270.0,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 10.0
     },
     {
       "rank": 2,
       "player": "johannes",
       "points": 0.0,
-      "bonus": 4.0,
+      "bonus": 0.0,
       "total": 249.0,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 6.0
     }
   ]
 }

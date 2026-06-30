@@ -1,0 +1,158 @@
+{
+  "id": "md12",
+  "label": "Achtelfinale Rück",
+  "date": "18.03.2026 - 19.03.2026",
+  "no": 12,
+  "matches": [
+    {
+      "id": "md12-01",
+      "home": "Sporting Braga",
+      "away": "Ferencvaros Budapest",
+      "homeTeam": "SCB",
+      "awayTeam": "BUD",
+      "result": "4:0",
+      "time": "18.03.26 16:30"
+    },
+    {
+      "id": "md12-02",
+      "home": "FC Midtjylland",
+      "away": "Nottingham Forest",
+      "homeTeam": "MID",
+      "awayTeam": "NTG",
+      "result": "1:5 n.E.",
+      "time": "19.03.26 18:45"
+    },
+    {
+      "id": "md12-03",
+      "home": "Olympique Lyon",
+      "away": "Celta Vigo",
+      "homeTeam": "LYO",
+      "awayTeam": "CEV",
+      "result": "0:2",
+      "time": "19.03.26 18:45"
+    },
+    {
+      "id": "md12-04",
+      "home": "SC Freiburg",
+      "away": "KRC Genk",
+      "homeTeam": "SCF",
+      "awayTeam": "GNK",
+      "result": "5:1",
+      "time": "19.03.26 18:45"
+    },
+    {
+      "id": "md12-05",
+      "home": "Aston Villa",
+      "away": "OSC Lille",
+      "homeTeam": "AVA",
+      "awayTeam": "LIL",
+      "result": "2:0",
+      "time": "19.03.26 21:00"
+    },
+    {
+      "id": "md12-06",
+      "home": "Real Betis Sevilla",
+      "away": "Panathinaikos Athen",
+      "homeTeam": "BET",
+      "awayTeam": "PAN",
+      "result": "4:0",
+      "time": "19.03.26 21:00"
+    },
+    {
+      "id": "md12-07",
+      "home": "AS Rom",
+      "away": "FC Bologna",
+      "homeTeam": "ROM",
+      "awayTeam": "BGN",
+      "result": "3:4 n.V.",
+      "time": "19.03.26 21:00"
+    },
+    {
+      "id": "md12-08",
+      "home": "FC Porto",
+      "away": "VfB Stuttgart",
+      "homeTeam": "FCP",
+      "awayTeam": "VFB",
+      "result": "2:0",
+      "time": "19.03.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md12-01": "2:0",
+        "md12-02": "1:2",
+        "md12-03": "2:1",
+        "md12-04": "1:0",
+        "md12-05": "2:0",
+        "md12-06": "2:1",
+        "md12-07": "2:0",
+        "md12-08": "1:0"
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 0.0,
+        "md12-03": 0.0,
+        "md12-04": 0.0,
+        "md12-05": 0.0,
+        "md12-06": 0.0,
+        "md12-07": 0.0,
+        "md12-08": 0.0
+      },
+      "points": 14.0,
+      "bonus": 4.0,
+      "total": 253.0,
+      "dayWin": true,
+      "dayWinsTotal": 12.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md12-01": "2:1",
+        "md12-02": "0:2",
+        "md12-03": "2:1",
+        "md12-04": "2:0",
+        "md12-05": "3:1",
+        "md12-06": "2:0",
+        "md12-07": "2:0",
+        "md12-08": "1:4"
+      },
+      "pickPoints": {
+        "md12-01": 0.0,
+        "md12-02": 0.0,
+        "md12-03": 0.0,
+        "md12-04": 0.0,
+        "md12-05": 0.0,
+        "md12-06": 0.0,
+        "md12-07": 0.0,
+        "md12-08": 0.0
+      },
+      "points": 11.0,
+      "bonus": 0.0,
+      "total": 227.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 14.0,
+      "bonus": 4.0,
+      "total": 253.0,
+      "dayWinsTotal": 12.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 11.0,
+      "bonus": 0.0,
+      "total": 227.0,
+      "dayWinsTotal": 5.5
+    }
+  ]
+}

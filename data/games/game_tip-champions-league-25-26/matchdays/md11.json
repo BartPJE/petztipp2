@@ -26,7 +26,7 @@
       "id": "md11-03",
       "home": "Atalanta Bergamo",
       "away": "FC Bayern München",
-      "homeTeam": "ATT",
+      "homeTeam": "ATA",
       "awayTeam": "FCB",
       "result": "1:6",
       "time": "10.03.26 21:00"
@@ -93,19 +93,19 @@
       },
       "pickPoints": {
         "md11-01": 0.0,
-        "md11-02": 0.0,
-        "md11-03": 0.0,
+        "md11-02": 2.0,
+        "md11-03": 2.0,
         "md11-04": 0.0,
         "md11-05": 0.0,
-        "md11-06": 0.0,
-        "md11-07": 0.0,
-        "md11-08": 0.0
+        "md11-06": 2.0,
+        "md11-07": 2.0,
+        "md11-08": 2.0
       },
       "points": 10.0,
-      "bonus": 4.0,
-      "total": 243.0,
+      "bonus": 0.0,
+      "total": 239.0,
       "dayWin": true,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 7.0
     },
     {
       "rank": 2,
@@ -122,19 +122,19 @@
       },
       "pickPoints": {
         "md11-01": 0.0,
-        "md11-02": 0.0,
-        "md11-03": 0.0,
+        "md11-02": 2.0,
+        "md11-03": 2.0,
         "md11-04": 0.0,
         "md11-05": 0.0,
         "md11-06": 0.0,
         "md11-07": 0.0,
-        "md11-08": 0.0
+        "md11-08": 2.0
       },
       "points": 6.0,
-      "bonus": 4.0,
-      "total": 220.0,
+      "bonus": 0.0,
+      "total": 216.0,
       "dayWin": false,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 4.0
     }
   ],
   "table": [
@@ -142,17 +142,17 @@
       "rank": 1,
       "player": "peter",
       "points": 10.0,
-      "bonus": 4.0,
-      "total": 243.0,
-      "dayWinsTotal": 5.5
+      "bonus": 0.0,
+      "total": 239.0,
+      "dayWinsTotal": 7.0
     },
     {
       "rank": 2,
       "player": "johannes",
       "points": 6.0,
-      "bonus": 4.0,
-      "total": 220.0,
-      "dayWinsTotal": 3.5
+      "bonus": 0.0,
+      "total": 216.0,
+      "dayWinsTotal": 4.0
     }
   ]
 }

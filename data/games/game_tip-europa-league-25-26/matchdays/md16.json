@@ -1,0 +1,80 @@
+{
+  "id": "md16",
+  "label": "Halbfinale Rück",
+  "date": "07.05.2026 - 07.05.2026",
+  "no": 16,
+  "matches": [
+    {
+      "id": "md16-01",
+      "home": "SC Freiburg",
+      "away": "Sporting Braga",
+      "homeTeam": "SCF",
+      "awayTeam": "SCB",
+      "result": "3:1",
+      "time": "07.05.26 21:00"
+    },
+    {
+      "id": "md16-02",
+      "home": "Aston Villa",
+      "away": "Nottingham Forest",
+      "homeTeam": "AVA",
+      "awayTeam": "NTG",
+      "result": "4:0",
+      "time": "07.05.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "picks": {
+        "md16-01": "2:0",
+        "md16-02": "2:1"
+      },
+      "pickPoints": {
+        "md16-01": 0.0,
+        "md16-02": 0.0
+      },
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 248.0,
+      "dayWin": true,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "picks": {
+        "md16-01": "2:1",
+        "md16-02": "2:1"
+      },
+      "pickPoints": {
+        "md16-01": 0.0,
+        "md16-02": 0.0
+      },
+      "points": 4.0,
+      "bonus": 4.0,
+      "total": 267.0,
+      "dayWin": false,
+      "dayWinsTotal": 12.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "peter",
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 248.0,
+      "dayWinsTotal": 5.5
+    },
+    {
+      "rank": 2,
+      "player": "johannes",
+      "points": 4.0,
+      "bonus": 4.0,
+      "total": 267.0,
+      "dayWinsTotal": 12.5
+    }
+  ]
+}

@@ -131,12 +131,7 @@
         "name": "Petz",
         "predictions": {
           "Torschützenkönig": "RMA",
-          "Halbfinale": [
-            "LIV",
-            "MCI",
-            "FCB",
-            "RMA"
-          ],
+          "Halbfinale": ["LIV", "MCI", "FCB", "RMA"],
           "Sieger": "LIV"
         }
       },
@@ -145,12 +140,7 @@
         "name": "Johannes",
         "predictions": {
           "Torschützenkönig": "RMA",
-          "Halbfinale": [
-            "BAR",
-            "LIV",
-            "FCB",
-            "RMA"
-          ],
+          "Halbfinale": ["BAR", "LIV", "FCB", "RMA"],
           "Sieger": "RMA"
         }
       },
@@ -158,12 +148,7 @@
         "player": "result",
         "predictions": {
           "Torschützenkönig": "---",
-          "Halbfinale": [
-            "Atletico Madrid",
-            "FC Arsenal",
-            "FC Bayern München",
-            "Paris St. Germain"
-          ],
+          "Halbfinale": ["ATM", "ARS", "FCB", "PSG"],
           "Sieger": "---"
         }
       },

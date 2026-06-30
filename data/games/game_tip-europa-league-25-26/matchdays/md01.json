@@ -1,0 +1,288 @@
+{
+  "id": "md01",
+  "label": "1. Spieltag",
+  "date": "24.09.2025 - 25.09.2025",
+  "no": 1,
+  "matches": [
+    {
+      "id": "md01-01",
+      "home": "PAOK Saloniki",
+      "away": "Maccabi Tel Aviv",
+      "homeTeam": "PAOK",
+      "awayTeam": "MTA",
+      "result": "0:0",
+      "time": "24.09.25 18:45"
+    },
+    {
+      "id": "md01-02",
+      "home": "FC Midtjylland",
+      "away": "SK Sturm Graz",
+      "homeTeam": "MID",
+      "awayTeam": "STU",
+      "result": "2:0",
+      "time": "24.09.25 18:45"
+    },
+    {
+      "id": "md01-03",
+      "home": "Dinamo Zagreb",
+      "away": "Fenerbahce Istanbul",
+      "homeTeam": "ZAG",
+      "awayTeam": "FEN",
+      "result": "3:1",
+      "time": "24.09.25 21:00"
+    },
+    {
+      "id": "md01-04",
+      "home": "Roter Stern Belgrad",
+      "away": "Celtic Glasgow",
+      "homeTeam": "RSB",
+      "awayTeam": "CEL",
+      "result": "1:1",
+      "time": "24.09.25 21:00"
+    },
+    {
+      "id": "md01-05",
+      "home": "Sporting Braga",
+      "away": "Feyenoord Rotterdam",
+      "homeTeam": "SCB",
+      "awayTeam": "FEY",
+      "result": "1:0",
+      "time": "24.09.25 21:00"
+    },
+    {
+      "id": "md01-06",
+      "home": "Real Betis Sevilla",
+      "away": "Nottingham Forest",
+      "homeTeam": "BET",
+      "awayTeam": "NTG",
+      "result": "2:2",
+      "time": "24.09.25 21:00"
+    },
+    {
+      "id": "md01-07",
+      "home": "Malmö FF",
+      "away": "PFC Ludogorets Razgrad",
+      "homeTeam": "MFF",
+      "awayTeam": "LUD",
+      "result": "1:2",
+      "time": "24.09.25 21:00"
+    },
+    {
+      "id": "md01-08",
+      "home": "SC Freiburg",
+      "away": "FC Basel",
+      "homeTeam": "SCF",
+      "awayTeam": "FCB",
+      "result": "2:1",
+      "time": "24.09.25 21:00"
+    },
+    {
+      "id": "md01-09",
+      "home": "OGC Nice",
+      "away": "AS Rom",
+      "homeTeam": "NCE",
+      "awayTeam": "ROM",
+      "result": "1:2",
+      "time": "24.09.25 21:00"
+    },
+    {
+      "id": "md01-10",
+      "home": "OSC Lille",
+      "away": "Brann Bergen",
+      "homeTeam": "LIL",
+      "awayTeam": "BRA",
+      "result": "2:1",
+      "time": "25.09.25 18:45"
+    },
+    {
+      "id": "md01-11",
+      "home": "Go Ahead Eagles Deventer",
+      "away": "FCSB Bukarest",
+      "homeTeam": "GAE",
+      "awayTeam": "BUK",
+      "result": "0:1",
+      "time": "25.09.25 18:45"
+    },
+    {
+      "id": "md01-12",
+      "home": "Glasgow Rangers",
+      "away": "KRC Genk",
+      "homeTeam": "RFC",
+      "awayTeam": "GNK",
+      "result": "0:1",
+      "time": "25.09.25 21:00"
+    },
+    {
+      "id": "md01-13",
+      "home": "Ferencvaros Budapest",
+      "away": "Viktoria Pilsen",
+      "homeTeam": "BUD",
+      "awayTeam": "PIL",
+      "result": "1:1",
+      "time": "25.09.25 21:00"
+    },
+    {
+      "id": "md01-14",
+      "home": "Young Boys Bern",
+      "away": "Panathinaikos Athen",
+      "homeTeam": "YB",
+      "awayTeam": "PAN",
+      "result": "1:4",
+      "time": "25.09.25 21:00"
+    },
+    {
+      "id": "md01-15",
+      "home": "Aston Villa",
+      "away": "FC Bologna",
+      "homeTeam": "AVA",
+      "awayTeam": "BGN",
+      "result": "1:0",
+      "time": "25.09.25 21:00"
+    },
+    {
+      "id": "md01-16",
+      "home": "FC Red Bull Salzburg",
+      "away": "FC Porto",
+      "homeTeam": "RBS",
+      "awayTeam": "FCP",
+      "result": "0:1",
+      "time": "25.09.25 21:00"
+    },
+    {
+      "id": "md01-17",
+      "home": "FC Utrecht",
+      "away": "Olympique Lyon",
+      "homeTeam": "UTR",
+      "awayTeam": "LYO",
+      "result": "0:1",
+      "time": "25.09.25 21:00"
+    },
+    {
+      "id": "md01-18",
+      "home": "VfB Stuttgart",
+      "away": "Celta Vigo",
+      "homeTeam": "VFB",
+      "awayTeam": "CEV",
+      "result": "2:1",
+      "time": "25.09.25 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md01-01": "2:0",
+        "md01-02": "2:0",
+        "md01-03": "1:1",
+        "md01-04": "1:1",
+        "md01-05": "1:1",
+        "md01-06": "1:1",
+        "md01-07": "1:0",
+        "md01-08": "1:0",
+        "md01-09": "1:1",
+        "md01-10": "1:0",
+        "md01-11": "1:1",
+        "md01-12": "1:1",
+        "md01-13": "1:1",
+        "md01-14": "1:1",
+        "md01-15": "1:0",
+        "md01-16": "1:1",
+        "md01-17": "1:1",
+        "md01-18": "1:0"
+      },
+      "pickPoints": {
+        "md01-01": 0.0,
+        "md01-02": 0.0,
+        "md01-03": 0.0,
+        "md01-04": 0.0,
+        "md01-05": 0.0,
+        "md01-06": 0.0,
+        "md01-07": 0.0,
+        "md01-08": 0.0,
+        "md01-09": 0.0,
+        "md01-10": 0.0,
+        "md01-11": 0.0,
+        "md01-12": 0.0,
+        "md01-13": 0.0,
+        "md01-14": 0.0,
+        "md01-15": 0.0,
+        "md01-16": 0.0,
+        "md01-17": 0.0,
+        "md01-18": 0.0
+      },
+      "points": 27.0,
+      "bonus": 4.0,
+      "total": 31.0,
+      "dayWin": true,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md01-01": "3:1",
+        "md01-02": "2:1",
+        "md01-03": "0:2",
+        "md01-04": "1:2",
+        "md01-05": "2:2",
+        "md01-06": "2:1",
+        "md01-07": "2:0",
+        "md01-08": "3:1",
+        "md01-09": "1:2",
+        "md01-10": "2:0",
+        "md01-11": "2:1",
+        "md01-12": "2:1",
+        "md01-13": "2:2",
+        "md01-14": "2:0",
+        "md01-15": "3:1",
+        "md01-16": "1:2",
+        "md01-17": "0:2",
+        "md01-18": "3:1"
+      },
+      "pickPoints": {
+        "md01-01": 0.0,
+        "md01-02": 0.0,
+        "md01-03": 0.0,
+        "md01-04": 0.0,
+        "md01-05": 0.0,
+        "md01-06": 0.0,
+        "md01-07": 0.0,
+        "md01-08": 0.0,
+        "md01-09": 0.0,
+        "md01-10": 0.0,
+        "md01-11": 0.0,
+        "md01-12": 0.0,
+        "md01-13": 0.0,
+        "md01-14": 0.0,
+        "md01-15": 0.0,
+        "md01-16": 0.0,
+        "md01-17": 0.0,
+        "md01-18": 0.0
+      },
+      "points": 21.0,
+      "bonus": 0.0,
+      "total": 21.0,
+      "dayWin": false,
+      "dayWinsTotal": 0.0
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 27.0,
+      "bonus": 4.0,
+      "total": 31.0,
+      "dayWinsTotal": 2.0
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 21.0,
+      "bonus": 0.0,
+      "total": 21.0,
+      "dayWinsTotal": 0.0
+    }
+  ]
+}

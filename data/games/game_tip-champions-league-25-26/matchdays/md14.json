@@ -53,15 +53,15 @@
       },
       "pickPoints": {
         "md14-01": 0.0,
-        "md14-02": 0.0,
+        "md14-02": 3.0,
         "md14-03": 0.0,
-        "md14-04": 0.0
+        "md14-04": 3.0
       },
       "points": 6.0,
       "bonus": 4.0,
       "total": 267.0,
       "dayWin": true,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 9.0
     },
     {
       "rank": 2,
@@ -74,15 +74,15 @@
       },
       "pickPoints": {
         "md14-01": 0.0,
-        "md14-02": 0.0,
+        "md14-02": 2.0,
         "md14-03": 0.0,
-        "md14-04": 0.0
+        "md14-04": 3.0
       },
       "points": 5.0,
       "bonus": 4.0,
       "total": 243.0,
       "dayWin": false,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 5.0
     }
   ],
   "table": [
@@ -92,7 +92,7 @@
       "points": 6.0,
       "bonus": 4.0,
       "total": 267.0,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 9.0
     },
     {
       "rank": 2,
@@ -100,7 +100,7 @@
       "points": 5.0,
       "bonus": 4.0,
       "total": 243.0,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 5.0
     }
   ]
 }

@@ -9,7 +9,7 @@
       "home": "Kairat Almaty",
       "away": "FC Brügge",
       "homeTeam": "KAI",
-      "awayTeam": "BRU",
+      "awayTeam": "BRG",
       "result": "1:4",
       "time": "20.01.26 16:30"
     },
@@ -45,7 +45,7 @@
       "home": "Real Madrid",
       "away": "AS Monaco",
       "homeTeam": "RMA",
-      "awayTeam": "AMO",
+      "awayTeam": "MON",
       "result": "6:1",
       "time": "20.01.26 21:00"
     },
@@ -72,7 +72,7 @@
       "home": "FC Villarreal",
       "away": "Ajax Amsterdam",
       "homeTeam": "VIL",
-      "awayTeam": "AJA",
+      "awayTeam": "AJX",
       "result": "1:2",
       "time": "20.01.26 21:00"
     },
@@ -107,7 +107,7 @@
       "id": "md07-12",
       "home": "Slavia Prag",
       "away": "FC Barcelona",
-      "homeTeam": "SLA",
+      "homeTeam": "SLP",
       "awayTeam": "BAR",
       "result": "2:4",
       "time": "21.01.26 21:00"
@@ -116,8 +116,8 @@
       "id": "md07-13",
       "home": "Atalanta Bergamo",
       "away": "Athletic Bilbao",
-      "homeTeam": "ATT",
-      "awayTeam": "ATH",
+      "homeTeam": "ATA",
+      "awayTeam": "BIL",
       "result": "2:3",
       "time": "21.01.26 21:00"
     },
@@ -143,7 +143,7 @@
       "id": "md07-16",
       "home": "Olympique Marseille",
       "away": "FC Liverpool",
-      "homeTeam": "OLM",
+      "homeTeam": "OMA",
       "awayTeam": "LIV",
       "result": "0:3",
       "time": "21.01.26 21:00"
@@ -153,7 +153,7 @@
       "home": "Juventus Turin",
       "away": "Benfica Lissabon",
       "homeTeam": "JUV",
-      "awayTeam": "SLB",
+      "awayTeam": "BEN",
       "result": "2:0",
       "time": "21.01.26 21:00"
     },
@@ -212,10 +212,10 @@
         "md07-18": 2.0
       },
       "points": 20.0,
-      "bonus": 4.0,
-      "total": 190.0,
+      "bonus": 0.0,
+      "total": 186.0,
       "dayWin": false,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 5.0
     },
     {
       "rank": 1,
@@ -261,10 +261,10 @@
         "md07-18": 0.0
       },
       "points": 22.0,
-      "bonus": 4.0,
-      "total": 173.0,
+      "bonus": 0.0,
+      "total": 169.0,
       "dayWin": true,
-      "dayWinsTotal": 2.5
+      "dayWinsTotal": 2.0
     }
   ],
   "table": [

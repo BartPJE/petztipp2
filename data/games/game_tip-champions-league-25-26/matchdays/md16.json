@@ -32,14 +32,14 @@
         "md16-02": "2:0"
       },
       "pickPoints": {
-        "md16-01": 0.0,
+        "md16-01": 3.0,
         "md16-02": 0.0
       },
       "points": 3.0,
-      "bonus": 4.0,
+      "bonus": 0.0,
       "total": 270.0,
       "dayWin": true,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 10.0
     },
     {
       "rank": 2,
@@ -49,14 +49,14 @@
         "md16-02": "2:1"
       },
       "pickPoints": {
-        "md16-01": 0.0,
+        "md16-01": 2.0,
         "md16-02": 0.0
       },
       "points": 2.0,
-      "bonus": 4.0,
+      "bonus": 0.0,
       "total": 249.0,
       "dayWin": false,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 6.0
     }
   ],
   "table": [
@@ -64,17 +64,17 @@
       "rank": 1,
       "player": "peter",
       "points": 3.0,
-      "bonus": 4.0,
+      "bonus": 0.0,
       "total": 270.0,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 10.0
     },
     {
       "rank": 2,
       "player": "johannes",
       "points": 2.0,
-      "bonus": 4.0,
+      "bonus": 0.0,
       "total": 249.0,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 6.0
     }
   ]
 }

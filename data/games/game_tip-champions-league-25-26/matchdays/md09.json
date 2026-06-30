@@ -17,7 +17,7 @@
       "id": "md09-02",
       "home": "AS Monaco",
       "away": "Paris St. Germain",
-      "homeTeam": "AMO",
+      "homeTeam": "MON",
       "awayTeam": "PSG",
       "result": "2:3",
       "time": "17.02.26 21:00"
@@ -26,7 +26,7 @@
       "id": "md09-03",
       "home": "Benfica Lissabon",
       "away": "Real Madrid",
-      "homeTeam": "SLB",
+      "homeTeam": "BEN",
       "awayTeam": "RMA",
       "result": "0:1",
       "time": "17.02.26 21:00"
@@ -36,7 +36,7 @@
       "home": "Borussia Dortmund",
       "away": "Atalanta Bergamo",
       "homeTeam": "BVB",
-      "awayTeam": "ATT",
+      "awayTeam": "ATA",
       "result": "2:0",
       "time": "17.02.26 21:15"
     },
@@ -53,7 +53,7 @@
       "id": "md09-06",
       "home": "FC Brügge",
       "away": "Atletico Madrid",
-      "homeTeam": "BRU",
+      "homeTeam": "BRG",
       "awayTeam": "ATM",
       "result": "3:3",
       "time": "18.02.26 21:00"
@@ -93,19 +93,19 @@
       },
       "pickPoints": {
         "md09-01": 0.0,
-        "md09-02": 0.0,
-        "md09-03": 0.0,
-        "md09-04": 0.0,
-        "md09-05": 0.0,
+        "md09-02": 2.0,
+        "md09-03": 3.0,
+        "md09-04": 4.0,
+        "md09-05": 2.0,
         "md09-06": 0.0,
         "md09-07": 0.0,
-        "md09-08": 0.0
+        "md09-08": 2.0
       },
       "points": 13.0,
-      "bonus": 4.0,
-      "total": 224.0,
+      "bonus": 0.0,
+      "total": 220.0,
       "dayWin": true,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 6.0
     },
     {
       "rank": 2,
@@ -122,19 +122,19 @@
       },
       "pickPoints": {
         "md09-01": 0.0,
-        "md09-02": 0.0,
-        "md09-03": 0.0,
+        "md09-02": 2.0,
+        "md09-03": 4.0,
         "md09-04": 0.0,
-        "md09-05": 0.0,
+        "md09-05": 2.0,
         "md09-06": 0.0,
         "md09-07": 0.0,
         "md09-08": 0.0
       },
       "points": 8.0,
-      "bonus": 4.0,
-      "total": 204.0,
+      "bonus": 0.0,
+      "total": 200.0,
       "dayWin": false,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 3.0
     }
   ],
   "table": [
@@ -142,17 +142,17 @@
       "rank": 1,
       "player": "peter",
       "points": 13.0,
-      "bonus": 4.0,
-      "total": 224.0,
-      "dayWinsTotal": 5.5
+      "bonus": 0.0,
+      "total": 220.0,
+      "dayWinsTotal": 6.0
     },
     {
       "rank": 2,
       "player": "johannes",
       "points": 8.0,
-      "bonus": 4.0,
-      "total": 204.0,
-      "dayWinsTotal": 3.5
+      "bonus": 0.0,
+      "total": 200.0,
+      "dayWinsTotal": 3.0
     }
   ]
 }

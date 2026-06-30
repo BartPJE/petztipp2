@@ -1,0 +1,106 @@
+{
+  "id": "md14",
+  "label": "Viertelfinale Rück",
+  "date": "16.04.2026 - 16.04.2026",
+  "no": 14,
+  "matches": [
+    {
+      "id": "md14-01",
+      "home": "Celta Vigo",
+      "away": "SC Freiburg",
+      "homeTeam": "CEV",
+      "awayTeam": "SCF",
+      "result": "1:3",
+      "time": "16.04.26 18:45"
+    },
+    {
+      "id": "md14-02",
+      "home": "Aston Villa",
+      "away": "FC Bologna",
+      "homeTeam": "AVA",
+      "awayTeam": "BGN",
+      "result": "4:0",
+      "time": "16.04.26 21:00"
+    },
+    {
+      "id": "md14-03",
+      "home": "Nottingham Forest",
+      "away": "FC Porto",
+      "homeTeam": "NTG",
+      "awayTeam": "FCP",
+      "result": "1:0",
+      "time": "16.04.26 21:00"
+    },
+    {
+      "id": "md14-04",
+      "home": "Real Betis Sevilla",
+      "away": "Sporting Braga",
+      "homeTeam": "BET",
+      "awayTeam": "SCB",
+      "result": "2:4",
+      "time": "16.04.26 21:00"
+    }
+  ],
+  "tips": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "picks": {
+        "md14-01": "2:0",
+        "md14-02": "2:0",
+        "md14-03": "1:0",
+        "md14-04": "2:1"
+      },
+      "pickPoints": {
+        "md14-01": 0.0,
+        "md14-02": 0.0,
+        "md14-03": 0.0,
+        "md14-04": 0.0
+      },
+      "points": 6.0,
+      "bonus": 4.0,
+      "total": 263.0,
+      "dayWin": true,
+      "dayWinsTotal": 12.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "picks": {
+        "md14-01": "1:1",
+        "md14-02": "2:1",
+        "md14-03": "2:1",
+        "md14-04": "2:0"
+      },
+      "pickPoints": {
+        "md14-01": 0.0,
+        "md14-02": 0.0,
+        "md14-03": 0.0,
+        "md14-04": 0.0
+      },
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 236.0,
+      "dayWin": false,
+      "dayWinsTotal": 5.5
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "player": "johannes",
+      "points": 6.0,
+      "bonus": 4.0,
+      "total": 263.0,
+      "dayWinsTotal": 12.5
+    },
+    {
+      "rank": 2,
+      "player": "peter",
+      "points": 5.0,
+      "bonus": 0.0,
+      "total": 236.0,
+      "dayWinsTotal": 5.5
+    }
+  ]
+}

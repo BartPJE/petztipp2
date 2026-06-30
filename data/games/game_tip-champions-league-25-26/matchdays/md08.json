@@ -36,7 +36,7 @@
       "home": "Royale Union Saint-Gilloise",
       "away": "Atalanta Bergamo",
       "homeTeam": "USG",
-      "awayTeam": "ATT",
+      "awayTeam": "ATA",
       "result": "1:0",
       "time": "28.01.26 21:00"
     },
@@ -53,7 +53,7 @@
       "id": "md08-06",
       "home": "AS Monaco",
       "away": "Juventus Turin",
-      "homeTeam": "AMO",
+      "homeTeam": "MON",
       "awayTeam": "JUV",
       "result": "0:0",
       "time": "28.01.26 21:00"
@@ -63,7 +63,7 @@
       "home": "Pafos FC",
       "away": "Slavia Prag",
       "homeTeam": "PAF",
-      "awayTeam": "SLA",
+      "awayTeam": "SLP",
       "result": "4:1",
       "time": "28.01.26 21:00"
     },
@@ -98,7 +98,7 @@
       "id": "md08-11",
       "home": "Benfica Lissabon",
       "away": "Real Madrid",
-      "homeTeam": "SLB",
+      "homeTeam": "BEN",
       "awayTeam": "RMA",
       "result": "4:2",
       "time": "28.01.26 21:00"
@@ -107,7 +107,7 @@
       "id": "md08-12",
       "home": "Athletic Bilbao",
       "away": "Sporting Lissabon",
-      "homeTeam": "ATH",
+      "homeTeam": "BIL",
       "awayTeam": "SCP",
       "result": "2:3",
       "time": "28.01.26 21:00"
@@ -134,8 +134,8 @@
       "id": "md08-15",
       "home": "FC Brügge",
       "away": "Olympique Marseille",
-      "homeTeam": "BRU",
-      "awayTeam": "OLM",
+      "homeTeam": "BRG",
+      "awayTeam": "OMA",
       "result": "3:0",
       "time": "28.01.26 21:00"
     },
@@ -161,7 +161,7 @@
       "id": "md08-18",
       "home": "Ajax Amsterdam",
       "away": "Olympiakos Piräus",
-      "homeTeam": "AJA",
+      "homeTeam": "AJX",
       "awayTeam": "PIR",
       "result": "1:2",
       "time": "28.01.26 21:00"
@@ -212,10 +212,10 @@
         "md08-18": 0.0
       },
       "points": 21.0,
-      "bonus": 4.0,
-      "total": 211.0,
+      "bonus": 0.0,
+      "total": 207.0,
       "dayWin": false,
-      "dayWinsTotal": 5.5
+      "dayWinsTotal": 5.0
     },
     {
       "rank": 1,
@@ -261,10 +261,10 @@
         "md08-18": 1.0
       },
       "points": 23.0,
-      "bonus": 4.0,
-      "total": 196.0,
+      "bonus": 0.0,
+      "total": 192.0,
       "dayWin": true,
-      "dayWinsTotal": 3.5
+      "dayWinsTotal": 3.0
     }
   ],
   "table": [
@@ -272,17 +272,17 @@
       "rank": 2,
       "player": "peter",
       "points": 21.0,
-      "bonus": 4.0,
-      "total": 211.0,
-      "dayWinsTotal": 5.5
+      "bonus": 0.0,
+      "total": 207.0,
+      "dayWinsTotal": 5.0
     },
     {
       "rank": 1,
       "player": "johannes",
       "points": 23.0,
-      "bonus": 4.0,
-      "total": 196.0,
-      "dayWinsTotal": 3.5
+      "bonus": 0.0,
+      "total": 192.0,
+      "dayWinsTotal": 3.0
     }
   ]
 }

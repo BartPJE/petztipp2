@@ -8,7 +8,7 @@
       "id": "md04-01",
       "home": "Slavia Prag",
       "away": "FC Arsenal",
-      "homeTeam": "SLA",
+      "homeTeam": "SLP",
       "awayTeam": "ARS",
       "result": "0:3",
       "time": "04.11.25 18:45"
@@ -81,7 +81,7 @@
       "home": "FK Bodø/Glimt",
       "away": "AS Monaco",
       "homeTeam": "GLI",
-      "awayTeam": "AMO",
+      "awayTeam": "MON",
       "result": "0:1",
       "time": "04.11.25 21:00"
     },
@@ -116,7 +116,7 @@
       "id": "md04-13",
       "home": "Benfica Lissabon",
       "away": "Bayer 04 Leverkusen",
-      "homeTeam": "SLB",
+      "homeTeam": "BEN",
       "awayTeam": "B04",
       "result": "0:1",
       "time": "05.11.25 21:00"
@@ -125,8 +125,8 @@
       "id": "md04-14",
       "home": "Olympique Marseille",
       "away": "Atalanta Bergamo",
-      "homeTeam": "OLM",
-      "awayTeam": "ATT",
+      "homeTeam": "OMA",
+      "awayTeam": "ATA",
       "result": "0:1",
       "time": "05.11.25 21:00"
     },
@@ -143,7 +143,7 @@
       "id": "md04-16",
       "home": "FC Brügge",
       "away": "FC Barcelona",
-      "homeTeam": "BRU",
+      "homeTeam": "BRG",
       "awayTeam": "BAR",
       "result": "3:3",
       "time": "05.11.25 21:00"
@@ -152,7 +152,7 @@
       "id": "md04-17",
       "home": "Ajax Amsterdam",
       "away": "Galatasaray Istanbul",
-      "homeTeam": "AJA",
+      "homeTeam": "AJX",
       "awayTeam": "GAL",
       "result": "0:3",
       "time": "05.11.25 21:00"
@@ -162,7 +162,7 @@
       "home": "Newcastle United",
       "away": "Athletic Bilbao",
       "homeTeam": "NEW",
-      "awayTeam": "ATH",
+      "awayTeam": "BIL",
       "result": "2:0",
       "time": "05.11.25 21:00"
     }
@@ -212,10 +212,10 @@
         "md04-18": 0.0
       },
       "points": 27.0,
-      "bonus": 4.0,
-      "total": 124.0,
+      "bonus": 0.0,
+      "total": 120.0,
       "dayWin": true,
-      "dayWinsTotal": 4.5
+      "dayWinsTotal": 4.0
     },
     {
       "rank": 2,
@@ -261,10 +261,10 @@
         "md04-18": 4.0
       },
       "points": 22.0,
-      "bonus": 4.0,
-      "total": 107.0,
+      "bonus": 0.0,
+      "total": 103.0,
       "dayWin": false,
-      "dayWinsTotal": 0.5
+      "dayWinsTotal": 0.0
     }
   ],
   "table": [
@@ -272,17 +272,17 @@
       "rank": 1,
       "player": "peter",
       "points": 27.0,
-      "bonus": 4.0,
-      "total": 124.0,
-      "dayWinsTotal": 4.5
+      "bonus": 0.0,
+      "total": 120.0,
+      "dayWinsTotal": 4.0
     },
     {
       "rank": 2,
       "player": "johannes",
       "points": 22.0,
-      "bonus": 4.0,
-      "total": 107.0,
-      "dayWinsTotal": 0.5
+      "bonus": 0.0,
+      "total": 103.0,
+      "dayWinsTotal": 0.0
     }
   ]
 }
